@@ -24,34 +24,19 @@
   // Use Feather icons
   feather.replace()
 
-  // Responsive menu
-  var openMenu = document.querySelector(".sidebar__icon");
-  var nav = document.querySelector(".sidebar__menu");
+  // Snap to sections
+  const gra = function(min, max) {
+    return Math.random() * (max - min) + min;
+  }
 
-  openMenu.addEventListener('click', function() {
-    nav.classList.toggle("sidebar__menu_is-active");
-  }, false);
+  const gri = function(min, max) {
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+  }
 
-  // Dark-light mode toggler
-  ;(function (window, document, undefined) {
-
-    'use strict';
-
-    if (!('localStorage' in window)) return;
-
-    var darkMode = document.querySelector('#darkLightToggler');
-    if (!darkMode) return;
-
-    darkMode.addEventListener('click', function (event) {
-      event.preventDefault();
-      document.documentElement.classList.toggle('dark-mode');
-      if ( document.documentElement.classList.contains('dark-mode') ) {
-        localStorage.setItem('darkMode', true);
-        return;
-      }
-      localStorage.removeItem('darkMode');
-    }, false);
-
-  })(window, document);
+  const init = function(){
+    let items = document.querySelectorAll('main .section');
+    cssScrollSnapPolyfill()
+  }
+  init();
 
   </script>
