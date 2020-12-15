@@ -257,6 +257,10 @@ main > section {
   letter-spacing: 0.015em;
 }
 
+.label--secondary {
+  text-transform: none;
+}
+
 .label + h1,
 .label + h2,
 .label + h3,
