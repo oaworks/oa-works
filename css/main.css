@@ -1,13 +1,23 @@
 :root {
-  --typescale-01:    2.488em;
-  --typescale-02:    2.074em;
-  --typescale-03:    1.728em;
-  --typescale-04:    1.44em;
-  --typescale-05:    1.2em;
-  --typescale-06:    0.833em;
+  --typescale-01:     2.488em;
+  --typescale-02:     2.074em;
+  --typescale-03:     1.728em;
+  --typescale-04:     1.44em;
+  --typescale-05:     1.2em;
+  --typescale-06:     0.833em;
 
-  --gutter:          2vw;
-  --gutter-negative: -2vw;
+  --gutter:           2vw;
+  --gutter-negative:  -2vw;
+
+  --black:            hsl(17, 10%, 13%);
+  --white:            hsl(0, 0%, 100%);
+
+  --azure:            hsl(212, 100%, 50%);
+  --turquoise:        hsl(169, 100%, 50%);
+  --carnation:        hsl(0, 88%, 67%);
+  --violet:           hsl(284, 88%, 67%);
+  --chartreuse:       hsl(68, 100%, 50%);
+  --mango:            hsl(43, 100%, 57%);
 }
 
 *,
@@ -20,6 +30,7 @@ html {
 	font-size: 16px;
   font-family: 'Inter', sans-serif;
   font-weight: 400;
+  letter-spacing: 0.015em;
 }
 
 @media only screen and (min-width: 768px) {
@@ -76,6 +87,10 @@ h6, small {
 
 p {
   margin: 0 0 1.5rem 0;
+}
+
+a {
+  color: var(--black);
 }
 
 
@@ -165,4 +180,97 @@ body {
     flex-basis: 83.3333333%;
     max-width: 83.3333333%;
   }
+}
+
+/* Layout */
+
+main > section {
+  min-height: 100vh;
+}
+
+.header {
+  display: flex;
+  padding: 30px 0;
+  height: 100px;
+  width: 100%;
+}
+
+.header > h1 {
+  margin: 0;
+}
+
+.header > nav {
+  text-align: right;
+}
+
+.header > h1,
+.header > nav {
+  width: 50%;
+}
+
+.header svg {
+  height: 40px;
+  width: auto;
+}
+
+.header a {
+  text-decoration: none;
+    text-align: right;
+}
+
+.footer {
+  margin-left: var(--gutter-negative);
+  margin-right: var(--gutter-negative);
+  padding: var(--gutter);
+  background-color: var(--azure);
+}
+
+.footer svg path {
+  fill: var(--white);
+}
+
+.footer svg path:last-child {
+  fill: var(--mango);
+}
+
+.inverted-section {
+  margin-left: var(--gutter-negative);
+  margin-right: var(--gutter-negative);
+  padding: var(--gutter);
+  background-color: var(--black);
+  color: var(--white);
+}
+
+.inverted-section a {
+  color: var(--white);
+}
+
+/* Components */
+
+.label {
+  margin-bottom: 0;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: var(--typescale-06);
+  letter-spacing: 0.015em;
+}
+
+.label + h1,
+.label + h2,
+.label + h3,
+.label + h4,
+.label + h5 {
+  margin-top: 0.25em;
+}
+
+.button {
+  padding: 0.5em 1em;
+  border: 1px solid;
+  border-radius: 3px;
+  text-decoration: none;
+}
+
+.button--primary {
+  background-color: var(--black);
+  color: var(--white);
 }
