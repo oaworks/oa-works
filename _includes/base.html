@@ -10,23 +10,13 @@
   <p class="browserupgrade">You are using an outdated browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
   <![endif]-->
 
-  <header class="header">
-    <div class="header__container">
-      <a href="{{ baseurl }}/" title="Return to home page" class="header__logo">
-        {% include logotype.svg %}
-      </a>
-      <!-- <h1 class="sr-only">{{ site.html_title }}</h1> -->
-      <!-- <a href="#" id="darkLightToggler" title="Toggle between dark mode and light mode"><span data-feather="moon"></span></a> -->
-    </div>
-  </header>
+  {% include header.html %}
 
   <main>
     {{ content }}
   </main>
 
-  <footer>
-
-  </footer>
+  {% include footer.html %}
 
   <script src="https://unpkg.com/feather-icons"></script>
 

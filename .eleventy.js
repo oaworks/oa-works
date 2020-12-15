@@ -1,4 +1,6 @@
-// const pluginSass = require("eleventy-plugin-sass");
-// module.exports = function(eleventyConfig) {
-//   eleventyConfig.addPlugin(pluginSass, sassPluginOptions);
-// };
+module.exports = function(eleventyConfig) {
+  eleventyConfig.addPassthroughCopy('css');
+  return {
+    passthroughFileCopy: true
+  };
+};
