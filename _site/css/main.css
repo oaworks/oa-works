@@ -6,14 +6,14 @@
   --typescale-05:     1.2em;
   --typescale-06:     0.833em;
 
-  --gutter:           2vw;
-  --gutter-negative:  -2vw;
+  --gutter:           2.5vw;
+  --gutter-negative:  -2.5vw;
 
   --black:            hsl(17, 10%, 13%);
   --white:            hsl(0, 0%, 100%);
 
   --azure:            hsl(212, 100%, 50%);
-  --turquoise:        hsl(169, 100%, 50%);
+  --cyan:        hsl(169, 100%, 50%);
   --carnation:        hsl(0, 88%, 67%);
   --violet:           hsl(284, 88%, 67%);
   --chartreuse:       hsl(68, 100%, 50%);
@@ -201,15 +201,12 @@ main > section {
 
 .header > h1 {
   margin: 0;
+  width: 25%;
 }
 
 .header > nav {
+  width: 75%;
   text-align: right;
-}
-
-.header > h1,
-.header > nav {
-  width: 50%;
 }
 
 .header svg {
@@ -217,9 +214,10 @@ main > section {
   width: auto;
 }
 
-.header a {
+.header nav a {
+  margin-left: 2em;
   text-decoration: none;
-    text-align: right;
+  text-align: right;
 }
 
 .footer {
@@ -268,13 +266,40 @@ main > section {
 }
 
 .button {
-  padding: 0.5em 1em;
+  padding: 0.75em 1.25em;
   border: 1px solid;
   border-radius: 3px;
   text-decoration: none;
+  transition: all .1s ease-in-out;
 }
 
 .button--primary {
   background-color: var(--black);
   color: var(--white);
+  text-transform: uppercase;
+  font-size: var(--typescale-06);
+  font-weight: 700;
+}
+
+.button--primary:hover {
+  border-color: transparent;
+  background: linear-gradient(140deg, var(--azure), var(--cyan));
+  background-size: 200% 200%;
+  animation: rainbow 2s ease-in-out infinite;
+  color: var(--black);
+}
+
+/* Animations */
+@keyframes rainbow {
+  0% {
+    background-position: left;
+  }
+
+  50% {
+    background-position: right;
+  }
+
+  100% {
+    background-position: left;
+  }
 }
