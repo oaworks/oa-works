@@ -1,0 +1,67 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+  {% include head.html %}
+</head>
+
+<body>
+  <!--[if IE]>
+  <p class="browserupgrade">You are using an outdated browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  <![endif]-->
+
+  <header class="header">
+    <div class="header__container">
+      <a href="{{ baseurl }}/" title="Return to home page" class="header__logo">
+        {% include logotype.svg %}
+      </a>
+      <!-- <h1 class="sr-only">{{ site.html_title }}</h1> -->
+      <!-- <a href="#" id="darkLightToggler" title="Toggle between dark mode and light mode"><span data-feather="moon"></span></a> -->
+    </div>
+  </header>
+
+  <main>
+    {{ content }}
+  </main>
+
+  <footer>
+
+  </footer>
+
+  <script src="https://unpkg.com/feather-icons"></script>
+
+  <script>
+  // Use Feather icons
+  feather.replace()
+
+  // Responsive menu
+  var openMenu = document.querySelector(".sidebar__icon");
+  var nav = document.querySelector(".sidebar__menu");
+
+  openMenu.addEventListener('click', function() {
+    nav.classList.toggle("sidebar__menu_is-active");
+  }, false);
+
+  // Dark-light mode toggler
+  ;(function (window, document, undefined) {
+
+    'use strict';
+
+    if (!('localStorage' in window)) return;
+
+    var darkMode = document.querySelector('#darkLightToggler');
+    if (!darkMode) return;
+
+    darkMode.addEventListener('click', function (event) {
+      event.preventDefault();
+      document.documentElement.classList.toggle('dark-mode');
+      if ( document.documentElement.classList.contains('dark-mode') ) {
+        localStorage.setItem('darkMode', true);
+        return;
+      }
+      localStorage.removeItem('darkMode');
+    }, false);
+
+  })(window, document);
+
+  </script>

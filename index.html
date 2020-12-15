@@ -1,0 +1,80 @@
+---
+layout: base.html
+---
+
+    <section>
+      <p class="label">We partner to build</p>
+      <h2>Powerfully simple open access tools for a just and kind information age.</h2>
+      <p>They’re free, open source, and built for-change - not-for-profit by our dedicated team in partnership with libraries.</p>
+      <a href="#products">Try our tools</a>
+    </section>
+
+    <section id="partners">
+      <h2>In partnership with&hellip;</h2>
+
+    </section>
+
+    <section id="products">
+      <h2>Products</h2>
+    </section>
+
+    <section id="values">
+      <h2>Values</h2>
+    </section>
+
+    <section id="news">
+      <h2>Latest updates</h2>
+      <ul>
+        {% for post in posts %}
+        <li>
+          <a href="/posts/{{ post.slug }}/">
+            {{ post.title }}
+          </a>
+        </li>
+        {% endfor %}
+      </ul>
+    </section>
+
+    <section id="about">
+      <h2>About</h2>
+
+      <h3>The OA.Works team</h3>
+      <ul>
+        <li>
+          <h4>Joe McArthur</h4>
+          <p></p>
+        </li>
+
+        <li>
+          <h4>Mark MacGillivray</h4>
+          <p></p>
+        </li>
+
+        <li>
+          <h4>Natalia Norori</h4>
+          <p></p>
+        </li>
+
+        <li>
+          <h4>Sophy O</h4>
+          <p></p>
+        </li>
+
+        <li>
+          <h4>Jake Orlowitz</h4>
+          <p></p>
+        </li>
+      </ul>
+
+      <h3>Our journey</h3>
+      <p>In 2013 we started gathering and listening to people’s stories of hitting paywalls. Thousands of stories of information needed and possibilities missed. We wanted to do more than just chronicle the failures of the information age; we wanted to rectify them. So we started building hand in hand with libraries, our guides. We are tirelessly working towards tools that realize the vision of open access through simple design and careful development. We have hope for the future, and we hope the best way to bring it about is to build it.</p>
+      <a href="">Our vision</a>
+    </section>
+
+    <section>
+      <h2>With foundational support from&hellip;</h2>
+    </section>
+
+</body>
+
+</html>

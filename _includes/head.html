@@ -1,0 +1,28 @@
+<meta charset="utf-8">
+<title>{{ site.title }}</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+
+<link rel="manifest" href="site.webmanifest">
+<link rel="apple-touch-icon" href="icon.png">
+
+<!-- Load fonts quickly, from https://csswizardry.com/2020/05/the-fastest-google-fonts/ -->
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" media="print" onload="this.media='all'" />
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" /></noscript>
+
+<link rel="stylesheet" href="/css/main.css">
+
+<meta name="theme-color" content="#25201E">
+
+<script>
+	;(function (window, document, undefined) {
+		'use strict';
+		if (!('localStorage' in window)) return;
+		var darkMode = localStorage.getItem('darkMode');
+		if (!darkMode) return;
+		document.documentElement.className += ' dark-mode';
+	})(window, document);
+</script>
