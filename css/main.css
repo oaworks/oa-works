@@ -239,6 +239,12 @@ article {
   margin-right: var(--gutter-negative);
   padding: var(--gutter);
   background-color: var(--azure);
+  color: var(--white);
+}
+
+.footer a {
+  text-decoration: none;
+  color: var(--white);
 }
 
 .footer svg path {

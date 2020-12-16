@@ -1,3 +1,27 @@
 <footer class="footer">
   {% include 'logotype.svg' %}
+
+  <nav>
+    <h2 class="label">Products</h2>
+    <ul>
+      {% for product in products %}
+      <li>
+        <a href="https://{{ product.name }}" target="_blank" rel="noopener">
+          {{ product.name }}
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+
+    <h2 class="label">Utilities</h2>
+    <ul>
+      {% for utility in utilities %}
+      <li>
+        <a href="{{ utility.url }}" target="_blank" rel="noopener">
+          {{ utility.title }}
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+  </nav>
 </footer>
