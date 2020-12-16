@@ -1,0 +1,26 @@
+[
+  {
+    "name": "OARights.org",
+    "label": "Journal permissions",
+    "tagline": "We monitor 25,000 policies so you don't have to.",
+    "cta": "Unlock your work"
+  },
+  {
+    "name": "ShareYourPaper.org",
+    "label": "Paper deposit",
+    "tagline": "A drag-and-drop Open Access deposit.",
+    "cta": "Share your work"
+  },
+  {
+    "name": "InstantILL.org",
+    "label": "Inter-library loans",
+    "tagline": "Deliver easy access without subscriptions.",
+    "cta": "Make a request"
+  },
+  {
+    "name": "OAButton.org",
+    "label": "OA delivery",
+    "tagline": "Get around paywalls in a click.",
+    "cta": "Find an article"
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "heading": "Build for open",
+    "desc": "Catalyze making the right thing the easy thing.",
+    "shape": "svg/circle.svg"
+  },
+  {
+    "heading": "Problems into partnerships",
+    "desc": "Grow community by solving tough problems together.",
+    "shape": "svg/triangle.svg"
+  },
+  {
+    "heading": "Ideals into reality",
+    "desc": "Bend the arc toward librarianship’s core values.",
+    "shape": "svg/squiggle.svg"
+  },
+  {
+    "heading": "Joy in action",
+    "desc": "Take on hard challenges with play, kindness, sanity, and rigor.",
+    "shape": "svg/arc.svg"
+  }
+]

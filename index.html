@@ -2,180 +2,106 @@
 layout: base.html
 ---
 
-    <section>
-      <p class="label">We partner to build</p>
-      <h2>Powerfully simple open access tools for a just and kind information age.</h2>
-      <p>They’re free, open source, and built for-change &mdash; not-for-profit by our dedicated team in partnership with libraries.</p>
-      <a href="#products" class="button button--primary">Try our tools</a>
-    </section>
+<section>
+  <p class="label">We partner to build</p>
+  <h2>Powerfully simple open access tools for a just and kind information age.</h2>
+  <p>They’re free, open source, and built for-change &mdash; not-for-profit by our dedicated team in partnership with libraries.</p>
+  <a href="#products" class="button button--primary">Try our tools</a>
+</section>
 
-    <section id="partners" class="section section--inverted">
-      <h2>In partnership with&hellip;</h2>
+<section id="partners" class="section section--inverted">
+  <h2>In partnership with&hellip;</h2>
 
+  <ul>
+    {% for t in testimonials %}
+    <li>
       <article>
-        <h3 class="label label--secondary">On OARights.org</h3>
+        <h3 class="label label--secondary">On {{ t.product }}</h3>
         <blockquote>
-          <p>“We’re excited to finally build everything we’ve learned from mediated deposit into a simple tool, not a dozen workarounds, that enables every library to make self-archiving not just the right thing, but the easy thing, for every author.”</p>
+          <p>“{{ t.quote }}”</p>
         </blockquote>
-        <cite>— Leila Sterman <br/>Scholarly Communication Librarian & Assistant Professor</cite>
+        <cite>— {{ t.name }} <br/>{{ t.role }}</cite>
       </article>
+    </li>
+    {% endfor %}
+  </ul>
 
+</section>
+
+<section id="products" class="section">
+  <h2>Products</h2>
+  <ul>
+    {% for product in products %}
+    <li>
       <article>
-        <h3 class="label label--secondary">On OpenAccessButton.org</h3>
-        <blockquote>
-          <p>“We provide leadership support as an investment in community-owned infrastructure that improves our services, helps reduce dependency on subscriptions, and advances equitable access to information.”</p>
-        </blockquote>
-        <cite>— Tina Baich <br/>Senior Associate Dean for Scholarly Communication & Content Strategies</cite>
+        <p class="label">{{ product.label }}</p>
+        <h3>{{ product.tagline }}</h3>
+        <a href="https://{{ product.name }}" target="_blank" rel="noopener" class="button">{{ product.cta }}</a>
       </article>
+    </li>
+    {% endfor %}
+  </ul>
 
+  <!-- <div id="shareyourpaper"></div>
+  <script src="https://shareyourpaper.org/embed.js"></script>
+  <script>_oab=shareyourpaper({uid: "by8dj55F7P6CY8hXM", config: {"owner":"sophy@openaccessbutton.org"}});</script> -->
+
+  <!-- <div id="instantill"></div>
+  <script src="https://instantill.org/embed.js"></script>
+  <script>_oab=instantill({uid: "by8dj55F7P6CY8hXM", config: {"owner":"sophy@openaccessbutton.org"}});</script> -->
+</section>
+
+<section id="values" class="section">
+  <h2>What we stand for</h2>
+  <ol>
+    {% for value in values %}
+    <li>
       <article>
-        <h3 class="label label--secondary">On InstantILL.org</h3>
-        <blockquote>
-          <p>“InstantILL is key to UAL in helping our users discover Open Access material. Supporting this development at the leadership level demonstrates our strategic commitment to Open Access.”</p>
-        </blockquote>
-        <cite>— CJ de Jong <br/>Access Services Coordinator, Librarian</cite>
+        {% include value.shape %}
+        <h3>{{ value.heading }}</h3>
+        <p>{{ value.desc }}</p>
       </article>
+    </li>
+    {% endfor %}
+  </ol>
+</section>
 
-    </section>
+<section id="news" class="section--inverted">
+  <h2>Latest updates</h2>
+  <a href="https://blog.openaccessbutton.org/" target="_blank" rel="noopener" class="button">Blog</a>
+  <ul>
+    {% for post in posts limit:3 %}
+    <li>
+      <a href="https://blog.openaccessbutton.org/{{ post.slug }}/" target="_blank" rel="noopener">
+        {{ post.title }}
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
 
-    <section id="products" class="section">
-      <h2>Products</h2>
-      <ul>
-        <li>
-          <article>
-            <p class="label">Journal permissions</p>
-            <h3>We monitor 25,000 policies so you don't have to.</h3>
-            <a href="#" class="button">Unlock your work</a>
+  <h2 class="about">About</h2>
 
-            <!-- <div id="shareyourpaper"></div>
-            <script src="https://shareyourpaper.org/embed.js"></script>
-            <script>_oab=shareyourpaper({uid: "by8dj55F7P6CY8hXM", config: {"owner":"sophy@openaccessbutton.org"}});</script> -->
-          </article>
-        </li>
+  <h3>The OA.Works team</h3>
+  <ul>
+    {% for person in team %}
+    <li>
+      <p class="label">{{ person.role }}</p>
+      <h4>{{ person.name }}</h4>
+      <p>{{ person.bio }}</p>
+    </li>
+    {% endfor %}
+  </ul>
 
-        <li>
-          <article>
-            <p class="label">OA Delivery</p>
-            <h3>Get around paywalls in a click.</h3>
-            <a href="#" class="button">Find an article</a>
+  <h3>Our journey</h3>
+  <p>In 2013 we started gathering and listening to people’s stories of hitting paywalls. Thousands of stories of information needed and possibilities missed. We wanted to do more than just chronicle the failures of the information age; we wanted to rectify them. So we started building hand in hand with libraries, our guides. We are tirelessly working towards tools that realize the vision of open access through simple design and careful development. We have hope for the future, and we hope the best way to bring it about is to build it.</p>
+  <a href="" class="button">Our vision</a>
 
-            <!-- <div id="instantill"></div>
-            <script src="https://instantill.org/embed.js"></script>
-            <script>_oab=instantill({uid: "by8dj55F7P6CY8hXM", config: {"owner":"sophy@openaccessbutton.org"}});</script> -->
-          </article>
-        </li>
+</section>
 
-        <li>
-          <article>
-            <p class="label">Inter-library loans</p>
-            <h3>Deliver easy access without subscriptions.</h3>
-            <a href="#" class="button">Make a request</a>
-
-          </article>
-        </li>
-
-        <li>
-          <article>
-            <p class="label">Paper deposit</p>
-            <h3>Drag-and-drop Open Access deposit.</h3>
-            <a href="#" class="button">Share a paper</a>
-
-          </article>
-        </li>
-      </ul>
-    </section>
-
-    <section id="values" class="section">
-      <h2>What we stand for</h2>
-
-      <ol>
-        <li>
-          <article>
-            {% include svg/circle.svg %}
-            <h3>Build for open</h3>
-            <p>Catalyze making the right thing the easy thing.</p>
-          </article>
-        </li>
-
-        <li>
-          <article>
-            {% include svg/triangle.svg %}
-            <h3>Problems into partnerships</h3>
-            <p>Grow community by solving tough problems together.</p>
-          </article>
-        </li>
-
-        <li>
-          <article>
-            {% include svg/squiggle.svg %}
-            <h3>Ideals into reality</h3>
-            <p>Bend the arc toward librarianship’s core values.</p>
-          </article>
-        </li>
-
-        <li>
-          <article>
-            {% include svg/arc.svg %}
-            <h3>Joy in action</h3>
-            <p>Take on hard challenges with play, kindness, sanity, and rigor.</p>
-          </article>
-        </li>
-      </ol>
-    </section>
-
-    <section id="news" class="section--inverted">
-      <h2>Latest updates</h2>
-      <a href="https://blog.openaccessbutton.org/" target="_blank" rel="noopener" class="button">Blog</a>
-      <ul>
-        {% for post in posts limit:3 %}
-        <li>
-          <a href="https://blog.openaccessbutton.org/{{ post.slug }}/" target="_blank" rel="noopener">
-            {{ post.title }}
-          </a>
-        </li>
-        {% endfor %}
-      </ul>
-
-      <h2 class="about">About</h2>
-
-      <h3>The OA.Works team</h3>
-      <ul>
-        <li>
-          <h4>Joe McArthur</h4>
-          <p></p>
-        </li>
-
-        <li>
-          <h4>Mark MacGillivray</h4>
-          <p></p>
-        </li>
-
-        <li>
-          <h4>Natalia Norori</h4>
-          <p></p>
-        </li>
-
-        <li>
-          <h4>Sophy O</h4>
-          <p></p>
-        </li>
-
-        <li>
-          <h4>Jake Orlowitz</h4>
-          <p></p>
-        </li>
-      </ul>
-
-      <h3>Our journey</h3>
-      <p>In 2013 we started gathering and listening to people’s stories of hitting paywalls. Thousands of stories of information needed and possibilities missed. We wanted to do more than just chronicle the failures of the information age; we wanted to rectify them. So we started building hand in hand with libraries, our guides. We are tirelessly working towards tools that realize the vision of open access through simple design and careful development. We have hope for the future, and we hope the best way to bring it about is to build it.</p>
-      <a href="" class="button">Our vision</a>
-
-    </section>
-
-    <aside style="background-color: var(--mango); margin-left: var(--gutter-negative); margin-right: var(--gutter-negative); padding: var(--gutter);">
-      <h2 class="label">With foundational support from&hellip;</h2>
-      {% include logos/arcadia.svg %}
-    </aside>
+<aside style="background-color: var(--mango); margin-left: var(--gutter-negative); margin-right: var(--gutter-negative); padding: var(--gutter);">
+  <h2 class="label">With foundational support from&hellip;</h2>
+  {% include 'logos/arcadia.svg' %}
+</aside>
 
 
 </body>
