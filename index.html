@@ -32,14 +32,30 @@ layout: base.html
   <h2>Products</h2>
   <ul>
     {% for product in products %}
-    <li>
-      <article>
+    <li class="row">
+      <article class="col col--1of2">
         <p class="label">{{ product.label }}</p>
         <h3>{{ product.tagline }}</h3>
         <p>
           <a href="https://{{ product.name }}" target="_blank" rel="noopener" class="button">{{ product.cta }}</a>
         </p>
       </article>
+      <aside class="col col--1of2">
+        <h2><code>EMBED GOES HERE</code></h2>
+        <!-- <style>
+        #shareyourpaper {
+          font-size: small;
+        }
+
+        #shareyourpaper h2,
+        #shareyourpaper h3 {
+          margin: 0 0 1em 0;
+        }
+        </style>
+        <div id="shareyourpaper"></div>
+        <script src="https://shareyourpaper.org/embed.js"></script>
+        <script>_oab=shareyourpaper({uid: "by8dj55F7P6CY8hXM", config: {"owner":"sophy@openaccessbutton.org"}});</script> -->
+      </aside>
     </li>
     {% endfor %}
   </ul>
@@ -55,9 +71,9 @@ layout: base.html
 
 <section id="values" class="section">
   <h2>What we stand for</h2>
-  <ol>
+  <ol class="row">
     {% for value in values %}
-    <li>
+    <li class="col col--1of3">
       <article>
         {% include value.shape %}
         <h3>{{ value.heading }}</h3>
@@ -71,9 +87,9 @@ layout: base.html
 <section id="news" class="section--inverted">
   <h2>Latest updates</h2>
   <a href="https://blog.openaccessbutton.org/" target="_blank" rel="noopener" class="button">Blog</a>
-  <ul>
-    {% for post in posts limit:3 %}
-    <li>
+  <ul class="row">
+    {% for post in posts limit:4 %}
+    <li class="col col--1of4">
       <a href="https://blog.openaccessbutton.org/{{ post.slug }}/" target="_blank" rel="noopener">
         {{ post.title }}
       </a>
@@ -84,9 +100,9 @@ layout: base.html
   <h2 class="about">About</h2>
 
   <h3>The OA.Works team</h3>
-  <ul>
+  <ul class="row">
     {% for person in team %}
-    <li>
+    <li class="col col--1of6">
       <p class="label">{{ person.role }}</p>
       <h4>{{ person.name }}</h4>
       <p>{{ person.bio }}</p>
