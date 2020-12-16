@@ -36,7 +36,9 @@ layout: base.html
       <article>
         <p class="label">{{ product.label }}</p>
         <h3>{{ product.tagline }}</h3>
-        <a href="https://{{ product.name }}" target="_blank" rel="noopener" class="button">{{ product.cta }}</a>
+        <p>
+          <a href="https://{{ product.name }}" target="_blank" rel="noopener" class="button">{{ product.cta }}</a>
+        </p>
       </article>
     </li>
     {% endfor %}
