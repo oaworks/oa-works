@@ -279,10 +279,11 @@ article {
 }
 
 .button {
-  padding: 0.75em 1.25em;
+  padding: 1em 1.25em;
   border: 1px solid;
   border-radius: 3px;
   text-decoration: none;
+  font-size: var(--typescale-06);
   transition: all .1s ease-in-out;
 }
 
@@ -290,7 +291,6 @@ article {
   background-color: var(--black);
   color: var(--white);
   text-transform: uppercase;
-  font-size: var(--typescale-06);
   font-weight: 700;
 }
 
