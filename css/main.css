@@ -13,7 +13,7 @@
   --white:            hsl(0, 0%, 100%);
 
   --azure:            hsl(212, 100%, 50%);
-  --cyan:        hsl(169, 100%, 50%);
+  --cyan:             hsl(169, 100%, 50%);
   --carnation:        hsl(0, 88%, 67%);
   --violet:           hsl(284, 88%, 67%);
   --chartreuse:       hsl(68, 100%, 50%);
@@ -189,7 +189,12 @@ main {
 }
 
 main > section {
+  margin: 0;
   min-height: 100vh;
+}
+
+article {
+  display: block;
 }
 
 .header {
@@ -212,6 +217,10 @@ main > section {
 .header svg {
   height: 40px;
   width: auto;
+}
+
+.header svg:hover path:last-child {
+  animation: flash 4s ease infinite;
 }
 
 .header nav a {
@@ -250,11 +259,11 @@ main > section {
 /* Components */
 
 .label {
-  margin-bottom: 0;
+  margin: 0;
   text-transform: uppercase;
   font-weight: 700;
   font-size: var(--typescale-06);
-  letter-spacing: 0.015em;
+  letter-spacing: 0.045em;
 }
 
 .label--secondary {
@@ -307,3 +316,24 @@ main > section {
     background-position: left;
   }
 }
+
+@keyframes flash {
+    0% {
+      fill: var(--azure);
+    }
+    20% {
+      fill: var(--carnation);
+    }
+    40% {
+      fill: var(--chartreuse);
+    }
+    60% {
+      fill: var(--cyan);
+    }
+    80% {
+      fill: var(--mango);
+    }
+    100% {
+      fill: var(--violet);
+    }
+  }
