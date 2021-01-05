@@ -1,0 +1,11 @@
+.section--inverted {
+  margin-left: var(--gutter-negative);
+  margin-right: var(--gutter-negative);
+  padding: var(--gutter);
+  background-color: var(--black);
+  color: var(--white);
+}
+
+.section--inverted a {
+  color: var(--white);
+}

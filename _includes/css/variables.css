@@ -1,0 +1,21 @@
+:root {
+  --typescale-01:     2.488em;
+  --typescale-02:     2.074em;
+  --typescale-03:     1.728em;
+  --typescale-04:     1.44em;
+  --typescale-05:     1.2em;
+  --typescale-06:     0.833em;
+
+  --gutter:           2.5vw;
+  --gutter-negative:  -2.5vw;
+
+  --black:            hsl(17, 10%, 13%);
+  --white:            hsl(0, 0%, 100%);
+
+  --azure:            hsl(212, 100%, 50%);
+  --cyan:             hsl(169, 100%, 50%);
+  --carnation:        hsl(0, 88%, 67%);
+  --violet:           hsl(284, 88%, 67%);
+  --chartreuse:       hsl(68, 100%, 50%);
+  --mango:            hsl(43, 100%, 57%);
+}

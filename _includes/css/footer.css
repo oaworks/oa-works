@@ -1,0 +1,22 @@
+/* Page footer */
+
+.footer {
+  margin-left: var(--gutter-negative);
+  margin-right: var(--gutter-negative);
+  padding: var(--gutter);
+  background-color: var(--azure);
+  color: var(--white);
+}
+
+.footer a {
+  text-decoration: none;
+  color: var(--white);
+}
+
+.footer svg path {
+  fill: var(--white);
+}
+
+.footer svg path:last-child {
+  fill: var(--mango);
+}

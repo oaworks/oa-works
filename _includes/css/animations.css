@@ -1,0 +1,34 @@
+@keyframes bg-slide {
+  0% {
+    background-position: left;
+  }
+
+  50% {
+    background-position: right;
+  }
+
+  100% {
+    background-position: left;
+  }
+}
+
+@keyframes flash {
+    0% {
+      fill: var(--azure);
+    }
+    20% {
+      fill: var(--carnation);
+    }
+    40% {
+      fill: var(--chartreuse);
+    }
+    60% {
+      fill: var(--cyan);
+    }
+    80% {
+      fill: var(--mango);
+    }
+    100% {
+      fill: var(--violet);
+    }
+  }

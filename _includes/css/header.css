@@ -1,0 +1,36 @@
+.header {
+  display: flex;
+  padding: 30px 0;
+  height: 100px;
+  width: 100%;
+  font-size: var(--typescale-06);
+}
+
+.header h1 {
+  margin: 0;
+}
+
+.header svg {
+  display: block;
+  height: 40px;
+  width: auto;
+}
+
+.header svg:hover path:last-child {
+  animation: flash 4s ease infinite;
+}
+
+.header nav a {
+  margin-left: 2em;
+  text-decoration: none;
+  text-align: right;
+}
+
+.header > a {
+  width: 25%;
+}
+
+.header > nav {
+  width: 75%;
+  text-align: right;
+}

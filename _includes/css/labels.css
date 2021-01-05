@@ -1,0 +1,19 @@
+.label {
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: var(--typescale-06);
+  letter-spacing: 0.045em;
+}
+
+.label--secondary {
+  text-transform: none;
+}
+
+.label + h1,
+.label + h2,
+.label + h3,
+.label + h4,
+.label + h5 {
+  margin-top: 0.25em;
+}

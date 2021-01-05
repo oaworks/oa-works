@@ -1,0 +1,24 @@
+---
+permalink: main.css
+---
+
+{% capture css %}
+  {% include "css/variables.css" %}
+  {% include "css/grid.css" %}
+  {% include "css/typography.css" %}
+  {% include "css/general.css" %}
+
+  {% include "css/animations.css" %}
+  {% include "css/buttons.css" %}
+  {% include "css/labels.css" %}
+
+  {% include "css/sections.css" %}
+  {% include "css/header.css" %}
+  {% include "css/footer.css" %}
+
+  {% include "css/homepage.css" %}
+{% endcapture %}
+
+<style>
+  {{ css | cssmin | safe }}
+</style>

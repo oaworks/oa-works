@@ -1,0 +1,22 @@
+.button {
+  padding: 1em 1.25em;
+  border: 1px solid;
+  border-radius: 3px;
+  text-decoration: none;
+  font-size: var(--typescale-06);
+  transition: all .1s ease-in-out;
+}
+
+.button--primary {
+  background-color: var(--black);
+  color: var(--white);
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.button--primary:hover {
+  background: linear-gradient(140deg, var(--azure), var(--cyan));
+  background-size: 200% 200%;
+  animation: bg-slide 2s ease-in-out infinite;
+  color: var(--black);
+}
