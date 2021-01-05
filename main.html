@@ -2,7 +2,12 @@
 permalink: main.css
 ---
 
+{% comment %}
+FIXME: variables.css include doesn’t work unless it’s repeated twice here.
+{% endcomment %}
+
 {% capture css %}
+  {% include "css/variables.css" %}
   {% include "css/variables.css" %}
   {% include "css/grid.css" %}
   {% include "css/typography.css" %}
