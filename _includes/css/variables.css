@@ -1,10 +1,10 @@
 :root {
-  --typescale-01:     2.488em;
-  --typescale-02:     2.074em;
-  --typescale-03:     1.728em;
-  --typescale-04:     1.44em;
-  --typescale-05:     1.2em;
-  --typescale-06:     .833em;
+  --typescale-1:     2.488em;
+  --typescale-2:     2.074em;
+  --typescale-3:     1.728em;
+  --typescale-4:     1.44em;
+  --typescale-5:     1.2em;
+  --typescale-6:     .833em;
 
   --gutter:           2.5vw;
   --gutter-negative:  -2.5vw;
@@ -23,6 +23,12 @@
   --mid-grey:         hsl(30, 1.67%, 52.94%);
   --light-grey:       hsl(30, 1.61%, 75.69%);
   --white:            hsl(0, 0%, 100%);
+
+  --black-85:         hsla(17, 10%, 13%, .85);
+  --black-75:         hsla(17, 10%, 13%, .75);
+  --black-50:         hsla(17, 10%, 13%, .5);
+  --black-25:         hsla(17, 10%, 13%, .25);
+  --black-15:         hsla(17, 10%, 13%, .15);
 
   --azure:            hsl(212, 100%, 50%);
   --cyan:             hsl(169, 100%, 50%);

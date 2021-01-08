@@ -1,3 +1,15 @@
 .values svg {
   height: 50px;
 }
+
+.testimonials li:not(:first-child) {
+  margin-top: var(--space-xl);
+}
+
+.testimonials blockquote p:first-child {
+  font-size: var(--typescale-3);
+}
+
+.testimonials blockquote p:last-child {
+  font-size: var(--typescale-5);
+}

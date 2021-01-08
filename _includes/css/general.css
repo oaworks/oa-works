@@ -31,6 +31,18 @@ iframe {
   border: 0;
 }
 
+p {
+  margin-bottom: var(--space-md);
+}
+
+blockquote {
+  margin: var(--space-md) 0;
+}
+
+cite {
+  font-style: normal;
+}
+
 img {
   max-width:  100%;
 }

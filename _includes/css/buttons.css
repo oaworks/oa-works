@@ -3,8 +3,15 @@
   border: 1px solid;
   border-radius: 3px;
   text-decoration: none;
-  font-size: var(--typescale-06);
+  font-size: var(--typescale-6);
   transition: all .1s ease-in-out;
+}
+
+.button--secondary:hover {
+  background: linear-gradient(140deg, var(--black), var(--mid-grey));
+  background-size: 200% 200%;
+  animation: bg-slide 2s ease-in-out infinite;
+  color: var(--white);
 }
 
 .button--primary {
@@ -19,4 +26,9 @@
   background-size: 200% 200%;
   animation: bg-slide 2s ease-in-out infinite;
   color: var(--black);
+}
+
+.button--secondary {
+  text-transform: uppercase;
+  font-weight: 700;
 }

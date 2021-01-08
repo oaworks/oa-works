@@ -24,6 +24,8 @@ h5.card__header {
 
 .card__body {
   padding: var(--space-sm);
+  height: 45vh;
+  overflow-y: scroll;
 }
 
 .card--inverted {
