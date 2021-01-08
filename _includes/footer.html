@@ -1,27 +1,48 @@
-<footer class="footer">
-  {% include 'logotype.svg' %}
-
-  <nav>
-    <h2 class="label">Products</h2>
-    <ul>
-      {% for product in products %}
-      <li>
-        <a href="https://{{ product.name }}" target="_blank" rel="noopener">
-          {{ product.name }}
-        </a>
-      </li>
-      {% endfor %}
-    </ul>
-
-    <h2 class="label">Utilities</h2>
-    <ul>
-      {% for utility in utilities %}
-      <li>
-        <a href="{{ utility.url }}" target="_blank" rel="noopener">
-          {{ utility.title }}
-        </a>
-      </li>
-      {% endfor %}
-    </ul>
+<footer class="row footer">
+  <div class="col col--1of3">
+    {% include 'logotype.svg' %}
+    <p style="margin-top: var(--space-md);">
+      <small>Open source • Community-controlled • Not-for-profit</small>
+    </p>
+  </div>
+  <nav class="col col--2of3">
+    <div class="row">
+      <div class="col col--1of2">
+        <h2 class="label">Products</h2>
+        <ul>
+          {% for product in products %}
+          <li>
+            <a href="https://{{ product.name }}" target="_blank" rel="noopener">
+              {{ product.name }}
+            </a>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="col col--1of2">
+        <h2 class="label">Utilities</h2>
+        <ul>
+          {% for utility in utilities %}
+          <li>
+            <a href="{{ utility.url }}" target="_blank" rel="noopener">
+              {{ utility.title }}
+            </a>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="col footer__legal">
+        <h2 class="sr-only">Legal</h2>
+        <ul>
+          {% for link in footer %}
+          <li>
+            <a href="{{ link.url }}" target="_blank" rel="noopener">
+              {{ link.heading }}
+            </a>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
   </nav>
 </footer>

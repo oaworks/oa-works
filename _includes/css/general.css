@@ -4,8 +4,8 @@
   box-sizing: border-box;
 }
 
-main {
-
+html {
+  scroll-behavior: smooth;
 }
 
 main > section {
@@ -24,4 +24,17 @@ ul, ol {
 
 a {
   color: var(--black);
+}
+
+iframe {
+  width: 100%;
+  border: 0;
+}
+
+img {
+  max-width:  100%;
+}
+
+svg {
+  display: block;
 }

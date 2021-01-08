@@ -9,3 +9,7 @@
 .section--inverted a {
   color: var(--white);
 }
+
+.section--highlighted {
+  background-color: var(--light-grey);
+}

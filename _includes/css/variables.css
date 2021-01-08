@@ -4,12 +4,24 @@
   --typescale-03:     1.728em;
   --typescale-04:     1.44em;
   --typescale-05:     1.2em;
-  --typescale-06:     0.833em;
+  --typescale-06:     .833em;
 
   --gutter:           2.5vw;
   --gutter-negative:  -2.5vw;
 
+  --space-unit:       1rem;
+  --space-xxs:        calc(.25 * var(--space-unit));
+  --space-xs:         calc(.5 * var(--space-unit));
+  --space-sm:         calc(.75 * var(--space-unit));
+  --space-md:         calc(1.5 * var(--space-unit));
+  --space-lg:         calc(2 * var(--space-unit));
+  --space-xl:         calc(2.5 * var(--space-unit));
+  --space-xxl:        calc(3 * var(--space-unit));
+
   --black:            hsl(17, 10%, 13%);
+  --dark-grey:        hsl(12, 3.07%, 31.96%);
+  --mid-grey:         hsl(30, 1.67%, 52.94%);
+  --light-grey:       hsl(30, 1.61%, 75.69%);
   --white:            hsl(0, 0%, 100%);
 
   --azure:            hsl(212, 100%, 50%);

@@ -1,0 +1,36 @@
+.card {
+  margin-bottom: var(--space-md);
+  border: 1px solid var(--black);
+}
+
+.card__header {
+  padding: var(--space-sm);
+  background: var(--black);
+  color: var(--white);
+}
+
+h2.card__header,
+h3.card__header,
+h4.card__header,
+h5.card__header {
+  margin: 0;
+}
+
+.card__header svg {
+  display: block;
+  height: 30px;
+  width: auto;
+}
+
+.card__body {
+  padding: var(--space-sm);
+}
+
+.card--inverted {
+  border-color: var(--white);
+}
+
+.card--inverted .card__header {
+  background: var(--white);
+  color: var(--black);
+}

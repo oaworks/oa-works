@@ -3,14 +3,30 @@
 .footer {
   margin-left: var(--gutter-negative);
   margin-right: var(--gutter-negative);
-  padding: var(--gutter);
+  padding-top: var(--gutter);
   background-color: var(--azure);
   color: var(--white);
+
+  background-image:
+    linear-gradient(90deg, transparent, transparent 33.3333333%, var(--white) 33.3333333%, transparent calc(33.3333333% + 1.5px)),
+    linear-gradient(90deg, transparent, transparent calc(66.6666667% - 1.5px), var(--white) 66.6666667%, transparent 0);
+}
+
+.footer ul {
+  font-size: var(--typescale-06);
+  font-weight: 700;
+  line-height: 3;
 }
 
 .footer a {
   text-decoration: none;
   color: var(--white);
+}
+
+.footer svg {
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 .footer svg path {
@@ -19,4 +35,16 @@
 
 .footer svg path:last-child {
   fill: var(--mango);
+}
+
+.footer__legal {
+  background-color: var(--azure);
+  background-image:
+    linear-gradient(90deg, transparent, transparent 0%, var(--white) 0%, transparent 1.5px),
+    linear-gradient(180deg, transparent, transparent  0%, var(--white) 0%, transparent 1.5px);
+}
+
+.footer__legal ul {
+  display: flex;
+  justify-content: space-between;
 }
