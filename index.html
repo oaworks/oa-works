@@ -8,7 +8,7 @@ layout: base.html
     <h2>Powerfully simple open access tools for a just and kind information age.</h2>
     <p style="margin-top: var(--space-xxl);">They’re free, open source, and built for-change &mdash; <br/>not-for-profit by our dedicated team in partnership with libraries.</p>
     <p style="margin-top: var(--space-sm);">
-      <a href="#products" class="button button--primary">Try our tools</a>
+      <a href="#products" class="button button--primary">Try our tools 👇</a>
     </p>
   </div>
 </section>
@@ -71,17 +71,11 @@ layout: base.html
     top: 0;
   }
 
-  .products article {
+  .products article,
+  .products aside {
     position: -webkit-sticky;
   	position: sticky;
     top: 0;
-  }
-
-  .products aside {
-  	position: absolute;
-    width: 25vw;
-    mix-blend-mode: lighten;
-    bottom: 0;
   }
   </style>
   <ul class="products">
@@ -115,7 +109,7 @@ layout: base.html
           }
           </style>
           {% if product.embed %}
-            <div class="card__body" style="background: white;">
+            <div class="card__body" style="background: white; height: 45vh; overflow-y: scroll;">
               {{ product.embed }}
             </div>
           {% endif %}
@@ -171,10 +165,10 @@ layout: base.html
     {% endfor %}
   </ul>
 
-  <h2 class="about">About</h2>
+  <h2 class="sr-only">About</h2>
 
-  <h3>The OA.Works team</h3>
-  <ul class="row team">
+  <h3 class="sr-only">The OA.Works team</h3>
+  <ul class="row row--centered team">
     {% for person in team %}
     <li class="col col--1of6">
       <p class="label">{{ person.role }}</p>
@@ -184,19 +178,23 @@ layout: base.html
     {% endfor %}
   </ul>
 
-  <section class="row">
-    <div class="card card--inverted">
-      <h3 class="card__header">Our journey</h3>
-      <div class="card__body">
-        <p>In 2013 we started gathering and listening to people’s stories of hitting paywalls. Thousands of stories of information needed and possibilities missed. We wanted to do more than just chronicle the failures of the information age; we wanted to rectify them. So we started building hand in hand with libraries, our guides. We are tirelessly working towards tools that realize the vision of open access through simple design and careful development. We have hope for the future, and we hope the best way to bring it about is to build it.</p>
-        <p><a href="" class="button">Our vision</a></p>
+  <section class="row row--centered">
+    <div class="col col--1of2">
+      <article class="card card--inverted">
+        <h3 class="card__header label label--secondary">Our journey</h3>
+        <div class="card__body">
+          <p>In 2013 we started gathering and listening to people’s stories of hitting paywalls. Thousands of stories of information needed and possibilities missed. We wanted to do more than just chronicle the failures of the information age; we wanted to rectify them. So we started building hand in hand with libraries, our guides. We are tirelessly working towards tools that realize the vision of open access through simple design and careful development. We have hope for the future, and we hope the best way to bring it about is to build it.</p>
+        </div>
+        <div class="card__footer">
+          <a href="">Our vision 👉</a>
+        </div>
       </div>
     </div>
   </section>
 </section>
 
-<aside style="background-color: var(--mango); margin-left: var(--gutter-negative); margin-right: var(--gutter-negative); padding: var(--gutter);">
-  <h2 class="label">With foundational support from&hellip;</h2>
+<aside class="row" style="background: var(--black); height: 50vh; display: flex; align-items: center; justify-content: center; flex-direction: column;">
+  <h2 class="label" style="margin-bottom: var(--space-md); color: #EDB11F;">With foundational support from&hellip;</h2>
   {% include 'logos/arcadia.svg' %}
 </aside>
 
