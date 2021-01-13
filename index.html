@@ -2,14 +2,21 @@
 layout: base.html
 ---
 
-<section class="row">
-  <div class="col col--1of2">
-    <p class="label" style="margin-top: var(--space-xxl);">We partner to build</p>
-    <h2>Powerfully simple open access tools for a just and kind information age.</h2>
-    <p style="margin-top: var(--space-xxl);">They’re free, open source, and built for-change &mdash; <br/>not-for-profit by our dedicated team in partnership with libraries.</p>
-    <p style="margin-top: var(--space-sm);">
-      <a href="#products" class="button button--primary">Try our tools 👇</a>
-    </p>
+<section class="section section--transparent">
+  <div class="row">
+    <div class="col col--1of2">
+      <p class="label" style="margin-top: var(--space-xxl);">We partner to build</p>
+      <h2>Powerfully simple open access tools for a just and kind information age.</h2>
+
+      <svg width="905" height="211" viewBox="0 0 905 211" fill="none" xmlns="http://www.w3.org/2000/svg" data-llp-composed="true" id="introsquiggle" class="lazy-line-painter" style="position: fixed; top: 40vh; left: -5vw; z-index: -1; transform: scaleX(-1);">
+        <path d="M76 105.5C130.333 64.8333 184.667 64.8333 239 105.5C293.333 146.167 347.667 146.167 402 105.5C456.333 64.8333 510.667 64.8333 565 105.5C619.333 146.167 673.667 146.167 728 105.5C782.333 64.8333 836.667 64.8333 891 105.5" data-llp-id="introsquiggle-0" data-llp-duration="1700" data-llp-delay="0" fill-opacity="0" style=""/>
+      </svg>
+
+      <p style="margin-top: 20vh;">They’re free, open source, and built for-change &mdash; <br/>not-for-profit by our dedicated team in partnership with libraries.</p>
+      <p style="margin-top: var(--space-xl);">
+        <a href="#products" class="button button--primary">Try our tools 👇</a>
+      </p>
+    </div>
   </div>
 </section>
 
@@ -152,8 +159,8 @@ layout: base.html
   </div>
 </section>
 
-<section id="news" class="section--inverted">
-  <h2>Latest updates</h2>
+<section id="news" class="section section--inverted">
+  <!-- <h2>Latest updates</h2>
   <a href="https://blog.openaccessbutton.org/" target="_blank" rel="noopener" class="button">Blog</a>
   <ul class="row news">
     {% for post in posts limit:4 %}
@@ -163,38 +170,39 @@ layout: base.html
       </a>
     </li>
     {% endfor %}
-  </ul>
+  </ul> -->
 
-  <h2 class="sr-only">About</h2>
-
-  <h3 class="sr-only">The OA.Works team</h3>
-  <ul class="row row--centered team">
-    {% for person in team %}
-    <li class="col col--1of6">
-      <p class="label">{{ person.role }}</p>
-      <h4>{{ person.name }}</h4>
-      <p>{{ person.bio }}</p>
-    </li>
-    {% endfor %}
-  </ul>
-
-  <section class="row row--centered">
-    <div class="col col--1of2">
+  <section class="row">
+    <h2 class="sr-only">About</h2>
+    <div class="col col--1of3">
       <article class="card card--inverted">
-        <h3 class="card__header label label--secondary">Our journey</h3>
+        <h3 class="card__header label label--secondary">The OA.Works journey</h3>
         <div class="card__body">
-          <p>In 2013 we started gathering and listening to people’s stories of hitting paywalls. Thousands of stories of information needed and possibilities missed. We wanted to do more than just chronicle the failures of the information age; we wanted to rectify them. So we started building hand in hand with libraries, our guides. We are tirelessly working towards tools that realize the vision of open access through simple design and careful development. We have hope for the future, and we hope the best way to bring it about is to build it.</p>
+          <p>Sed malesuada quis neque non pretium. Praesent et nisl at mauris blandit faucibus. Aenean nec semper odio. Vivamus tristique faucibus magna, nec tincidunt erat. Nunc lobortis sem et scelerisque finibus. Nullam fringilla erat nec diam interdum porttitor. Aliquam at turpis aliquam, suscipit dolor eget, dapibus arcu. Nullam risus mauris, semper.</p>
         </div>
         <div class="card__footer">
           <a href="">Our vision 👉</a>
         </div>
-      </div>
+      </article>
+    </div>
+
+    <div class="col col--2of3">
+      <h3 class="sr-only">The OA.Works team</h3>
+      <ul class="row team">
+        {% for person in team %}
+        <li class="col col--1of3">
+          <p class="label">{{ person.role }}</p>
+          <h4>{{ person.name }}</h4>
+          <p>{{ person.bio }}</p>
+        </li>
+        {% endfor %}
+      </ul>
     </div>
   </section>
 </section>
 
-<aside class="row" style="background: var(--black); height: 50vh; display: flex; align-items: center; justify-content: center; flex-direction: column;">
-  <h2 class="label" style="margin-bottom: var(--space-md); color: #EDB11F;">With foundational support from&hellip;</h2>
+<aside class="section section--inverted section--half" style="display: flex; align-items: center; justify-content: center; flex-direction: column;">
+  <h2 class="label label--secondary" style="margin-bottom: var(--space-lg);">With foundational support from</h2>
   {% include 'logos/arcadia.svg' %}
 </aside>
 

@@ -1,8 +1,10 @@
 <footer class="row footer">
   <div class="col col--1of3">
-    {% include 'logotype.svg' %}
-    <p style="margin-top: var(--space-md);">
-      <small>Open source • Community-controlled • Not-for-profit</small>
+    {% include 'logos/logotype.svg' %}
+    <p style="margin-top: var(--space-md); font-size: var(--typescale-6);">
+      <small>
+        <a href="https://github.com/OAButton/" target="_blank" rel="noopener">Open source</a> • Community-controlled • Not-for-profit
+      </small>
     </p>
   </div>
   <nav class="col col--2of3">
@@ -46,3 +48,31 @@
     </div>
   </nav>
 </footer>
+
+<!-- Include lazylinepainter -->
+<script src="js/lazy-line-painter-1.9.6.min.js"></script>
+
+<script type="text/javascript">
+
+  (function(){
+
+    document.onreadystatechange = () => {
+
+      if (document.readyState === 'complete') {
+        let el1 = document.querySelector('#introellipse');
+        let myAnimation1 = new LazyLinePainter(el1, {"ease":"easeInOutCubic","strokeWidth":100,"strokeOpacity":1,"strokeColor":"#0075FF","strokeCap":"square"});
+        myAnimation1.paint();
+
+        let el2 = document.querySelector('#introtriangle');
+        let myAnimation2 = new LazyLinePainter(el2, {"ease":"easeInOutCubic","strokeWidth":100,"strokeOpacity":1,"strokeColor":"#00FFD1","strokeCap":"square","delay":500});
+        myAnimation2.paint();
+
+        let el3 = document.querySelector('#introsquiggle');
+        let myAnimation3 = new LazyLinePainter(el3, {"ease":"easeInOutCubic","strokeWidth":90,"strokeOpacity":1,"strokeColor":"#DBFF00","strokeCap":"square","delay":1500});
+        myAnimation3.paint();
+      }
+    }
+
+  })();
+
+</script>

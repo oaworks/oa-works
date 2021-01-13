@@ -1,7 +1,16 @@
-.section--inverted {
+.section {
   margin-left: var(--gutter-negative);
   margin-right: var(--gutter-negative);
   padding: var(--gutter) var(--gutter) 0 var(--gutter);
+  min-height: 100vh;
+  background-color: var(--white);
+}
+
+.section--transparent {
+  background-color: transparent;
+}
+
+.section--inverted {
   background-color: var(--black);
   color: var(--white);
 }
@@ -12,4 +21,8 @@
 
 .section--highlighted {
   background-color: var(--light-grey);
+}
+
+.section--half {
+  min-height: 50vh;
 }
