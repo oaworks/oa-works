@@ -4,6 +4,7 @@
 }
 
 .card--small {
+  min-height: 33vh;
   font-size: var(--typescale-6);
 }
 

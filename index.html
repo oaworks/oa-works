@@ -21,7 +21,7 @@ layout: base.html
 </section>
 
 <section id="partners" class="section section--inverted section--see-thru" data-aos="fade-up">
-  <h2>In partnership with&hellip;</h2>
+  <h2 style="margin-top: 0;">In partnership with&hellip;</h2>
   <style>
   .lazy-line-painter path,
   .lazy-line-painter circle {
@@ -53,6 +53,10 @@ layout: base.html
     bottom: 0;
     background-color: var(--black);
     background: linear-gradient(0deg, hsl(17, 10%, 13%) 75%, rgba(0, 0, 0, 0) 100%);
+  }
+
+  .testimonial:last-child .portrait {
+    margin-bottom: calc(var(--gutter) * -2);
   }
 
   </style>
@@ -149,7 +153,7 @@ layout: base.html
   </ul>
 </section>
 
-<section id="values" class="section section--dark" data-aos="fade-up" style="display: flex; justify-content: flex-end; flex-direction: column;">
+<section id="values" class="section section--dark" style="display: flex; justify-content: flex-end; flex-direction: column;" data-aos="fade-up">
   <h2 class="label">What we stand for</h2>
   <div class="row">
     <ol class="col col--2of3 row values" style="margin-bottom: 0;">
@@ -157,15 +161,16 @@ layout: base.html
       <li class="col col--1of2">
         <article>
           {% include value.shape %}
-          <h3>{{ value.heading }}</h3>
+          <h3 style="padding-top: var(--space-md); margin-top: var(--space-md); border-top: 1px solid;">{{ value.heading }}</h3>
           <p>{{ value.desc }}</p>
         </article>
       </li>
       {% endfor %}
     </ol>
 
-    <figure class="col col--1of3">
+    <figure class="col col--1of3" style="display: flex; position: absolute; bottom: 0; right: calc(var(--gutter) * 2);">
       <img src="img/people/camille.svg"/>
+      <figcaption style="position: absolute; bottom: calc(var(--gutter) * 2); right: 0; padding: var(--space-xs); text-align: right; background: var(--black-50);">Camille Thomas <br/>Scholarly Communication Librarian <br/>at Florida State University</figcaption>
     </figure>
   </div>
 </section>
