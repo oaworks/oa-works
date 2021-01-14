@@ -2,10 +2,6 @@
   height: 50px;
 }
 
-.testimonials li:not(:first-child) {
-  margin-top: var(--space-md);
-}
-
 .testimonials blockquote p:first-child {
   font-size: var(--typescale-5);
 }

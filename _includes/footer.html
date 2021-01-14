@@ -58,6 +58,14 @@
   // Initialise AOS
   AOS.init();
 
+  // Randomly display testimonials
+  var testimonials = document.getElementsByClassName("testimonial");
+  var random = Math.floor(Math.random() * testimonials.length);
+
+  for(var i = 0; i < testimonials.length; i++){
+    testimonials[i].style.display = (i==random) ? "flex" : "none";
+  };
+
   (function(){
 
     document.onreadystatechange = function() {
@@ -88,11 +96,6 @@
           svgShapes[i].classList.remove("scrolled")
         };
       };
-
-      // for (j = 0; j < targets.length; j++) {
-      //   targets.style.opacity = (height - scrollTop) / height;
-      // }
     };
-
   })();
 </script>
