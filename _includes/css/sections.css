@@ -6,7 +6,11 @@
   background-color: var(--white);
 }
 
-.section--transparent {
+.section--cover {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 90vh;
   background-color: transparent;
 }
 
