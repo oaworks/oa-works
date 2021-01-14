@@ -20,70 +20,7 @@ layout: base.html
   </div>
 </section>
 
-<section id="partners" class="section section--inverted section--see-thru" data-aos="fade-up">
-  <h2 style="margin-top: 0;">In partnership with&hellip;</h2>
-  <style>
-  .lazy-line-painter path,
-  .lazy-line-painter circle {
-    transition: stroke .25s ease-in-out;
-  }
-
-  .lazy-line-painter.scrolled path,
-  .lazy-line-painter.scrolled circle {
-    stroke: rgba(0, 0, 0, .15) !important;
-    transition: stroke .25s ease-in-out;
-  }
-
-  .testimonials li {
-    position: -webkit-sticky;
-  	position: sticky;
-    height: 100vh;
-    top: 0;
-  }
-
-  .testimonials article {
-    background-color: var(--black);
-    background: linear-gradient(0deg, hsl(17, 10%, 13%) 85%, rgba(0, 0, 0, 0) 100%);
-  }
-
-  .testimonials .portrait {
-    padding-top: var(--space-xxl);
-  	position: absolute;
-    width: 25vw;
-    bottom: 0;
-    background-color: var(--black);
-    background: linear-gradient(0deg, hsl(17, 10%, 13%) 75%, rgba(0, 0, 0, 0) 100%);
-  }
-
-  .testimonial:last-child .portrait {
-    margin-bottom: calc(var(--gutter) * -2);
-  }
-
-  </style>
-  <ul class="testimonials" style="margin: 0;">
-    {% for t in testimonials %}
-    <li class="row testimonial">
-      <div class="col col--1of3">
-        <img src="img/{{ t.img }}" class="portrait"/>
-      </div>
-      <article class="col col--2of3" style="display: flex; justify-content: center; flex-direction: column;">
-        <h3 class="label">On {{ t.product }}</h3>
-        <blockquote>
-          <p>“{{ t.quote }}”</p>
-          <p>
-            <cite>
-              — {{ t.name }} <br/>{{ t.role }}
-            </cite>
-          </p>
-        </blockquote>
-      </article>
-    </li>
-    {% endfor %}
-  </ul>
-
-</section>
-
-<section id="products" class="section" data-aos="fade-up">
+<section id="products" class="section section--inverted section--see-thru" data-aos="fade-up">
   <h2>Products</h2>
   <style>
   .products li {
@@ -103,7 +40,7 @@ layout: base.html
   <ul class="products">
     {% for product in products %}
     <li class="row">
-      <article class="col col--1of2 fade" style="display: flex; justify-content: center; flex-direction: column; background: linear-gradient(0deg, rgba(255,255,255,1) 85%, rgba(255,255,255,0) 100%);">
+      <article class="col col--1of2 fade" style="display: flex; justify-content: center; flex-direction: column; background: var(--black);">
         <p class="label">{{ product.label }}</p>
         <h3>{{ product.tagline }}</h3>
         <p style="margin-top: var(--space-xxl);">
@@ -113,7 +50,7 @@ layout: base.html
         </p>
       </article>
       <aside class="col col--1of2" style="position: sticky; top: 0; display: flex; justify-content: center; flex-direction: column;">
-        <article class="card" style="margin-left: var(--gutter-negative);">
+        <article class="card card--inverted" style="margin-left: var(--gutter-negative);">
           <header class="card__header">
             {% include product.logo %}
           </header>
@@ -130,8 +67,12 @@ layout: base.html
             margin: 0 0 1em 0;
           }
           </style>
-          {% if product.embed %}
-            <div class="card__body" style="background: white; height: 45vh; overflow-y: scroll;">
+
+          <div class="card__body" style="background: var(--black);">
+            <h2 style="margin: 0;"><code>EMBED OR SCREENSHOT OR GRAPHIC HERE</code></h2>
+          </div>
+          <!-- {% if product.embed %}
+            <div class="card__body" style="background: var(--black); height: 45vh; overflow-y: scroll;">
               {{ product.embed }}
             </div>
           {% endif %}
@@ -139,12 +80,12 @@ layout: base.html
           {% if product.iframe %}
             <a href="https://{{ product.name }}" target="_blank" rel="noopener" class="overlay" style="background: white;">
               {{ product.iframe }}
-              <div class="overlay__inner" style="background-color: hsla(68, 100%, 50%, 0.5);"></div>
+              <div class="overlay__inner" style="background-color: var(--black-50);"></div>
               <div class="overlay__text">
                 <p>Try it on the app’s site</p>
               </div>
             </a>
-          {% endif %}
+          {% endif %} -->
 
         </article>
       </aside>
@@ -153,7 +94,66 @@ layout: base.html
   </ul>
 </section>
 
-<section id="values" class="section section--dark" style="display: flex; justify-content: flex-end; flex-direction: column;" data-aos="fade-up">
+<section id="partners" class="section section--half section--dark" data-aos="fade-up">
+  <!-- <h2 style="margin-top: 0;">In partnership with&hellip;</h2> -->
+  <style>
+  .lazy-line-painter path,
+  .lazy-line-painter circle {
+    transition: stroke .25s ease-in-out;
+  }
+
+  .lazy-line-painter.scrolled path,
+  .lazy-line-painter.scrolled circle {
+    stroke: rgba(0, 0, 0, .15) !important;
+    transition: stroke .25s ease-in-out;
+  }
+
+  .testimonials li {
+    position: -webkit-sticky;
+  	position: sticky;
+    top: 0;
+  }
+
+  .testimonials article {
+    /* background-color: var(--black); */
+    /* background: linear-gradient(0deg, hsl(17, 10%, 13%) 85%, rgba(0, 0, 0, 0) 100%); */
+  }
+
+  .testimonials .portrait {
+    margin-bottom: calc(var(--gutter) * -1);
+  	position: absolute;
+    width: 25vw;
+    bottom: 0;
+    /* background-color: var(--black); */
+    /* background: linear-gradient(0deg, hsl(17, 10%, 13%) 75%, rgba(0, 0, 0, 0) 100%); */
+  }
+
+  </style>
+  <ul class="testimonials" style="margin: 0;">
+    {% for t in testimonials %}
+    <li class="row testimonial">
+      <div class="col col--1of3" display: flex; justify-content: flex-end; flex-direction: column;>
+        <img src="img/{{ t.img }}" class="portrait"/>
+      </div>
+      <article class="col col--2of3" style="display: flex; justify-content: center; flex-direction: column;">
+        <h3 class="label">On {{ t.product }}</h3>
+        <blockquote>
+          <p>“{{ t.quote }}”</p>
+          <p>
+            <cite>
+              — {{ t.name }} <br/>{{ t.role }}
+            </cite>
+          </p>
+        </blockquote>
+      </article>
+    </li>
+    {% endfor %}
+  </ul>
+
+</section>
+
+
+<section id="values" class="section" style="display: flex; justify-content: flex-end; flex-direction: column;">
   <h2 class="label">What we stand for</h2>
   <div class="row">
     <ol class="col col--2of3 row values" style="margin-bottom: 0;">
@@ -168,9 +168,14 @@ layout: base.html
       {% endfor %}
     </ol>
 
-    <figure class="col col--1of3" style="display: flex; position: absolute; bottom: 0; right: calc(var(--gutter) * 2);">
-      <img src="img/people/camille.svg"/>
-      <figcaption style="position: absolute; bottom: calc(var(--gutter) * 2); right: 0; padding: var(--space-xs); text-align: right; background: var(--black-50);">Camille Thomas <br/>Scholarly Communication Librarian <br/>at Florida State University</figcaption>
+    <figure class="col col--1of3" style="display:flex; position: absolute; right: calc(var(--gutter) * 2);">
+      <img src="img/people/camille.svg" style="margin-bottom: calc(var(--gutter) * -2);"/>
+      <figcaption style="position: absolute; bottom: calc(var(--gutter) * 2); padding: var(--space-xs); text-align: right; background: var(--black-75); color: var(--white);">
+        <strong>Camille Thomas</strong>
+        <br/>OA.Works Leader
+        <br/>Scholarly Communication Librarian
+        <br/>at Florida State University
+      </figcaption>
     </figure>
   </div>
 </section>

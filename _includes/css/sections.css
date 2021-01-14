@@ -31,10 +31,15 @@
 .section--inverted a,
 .section--dark a {
   color: var(--white);
+  border-color: var(--white);
 }
 
 .section--highlighted {
   background-color: var(--light-grey);
+}
+
+.section--fourth {
+  min-height: 25vh;
 }
 
 .section--half {

@@ -3,13 +3,13 @@
 }
 
 .testimonials li:not(:first-child) {
-  margin-top: var(--space-xl);
+  margin-top: var(--space-md);
 }
 
 .testimonials blockquote p:first-child {
-  font-size: var(--typescale-3);
+  font-size: var(--typescale-5);
 }
 
 .testimonials blockquote p:last-child {
-  font-size: var(--typescale-5);
+  font-size: var(--typescale-6);
 }
