@@ -27,13 +27,17 @@ ul, ol {
   padding: 0;
 }
 
-a {
-  color: var(--black);
+figure {
+  margin: 0;
 }
 
 iframe {
   width: 100%;
   border: 0;
+}
+
+a {
+  text-decoration: none;
 }
 
 p {

@@ -1,12 +1,4 @@
 <footer class="row footer">
-  <div class="col col--1of3">
-    {% include 'logos/logotype.svg' %}
-    <p style="margin-top: var(--space-md); font-size: var(--typescale-6);">
-      <small>
-        <a href="https://github.com/OAButton/" target="_blank" rel="noopener">Open source</a> • Community-controlled • Not-for-profit
-      </small>
-    </p>
-  </div>
   <nav class="col col--2of3">
     <div class="row">
       <div class="col col--1of2">
@@ -47,17 +39,28 @@
       </div>
     </div>
   </nav>
+  <div class="col col--1of3" style="display: flex; justify-content: flex-end; flex-direction: column;">
+    <a href="/" style="display: block;">{% include 'logos/logotype.svg' %}</a>
+    <p style="margin-top: var(--space-md); font-size: var(--typescale-6);">
+      <small>
+        <a href="https://github.com/OAButton/" target="_blank" rel="noopener">Open source</a> • Community-controlled • Not-for-profit
+      </small>
+    </p>
+  </div>
 </footer>
 
-<!-- Include lazylinepainter -->
+{% comment %}Include lazylinepainter{% endcomment %}
 <script src="js/lazy-line-painter-1.9.6.min.js"></script>
+{% comment %}Include AOS{% endcomment %}
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
 <script type="text/javascript">
+  // Initialise AOS
+  AOS.init();
 
   (function(){
 
     document.onreadystatechange = function() {
-
       if (document.readyState === 'complete') {
         let el1 = document.querySelector('#introellipse');
         let myAnimation1 = new LazyLinePainter(el1, {"ease":"easeInOutCubic","strokeWidth":100,"strokeOpacity":1,"strokeColor":"#0075FF","strokeCap":"square"});
@@ -74,19 +77,29 @@
     }
 
     window.onscroll = function() {
+      // Add class to shapes when scrolling away from cover
       var svgShapes = document.getElementsByClassName("lazy-line-painter");
 
       for (i = 0; i < svgShapes.length; i++) {
-
         if (window.pageYOffset > 75) {
           svgShapes[i].classList.add("scrolled");
         }
-
         else {
           svgShapes[i].classList.remove("scrolled")
         };
-
       };
+
+      // Fade out when scrolling away
+      var target = document.getElementById("testimonial");
+      // var targets = document.getElementsByClassName("testimonial");
+      var height = window.innerHeight/2;
+      var scrollTop = (window.pageYOffset !== undefined) ? window.pageYOffset : (document.documentElement || document.body.parentNode || document.body).scrollTop;
+
+      target.style.opacity = (height - scrollTop) / height;
+
+      // for (j = 0; j < targets.length; j++) {
+      //   targets.style.opacity = (height - scrollTop) / height;
+      // }
     };
 
   })();

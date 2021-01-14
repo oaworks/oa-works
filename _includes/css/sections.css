@@ -1,7 +1,7 @@
 .section {
   margin-left: var(--gutter-negative);
   margin-right: var(--gutter-negative);
-  padding: var(--gutter) var(--gutter) 0 var(--gutter);
+  padding: calc(var(--gutter) * 2);
   min-height: 100vh;
   background-color: var(--white);
 }
@@ -14,12 +14,22 @@
   background-color: transparent;
 }
 
+.section--see-thru {
+  mix-blend-mode: saturation;
+}
+
+.section--dark {
+  background-color: var(--dark-grey);
+  color: var(--white);
+}
+
 .section--inverted {
   background-color: var(--black);
   color: var(--white);
 }
 
-.section--inverted a {
+.section--inverted a,
+.section--dark a {
   color: var(--white);
 }
 
@@ -28,5 +38,10 @@
 }
 
 .section--half {
+  padding: var(--gutter);
   min-height: 50vh;
+}
+
+.section--three-quarter {
+  min-height: 75vh;
 }

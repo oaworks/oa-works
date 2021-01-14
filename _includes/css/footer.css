@@ -40,8 +40,8 @@
 .footer__legal {
   background-color: var(--azure);
   background-image:
-    linear-gradient(90deg, transparent, transparent 0%, var(--white) 0%, transparent 1.5px),
-    linear-gradient(180deg, transparent, transparent  0%, var(--white) 0%, transparent 1.5px);
+    linear-gradient(180deg, transparent, transparent  0%, var(--white) 0%, transparent 1.5px),
+    linear-gradient(90deg, transparent, transparent calc(100% - 1.5px), var(--white) 100%, transparent 0);
 }
 
 .footer__legal ul {
