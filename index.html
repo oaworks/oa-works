@@ -2,27 +2,38 @@
 layout: base.html
 ---
 
-<section class="section section--transparent">
+<section class="section section--cover">
   <div class="row">
     <div class="col col--1of2">
-      <p class="label" style="margin-top: var(--space-xxl);">We partner to build</p>
+      <p class="label">We partner to build</p>
       <h2>Powerfully simple open access tools for a just and kind information age.</h2>
 
       <svg width="905" height="211" viewBox="0 0 905 211" fill="none" xmlns="http://www.w3.org/2000/svg" data-llp-composed="true" id="introsquiggle" class="lazy-line-painter" style="position: fixed; top: 40vh; left: -5vw; z-index: -1; transform: scaleX(-1);">
-        <path d="M76 105.5C130.333 64.8333 184.667 64.8333 239 105.5C293.333 146.167 347.667 146.167 402 105.5C456.333 64.8333 510.667 64.8333 565 105.5C619.333 146.167 673.667 146.167 728 105.5C782.333 64.8333 836.667 64.8333 891 105.5" data-llp-id="introsquiggle-0" data-llp-duration="1700" data-llp-delay="0" fill-opacity="0" style=""/>
+        <path d="M76 105.5C130.333 64.8333 184.667 64.8333 239 105.5C293.333 146.167 347.667 146.167 402 105.5C456.333 64.8333 510.667 64.8333 565 105.5C619.333 146.167 673.667 146.167 728 105.5C782.333 64.8333 836.667 64.8333 891 105.5" data-llp-id="introsquiggle-0" data-llp-duration="2500" data-llp-delay="0" fill-opacity="0" style=""/>
       </svg>
 
-      <p style="margin-top: 20vh;">They’re free, open source, and built for-change &mdash; <br/>not-for-profit by our dedicated team in partnership with libraries.</p>
-      <p style="margin-top: var(--space-xl);">
+      <p style="margin-top: 30vh;">They’re free, open source, and built for-change &mdash; <br/>not-for-profit by our dedicated team in partnership with libraries.</p>
+      <p style="margin-top: var(--space-xxl);">
         <a href="#products" class="button button--primary">Try our tools 👇</a>
       </p>
     </div>
   </div>
 </section>
 
-<section id="partners" class="section section--inverted">
+<section id="partners" class="section section--inverted" style="mix-blend-mode: saturation;">
   <h2>In partnership with&hellip;</h2>
   <style>
+  .lazy-line-painter path,
+  .lazy-line-painter circle {
+    transition: stroke .5s ease-in-out;
+  }
+
+  .lazy-line-painter.scrolled path,
+  .lazy-line-painter.scrolled circle {
+    stroke: rgba(0, 0, 0, .15) !important;
+    transition: stroke .5s ease-in-out;
+  }
+
   .testimonials li {
     position: -webkit-sticky;
   	position: sticky;
@@ -32,7 +43,7 @@ layout: base.html
 
   .testimonials article {
     background-color: var(--black);
-    background: linear-gradient(0deg, hsl(17, 10%, 13%) 85%, rgba(0, 0, 0, 0) 100%);
+    /* background: linear-gradient(0deg, hsl(17, 10%, 13%) 85%, rgba(0, 0, 0, 0) 100%); */
   }
 
   .testimonials .portrait {
@@ -42,7 +53,11 @@ layout: base.html
     mix-blend-mode: lighten;
     bottom: 0;
     background-color: var(--black);
-    background: linear-gradient(0deg, hsl(17, 10%, 13%) 75%, rgba(0, 0, 0, 0) 100%);
+    /* background: linear-gradient(0deg, hsl(17, 10%, 13%) 75%, rgba(0, 0, 0, 0) 100%); */
+  }
+
+  .testimonials .portrait.scrolled {
+    border: 5px solid red;
   }
   </style>
   <ul class="testimonials">

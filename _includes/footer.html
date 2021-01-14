@@ -56,7 +56,7 @@
 
   (function(){
 
-    document.onreadystatechange = () => {
+    document.onreadystatechange = function() {
 
       if (document.readyState === 'complete') {
         let el1 = document.querySelector('#introellipse');
@@ -73,6 +73,21 @@
       }
     }
 
-  })();
+    window.onscroll = function() {
+      var svgShapes = document.getElementsByClassName("lazy-line-painter");
 
+      for (i = 0; i < svgShapes.length; i++) {
+
+        if (window.pageYOffset > 75) {
+          svgShapes[i].classList.add("scrolled");
+        }
+
+        else {
+          svgShapes[i].classList.remove("scrolled")
+        };
+
+      };
+    };
+
+  })();
 </script>
