@@ -2,7 +2,7 @@
   {
     "logo": "products/oar.svg",
     "name": "OARights.org",
-    "label": "Journal permissions",
+    "label": "Article permissions",
     "tagline": "We monitor 25,000 policies so you don't have to.",
     "cta": "Unlock your work",
     "iframe": "<iframe title='OARights site' src='https://oarights.org' style='width: 100%; height: 45vh; border: 0;'></iframe>",
