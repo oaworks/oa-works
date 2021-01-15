@@ -1,6 +1,6 @@
 .card {
   margin-bottom: calc(var(--gutter) * 2);
-  border: 1px solid var(--black);
+  border: .75px solid var(--black);
 }
 
 .card--small {
@@ -22,7 +22,7 @@
 }
 
 .card__header--plain {
-  border-bottom: 1px solid;
+  border-bottom: .75px solid;
   background: transparent;
   color: var(--black);
 }
@@ -45,6 +45,7 @@ h5.card__header {
   display: flex;
   flex-direction: column;
   padding: var(--space-md);
+  overflow: hidden;
 }
 
 .card__body p:last-child {
@@ -52,7 +53,7 @@ h5.card__header {
 }
 
 .card__footer {
-  border-top: 1px solid;
+  border-top: .75px solid;
   text-align: right;
 }
 
@@ -65,7 +66,7 @@ h5.card__header {
 
   display: inline-block;
   padding: var(--space-md);
-  border-left: 1px solid;
+  border-left: .75px solid;
   background-image: linear-gradient(90deg,
     var(--initialBgColor) 0%,
     var(--initialBgColor) 50%,
@@ -99,10 +100,10 @@ h5.card__header {
 .card--inverted .card__body a:after {
   display: block;
   width: 100%;
-  height: 1px;
+  height: .75px;
   transition: width 0.25s;
   content: '';
-  border-bottom: 1px solid var(--white);
+  border-bottom: .75px solid var(--white);
 }
 
 .card--inverted .card__body a:hover:after {
@@ -146,4 +147,15 @@ h5.card__header {
   color: var(--slideTextColor);
   cursor: pointer;
   background-position: -100% 100%;
+}
+
+.card > a .card__img {
+  filter: grayscale(100%);
+  transform: scale(1);
+  transition: all .5s;
+}
+
+.card > a:hover .card__img {
+  filter: none;
+  transform: scale(1.05);
 }

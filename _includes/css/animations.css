@@ -26,9 +26,6 @@
     fill: var(--cyan);
   }
   80% {
-    fill: var(--mango);
-  }
-  100% {
     fill: var(--violet);
   }
 }

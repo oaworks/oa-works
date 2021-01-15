@@ -6,8 +6,8 @@
   --typescale-5:     1.2em;
   --typescale-6:     .833em;
 
-  --gutter:           2.5vw;
-  --gutter-negative:  -2.5vw;
+  --gutter:           1.5vw;
+  --gutter-negative:  -1.5vw;
 
   --space-unit:       1rem;
   --space-xxs:        calc(.25 * var(--space-unit));

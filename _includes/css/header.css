@@ -16,7 +16,7 @@
   width: auto;
 }
 
-.header svg:hover path:last-child {
+.header svg path:last-child {
   animation: flash 4s ease infinite;
 }
 

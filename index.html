@@ -21,22 +21,7 @@ layout: base.html
 </section>
 
 <section id="products" class="section section--inverted section--see-thru" data-aos="fade-up">
-  <h2>Products</h2>
-  <style>
-  .products li {
-    position: -webkit-sticky;
-  	position: sticky;
-    height: 100vh;
-    top: 0;
-  }
-
-  .products article,
-  .products aside {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-  }
-  </style>
+  <h2 style="margin-top: 0; position: sticky; top: 5vh; ">Products</h2>
   <ul class="products">
     {% for product in products %}
     <li class="row">
@@ -96,43 +81,10 @@ layout: base.html
 
 <section id="partners" class="section section--half section--dark" data-aos="fade-up">
   <!-- <h2 style="margin-top: 0;">In partnership with&hellip;</h2> -->
-  <style>
-  .lazy-line-painter path,
-  .lazy-line-painter circle {
-    transition: stroke .25s ease-in-out;
-  }
-
-  .lazy-line-painter.scrolled path,
-  .lazy-line-painter.scrolled circle {
-    stroke: rgba(0, 0, 0, .15) !important;
-    transition: stroke .25s ease-in-out;
-  }
-
-  .testimonials li {
-    position: -webkit-sticky;
-  	position: sticky;
-    top: 0;
-  }
-
-  .testimonials article {
-    /* background-color: var(--black); */
-    /* background: linear-gradient(0deg, hsl(17, 10%, 13%) 85%, rgba(0, 0, 0, 0) 100%); */
-  }
-
-  .testimonials .portrait {
-    margin-bottom: calc(var(--gutter) * -1);
-  	position: absolute;
-    height: 100%;
-    bottom: 0;
-    /* background-color: var(--black); */
-    /* background: linear-gradient(0deg, hsl(17, 10%, 13%) 75%, rgba(0, 0, 0, 0) 100%); */
-  }
-
-  </style>
   <ul class="testimonials" style="margin: 0;">
     {% for t in testimonials %}
     <li class="row row--centered testimonial" style="display: none;">
-      <div class="col col--1of4" display: flex; justify-content: flex-end; flex-direction: column;>
+      <div class="col col--1of4">
         <img src="img/{{ t.img }}" class="portrait"/>
       </div>
       <article class="col col--2of4" style="display: flex; justify-content: center; flex-direction: column;">
@@ -155,7 +107,7 @@ layout: base.html
 
 <section id="values" class="section" style="display: flex; justify-content: flex-end; flex-direction: column;">
   <h2 class="label">What we stand for</h2>
-  <div class="row">
+  <div class="row" style="position: relative;">
     <ol class="col col--2of3 row values" style="margin-bottom: 0;">
       {% for value in values %}
       <li class="col col--1of2">
@@ -168,9 +120,9 @@ layout: base.html
       {% endfor %}
     </ol>
 
-    <figure class="col col--1of3" style="display:flex; position: absolute; right: calc(var(--gutter) * 2);">
-      <img src="img/people/camille.svg" style="margin-bottom: calc(var(--gutter) * -2);"/>
-      <figcaption style="position: absolute; bottom: calc(var(--gutter) * 2); padding: var(--space-xs); text-align: right; background: var(--black-75); color: var(--white);">
+    <figure class="col col--1of3" style="display: flex; margin-bottom: calc(var(--gutter) * -2); position: absolute; bottom: 0; right: calc(var(--gutter) * 2);">
+      <img src="img/people/camille.svg" style=""/>
+      <figcaption style="position: absolute; bottom: var(--gutter); right: 0; padding: var(--space-xs); text-align: right; background: var(--black-75); color: var(--white);">
         <strong>Camille Thomas</strong>
         <br/>OA.Works Leader
         <br/>Scholarly Communication Librarian
@@ -180,7 +132,7 @@ layout: base.html
   </div>
 </section>
 
-<section id="news" class="section section--inverted section--see-thru">
+<section id="news" class="section section--inverted">
   <section class="row">
     <h2 class="sr-only">About</h2>
     <div class="col col--1of3">
@@ -221,8 +173,8 @@ layout: base.html
       <article class="card card--inverted">
         <a href="https://blog.openaccessbutton.org/{{ post.slug }}/" target="_blank" rel="noopener" style="display: block;">
           <h3 class="card__header card__header--plain label label--secondary">{{ post.title }}</h3>
-          <div class="card__body" style="margin: calc(var(--space-md) * -1);">
-            <img src="{{ post.feature_image }}" style="filter: grayscale(100%);"/>
+          <div class="card__body" style="padding: 0;">
+            <img src="{{ post.feature_image }}" class="card__img"/>
           </div>
         </a>
       </article>
@@ -231,7 +183,7 @@ layout: base.html
   </ul>
 </section>
 
-<aside class="section section--inverted section--half section--see-thru" style="display: flex; align-items: center; justify-content: center; flex-direction: column;">
+<aside class="section section--inverted section--half" style="display: flex; align-items: center; justify-content: center; flex-direction: column;">
   <h2 class="label label--secondary" style="margin-bottom: var(--space-lg);">With foundational support from</h2>
   <a href="https://www.arcadiafund.org.uk/" target="_blank" rel="noopener" style="display: block;">
     {% include 'logos/arcadia.svg' %}
