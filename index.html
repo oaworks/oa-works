@@ -113,7 +113,9 @@ layout: base.html
       <li class="col col--1of2">
         <article>
           {% include value.shape %}
-          <h3 style="padding-top: var(--space-md); margin-top: var(--space-md); border-top: 1px solid;">{{ value.heading }}</h3>
+
+          <p class="label label--secondary" style="padding-top: var(--space-md); margin-top: var(--space-md); border-top: 1px solid;">{{ value.goal }}</p>
+          <h3>{{ value.heading }}</h3>
           <p>{{ value.desc }}</p>
         </article>
       </li>
