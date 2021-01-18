@@ -104,7 +104,7 @@ layout: base.html
 
 </section>
 
-<section class="section">
+<section class="section" data-aos="fade-up">
   <h2 class="sr-only">About</h2>
   <div class="row">
     <div class="col col--1of3">
@@ -138,8 +138,8 @@ layout: base.html
   </div>
 </section>
 
-<section id="news" class="section section--inverted">
-  <h2>Latest updates</h2>
+<section id="news" class="section section--inverted" data-aos="fade-up">
+  <h2 style="margin-top: 0;">Latest updates</h2>
   <a href="https://blog.openaccessbutton.org/" target="_blank" rel="noopener">Blog ⟶</a>
   <ul class="row news">
     {% for post in posts limit:3 %}
@@ -155,15 +155,14 @@ layout: base.html
     </li>
     {% endfor %}
   </ul>
+
+  <aside style="display: flex; align-items: center; justify-content: center; flex-direction: column;" data-aos="fade-up">
+    <h2 class="label label--secondary" style="margin-bottom: var(--space-lg);">With foundational support from</h2>
+    <a href="https://www.arcadiafund.org.uk/" target="_blank" rel="noopener" style="display: block;">
+      {% include 'logos/arcadia.svg' %}
+    </a>
+  </aside>
 </section>
-
-<aside class="section section--inverted section--quarter" style="display: flex; align-items: center; justify-content: center; flex-direction: column;">
-  <h2 class="label label--secondary" style="margin-bottom: var(--space-lg);">With foundational support from</h2>
-  <a href="https://www.arcadiafund.org.uk/" target="_blank" rel="noopener" style="display: block;">
-    {% include 'logos/arcadia.svg' %}
-  </a>
-</aside>
-
 
 </body>
 

@@ -10,7 +10,7 @@
 
 .lazy-line-painter.scrolled path,
 .lazy-line-painter.scrolled circle {
-  stroke: rgba(0, 0, 0, .15) !important;
+  stroke: var(--black-15) !important;
   transition: stroke .25s ease-in-out;
 }
 
