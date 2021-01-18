@@ -1,25 +1,25 @@
 [
   {
     "goal": "Our theory of change",
-    "heading": "Build for open",
+    "heading": "Build for <br/>open",
     "desc": "Our solutions are guided by the belief that the right path is open: open data, open access, open science.",
     "shape": "svg/circle.svg"
   },
   {
     "goal": "How we collaborate",
-    "heading": "Problems into partnerships",
+    "heading": "Problems into <br/>partnerships",
     "desc": "We partner with librarians and the wider publishing community to address the most pressing issues they face.",
     "shape": "svg/triangle.svg"
   },
   {
     "goal": "Our product ethos",
-    "heading": "Ideals into reality",
+    "heading": "Ideals into <br/>reality",
     "desc": "The <a href='http://www.ala.org/advocacy/intfreedom/corevalues' target='_blank' rel='noopener'>core values of librarianship</a> are at the centre of everything we do; our tools aim to fulfill them. ",
     "shape": "svg/squiggle.svg"
   },
   {
     "goal": "How we work",
-    "heading": "Joy in action",
+    "heading": "Joy in <br/>action",
     "desc": "Our work philosophy isn’t static. We strive to create with agility, kindness, & rigour.",
     "shape": "svg/arc.svg"
   }

@@ -11,11 +11,11 @@
 .card--small .card__header,
 .card--small .card__body,
 .card--small .card__footer {
-  padding: var(--space-sm);
+  padding: var(--space-xs);
 }
 
 .card__header {
-  padding: var(--space-md);
+  padding: var(--space-sm);
   background: var(--black);
   color: var(--white);
   overflow-wrap: break-word;
@@ -44,7 +44,7 @@ h5.card__header {
 .card__body {
   display: flex;
   flex-direction: column;
-  padding: var(--space-md);
+  padding: var(--space-sm);
   overflow: hidden;
 }
 
@@ -65,7 +65,7 @@ h5.card__header {
   --slideBgColor: var(--white);
 
   display: inline-block;
-  padding: var(--space-md);
+  padding: var(--space-sm);
   border-left: .75px solid;
   background-image: linear-gradient(90deg,
     var(--initialBgColor) 0%,
