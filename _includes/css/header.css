@@ -34,3 +34,12 @@
   width: 75%;
   text-align: right;
 }
+
+.header--inverted svg path  {
+  fill: var(--white);
+}
+
+.header--inverted,
+.header--inverted a {
+  color: var(--white);
+}

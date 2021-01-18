@@ -104,47 +104,17 @@ layout: base.html
 
 </section>
 
-
-<section id="values" class="section" style="display: flex; justify-content: flex-end; flex-direction: column;">
-  <h2 class="label">What we stand for</h2>
-  <div class="row" style="position: relative;">
-    <ol class="col col--2of3 row values" style="margin-bottom: 0;">
-      {% for value in values %}
-      <li class="col col--1of2">
-        <article>
-          {% include value.shape %}
-
-          <p class="label label--secondary" style="padding-top: var(--space-md); margin-top: var(--space-md); border-top: 1px solid;">{{ value.goal }}</p>
-          <h3>{{ value.heading }}</h3>
-          <p>{{ value.desc }}</p>
-        </article>
-      </li>
-      {% endfor %}
-    </ol>
-
-    <figure class="col col--1of3" style="display: flex; margin-bottom: calc(var(--gutter) * -2); position: absolute; bottom: 0; right: calc(var(--gutter) * 2);">
-      <img src="img/people/camille.svg" style=""/>
-      <figcaption style="position: absolute; bottom: var(--gutter); right: 0; padding: var(--space-xs); text-align: right; background: var(--black-75); color: var(--white);">
-        <strong>Camille Thomas</strong>
-        <br/>OA.Works Leader
-        <br/>Scholarly Communication Librarian
-        <br/>at Florida State University
-      </figcaption>
-    </figure>
-  </div>
-</section>
-
-<section id="news" class="section section--inverted">
-  <section class="row">
-    <h2 class="sr-only">About</h2>
+<section class="section">
+  <h2 class="sr-only">About</h2>
+  <div class="row">
     <div class="col col--1of3">
-      <article class="card card--inverted">
+      <article class="card">
         <h3 class="card__header label label--secondary">The OA.Works journey</h3>
         <div class="card__body">
           <p>Sed malesuada quis neque non pretium. Praesent et nisl at mauris blandit faucibus. Aenean nec semper odio. Vivamus tristique faucibus magna, nec tincidunt erat. Nunc lobortis sem et scelerisque finibus. Nullam fringilla erat nec diam interdum porttitor. Aliquam at turpis aliquam, suscipit dolor eget, dapibus arcu. Nullam risus mauris, semper.</p>
         </div>
         <div class="card__footer">
-          <a href="">Our vision 👉</a>
+          <a href="">Our vision ⟶</a>
         </div>
       </article>
     </div>
@@ -154,7 +124,7 @@ layout: base.html
       <ul class="row team" style="margin-top: 0;">
         {% for person in team %}
         <li class="col col--1of3">
-          <article class="card card--inverted card--small">
+          <article class="card card--small">
             <p class="card__header card__header--plain label">{{ person.role }}</p>
             <div class="card__body">
               <h4 style="margin-top: 0;">{{ person.name }}</h4>
@@ -165,8 +135,10 @@ layout: base.html
         {% endfor %}
       </ul>
     </div>
-  </section>
+  </div>
+</section>
 
+<section id="news" class="section section--inverted">
   <h2>Latest updates</h2>
   <a href="https://blog.openaccessbutton.org/" target="_blank" rel="noopener">Blog ⟶</a>
   <ul class="row news">
@@ -185,7 +157,7 @@ layout: base.html
   </ul>
 </section>
 
-<aside class="section section--inverted section--half" style="display: flex; align-items: center; justify-content: center; flex-direction: column;">
+<aside class="section section--inverted section--quarter" style="display: flex; align-items: center; justify-content: center; flex-direction: column;">
   <h2 class="label label--secondary" style="margin-bottom: var(--space-lg);">With foundational support from</h2>
   <a href="https://www.arcadiafund.org.uk/" target="_blank" rel="noopener" style="display: block;">
     {% include 'logos/arcadia.svg' %}

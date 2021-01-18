@@ -1,11 +1,11 @@
-<header class="header">
+<header class="header{% if theme == 'dark' %} header--inverted{% endif %}">
   <a href="{{ baseurl }}/" title="Return to home page" class="header__logo">
     <h1>{% include 'logos/logotype.svg' %}</h1>
   </a>
 
   <nav>
     <a href="#products">Products</a>
-    <a href="#about">About</a>
+    <a href="about">About</a>
     <a href="#about">Support Us</a>
   </nav>
 </header>
