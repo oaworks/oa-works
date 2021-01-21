@@ -29,7 +29,8 @@
 }
 
 .values svg {
-  height: 50px;
+  width: var(--gutter);
+  height: auto;
 }
 
 .testimonials blockquote p:first-child {

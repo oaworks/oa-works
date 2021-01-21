@@ -1,6 +1,6 @@
 .card {
   margin-bottom: calc(var(--gutter) * 2);
-  border: .75px solid var(--black);
+  border: .75px solid;
 }
 
 .card--small {
@@ -17,6 +17,7 @@
 .card__header {
   padding: var(--space-sm);
   background: var(--black);
+  border-bottom: .75px solid;
   color: var(--white);
   overflow-wrap: break-word;
 }
@@ -58,11 +59,11 @@ h5.card__header {
 }
 
 .card__footer a {
-  --initialTextColor: var(--white);
-  --slideTextColor: var(--black);
+  --initialTextColor: var(--black);
+  --slideTextColor: var(--white);
 
-  --initialBgColor: var(--black);
-  --slideBgColor: var(--white);
+  --initialBgColor: var(--white);
+  --slideBgColor: var(--black);
 
   display: inline-block;
   padding: var(--space-sm);
@@ -83,6 +84,7 @@ h5.card__header {
 
 .card__footer a:hover {
   color: var(--slideTextColor);
+  border-color: var(--black);
   cursor: pointer;
   background-position: -100% 100%;
 }
@@ -119,35 +121,6 @@ h5.card__header {
   background: var(--black);
   color: var(--white);
 }
-
-/* .card > a .card__header {
-  --initialTextColor: var(--white);
-  --slideTextColor: var(--black);
-
-  --initialBgColor: var(--black);
-  --slideBgColor: var(--white);
-
-  display: inline-block;
-  padding: var(--space-md);
-  background-image: linear-gradient(90deg,
-    var(--initialBgColor) 0%,
-    var(--initialBgColor) 50%,
-    var(--slideBgColor) 50%,
-    var(--slideBgColor) 100%);
-    background-size: 200%;
-    transition: background-position .3s cubic-bezier(.47, .1, 1, .63),
-    color .0015s linear;
-    transition-delay: 0.0s, 0.15s;
-
-  color: var(--initialTextColor);
-  text-decoration: none;
-}
-
-.card > a:hover .card__header {
-  color: var(--slideTextColor);
-  cursor: pointer;
-  background-position: -100% 100%;
-} */
 
 .card > a .card__img {
   filter: grayscale(100%);
