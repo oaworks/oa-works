@@ -16,6 +16,7 @@ main {
   -ms-animation: fadein 1.5s;
   -o-animation: fadein 1.5s;
   animation: fadein 1.5s;
+  color: var(--black);
 }
 
 article {
@@ -65,6 +66,16 @@ svg {
   display: block;
 }
 
+hr {
+  border: 1px solid;
+  width: 50vw;
+}
+
 .inverted {
   background-color: var(--black);
+  color: var(--white);
+}
+
+.inverted a {
+  color: var(--white);
 }

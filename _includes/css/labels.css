@@ -4,6 +4,7 @@
   font-weight: 700;
   font-size: var(--typescale-6);
   letter-spacing: 0.045em;
+  line-height: 1.35;
 }
 
 .label--secondary {

@@ -15,7 +15,7 @@
 }
 
 .section--see-thru {
-  mix-blend-mode: saturation;
+  mix-blend-mode: screen;
 }
 
 .section--dark {
@@ -40,6 +40,10 @@
 
 .section--quarter {
   min-height: 25vh;
+}
+
+.section--third {
+  min-height: 33.3333vh;
 }
 
 .section--half {

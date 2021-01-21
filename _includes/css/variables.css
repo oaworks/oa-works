@@ -6,6 +6,9 @@
   --typescale-5:     1.2em;
   --typescale-6:     .833em;
 
+  --sans-serif:      'Inter', sans-serif;
+  --serif:           'Wremena', serif;
+
   --gutter:           2vw;
   --gutter-negative:  -2vw;
 

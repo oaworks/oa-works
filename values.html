@@ -1,0 +1,81 @@
+---
+layout: base.html
+theme: dark
+---
+
+<header style="margin-top: var(--space-md); color: var(--white);">
+  <h1>About</h1>
+
+  <nav>
+    <ul class="tabs">
+      <li class="tab">
+        <a href="/about">About</a>
+      </li>
+      <li class="tab tab--active">
+        <a href="/values">Values</a>
+      </li>
+      <li class="tab">
+        <a href="/by-the-numbers">By the Numbers</a>
+      </li>
+    </ul>
+  </nav>
+</header>
+
+<section id="values" class="section section--inverted" style="display: flex; justify-content: flex-end; flex-direction: column;">
+  <h2 style="margin-top: 0; font-family: var(--serif);" data-aos="fade-up">What we stand for</h2>
+  <div class="row" style="position: relative;">
+    <ol class="col col--2of3 row values" style="margin-bottom: 0;">
+      <style>
+        .line-thru {
+          position: relative;
+          z-index: 1;
+        }
+
+        .line-thru:before {
+          border-top: .75px solid;
+          content: "";
+          margin: 0 auto;
+          position: absolute;
+          top: 50%; left: 0; right: 0; bottom: 0;
+          width: 95%;
+          z-index: -1;
+        }
+
+        .line-thru__inner {
+          background: var(--black);
+          padding-right: var(--space-sm);
+        }
+      </style>
+      {% assign delay_count = 0 %}
+      {% for value in values %}
+      {% assign delay_count = delay_count | plus: 300 %}
+      <li class="col col--1of2" data-aos="fade-up" data-aos-delay="{{ delay_count }}">
+        <p class="label label--secondary line-thru" style="margin-bottom: var(--space-xs); color: var(--light-grey);">
+          <small class="line-thru__inner">{{ value.goal }}</small>
+        </p>
+        <article class="card">
+          <header class="card__header">
+            <div style="display: flex; align-items: center;">
+              {% include value.shape %}
+              <h3 style="font-size: var(--typescale-4); margin: 0 0 0 var(--space-sm); font-family: var(--serif);">{{ value.heading }}</h3>
+            </div>
+          </header>
+          <div class="card__body">
+            <p style="line-height: 1.25;"><small>{{ value.desc }}</small></p>
+          </div>
+        </article>
+      </li>
+      {% endfor %}
+    </ol>
+
+    <figure class="col col--1of3" style="display: flex; margin-bottom: calc(var(--gutter) * -2); position: absolute; bottom: 0; right: calc(var(--gutter) * 2);" data-aos="fade-up">
+      <img src="../img/people/camille.svg" style=""/>
+      <figcaption style="position: absolute; bottom: var(--gutter); right: 0; padding: var(--space-xs); text-align: right; background: var(--black-75); color: var(--white);" data-aos="fade-up" data-aos-delay="300">
+        <strong>Camille Thomas</strong>
+        <br/>OA.Works Leader
+        <br/>Scholarly Communication Librarian
+        <br/>at Florida State University
+      </figcaption>
+    </figure>
+  </div>
+</section>
