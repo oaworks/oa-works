@@ -79,3 +79,29 @@ theme: dark
     </figure>
   </div>
 </section>
+
+<section class="section section--inverted section--half">
+  <header data-aos="fade-up">
+    <h2 style="font-family: var(--serif);">Request stories</h2>
+    <p>Explanation of what request stories are in about 20-30 words. Suspendisse porttitor congue ligula, nec sollicitudin odio finibus ut.</p>
+  </header>
+  <ul class="row">
+    {% assign delay_count = 0 %}
+    {% for story in stories limit:3 %}
+    {% assign delay_count = delay_count | plus: 300 %}
+    <li class="story col col--1of3" data-aos="fade-up" data-aos-delay="{{ delay_count }}">
+      <article class="card card--small">
+        <header class="card__header">
+          <h3 class="label">OA.Works <span style="text-transform: lowercase;">for</span> {{ story.label }}</h3>
+        </header>
+        <div class="card__body">
+          <blockquote style="margin: 0 0 var(--space-sm) 0;">
+            <p>“{{ story.content }}”</p>
+          </blockquote>
+          <p><a href="{{ story.url }}" target="_blank" rel="noopener"><small>{{ story.article }}</small></a></p>
+        </div>
+      </article>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
