@@ -3,11 +3,12 @@ permalink: main.css
 ---
 
 {% comment %}
-FIXME: variables.css include doesn’t work unless it’s repeated twice here.
+FIXME: first include doesn’t work unless it’s repeated twice here. Why??
 {% endcomment %}
 
 {% capture css %}
-  {% include "css/variables.css" %}
+  {% include "css/fonts.css" %}
+  {% include "css/fonts.css" %}
   {% include "css/variables.css" %}
   {% include "css/utilities.css" %}
   {% include "css/grid.css" %}
