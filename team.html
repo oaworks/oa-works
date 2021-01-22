@@ -12,8 +12,10 @@ theme: dark
       <p>The people who are making open access work.</p>
     </header>
     <ul class="row team col col--2of3">
+      {% assign delay_count = 0 %}
       {% for person in team %}
-      <li class="col col--1of3">
+      {% assign delay_count = delay_count | plus: 300 %}
+      <li class="col col--1of3" data-aos="fade-up" data-aos-delay="{{ delay_count }}">
         <article class="card card--small">
           <p class="card__header card__header--plain label">{{ person.role }}</p>
           <div class="card__body">
