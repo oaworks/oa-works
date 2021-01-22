@@ -4,7 +4,7 @@
 }
 
 .line-thru:before {
-  border-top: .75px solid;
+  border-top: 1px solid;
   content: "";
   margin: 0 auto;
   position: absolute;
