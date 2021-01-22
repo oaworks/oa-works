@@ -7,7 +7,7 @@
   </div>
   <ul class="row">
     {% assign delay_count = 0 %}
-    {% for story in stories %}
+    {% for story in stories limit:3 %}
     {% assign delay_count = delay_count | plus: 100 %}
     <li class="story col col--1of3" data-aos="fade-up" data-aos-delay="{{ delay_count }}">
       <article class="card card--small">
