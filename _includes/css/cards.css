@@ -17,7 +17,7 @@
 .card__header {
   padding: var(--space-sm);
   background: var(--black);
-  border-bottom: .75px solid;
+  border-bottom: .75px solid var(--black);
   color: var(--white);
   overflow-wrap: break-word;
 }
@@ -122,13 +122,35 @@ h5.card__header {
   color: var(--white);
 }
 
+.card__img {
+  width: 100%;
+  height: 275px;
+  object-fit: cover;
+}
+
 .card > a .card__img {
-  filter: grayscale(100%);
   transform: scale(1);
   transition: all .5s;
 }
 
 .card > a:hover .card__img {
-  filter: none;
   transform: scale(1.05);
+}
+
+.card__body a {
+  display: inline-block;
+}
+
+.card__body a:after {
+  display:  block;
+  content: '';
+  height: 1px;
+  width: 100%;
+  transition: all .5s ease-in;
+  border-bottom: 1px solid var(--black);
+}
+
+.card__body a:hover:after {
+  width: 0%;
+  transition: all .5s ease-out;
 }
