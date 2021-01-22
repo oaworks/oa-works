@@ -1,0 +1,19 @@
+.line-thru {
+  position: relative;
+  z-index: 1;
+}
+
+.line-thru:before {
+  border-top: .75px solid;
+  content: "";
+  margin: 0 auto;
+  position: absolute;
+  top: 50%; left: 0; right: 0; bottom: 0;
+  width: 100%;
+  z-index: -1;
+}
+
+.line-thru__inner {
+  background: var(--black);
+  padding-right: var(--space-sm);
+}
