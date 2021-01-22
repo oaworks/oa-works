@@ -1,0 +1,17 @@
+[
+  {
+    "name": "IFLA",
+    "url": "https://www.ifla.org/",
+    "logo": "logos/ifla.svg"
+  },
+  {
+    "name": "Bill & Melinda Gates Foundation",
+    "url": "https://www.gatesfoundation.org/",
+    "logo": "logos/gatesfoundation.svg"
+  },
+  {
+    "name": "SPARC",
+    "url": "https://sparcopen.org/",
+    "logo": "logos/sparc.svg"
+  }
+]

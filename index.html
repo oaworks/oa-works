@@ -21,6 +21,21 @@ layout: base.html
 </section>
 
 <section id="products" class="section section--inverted section--see-thru" data-aos="fade-up">
+  <aside style="margin-bottom: var(--space-lg);">
+    <div class="row" style="align-items: center;">
+      <h2 class="col col--1of3" style="font-family: var(--serif);">In partnership with</h2>
+      <ul class="col col--2of3" style="display: flex; justify-content: space-between; align-items: center;">
+        {% for partner in partners %}
+        <li>
+          <a href="{{ partner.url }}" title="{{ partner.name }}’s site" target="_blank" rel="noopener" style="display: block;">
+            {% include partner.logo %}
+          </a>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </aside>
+
   <h2 style="position: sticky; top: 5vh;">Products</h2>
   <ul class="products">
     {% for product in products %}
