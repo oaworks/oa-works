@@ -1,25 +1,31 @@
-<section class="section section--inverted section--half">
-  <header data-aos="fade-up">
-    <h2 style="font-family: var(--serif);">Request stories</h2>
-    <p>Explanation of what request stories are in about 20-30 words. Suspendisse porttitor congue ligula, nec sollicitudin odio finibus ut.</p>
-  </header>
+<section class="section {% if inverted %}section--inverted {% endif %}section--half">
+  <div class="row">
+    <header class="col col--2of3" data-aos="fade-up">
+      <h2 style="font-family: var(--serif);">Request stories</h2>
+      <p>Explanation of what request stories are in about 20-30 words. Suspendisse porttitor congue ligula, nec sollicitudin odio finibus ut.</p>
+    </header>
+  </div>
   <ul class="row">
     {% assign delay_count = 0 %}
-    {% for story in stories limit:3 %}
-    {% assign delay_count = delay_count | plus: 300 %}
+    {% for story in stories %}
+    {% assign delay_count = delay_count | plus: 100 %}
     <li class="story col col--1of3" data-aos="fade-up" data-aos-delay="{{ delay_count }}">
       <article class="card card--small">
-        <header class="card__header">
-          <h3 class="label">OA.Works <span style="text-transform: lowercase;">for</span> {{ story.label }}</h3>
-        </header>
-        <div style="background: url(../img/stories/{{ story.img }}); background-size: cover; height: 300px; background-position: center; width: auto;"></div>
-        <div class="card__body">
-
-          <blockquote style="margin: 0 0 var(--space-sm) 0;">
-            <p>“{{ story.content }}”</p>
-          </blockquote>
-          <p><a href="{{ story.url }}" target="_blank" rel="noopener"><small>{{ story.article }}</small></a></p>
-        </div>
+        <a href="{{ story.url }}" target="_blank" rel="noopener" style="display: block;">
+          <header class="card__header">
+            <h3 class="label">OA.Works <span style="text-transform: lowercase;">for</span> {{ story.label }}</h3>
+          </header>
+          <!-- <div style="background: url(../img/stories/{{ story.img }}); background-size: cover; height: 300px; background-position: center; width: auto;" title="{{ story.img_alt }}"></div> -->
+          <figure style="overflow: hidden;">
+            <img src="../img/stories/{{ story.img }}" class="card__img"/>
+          </figure>
+          <div class="card__body">
+            <blockquote style="margin: 0 0 var(--space-sm) 0;">
+              <p>“{{ story.content }}”</p>
+            </blockquote>
+            <p style="line-height: 1.15;"><small>{{ story.article }}</small></p>
+          </div>
+        </a>
       </article>
     </li>
     {% endfor %}

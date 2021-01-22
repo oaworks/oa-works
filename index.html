@@ -21,13 +21,13 @@ layout: base.html
 </section>
 
 <section id="products" class="section section--inverted section--see-thru" data-aos="fade-up">
-  <h2 style="margin-top: 0; position: sticky; top: 5vh; font-family: var(--serif);">Products</h2>
+  <h2 style="margin-top: 0; position: sticky; top: 5vh;">Products</h2>
   <ul class="products">
     {% for product in products %}
     <li class="row">
       <article class="col col--1of2 fade" style="display: flex; justify-content: center; flex-direction: column; background: var(--black);">
         <p class="label">{{ product.label }}</p>
-        <h3>{{ product.tagline }}</h3>
+        <h3 style="font-family: var(--serif);">{{ product.tagline }}</h3>
         <p style="margin-top: var(--space-xxl);">
           <a href="https://{{ product.name }}" target="_blank" rel="noopener" class="button">
             {{ product.cta }}
@@ -39,7 +39,7 @@ layout: base.html
           <header class="card__header">
             {% include product.logo %}
           </header>
-          <style>
+          <!-- <style>
           #shareyourpaper,
           #instantill {
             font-size: 20px;
@@ -51,7 +51,7 @@ layout: base.html
           #instantill h3 {
             margin: 0 0 1em 0;
           }
-          </style>
+          </style> -->
 
           <div class="card__body" style="background: var(--black);">
             <h2 style="margin: 0;"><code>EMBED OR SCREENSHOT OR GRAPHIC HERE</code></h2>
@@ -80,7 +80,7 @@ layout: base.html
 </section>
 
 <section id="partners" class="section section--half section--inverted section--see-thru" data-aos="fade-up">
-  <!-- <h2 style="margin-top: 0;">In partnership with&hellip;</h2> -->
+  <h2 class="sr-only">Testimonials</h2>
   <ul class="testimonials" style="margin: 0;">
     {% for t in testimonials %}
     <li class="row row--centered testimonial" style="display: none;">

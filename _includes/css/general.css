@@ -75,7 +75,3 @@ hr {
   background-color: var(--black);
   color: var(--white);
 }
-
-.inverted a {
-  color: var(--white);
-}

@@ -4,44 +4,62 @@
     "article": "Comparison of the clinical and functional outcomes following 3- and 4-corner fusions",
     "content": "I have to chose between these 2 surgeries. I want to make an informed  decision as it is my body and I only get one",
     "url": "https://openaccessbutton.org/request/HFauEb77nnjhfMfnZ",
-    "img": "surg.jpg"
-  },
-  {
-    "label": "Education",
-    "article": "Frequent riding sessions daily elevate stress, blood lactic acid, and heart rate of thoroughbred riding horses",
-    "content": "I am a veterinary behaviorist at UC Davis and wish to be able to fully reference this article when teaching veterinary students",
-    "url": "https://openaccessbutton.org/request/H6ub2zSEFdc7ySzsy",
-    "img": "pup.jpg"
+    "img": "surg.jpg",
+    "img_credit": "Photo by <a href='https://unsplash.com/@designer4u'>Olga Guryanova</a>",
+    "img_alt": "Two men performing surgery wearing blue smocks"
   },
   {
     "label": "Social change",
     "article": "Resilience in higher education students: a scoping review",
     "content": "I am an intern for a non-profit organization working to improve community resilience in the aftermath of the fires in Northern California. I have been tasked with creating and offering programming to higher education institutions in our area and prefer to keep my material to high empirical standards",
     "url": "https://openaccessbutton.org/request/2E5y3nzcBMGvrPyKC",
-    "img": "fire.jpg"
+    "img": "fire.jpg",
+    "img_credit": "Photo by <a href='https://unsplash.com/@heytowner'>JOHN TOWNER</a>",
+    "img_alt": "Aerial photograph of smoke-covered trees in Yosemite Valley, California"
+  },
+  {
+    "label": "Education",
+    "article": "Frequent riding sessions daily elevate stress, blood lactic acid, and heart rate of thoroughbred riding horses",
+    "content": "I am a veterinary behaviorist at UC Davis and wish to be able to fully reference this article when teaching veterinary students",
+    "url": "https://openaccessbutton.org/request/H6ub2zSEFdc7ySzsy",
+    "img": "horse.jpg",
+    "img_credit": "Photo by <a href='https://unsplash.com/@dos'>Filipe Dos Santos Mendes</a>",
+    "img_alt": "Softly-lit brown & white horse in a stable"
   },
   {
     "label": "Research",
     "article": "Using a system dynamics model to assess the effects of capital subsidies and feed-in tariffs on solar pv installations",
     "content": "I'm conducting research on the cost of customer acquisition in the US Residential Solar Industry for my Master's thesis. This article would be important to understand the impacts of high customer acquisition costs on the marginal propensity to purchase solar, and then would enable me to calculate the carbon impact of high customer acquisition costs.",
-    "url": "https://openaccessbutton.org/request/zet2ruPdhtaGhddZW"
+    "url": "https://openaccessbutton.org/request/zet2ruPdhtaGhddZW",
+    "img": "solar-panels.jpg",
+    "img_credit": "Photo by <a href='https://unsplash.com/@macauphotoagency'>Macau Photo Agency</a>",
+    "img_alt": "Aerial photograph of numerous solar panels"
   },
   {
     "label": "Medical practice",
-    "article": "Emerging roles of adjunct therapies in acquired thrombotic thrombocytopenia purpura",
-    "content": "I'm a doctor working in an italian hospital (San Camillo Hospital in Rome); my job is in the apheresis unit of transfusion service, and this important review will help me and my colleagues to be up to date in thesetting of TTP diagnosis and treatment.",
-    "url": "https://openaccessbutton.org/request/LvQ6Py7MmbR9fomCN"
+    "article": "Trastuzumab deruxtecan (ds-8201a) in patients with advanced her2-positive breast cancer previously treated with trastuzumab emtansine: a dose-expansion, phase 1 study.",
+    "content": "I do clinical research for individual patients with breast cancer. This research article is very important for this effort. I am deeply thankful for your dedication in making your important research available to all",
+    "url": "https://openaccessbutton.org/request/LvQ6Py7MmbR9fomCN",
+    "img": "breast-cancer-cells.jpg",
+    "img_credit": "Photo by <a href='https://unsplash.com/@nci'>National Cancer Institute</a>",
+    "img_alt": "Microscopic photography of stress fibers and microtubules in human breast cancer cells"
   },
   {
     "label": "Education",
     "article": "Hand massage therapy for pain management after cardiac surgery: acceptability and feasibility in the intensive care unit",
     "content": "I am in a nursing research class learning how to present evidence based practice, quantitative studies.  This is the subject content my group chose to present.  This content will help me learn how to interpret research and determine validity of evidence",
-    "url": "https://openaccessbutton.org/request/iTyA9KhZTdZoanH3x"
+    "url": "https://openaccessbutton.org/request/iTyA9KhZTdZoanH3x",
+    "img": "classroom.jpg",
+    "img_credit": "Photo by <a href='https://unsplash.com/@mikael_k'>Mikael Kristenson</a>",
+    "img_alt": "High-angle photograph of people sitting in classroom"
   },
   {
     "label": "Social change",
     "article": "The relationship of adverse childhood experiences to ptsd, depression, poly-drug use and suicide attempt in reservation-based native american adolescents and young adults",
     "content": "I am writing a paper on the cultural competencies for working with at risk youth in Native communities",
-    "url": "https://openaccessbutton.org/request/iMwXS5fuFXXxStFpF"
+    "url": "https://openaccessbutton.org/request/iMwXS5fuFXXxStFpF",
+    "img": "youth.jpg",
+    "img_credit": "Photo by <a href='https://unsplash.com/@timmarshall'>Tim Marshall</a>",
+    "img_alt": "Silhouette of people at sunset"
   }
 ]
