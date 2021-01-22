@@ -3,26 +3,7 @@ layout: base.html
 theme: dark
 ---
 
-<header style="margin-top: var(--space-md); color: var(--white);">
-  <h1>About</h1>
-
-  <nav>
-    <ul class="tabs">
-      <li class="tab tab--active">
-        <a href="/about">About</a>
-      </li>
-      <li class="tab">
-        <a href="/team">Team</a>
-      </li>
-      <li class="tab">
-        <a href="/values">Our values</a>
-      </li>
-      <li class="tab">
-        <a href="/by-the-numbers">By the numbers</a>
-      </li>
-    </ul>
-  </nav>
-</header>
+{% include 'about_header.html' %}
 
 <section class="section section--inverted section--half">
   <div class="row">

@@ -1,22 +1,26 @@
 [
   {
     "value": "603,514",
-    "key": "Requests fulfilled",
+    "key": "Requests received",
+    "app": "OpenAccessButton",
     "desc": "Aliquam interdum consectetur hendrerit. Ut gravida libero ac tellus placerat, quis ornare lectus aliquet. Praesent."
   },
   {
     "value": "10,000",
     "key": "Documents loaned",
+    "app": "InstantILL",
     "desc": "Nullam eu nisl lacus. Proin eget ultricies felis. Vivamus venenatis viverra ex at consectetur. Vivamus."
   },
   {
     "value": "10,000",
     "key": "Papers deposited",
+    "app": "ShareYourPaper",
     "desc": "Maecenas a ullamcorper mauris. Sed eleifend, urna non mollis pulvinar, mi neque aliquam justo, gravida."
   },
   {
     "value": "10,000",
-    "key": "OA policies reviewed",
+    "key": "Policies reviewed",
+    "app": "OARights",
     "desc": "Cras in nunc iaculis, pellentesque sapien id, luctus massa. Phasellus semper dapibus ipsum sed dapibus."
   }
 ]
