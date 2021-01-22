@@ -122,13 +122,11 @@ layout: base.html
 </section>
 
 
-<section id="news" class="section" data-aos="fade-up">
-  <h2 style="font-family: var(--serif);">Latest updates</h2>
-  <a href="https://blog.openaccessbutton.org/" target="_blank" rel="noopener">Blog ⟶</a>
-  <ul class="row news">
-    <li class="col col--1of4">
+<section id="news" class="section section--three-quarter" data-aos="fade-up">
+  <div class="row">
+    <div class="col col--1of4">
       <article class="card card--small">
-        <h3 class="card__header label label--secondary">The OA.Works journey</h3>
+        <h3 class="card__header label">The OA.Works journey</h3>
         <div class="card__body">
           <p>Sed malesuada quis neque non pretium. Praesent et nisl at mauris blandit faucibus. Aenean nec semper odio. Vivamus tristique faucibus magna, nec tincidunt erat. Nunc lobortis sem et scelerisque finibus. Nullam fringilla erat nec diam interdum porttitor. Aliquam at turpis aliquam, suscipit dolor eget, dapibus arcu. Nullam risus mauris, semper.</p>
         </div>
@@ -136,20 +134,27 @@ layout: base.html
           <a href="/about/">Our vision ⟶</a>
         </div>
       </article>
-    </li>
-    {% for post in posts limit:3 %}
-    <li class="col col--1of4">
-      <article class="card card-small">
-        <a href="https://blog.openaccessbutton.org/{{ post.slug }}/" target="_blank" rel="noopener" style="display: block;">
-          <h3 class="card__header card__header--plain label label--secondary">{{ post.title }}</h3>
-          <div class="card__body" style="padding: 0;">
-            <img src="{{ post.feature_image }}" class="card__img"/>
-          </div>
-        </a>
-      </article>
-    </li>
-    {% endfor %}
-  </ul>
+    </div>
+
+    <div class="col col--3of4">
+      <h2 style="font-family: var(--serif);">Latest updates</h2>
+      <ul class="row news">
+        {% for post in posts limit:3 %}
+        <li class="col col--1of3">
+          <article class="card card--small">
+            <a href="https://blog.openaccessbutton.org/{{ post.slug }}/" target="_blank" rel="noopener" style="display: block;">
+              <h3 class="card__header card__header--plain label label--secondary">{{ post.title }}</h3>
+              <div class="card__body" style="padding: 0;">
+                <img src="{{ post.feature_image }}" class="card__img"/>
+              </div>
+            </a>
+          </article>
+        </li>
+        {% endfor %}
+      </ul>
+      <!-- <p style="text-align: right;"><a href="https://blog.openaccessbutton.org/" target="_blank" rel="noopener">Blog ⟶</a></p> -->
+    </div>
+  </div>
 </section>
 
 </body>
