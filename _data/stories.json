@@ -4,6 +4,7 @@
     "article": "Comparison of the clinical and functional outcomes following 3- and 4-corner fusions",
     "content": "I have to chose between these 2 surgeries. I want to make an informed  decision as it is my body and I only get one",
     "url": "https://openaccessbutton.org/request/HFauEb77nnjhfMfnZ",
+    "requester": "James at UCLA",
     "img": "surg.jpg",
     "img_credit": "Photo by <a href='https://unsplash.com/@designer4u'>Olga Guryanova</a>",
     "img_alt": "Two men performing surgery wearing blue smocks"
@@ -13,24 +14,27 @@
     "article": "Resilience in higher education students: a scoping review",
     "content": "I am an intern for a non-profit organization working to improve community resilience in the aftermath of the fires in Northern California. I have been tasked with creating and offering programming to higher education institutions in our area and prefer to keep my material to high empirical standards",
     "url": "https://openaccessbutton.org/request/2E5y3nzcBMGvrPyKC",
+    "requester": "Mark, student at Sonoma Community Resilience Collaborative, Santa Rosa Community Health",
     "img": "fire.jpg",
     "img_credit": "Photo by <a href='https://unsplash.com/@heytowner'>JOHN TOWNER</a>",
     "img_alt": "Aerial photograph of smoke-covered trees in Yosemite Valley, California"
   },
   {
     "label": "Education",
-    "article": "Frequent riding sessions daily elevate stress, blood lactic acid, and heart rate of thoroughbred riding horses",
-    "content": "I am a veterinary behaviorist at UC Davis and wish to be able to fully reference this article when teaching veterinary students",
-    "url": "https://openaccessbutton.org/request/H6ub2zSEFdc7ySzsy",
-    "img": "horse.jpg",
-    "img_credit": "Photo by <a href='https://unsplash.com/@dos'>Filipe Dos Santos Mendes</a>",
-    "img_alt": "Softly-lit brown & white horse in a stable"
+    "article": "Investigation of physiological and behavioral responses in dogs participating in animal-assisted therapy with children diagnosed with attention-deficit hyperactivity disorder",
+    "content": "I’m making a paper for school. I choose to look if dogs have a positive influence on children with ADHD. I think that this article can be an answer to my question!",
+    "url": "https://openaccessbutton.org/request/tS9YGjfZzfQKDvA8W",
+    "requester": "Marissa, student at Arteveldehogeschool Gent",
+    "img": "dog.jpg",
+    "img_credit": "Photo by <a href='https://unsplash.com/@jamie452'>Jamie Street</a>",
+    "img_alt": "Gold-coloured dog on moss-covered rock surrounded by flowers"
   },
   {
     "label": "Research",
     "article": "Using a system dynamics model to assess the effects of capital subsidies and feed-in tariffs on solar pv installations",
     "content": "I'm conducting research on the cost of customer acquisition in the US Residential Solar Industry for my Master's thesis. This article would be important to understand the impacts of high customer acquisition costs on the marginal propensity to purchase solar, and then would enable me to calculate the carbon impact of high customer acquisition costs.",
     "url": "https://openaccessbutton.org/request/zet2ruPdhtaGhddZW",
+    "requester": "Graham, student",
     "img": "solar-panels.jpg",
     "img_credit": "Photo by <a href='https://unsplash.com/@macauphotoagency'>Macau Photo Agency</a>",
     "img_alt": "Aerial photograph of numerous solar panels"
@@ -49,6 +53,7 @@
     "article": "Hand massage therapy for pain management after cardiac surgery: acceptability and feasibility in the intensive care unit",
     "content": "I am in a nursing research class learning how to present evidence based practice, quantitative studies.  This is the subject content my group chose to present.  This content will help me learn how to interpret research and determine validity of evidence",
     "url": "https://openaccessbutton.org/request/iTyA9KhZTdZoanH3x",
+    "requester": "Christina, student at California State University Long Beach",
     "img": "classroom.jpg",
     "img_credit": "Photo by <a href='https://unsplash.com/@mikael_k'>Mikael Kristenson</a>",
     "img_alt": "High-angle photograph of people sitting in classroom"
@@ -58,8 +63,30 @@
     "article": "The relationship of adverse childhood experiences to ptsd, depression, poly-drug use and suicide attempt in reservation-based native american adolescents and young adults",
     "content": "I am writing a paper on the cultural competencies for working with at risk youth in Native communities",
     "url": "https://openaccessbutton.org/request/iMwXS5fuFXXxStFpF",
+    "requester": "Jennifer, student at Arizona State University",
     "img": "youth.jpg",
     "img_credit": "Photo by <a href='https://unsplash.com/@timmarshall'>Tim Marshall</a>",
     "img_alt": "Silhouette of people at sunset"
+  },
+  {
+    "label": "Education",
+    "article": "Hijab, visibility and the performance of identity",
+    "content": "I want to use your article for my research of Muslim women’s right and symbolic meanings of hijab in modern world. This is for my work in high school and it’s important to me to graduate with a good score",
+    "url": "https://openaccessbutton.org/request/cacCjdhGWRqZn8GAW",
+    "requester": "Hyein, student",
+    "img": "women-hijabs.jpg",
+    "img_credit": "Photo by <a href='https://unsplash.com/@hasanalmasi'>Hasan Almasi</a>",
+    "img_alt": "Three women in pink floral hijabs surrounded by flowering tree"
+  },
+
+  {
+    "label": "Education",
+    "article": "Frequent riding sessions daily elevate stress, blood lactic acid, and heart rate of thoroughbred riding horses",
+    "content": "I am a veterinary behaviorist at UC Davis and wish to be able to fully reference this article when teaching veterinary students",
+    "url": "https://openaccessbutton.org/request/H6ub2zSEFdc7ySzsy",
+    "requester": "Melissa, researcher at University of California-Davis",
+    "img": "horse.jpg",
+    "img_credit": "Photo by <a href='https://unsplash.com/@dos'>Filipe Dos Santos Mendes</a>",
+    "img_alt": "Softly-lit brown & white horse in a stable"
   }
 ]
