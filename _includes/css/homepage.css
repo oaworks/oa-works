@@ -28,11 +28,6 @@
   top: 0;
 }
 
-.values svg {
-  width: var(--gutter);
-  height: auto;
-}
-
 .testimonials blockquote p:first-child {
   font-size: var(--typescale-5);
 }
@@ -47,16 +42,10 @@
   top: 0;
 }
 
-.testimonials article {
-  /* background-color: var(--black); */
-  /* background: linear-gradient(0deg, hsl(17, 10%, 13%) 85%, rgba(0, 0, 0, 0) 100%); */
-}
-
 .testimonials .portrait {
   margin-bottom: var(--gutter-negative);
   position: absolute;
   height: 100%;
   bottom: 0;
-  /* background-color: var(--black); */
-  /* background: linear-gradient(0deg, hsl(17, 10%, 13%) 75%, rgba(0, 0, 0, 0) 100%); */
+  left: 0;
 }

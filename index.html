@@ -106,6 +106,9 @@ layout: base.html
         <h3 class="label">On {{ t.product }}</h3>
         <blockquote>
           <p>“{{ t.quote }}”</p>
+          <a href="{{ t.aff_url }}" target="_blank" rel="noopener" style="display: block;">
+            {% include t.aff_logo %}
+          </a>
           <p>
             <cite>
               — {{ t.name }} <br/>{{ t.role }}
