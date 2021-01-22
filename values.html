@@ -5,10 +5,10 @@ theme: dark
 
 {% include 'about_header.html' %}
 
-<section id="values" class="section section--inverted" style="display: flex; justify-content: flex-end; flex-direction: column;">
+<section id="values" class="section section--inverted">
   <h1 style="font-family: var(--serif);" data-aos="fade-up">Our values</h1>
   <p>What we stand for and what inspires our work.</p>
-  <div class="row" style="position: relative;">
+  <div class="row">
     <ol class="col col--2of3 row values" style="margin-bottom: 0;">
       {% assign delay_count = 0 %}
       {% for value in values %}
@@ -21,19 +21,19 @@ theme: dark
           <header class="card__header">
             <div style="display: flex; align-items: center;">
               {% include value.shape %}
-              <h3 style="font-size: var(--typescale-4); margin: 0 0 0 var(--space-sm); font-family: var(--serif);">{{ value.heading }}</h3>
+              <h3 style="margin: 0 0 0 var(--space-sm); font-family: var(--serif);">{{ value.heading }}</h3>
             </div>
           </header>
           <div class="card__body">
-            <p style="line-height: 1.25;"><small>{{ value.desc }}</small></p>
+            <p>{{ value.desc }}</p>
           </div>
         </article>
       </li>
       {% endfor %}
     </ol>
 
-    <figure class="col col--1of3" style="display: flex; margin-bottom: calc(var(--gutter) * -2); position: absolute; bottom: 0; right: calc(var(--gutter) * 2);" data-aos="fade-up">
-      <img src="../img/people/camille.svg" style=""/>
+    <figure class="col col--1of3 flex-end" style="margin-bottom: calc(var(--gutter) * -2); right: calc(var(--gutter) * 2);" data-aos="fade-up">
+      <img src="../img/people/camille.svg"/>
       <figcaption style="position: absolute; bottom: var(--gutter); right: 0; padding: var(--space-xs); text-align: right; background: var(--black-75); color: var(--white);" data-aos="fade-up" data-aos-delay="300">
         <strong>Camille Thomas</strong>
         <br/>OA.Works Leader

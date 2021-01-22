@@ -11,3 +11,15 @@
   width: 1px !important;
   white-space: nowrap !important;
 }
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.flex-end {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+}

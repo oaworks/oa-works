@@ -37,6 +37,10 @@
   fill: var(--mango);
 }
 
+.footer__logo {
+  
+}
+
 .footer__legal {
   background-color: var(--azure);
   background-image:
