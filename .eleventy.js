@@ -5,6 +5,9 @@ module.exports = function(eleventyConfig) {
   // Copy img/ to _site/
   eleventyConfig.addPassthroughCopy("img");
 
+  // Copy fonts/ to _site/
+  eleventyConfig.addPassthroughCopy("fonts");
+
   // Copy js/ to _site/
   eleventyConfig.addPassthroughCopy("js");
 

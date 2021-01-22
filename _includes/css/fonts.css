@@ -1,0 +1,5 @@
+@font-face {
+  font-family: 'Wremena';
+  src: url('../../fonts/WremenaRegular.woff') format('woff');
+  unicode-range: U+0020-007F; /* The bare minimum English */
+}
