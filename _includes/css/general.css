@@ -50,6 +50,10 @@ p {
   margin-bottom: var(--space-md);
 }
 
+em, i {
+  font-family: 'InterItalic';
+}
+
 blockquote {
   margin: var(--space-md) 0;
 }
