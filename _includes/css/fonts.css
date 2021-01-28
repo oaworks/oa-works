@@ -6,12 +6,13 @@
 
 @font-face {
   font-family: 'Inter';
-  src: url('../../fonts/Inter-3.15/Inter-roman.ttf') format('ttf');
+  src: url('/fonts/Inter-3.15/Inter-roman.ttf');
   unicode-range: U+0020-007F;
 }
 
 @font-face {
   font-family: 'InterItalic';
-  src: url('../../fonts/Inter-3.15/Inter-italic.ttf') format('ttf');
+  src: url('/fonts/Inter-3.15/Inter-italic.ttf');
   unicode-range: U+0020-007F;
+  font-style: italic, oblique;
 }
