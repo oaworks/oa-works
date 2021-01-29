@@ -1,6 +1,6 @@
 ---
 layout: default.html
-theme: dark # Can be removed if we want it on a white bg
+#theme: dark # Can be removed if we want it on a white bg
 title: An example default page
 ---
 
