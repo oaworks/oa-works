@@ -2,14 +2,11 @@ const pluginSass = require("eleventy-plugin-sass");
 const CleanCSS = require("clean-css");
 
 module.exports = function(eleventyConfig) {
-  // Copy img/ to _site/
+  // Copy to _site/
   eleventyConfig.addPassthroughCopy("img");
-
-  // Copy fonts/ to _site/
   eleventyConfig.addPassthroughCopy("fonts");
-
-  // Copy js/ to _site/
   eleventyConfig.addPassthroughCopy("js");
+  eleventyConfig.addPassthroughCopy("favicons");
 
   // Add CSS minifier
   eleventyConfig.addFilter("cssmin", function(code) {
