@@ -1,8 +1,10 @@
 ---
 layout: base.html
+theme: dark
 ---
 
-<section class="section section--cover">
+
+<section class="section section--cover" style="color: var(--white);">
   <div class="row">
     <div class="col col--1of2">
       <p class="label">We partner to build</p>
@@ -14,13 +16,13 @@ layout: base.html
 
       <p style="margin-top: 30vh;">They’re free, open source, and built for-change &mdash; <br/>not-for-profit by our dedicated team in partnership with libraries.</p>
       <p style="margin-top: var(--space-xxl);">
-        <a href="#products" class="button button--primary">Try our tools 👇</a>
+        <a href="#products" class="button button--primary" style=" --initialTextColor: var(--black); --slideTextColor: var(--white); --initialBgColor: var(--white); --slideBgColor: var(--azure);">Try our tools 👇</a>
       </p>
     </div>
   </div>
 </section>
 
-<section class="section section--inverted section--see-thru" data-aos="fade-up">
+<section class="section section--see-thru" data-aos="fade-up">
   <aside style="margin-bottom: var(--space-lg);">
     <div class="row" style="align-items: center;">
       <h2 class="col col--1of3" style="font-family: var(--serif);">In partnership with</h2>
@@ -36,11 +38,11 @@ layout: base.html
     </div>
   </aside>
 
-  <h2 style="position: sticky; top: 5vh;">Products</h2>
+  <h2 id="products" style="position: sticky; top: 5vh;">Products</h2>
   <ul class="products">
     {% for product in products %}
     <li class="row">
-      <article class="col col--1of2 flex-center fade" style="background: var(--black);">
+      <article class="col col--1of2 flex-center fade" style="background: var(--white);">
         <p class="label">{{ product.label }}</p>
         <h3 style="font-family: var(--serif);">{{ product.tagline }}</h3>
         <p style="margin-top: var(--space-xxl);">
@@ -68,7 +70,7 @@ layout: base.html
           }
           </style> -->
 
-          <div class="card__body" style="background: var(--black);">
+          <div class="card__body" style="background: var(--white);">
             <h2 style="margin: 0;"><code>EMBED OR SCREENSHOT OR GRAPHIC HERE</code></h2>
           </div>
           <!-- {% if product.embed %}
@@ -139,8 +141,10 @@ layout: base.html
     <div class="col col--3of4">
       <h2 style="font-family: var(--serif);">Latest updates</h2>
       <ul class="row news">
+        {% assign delay_count = 0 %}
         {% for post in posts limit:3 %}
-        <li class="col col--1of3">
+        {% assign delay_count = delay_count | plus: 75 %}
+        <li class="col col--1of3" data-aos="fade-up" data-aos-delay="{{ delay_count }}">
           <article class="card card--small">
             <a href="https://blog.openaccessbutton.org/{{ post.slug }}/" target="_blank" rel="noopener" style="display: block;">
               <h3 class="card__header card__header--plain label label--secondary">{{ post.title }}</h3>
@@ -156,6 +160,8 @@ layout: base.html
     </div>
   </div>
 </section>
+
+{% include 'stories.html' %}
 
 </body>
 

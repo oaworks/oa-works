@@ -7,16 +7,7 @@
   transition: all .1s ease-in-out;
 }
 
-.button--secondary:hover {
-  background: linear-gradient(140deg, var(--black), var(--mid-grey));
-  background-size: 200% 200%;
-  animation: bg-slide 2s ease-in-out infinite;
-  color: var(--white);
-}
-
 .button--primary {
-  /* background-color: var(--black);
-  color: var(--white); */
   text-transform: uppercase;
   font-weight: 700;
 
@@ -42,11 +33,6 @@
 }
 
 .button--primary:hover {
-  /* background: linear-gradient(140deg, var(--azure), var(--cyan));
-  background-size: 200% 200%;
-  animation: bg-slide 2s ease-in-out infinite;
-  color: var(--black);*/
-
   color: var(--slideTextColor);
   cursor: pointer;
   background-position: -100% 100%;
@@ -55,4 +41,11 @@
 .button--secondary {
   text-transform: uppercase;
   font-weight: 700;
+}
+
+.button--secondary:hover {
+  background: linear-gradient(140deg, var(--black), var(--mid-grey));
+  background-size: 200% 200%;
+  animation: bg-slide 2s ease-in-out infinite;
+  color: var(--white);
 }
