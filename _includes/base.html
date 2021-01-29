@@ -5,13 +5,13 @@
   {% include 'head.html' %}
 </head>
 
-<body{% if theme == 'dark' %} class="inverted"{% endif %}>
+<body class="{% if theme == 'dark' %}inverted {% endif %}{% if body_class %}{{ body_class }}{% endif %}">
   <!--[if IE]>
   <p class="browserupgrade">You are using an outdated browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
   <![endif]-->
 
   {% include 'header.html' %}
-
+  
   <main>
     {{ content }}
   </main>

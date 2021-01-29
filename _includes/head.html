@@ -1,5 +1,11 @@
 <meta charset="utf-8">
-<title>OA.Works: Powerfully simple open access tools</title>
+<title>
+  {% if page.fileSlug == '' %}
+    OA.Works: Powerfully simple open access tools
+  {% else %}
+    {{ title }} – OA.Works
+  {% endif %}
+</title>
 <meta name="description" content="">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex">
