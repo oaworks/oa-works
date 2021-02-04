@@ -1,11 +1,11 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>
-  {% if page.fileSlug == '' %}
-    OA.Works: Powerfully simple open access tools
-  {% else %}
-    {{ title }} – OA.Works
-  {% endif %}
+  {%- if page.fileSlug == '' -%}
+    {{ site.name }}: {{ site.tagline_short }}
+  {%- else -%}
+    {{ title }} – {{ site.name }}
+  {%- endif -%}
 </title>
 <meta name="description" content="{% if meta_description %}{{ meta_description }}{% else %}We partner with libraries to build free & open source tools.{% endif %}">
 <meta name="robots" content="noindex">
@@ -13,14 +13,13 @@
 <link rel="manifest" href="site.webmanifest">
 <link rel="apple-touch-icon" href="icon.png">
 
-{% comment %}Preload our fonts Wremena + Inter{% endcomment %}
+{%- comment -%}Preload our fonts Wremena + Inter{%- endcomment -%}
 <link rel="preload" href="/fonts/WremenaRegular.woff" as="font" crossorigin>
 <link rel="preload" href="/fonts/Inter-3.15/Inter-italic.ttf" as="font" crossorigin>
 <link rel="preload" href="/fonts/Inter-3.15/Inter-roman.ttf" as="font" crossorigin>
 
-{% comment %}Animate on scroll library{% endcomment %}
+{%- comment -%}Animate on scroll library{%- endcomment -%}
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-
 <link rel="stylesheet" href="/main.css">
 
 <link rel="apple-touch-icon" sizes="180x180" href="../favicons/apple-touch-icon.png">
@@ -32,3 +31,20 @@
 <meta name="msapplication-TileColor" content="#25201E">
 <meta name="msapplication-config" content="../favicons/browserconfig.xml">
 <meta name="theme-color" content="#25201E">
+
+<meta property="og:url" content="{{ site.base_url }}{{ page.fileSlug }}">
+<meta property="og:type" content="website">
+<meta property="og:title" content="{% if page.fileSlug == '' %}Powerfully simple open access tools{% else %}{{ title }}{% endif %}">
+<meta property="og:image" content="{{ site.base_url }}/img/og_img.png">
+<meta property="og:image:alt" content="White OA.Works logo on a black background; the period in the logo is a large, yellow dot">
+<meta property="og:description" content="{% if meta_description %}{{ meta_description }}{% else %}We partner with libraries to build free & open source tools.{% endif %}">
+<meta property="og:site_name" content="{{ site.name }}">
+<meta property="og:locale" content="en_US">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="{{ site.twitter }}">
+<meta name="twitter:url" content="{{ site.base_url }}{{ page.fileSlug }}">
+<meta name="twitter:title" content="{% if page.fileSlug == '' %}{{ site.name }}: {{ site.tagline_short }}{% else %}{{ title }}{% endif %}">
+<meta name="twitter:description" content="{% if meta_description %}{{ meta_description }}{% else %}We partner with libraries to build free & open source tools.{% endif %}">
+<meta name="twitter:image" content="{{ site.base_url }}/img/twitter_img.png">
+<meta name="twitter:image:alt" content="White OA.Works logo on a black background; the period in the logo is a large, yellow dot">
