@@ -1,4 +1,5 @@
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>
   {% if page.fileSlug == '' %}
     OA.Works: Powerfully simple open access tools
@@ -6,21 +7,16 @@
     {{ title }} – OA.Works
   {% endif %}
 </title>
-<meta name="description" content="">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="{% if meta_description %}{{ meta_description }}{% else %}We partner with libraries to build free & open source tools.{% endif %}">
 <meta name="robots" content="noindex">
 
 <link rel="manifest" href="site.webmanifest">
 <link rel="apple-touch-icon" href="icon.png">
 
-{% comment %}Load fonts quickly, from https://csswizardry.com/2020/05/the-fastest-google-fonts/{% endcomment %}
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" />
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" media="print" onload="this.media='all'" />
-<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" /></noscript>
-
-{% comment %}Preload our self-hosted font, Wremena{% endcomment %}
+{% comment %}Preload our fonts Wremena + Inter{% endcomment %}
 <link rel="preload" href="/fonts/WremenaRegular.woff" as="font" crossorigin>
+<link rel="preload" href="/fonts/Inter-3.15/Inter-italic.ttf" as="font" crossorigin>
+<link rel="preload" href="/fonts/Inter-3.15/Inter-roman.ttf" as="font" crossorigin>
 
 {% comment %}Animate on scroll library{% endcomment %}
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -36,39 +32,3 @@
 <meta name="msapplication-TileColor" content="#25201E">
 <meta name="msapplication-config" content="../favicons/browserconfig.xml">
 <meta name="theme-color" content="#25201E">
-
-<script>
-// for (j = 0; j < portraits.length; j++) {
-//   if (window.pageYOffset > window.innerHeight) {
-//     portraits[j].classList.add("scrolled");
-//   }
-//
-//   else {
-//     portraits[j].classList.remove("scrolled")
-//   };
-// };
-
-  // if (window.pageYOffset > window.innerHeight) {
-  // if (isInViewport(portraits)) {
-  //   portraits[i].classList.add("scrolled");
-  // }
-  //
-  // else {
-  //   portraits[i].classList.remove("scrolled");
-  // }
-
-  // if (window.pageYOffset > window.innerHeight) {
-  //
-  //   for(j=0; j<elem.length; j++){
-  //     elem[i].classList.add("scrolled-section");
-  //   }
-  // }
-  //
-  // else {
-  //   for(j=0; j<elem.length; j++){
-  //     elem[i].classList.remove("scrolled-section");
-  //   }
-  //
-  // };
-
-</script>
