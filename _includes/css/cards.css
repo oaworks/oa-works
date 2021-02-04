@@ -88,6 +88,12 @@ h5.card__header {
   background-position: -100% 100%;
 }
 
+.card__footer--inverted {
+  background: var(--black);
+  border-color: var(--black);
+  color: var(--white);
+}
+
 .card__body a {
   display: inline-block;
   text-decoration: none;

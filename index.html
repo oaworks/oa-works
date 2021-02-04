@@ -150,6 +150,9 @@ theme: dark
               <div class="card__body" style="padding: 0;">
                 <img src="{{ post.feature_image }}" class="card__img"/>
               </div>
+              <footer class="card__footer card__footer--inverted" style="padding: var(--space-xs);">
+                <time datetime="{{ post.updated_at }}"><small>{{ post.updated_at | date: "%b %d, %Y" }}</small></time>
+              </footer>
             </a>
           </article>
         </li>
