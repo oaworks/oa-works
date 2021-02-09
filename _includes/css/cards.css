@@ -38,6 +38,7 @@ h5.card__header {
   display: block;
   height: 30px;
   width: auto;
+  max-width: 100%;
 }
 
 .card__body {
