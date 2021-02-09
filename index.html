@@ -43,7 +43,7 @@ theme: dark
         <p class="label">{{ product.label }}</p>
         <h3 class="font-serif">{{ product.tagline }}</h3>
         <p style="margin-top: var(--space-xxl);">
-          <a href="https://{{ product.name }}" target="_blank" rel="noopener" class="button">
+          <a href="{{ product.url }}" target="_blank" rel="noopener" class="button">
             {{ product.cta }}
           </a>
         </p>

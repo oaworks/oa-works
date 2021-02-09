@@ -2,6 +2,7 @@
   {
     "logo": "products/oar.svg",
     "name": "OARights",
+    "url": "https://oarights.org",
     "label": "Journal permissions",
     "tagline": "We monitor 25,000 policies so you don't have to.",
     "cta": "Unlock your work",
@@ -11,6 +12,7 @@
   {
     "logo": "products/syp.svg",
     "name": "ShareYourPaper",
+    "url": "https://shareyourpaper.org",
     "label": "Paper deposit",
     "tagline": "A drag-and-drop Open Access deposit.",
     "cta": "Share your work",
@@ -20,6 +22,7 @@
   {
     "logo": "products/ill.svg",
     "name": "InstantILL",
+    "url": "https://instantill.org",
     "label": "Inter-library loans",
     "tagline": "Deliver easy access without subscriptions.",
     "cta": "Make a request",
@@ -29,6 +32,7 @@
   {
     "logo": "products/oab.svg",
     "name": "OAButton",
+    "url": "https://oabutton.org",
     "label": "OA delivery",
     "tagline": "Get around paywalls in a click.",
     "cta": "Find an article",
