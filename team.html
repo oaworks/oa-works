@@ -10,8 +10,8 @@ meta_description: "The people who are making open access work."
 <section class="section section--half">
   <div class="row">
     <header class="col col--1of3" data-aos="fade-up">
-      <h1 style="margin-top: var(--space-sm); font-family: var(--serif);">Team</h1>
-      <p>The people who are making open access work.</p>
+      <h1 style="margin-top: var(--space-sm);">{{ title }}</h1>
+      <p>{{ meta_description }}</p>
     </header>
     <ul class="row team col col--2of3">
       {% assign delay_count = 0 %}
@@ -21,7 +21,7 @@ meta_description: "The people who are making open access work."
         <article class="card card--small">
           <p class="card__header card__header--plain label">{{ person.role }}</p>
           <div class="card__body">
-            <h4>{{ person.name }}</h4>
+            <h2 class="font-sans type-4">{{ person.name }}</h2>
             <p>{{ person.bio }}</p>
           </div>
         </article>

@@ -2,6 +2,7 @@
   margin: 0;
   text-transform: uppercase;
   font-weight: 700;
+  font-family: var(--sans-serif);
   font-size: var(--typescale-6);
   letter-spacing: 0.045em;
   line-height: 1.35;

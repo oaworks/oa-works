@@ -10,8 +10,8 @@ meta_description: "Our impact on open access."
 <section class="section section--half">
   <div class="row">
     <header class="col col--1of3" data-aos="fade-up">
-      <h1 style="margin-top: var(--space-sm); font-family: var(--serif);">By the numbers</h1>
-      <p>Our impact on open access.</p>
+      <h1 style="margin-top: var(--space-sm);">{{ title }}</h1>
+      <p>{{ meta_description }}</p>
     </header>
 
     <ul class="row col col--2of3">
@@ -22,7 +22,7 @@ meta_description: "Our impact on open access."
         <article class="card card--small">
           <header class="card__header card__header--plain">
             <span style="font-weight: 700; letter-spacing: -0.015em; font-size: var(--typescale-2);">{{ stat.value }}</span><br/>
-            <span style="font-family: var(--serif);">{{ stat.key }}</span>
+            <span class="font-serif">{{ stat.key }}</span>
           </header>
           <div class="card__body">
             {{ stat.desc }}
