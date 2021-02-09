@@ -48,6 +48,11 @@
   text-align: right;
 }
 
+.bg-black {
+  display: inline-block;
+  background-color: var(--black-85);
+}
+
 @media only screen and (min-width: 1024px) {
   .flex-center {
     display: flex;

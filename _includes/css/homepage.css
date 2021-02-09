@@ -1,6 +1,12 @@
 .lazy-line-painter {
-  width: 50vw;
+  width: 50vh;
   height: auto;
+}
+
+@media only screen and (min-width: 1024px) {
+  .lazy-line-painter {
+    width: 50vw;
+  }
 }
 
 .lazy-line-painter path,
