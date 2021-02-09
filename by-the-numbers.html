@@ -9,15 +9,15 @@ meta_description: "Our impact on open access."
 
 <section class="section section--half">
   <div class="row">
-    <header class="col col--1of3">
-      <h1 style="margin-top: var(--space-sm); font-family: var(--serif);" data-aos="fade-up">By the numbers</h1>
+    <header class="col col--1of3" data-aos="fade-up">
+      <h1 style="margin-top: var(--space-sm); font-family: var(--serif);">By the numbers</h1>
       <p>Our impact on open access.</p>
     </header>
 
     <ul class="row col col--2of3">
       {% assign delay_count = 0 %}
       {% for stat in stats %}
-      {% assign delay_count = delay_count | plus: 300 %}
+      {% assign delay_count = delay_count | plus: 100 %}
       <li class="col col--1of2" data-aos="fade-up" data-aos-delay="{{ delay_count }}">
         <article class="card card--small">
           <header class="card__header card__header--plain">

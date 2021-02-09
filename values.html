@@ -8,13 +8,15 @@ meta_description: "What we stand for and what inspires our work."
 {% include 'about_header.html' %}
 
 <section id="values" class="section section--inverted" style="padding-bottom: 0;">
-  <h1 style="font-family: var(--serif);" data-aos="fade-up">Our values</h1>
-  <p>What we stand for and what inspires our work.</p>
+  <header data-aos="fade-up">
+    <h1 style="font-family: var(--serif);">Our values</h1>
+    <p>What we stand for and what inspires our work.</p>
+  </header>
   <div class="row">
     <ol class="col col--2of3 row values" style="margin-bottom: 0;">
       {% assign delay_count = 0 %}
       {% for value in values %}
-      {% assign delay_count = delay_count | plus: 300 %}
+      {% assign delay_count = delay_count | plus: 100 %}
       <li class="col col--1of2" data-aos="fade-up" data-aos-delay="{{ delay_count }}">
         <p class="label label--secondary line-thru" style="margin-bottom: var(--space-xs); color: var(--light-grey);">
           <small class="line-thru__inner">{{ value.goal }}</small>
