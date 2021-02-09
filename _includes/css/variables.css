@@ -9,8 +9,8 @@
   --sans-serif:      'Inter', sans-serif;
   --serif:           'Wremena', serif;
 
-  --gutter:           2vw;
-  --gutter-negative:  -2vw;
+  --gutter:           3vw;
+  --gutter-negative:  -3vw;
 
   --space-unit:       1.5rem;
   --space-xxs:        calc(.25 * var(--space-unit));
