@@ -24,7 +24,7 @@ theme: dark
 <section class="section section--see-thru" data-aos="fade-up">
   <aside style="margin-bottom: var(--space-lg);">
     <div class="row" style="align-items: center;">
-      <h2 class="col col--1of3" style="font-family: var(--serif);">In partnership with</h2>
+      <h2 class="col col--1of3 font-serif">In partnership with</h2>
       <ul class="col col--2of3" style="display: flex; justify-content: space-between; align-items: center;">
         {% for partner in partners %}
         <li>
@@ -37,20 +37,20 @@ theme: dark
     </div>
   </aside>
 
-  <h2 id="products" style="position: sticky; top: 5vh;">Products</h2>
+  <h2 id="products" class="sticky" style="top: 5vh;">Products</h2>
   <ul class="products">
     {% for product in products %}
-    <li class="row">
+    <li class="row sticky">
       <article class="col col--1of2 flex-center fade" style="background: var(--white);">
         <p class="label">{{ product.label }}</p>
-        <h3 style="font-family: var(--serif);">{{ product.tagline }}</h3>
+        <h3 class="font-serif">{{ product.tagline }}</h3>
         <p style="margin-top: var(--space-xxl);">
           <a href="https://{{ product.name }}" target="_blank" rel="noopener" class="button">
             {{ product.cta }}
           </a>
         </p>
       </article>
-      <aside class="col col--1of2 flex-center" style="position: sticky; top: 0;">
+      <aside class="col col--1of2 flex-center">
         <article class="card" style="margin-left: var(--gutter-negative);">
           <header class="card__header">
             {% include product.logo %}
@@ -95,28 +95,28 @@ theme: dark
   </ul>
 </section>
 
-<section class="section section--half section--inverted section--see-thru" data-aos="fade-up">
+<section class="section section--half section--inverted section--see-thru" style="padding-bottom: 0;" data-aos="fade-up">
   <h2 class="sr-only">Testimonials</h2>
   <ul class="testimonials" style="margin: 0;">
     {% for t in testimonials %}
-    <li class="row row--centered testimonial" style="display: none;">
-      <div class="col col--1of4">
-        <img src="img/{{ t.img }}" class="portrait"/>
-      </div>
+    <li class="row row--centered flex-end testimonial" style="display: none;">
       <article class="col col--2of4 flex-center">
         <h3 class="label">On {{ t.product }}</h3>
         <blockquote>
-          <p>“{{ t.quote }}”</p>
+          <p class="type-5">“{{ t.quote }}”</p>
           <a href="{{ t.aff_url }}" target="_blank" rel="noopener" style="display: block;">
             {% include t.aff_logo %}
           </a>
-          <p>
+          <p class="type-6">
             <cite>
               — {{ t.name }} <br/>{{ t.role }}
             </cite>
           </p>
         </blockquote>
       </article>
+      <figure class="col col--1of4" style="display: flex;">
+        <img src="img/{{ t.img }}" style="align-self: flex-end;"/>
+      </figure>
     </li>
     {% endfor %}
   </ul>
@@ -138,7 +138,7 @@ theme: dark
     </div>
 
     <div class="col col--3of4">
-      <h2 style="font-family: var(--serif);">Latest updates</h2>
+      <h2 class="font-serif">Latest updates</h2>
       <ul class="row news">
         {% assign delay_count = 0 %}
         {% for post in posts limit:3 %}

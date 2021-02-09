@@ -15,37 +15,6 @@
 }
 
 .products li {
-  position: -webkit-sticky;
-  position: sticky;
-  height: 85vh;
+  min-height: 85vh;
   top: 15vh;
-}
-
-.products article,
-.products aside {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-}
-
-.testimonials blockquote p:first-child {
-  font-size: var(--typescale-5);
-}
-
-.testimonials blockquote p:last-child {
-  font-size: var(--typescale-6);
-}
-
-.testimonials li {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-}
-
-.testimonials .portrait {
-  margin-bottom: var(--gutter-negative);
-  position: absolute;
-  height: 100%;
-  bottom: 0;
-  left: 0;
 }

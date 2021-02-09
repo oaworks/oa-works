@@ -33,6 +33,10 @@ figure {
 }
 
 figcaption {
+  padding: var(--space-xs);
+  background: var(--black-75);
+  text-align: right;
+  color: var(--white);
   font-size: var(--typescale-6);
 }
 
