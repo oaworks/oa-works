@@ -1,5 +1,15 @@
 <header style="margin-top: var(--space-md); color: var(--white);">
-  <h2 class="font-sans">About</h2>
+  <h2 class="font-sans">
+    About
+    {% if data_file %}
+    <sup>
+      <small>
+        <a href="https://github.com/OAButton/oa-works/blob/main/_data/{{ data_file }}.json" target="_blank" rel="noopener">Edit</a>
+      </small>
+    </sup>
+    {% endif %}
+  </h2>
+
   <nav>
     <ul class="tabs">
       <li class="tab{% if page.url == '/about/' %} tab--active{% endif %}">
