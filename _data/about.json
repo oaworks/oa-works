@@ -1,6 +1,9 @@
 {
   "heading_1": "Fusce maximus maximus augue [&ldquo;Then&rdquo;, 5-7 words]",
-  "description_1": "Donec porta pellentesque leo eu blandit. Pellentesque lobortis gravida urna sed interdum. Maecenas elementum augue tellus, in accumsan neque hendrerit ut. [20-25 words]",
+  "content_1": "Donec porta pellentesque leo eu blandit. Pellentesque lobortis gravida urna sed interdum. Maecenas elementum augue tellus, in accumsan neque hendrerit ut. [20-25 words]",
   "heading_2": "Morbi vel mollis augue [&ldquo;Now&rdquo;, 5-7 words]",
-  "description_2": "Morbi id iaculis libero. Nunc laoreet tempor arcu, non faucibus diam faucibus in. Morbi egestas tempor nunc ut cursus. Donec sit amet sodales nisl, non facilisis felis. [20-25 words]"
+  "content_2": "Morbi id iaculis libero. Nunc laoreet tempor arcu, non faucibus diam faucibus in. Morbi egestas tempor nunc ut cursus. Donec sit amet sodales nisl, non facilisis felis. [20-25 words]",
+  "journey_heading": "The OA.Works journey",
+  "journey_content": "Sed malesuada quis neque non pretium. Praesent et nisl at mauris blandit faucibus. Aenean nec semper odio. Vivamus tristique faucibus magna, nec tincidunt erat. Nunc lobortis sem et scelerisque finibus. Nullam fringilla erat nec diam interdum porttitor. Aliquam at turpis aliquam, suscipit dolor eget, dapibus arcu. Nullam risus mauris, semper.",
+  "journey_cta": "Our vision 👉"
 }

@@ -6,11 +6,18 @@ theme: dark
 <section class="section section--cover" style="color: var(--white);">
   <div class="row">
     <div class="col col--1of2">
-      <p class="bg-black label">We partner to build</p>
-      <h2 class="bg-black font-sans">Powerfully simple open access tools for a just and kind information age.</h2>
-      <p class="bg-black">They’re free, open source, and built for-change &mdash; not-for-profit by our dedicated team in partnership with libraries.</p>
+      <p class="bg-black label">
+        {{ site.lede }}
+        <sup>
+          <small class="font-sans">
+            <a href="https://github.com/OAButton/oa-works/blob/main/_data/site.json" target="_blank" rel="noopener">Edit</a>
+          </small>
+        </sup>
+      </p>
+      <h2 class="bg-black font-sans">{{ site.tagline }}</h2>
+      <p class="bg-black">{{ site.description }}</p>
       <p style="margin-top: var(--space-xxl);">
-        <a href="#products" class="button button--primary" style=" --initialTextColor: var(--black); --slideTextColor: var(--white); --initialBgColor: var(--white); --slideBgColor: var(--azure);">Try our tools 👇</a>
+        <a href="#products" class="button button--primary" style=" --initialTextColor: var(--black); --slideTextColor: var(--white); --initialBgColor: var(--white); --slideBgColor: var(--azure);">{{ site.cta }}</a>
       </p>
       <svg width="905" height="211" viewBox="0 0 905 211" fill="none" xmlns="http://www.w3.org/2000/svg" data-llp-composed="true" id="introsquiggle" class="lazy-line-painter" style="position: fixed; bottom: 5vh; left: -5vw; z-index: -1; transform: scaleX(-1);">
         <path d="M76 105.5C130.333 64.8333 184.667 64.8333 239 105.5C293.333 146.167 347.667 146.167 402 105.5C456.333 64.8333 510.667 64.8333 565 105.5C619.333 146.167 673.667 146.167 728 105.5C782.333 64.8333 836.667 64.8333 891 105.5" data-llp-id="introsquiggle-0" data-llp-duration="2500" data-llp-delay="0" fill-opacity="0" stroke-opacity="0"/>
@@ -38,7 +45,7 @@ theme: dark
   <h2 id="products" class="sticky" style="top: 5vh;">
     Products
     <sup>
-      <small>
+      <small class="font-sans">
         <a href="https://github.com/OAButton/oa-works/blob/main/_data/products.json" target="_blank" rel="noopener">Edit</a>
       </small>
     </sup>
@@ -132,12 +139,15 @@ theme: dark
   <div class="row">
     <div class="col col--1of4">
       <article class="card card--small">
-        <h3 class="card__header label">The OA.Works journey</h3>
+        <h3 class="card__header label">{{ about.journey_heading }}</h3>
         <div class="card__body">
-          <p>Sed malesuada quis neque non pretium. Praesent et nisl at mauris blandit faucibus. Aenean nec semper odio. Vivamus tristique faucibus magna, nec tincidunt erat. Nunc lobortis sem et scelerisque finibus. Nullam fringilla erat nec diam interdum porttitor. Aliquam at turpis aliquam, suscipit dolor eget, dapibus arcu. Nullam risus mauris, semper.</p>
+          <p>{{ about.journey_content }}</p>
+          <p>
+            <a href="https://github.com/OAButton/oa-works/blob/main/_data/about.json" target="_blank" rel="noopener">Edit</a>
+          </p>
         </div>
         <div class="card__footer">
-          <a href="/about/">Our vision ⟶</a>
+          <a href="/about/">{{ about.journey_cta }}</a>
         </div>
       </article>
     </div>

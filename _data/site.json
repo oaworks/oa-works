@@ -1,7 +1,10 @@
 {
   "name": "OA.Works",
+  "lede": "We partner to build",
   "tagline": "Powerfully simple open access tools for a just and kind information age.",
   "tagline_short": "Powerfully simple open access tools",
+  "description": "They’re free, open source, and built for-change &mdash; not-for-profit by our dedicated team in partnership with libraries.",
+  "cta": "Try our tools 👇",
   "base_url": "https://heuristic-shockley-dea7dc.netlify.app/",
   "twitter": "@oa_button",
   "facebook": "",
