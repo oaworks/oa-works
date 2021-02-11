@@ -61,7 +61,6 @@
 }
 
 .section--half {
-  padding: var(--gutter);
   min-height: 50vh;
 }
 
