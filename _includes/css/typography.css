@@ -11,12 +11,6 @@ html {
   }
 }
 
-@media only screen and (min-width: 1024px) {
-  html {
-    font-size: 24px;
-  }
-}
-
 body {
 	line-height: 1.45;
 	-webkit-font-smoothing: antialiased;
