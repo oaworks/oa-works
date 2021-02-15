@@ -1,0 +1,39 @@
+.markdown ul, ol {
+  padding-left: var(--space-xs);
+  margin-bottom: var(--space-md);
+}
+
+.markdown ul li:before {
+  display: inline-block;
+  margin-right: var(--space-xs);
+  margin-bottom: 0.055em;
+  content: '';
+  box-sizing: border-box;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+
+.markdown ul li:nth-of-type(4n+1):before {
+  background-color: var(--azure);
+}
+
+.markdown ul li:nth-of-type(4n+2):before {
+  background-color: var(--carnation);
+}
+
+.markdown ul li:nth-of-type(4n+3):before {
+  background-color: var(--mango);
+}
+
+.markdown ul li:nth-of-type(4n+4):before {
+  background-color: var(--cyan);
+}
+
+.markdown ul li:nth-of-type(4n+5):before {
+  background-color: var(--violet);
+}
+
+ul li:nth-of-type(4n+6):before {
+  background-color: var(--chartreuse);
+}
