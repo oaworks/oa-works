@@ -14,26 +14,26 @@
   border-radius: 50%;
 }
 
-.markdown ul li:nth-of-type(4n+1):before {
+.markdown ul li:nth-of-type(6n+1):before {
   background-color: var(--azure);
 }
 
-.markdown ul li:nth-of-type(4n+2):before {
+.markdown ul li:nth-of-type(6n+2):before {
   background-color: var(--carnation);
 }
 
-.markdown ul li:nth-of-type(4n+3):before {
+.markdown ul li:nth-of-type(6n+3):before {
   background-color: var(--mango);
 }
 
-.markdown ul li:nth-of-type(4n+4):before {
+.markdown ul li:nth-of-type(6n+4):before {
   background-color: var(--cyan);
 }
 
-.markdown ul li:nth-of-type(4n+5):before {
+.markdown ul li:nth-of-type(6n+5):before {
   background-color: var(--violet);
 }
 
-ul li:nth-of-type(4n+6):before {
+.markdown ul li:nth-of-type(6n+6):before {
   background-color: var(--chartreuse);
 }
