@@ -6,11 +6,11 @@
 .markdown ul li:before {
   display: inline-block;
   margin-right: var(--space-xs);
-  margin-bottom: 0.055em;
+  margin-bottom: .15em;
   content: '';
   box-sizing: border-box;
-  width: 8px;
-  height: 8px;
+  width: .35em;
+  height: .35em;
   border-radius: 50%;
 }
 
