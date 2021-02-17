@@ -1,11 +1,21 @@
 ---
 layout: base.html
 theme: dark
+title: Funders
+meta_description: Our work is sustainable with the support of library users and grantmakers.
 ---
+<!-- THIS IS TERRIBLE. JUST A STUB FOR NOW TO AID FEELING OUT OF NAV / CONTENT -->
 
-<section class="section" style="display: flex; align-items: center; justify-content: center; flex-direction: column;" data-aos="fade-up">
-  <h2 class="label label--secondary" style="margin-bottom: var(--space-lg);">With foundational support from</h2>
+{% include 'about_header.html' %}
+
+<section class="section section--half">
+  <div class="row">
+    <header class="col col--1of3" data-aos="fade-up">
+      <h1 style="margin-top: var(--space-sm);">{{ title }}</h1>
+      <p>{{ meta_description }}</p>
+    </header>
   <a href="https://www.arcadiafund.org.uk/" target="_blank" rel="noopener" style="display: block;">
     {% include 'logos/arcadia.svg' %}
   </a>
+</div>
 </section>

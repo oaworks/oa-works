@@ -2,16 +2,41 @@
   {
     "name": "IFLA",
     "url": "https://www.ifla.org/",
-    "logo": "logos/ifla.svg"
+    "logo": "logos/ifla.svg",
+    "portrait": "",
+    "person": "",
+    "reason": ""
   },
   {
     "name": "Bill & Melinda Gates Foundation",
     "url": "https://www.gatesfoundation.org/",
-    "logo": "logos/gatesfoundation.svg"
+    "logo": "logos/gatesfoundation.svg",
+    "portrait": "",
+    "person": "",
+    "reason": ""
   },
   {
     "name": "SPARC",
     "url": "https://sparcopen.org/",
-    "logo": "logos/sparc.svg"
+    "logo": "logos/sparc.svg",
+    "portrait": "",
+    "person": "",
+    "reason": ""
+  },
+  {
+    "name": "Montana State University",
+    "url": "https://sparcopen.org/",
+    "logo": "logos/montana.svg",
+    "portrait": "people/leila.svg",
+    "person": "Leila",
+    "reason": "Building ShareYourPaper.org together"
+  },
+  {
+    "name": "IUPUI",
+    "url": "https://ulib.iupui.edu/",
+    "logo": "logos/iupui.svg",
+    "portrait": "people/tina.svg",
+    "person": "Tina",
+    "reason": "Building InstantILL together"
   }
 ]
