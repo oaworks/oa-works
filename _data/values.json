@@ -2,25 +2,25 @@
   {
     "goal": "Our theory of change",
     "heading": "Build for <br/>open",
-    "desc": "Our solutions are guided by the belief that the right path is open: open data, open access, open science.",
+    "desc": "We build tools to help make the open and equitable choice the easy choice, and the easy choice the norm.",
     "shape": "svg/circle.svg"
   },
   {
     "goal": "How we collaborate",
     "heading": "Problems into <br/>partnerships",
-    "desc": "We partner with librarians and the wider publishing community to address the most pressing issues they face.",
+    "desc": "We form close partnerships with librarians and advocates to co-design just systems for open access, open data, and open research.",
     "shape": "svg/triangle.svg"
   },
   {
     "goal": "Our product ethos",
     "heading": "Ideals into <br/>reality",
-    "desc": "The <a href='http://www.ala.org/advocacy/intfreedom/corevalues' target='_blank' rel='noopener'>core values of librarianship</a> are at the centre of everything we do; our tools aim to fulfill them. ",
+    "desc": "We are anchored and inspired by <a href='http://www.ala.org/advocacy/intfreedom/corevalues' target='_blank' rel='noopener'>librarianship’s core values</a>.Their values are our values, and our products aim to realize them. ",
     "shape": "svg/squiggle.svg"
   },
   {
     "goal": "How we work",
     "heading": "Joy in <br/>action",
-    "desc": "Our work philosophy isn’t static. We strive to create with agility, kindness, & rigour.",
+    "desc": "We don’t let the difficulty of the world and the rigor of our work get in the way of our agility, playfulness, and humanity.",
     "shape": "svg/arc.svg"
   }
 ]
