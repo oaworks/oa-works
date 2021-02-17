@@ -16,54 +16,7 @@ title: About
   </div>
   <ul class="row">
     {% assign delay_count = 0 %}
-    {% for story in stories limit:3 %}
-    {% assign delay_count = delay_count | plus: 50 %}
-    <li class="story col col--1of3" data-aos="fade-up" data-aos-delay="{{ delay_count }}">
-      <article class="card card--small">
-        <header class="card__header">
-          <h3 class="label">OA.W<span style="text-transform: lowercase;">orks for</span> {{ story.label }}</h3>
-        </header>
-        <figure style="overflow: hidden;">
-        <img src="../img/stories/{{ story.img }}" alt="{{ story.img_alt }}" class="card__img"/>
-        </figure>
-        <div class="card__body">
-          <blockquote style="margin: 0 0 var(--space-sm) 0;">
-            <p>“{{ story.content }}”</p>
-          </blockquote>
-          <p style="line-height: 1.15;"><small>Paper title: <em>{{ story.article }}</em></small></p>
-        </div>
-      </article>
-    </li>
-    {% endfor %}
-  </ul>
-
-  <ul class="row">
-    {% assign delay_count = 0 %}
-    {% for story in stories limit:3 %}
-    {% assign delay_count = delay_count | plus: 50 %}
-    <li class="story col col--1of3" data-aos="fade-up" data-aos-delay="{{ delay_count }}">
-      <article class="card card--small">
-        <header class="card__header">
-          <h3 class="label">OA.W<span style="text-transform: lowercase;">orks for</span> {{ story.label }}</h3>
-        </header>
-        <figure style="overflow: hidden;">
-        <img src="../img/stories/{{ story.img }}" alt="{{ story.img_alt }}" class="card__img"/>
-        </figure>
-        <div class="card__body">
-          <blockquote style="margin: 0 0 var(--space-sm) 0;">
-            <p>“{{ story.content }}”</p>
-          </blockquote>
-          <p style="line-height: 1.15;"><small>Paper title: <em>{{ story.article }}</em></small></p>
-        </div>
-      </article>
-    </li>
-    {% endfor %}
-  </ul>
-
-
-  <ul class="row">
-    {% assign delay_count = 0 %}
-    {% for story in stories limit:3 %}
+    {% for story in stories limit:12 %}
     {% assign delay_count = delay_count | plus: 50 %}
     <li class="story col col--1of3" data-aos="fade-up" data-aos-delay="{{ delay_count }}">
       <article class="card card--small">
