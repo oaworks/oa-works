@@ -39,10 +39,27 @@
   --white-25:         hsla(0, 0%, 100%, .25);
   --white-15:         hsla(0, 0%, 100%, .15);
 
+  --azure-shade:      hsl(212, 100%, 20%);
   --azure:            hsl(212, 100%, 50%);
+  --azure-tint:       hsl(212, 100%, 80%);
+
+  --cyan-shade:       hsl(169, 100%, 20%);
   --cyan:             hsl(169, 100%, 50%);
-  --carnation:        hsl(0, 88%, 67%);
-  --violet:           hsl(284, 88%, 67%);
-  --chartreuse:       hsl(68, 100%, 50%);
-  --mango:            hsl(43, 100%, 57%);
+  --cyan-tint:        hsl(169, 100%, 80%);
+
+  --carnation-shade:  hsl(000, 100%, 40%);
+  --carnation:        hsl(000, 100%, 70%);
+  --carnation-tint:   hsl(000, 100%, 100%);
+
+  --violet-shade:     hsl(284, 100%, 40%);
+  --violet:           hsl(284, 100%, 70%);
+  --violet-tint:      hsl(284, 100%, 100%);
+
+  --chartreuse-shade: hsl(075, 100%, 20%);
+  --chartreuse:       hsl(075, 100%, 50%);
+  --chartreuse-tint:  hsl(075, 100%, 80%);
+
+  --mango-shade:      hsl(035, 100%, 20%);
+  --mango:            hsl(035, 100%, 50%);
+  --mango-tint:       hsl(035, 100%, 80%);
 }
