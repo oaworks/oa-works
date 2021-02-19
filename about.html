@@ -31,26 +31,9 @@ title: About
       {% comment %} TODO: Move this section into its own Markdown file {% endcomment %}
       <h1>Hi, we're so glad you're here 👋</h1>
 
-      {% comment %} THE BELOW WOULD BE MEDIA LIKE NATURE ETC BUT JUST FEELING IT OUT {% endcomment %}
-      <section class="section section--see-thru" data-aos="fade-up">
-        <aside style="margin-bottom: var(--space-lg);">
-          <div class="row" style="align-items: center;">
-            <h2 class="col col--1of3 font-serif">As seen in</h2>
-            <ul class="col col--2of3" style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
-              {% for partner in partners %}
-              <li>
-                <a href="{{ partner.url }}" title="{{ partner.name }}’s site" target="_blank" rel="noopener" style="display: block;">
-                  {% include partner.logo %}
-                </a>
-              </li>
-              {% endfor %}
-            </ul>
-          </div>
-        </aside>
-      </section>
-
+      {% include 'partners.html' %}
+      
       {% comment %} NOTES TO SELF COULD WE INCLUDE RANDOM SNIPPETS OF STORIES, IMPACT, ETC FROM JSON FILES TO ADD FLAVOUR INTO THE PAGE {% endcomment %}
-
     </div>
   </div>
 </section>
