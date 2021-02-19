@@ -48,6 +48,10 @@ h5.card__header {
   overflow: hidden;
 }
 
+.card__body p {
+  margin-bottom: var(--space-xs);
+}
+
 .card__body p:last-child {
   margin-bottom: 0;
 }
