@@ -50,11 +50,14 @@ theme: dark
         </p>
       </article>
       <aside class="col col--1of2 flex-center">
-        <article class="card">
-          <header class="card__header">
-            {% include product.logo %}
+        <article class="card card--inverted">
+          <header class="card__header card__header--plain">
+            <a href="{{ product.url }}" target="_blank" rel="noopener" title="Go to {{ product.name }} site" class="flex-space-between">
+              {% include product.logo %}
+              <strong>↗</strong>
+            </a>
           </header>
-          <!-- <style>
+          <style>
           #shareyourpaper,
           #instantill {
             font-size: 20px;
@@ -63,28 +66,29 @@ theme: dark
           #shareyourpaper h2,
           #shareyourpaper h3,
           #instantill h2,
-          #instantill h3 {
+          #instantill h3,
+          #oabutton h2,
+          #oabutton h3 {
             margin: 0 0 1em 0;
+            font-family: var(--sans-serif);
           }
-          </style> -->
 
-          <!-- <div class="card__body" style="background: var(--white);">
-            <h2 style="margin: 0;"><code>EMBED OR SCREENSHOT OR GRAPHIC HERE</code></h2>
-          </div> -->
+          #shareyourpaper h2,
+          #instantill h2,
+          #oabutton h2 {
+            font-size: var(--typescale-3);
+          }
+
+          #shareyourpaper h3,
+          #instantill h3,
+          #oabutton h3 {
+            font-size: var(--typescale-4);
+          }
+          </style>
           {% if product.embed %}
-            <div class="card__body" style="background: var(--white); height: 45vh; overflow-y: scroll;">
+            <div class="card__body" style="height: 45vh; overflow-y: scroll;">
               {{ product.embed }}
             </div>
-          {% endif %}
-
-          {% if product.iframe %}
-            <a href="https://{{ product.name }}" target="_blank" rel="noopener" class="overlay" style="background: white;">
-              {{ product.iframe }}
-              <div class="overlay__inner" style="background-color: var(--black-50);"></div>
-              <div class="overlay__text">
-                <p>Try it on the app’s site</p>
-              </div>
-            </a>
           {% endif %}
 
         </article>

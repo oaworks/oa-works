@@ -63,6 +63,11 @@
   flex-direction: column;
 }
 
+.flex-space-between {
+  display: flex;
+  justify-content: space-between;
+}
+
 @media only screen and (min-width: 1024px) {
   .flex-center {
     display: flex;
