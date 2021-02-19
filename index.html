@@ -84,6 +84,61 @@ theme: dark
           #oabutton h3 {
             font-size: var(--typescale-4);
           }
+
+          #shareyourpaper input,
+          #instantill input,
+          #oabutton input {
+            padding: var(--space-sm) var(--space-xs);
+            border-color: var(--white);
+            border-radius: 0;
+            border-width: 2px;
+            background-color: transparent;
+            -webkit-box-shadow: none;
+            box-shadow: none;
+          }
+
+          #shareyourpaper ._oab_button,
+          #instantill ._oab_button,
+          #oabutton #oabutton_find {
+            display: inline-block;
+            padding: var(--space-xs);
+            border-color: var(--white);
+            background-color: var(--white);
+            color: var(--black);
+            border-radius: 0;
+            border-width: 2px;
+            -webkit-box-shadow: none;
+            box-shadow: none;
+            height: auto;
+            font-weight: 700;
+          }
+
+          #oabutton #oabutton_find {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-top: var(--space-xs);
+            padding-bottom: var(--space-xs);
+            width: 50px;
+            background-color: var(--black);
+            font-size: inherit;
+          }
+
+          #oabutton #oabutton_find img {
+            height: auto !important;
+          }
+
+          #shareyourpaper ._oab_button:focus,
+          #instantill ._oab_button:focus,
+          #oabutton #oabutton_find:focus {
+
+          }
+
+          #shareyourpaper ._oab_button:after,
+          #instantill ._oab_button:after,
+          #oabutton #oabutton_find:after {
+            border: 0;
+          }
           </style>
           {% if product.embed %}
             <div class="card__body" style="height: 45vh; overflow-y: scroll;">

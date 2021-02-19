@@ -1,0 +1,14 @@
+::placeholder {
+  font-style: italic;
+  font-size: .85rem;
+  color: var(--mid-grey);
+}
+
+label, input {
+  display: block;
+  margin-bottom: var(--space-sm);
+}
+
+input {
+  padding: var(--space-md);
+}
