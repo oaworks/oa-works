@@ -6,6 +6,7 @@
     "label": "Paper deposit",
     "tagline": "A drag-and-drop Open Access deposit.",
     "cta": "Share your work",
+    "description": "Lorem ipsum dolor sit amet. A description here. Lorem ipsum dolor sit amet. A description here. Lorem ipsum dolor sit amet. A description here.",
     "embed": "<div id='shareyourpaper'></div><script src='https://shareyourpaper.org/embed.js'></script><script>_oab=shareyourpaper({uid: 'by8dj55F7P6CY8hXM', config: {'owner':'sophy@openaccessbutton.org'}});</script>",
     "colour": "var(--azure)"
   },
@@ -16,7 +17,8 @@
     "label": "Inter-library loans",
     "tagline": "Deliver easy access without subscriptions.",
     "cta": "Make a request",
-    "embed": "<h2 class='type-3 font-sans'>A powerfully simple library tool to deliver papers.</h2><div id='instantill'></div><script src='https://instantill.org/embed.js'></script><script>_oab=instantill({uid: 'by8dj55F7P6CY8hXM', config: {'owner':'sophy@openaccessbutton.org'}});</script>",
+    "description": "Lorem ipsum dolor sit amet. A description here. Lorem ipsum dolor sit amet. A description here. Lorem ipsum dolor sit amet. A description here.",
+    "embed": "<h2 class='type-3 font-sans'>A powerfully simple library tool to deliver papers</h2><div id='instantill'></div><script src='https://instantill.org/embed.js'></script><script>_oab=instantill({uid: 'by8dj55F7P6CY8hXM', config: {'owner':'sophy@openaccessbutton.org'}});</script>",
     "colour": "var(--cyan)"
   },
   {
@@ -26,7 +28,8 @@
     "label": "OA delivery",
     "tagline": "Get around paywalls in a click.",
     "cta": "Find an article",
-    "embed": "<div id='oabutton'><h2>Avoid paywalls, request research.</h2><label for='oabutton_url'>Enter an article’s URL, DOI, Title, or Citation</label><script src='https://openaccessbutton.org/static/jquery-1.10.2.min.js'></script><script src='https://openaccessbutton.org/static/openaccessbutton_widget.js'></script><script>jQuery(document).ready(function(){openaccessbutton_widget({uid:'h9mTMgqeaKDyJW8E2'});});</script><div id='openaccessbutton_widget'></div></div>",
+    "description": "Lorem ipsum dolor sit amet. A description here. Lorem ipsum dolor sit amet. A description here. Lorem ipsum dolor sit amet. A description here.",
+    "embed": "<div id='oabutton'><h2>Avoid paywalls, request research</h2><label for='oabutton_url'>Enter an article’s URL, DOI, Title, or Citation</label><script src='https://openaccessbutton.org/static/jquery-1.10.2.min.js'></script><script src='https://openaccessbutton.org/static/openaccessbutton_widget.js'></script><script>jQuery(document).ready(function(){openaccessbutton_widget({uid:'h9mTMgqeaKDyJW8E2'});});</script><div id='openaccessbutton_widget'></div></div>",
     "colour": "var(--carnation)"
   }
 ]
