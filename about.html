@@ -13,7 +13,7 @@ title: About
       <h2>We're OA.Works</br> (say it: OA Works)</h2>
     </header>
     <p class="col col--1of4" data-aos="fade-up" data-aos-delay="100">
-      We're a leading library-owned non-profit. You may have known us as the Open Access Button.
+      We're a library-owned non-profit funded by leading foundations and libraries. </br>You may have known us as the Open Access Button.
     </p>
     <header class="col col--1of4" data-aos="fade-up" data-aos-delay="200">
       <h2>We're building free & open source tools so that open access is easy and equitable</h2>
@@ -28,11 +28,29 @@ title: About
 <section class="section markdown">
   <div class="row row--centered">
     <div class="col col--1of2" data-aos="fade-up">
-      <h1>Hi, we're glad you're here 👋</h1>
+      <h1>Hi, we're so glad you're here 👋</h1>
 
       <p>
 
       </p>
+
+
+      <!-- THE BELOW WOULD BE MEDIA LIKE NATURE ETC BUT JUST FEELING IT OUT -->
+      <section class="section section--see-thru" data-aos="fade-up">
+        <aside style="margin-bottom: var(--space-lg);">
+          <div class="row" style="align-items: center;">
+            <h2 class="col col--1of3 font-serif">As seen in</h2>
+            <ul class="col col--2of3" style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
+              {% for partner in partners %}
+              <li>
+                <a href="{{ partner.url }}" title="{{ partner.name }}’s site" target="_blank" rel="noopener" style="display: block;">
+                  {% include partner.logo %}
+                </a>
+              </li>
+              {% endfor %}
+            </ul>
+          </div>
+        </aside>
 
     </div>
   </div>
