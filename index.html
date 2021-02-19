@@ -124,10 +124,12 @@ theme: dark
             height: auto !important;
           }
 
-          #shareyourpaper ._oab_button:focus,
-          #instantill ._oab_button:focus,
-          #oabutton #oabutton_find:focus {
-
+          #shareyourpaper ._oab_button:hover,
+          #instantill ._oab_button:hover,
+          #oabutton #oabutton_find:hover {
+            background-color: var(--black);
+            color: var(--white);
+            transition: all .5s ease-out;
           }
 
           #shareyourpaper ._oab_button:after,
