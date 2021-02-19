@@ -1,11 +1,12 @@
 .portrait {
   max-height: 30vh;
-  align-self: flex-start;
+  width: auto;
+  align-self: flex-end;
 }
 
 @media only screen and (min-width: 1024px) {
   .portrait {
-    max-height: 70vh;
+    max-height: fit-content;
     align-self: center;
   }
 }
