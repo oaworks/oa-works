@@ -65,25 +65,17 @@ theme: dark
           }
 
           #shareyourpaper h2,
-          #shareyourpaper h3,
-          #instantill h2,
-          #instantill h3,
-          #oabutton h2,
-          #oabutton h3 {
-            margin: 0 0 1em 0;
-            font-family: var(--sans-serif);
+          #shareyourpaper p:first-of-type,
+          #shareyourpaper p:last-of-type {
+            display: none;
           }
 
-          #shareyourpaper h2,
+          #shareyourpaper h3,
           #instantill h2,
           #oabutton h2 {
+            margin: 0 0 1em 0;
+            font-family: var(--sans-serif);
             font-size: var(--typescale-3);
-          }
-
-          #shareyourpaper h3,
-          #instantill h3,
-          #oabutton h3 {
-            font-size: var(--typescale-4);
           }
 
           #shareyourpaper input,
@@ -142,7 +134,7 @@ theme: dark
           }
           </style>
           {% if product.embed %}
-            <div class="card__body" style="height: 45vh; background: var(--white); overflow-y: scroll;">
+            <div class="card__body flex-center" style="height: 45vh; background: var(--white); overflow-y: scroll;">
               {{ product.embed }}
             </div>
           {% endif %}
