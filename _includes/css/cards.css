@@ -1,7 +1,6 @@
 .card {
   margin-bottom: calc(var(--gutter) * 2);
   border: 1px solid;
-  background-color: var(--white);
 }
 
 .card--small {
