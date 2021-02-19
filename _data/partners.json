@@ -27,7 +27,7 @@
     "name": "Montana State University",
     "url": "https://sparcopen.org/",
     "logo": "logos/montana.svg",
-    "portrait": "people/leila.svg",
+    "portrait": "people/leila.png",
     "person": "Leila",
     "reason": "Building ShareYourPaper.org together"
   },
@@ -35,7 +35,7 @@
     "name": "IUPUI",
     "url": "https://ulib.iupui.edu/",
     "logo": "logos/iupui.svg",
-    "portrait": "people/tina.svg",
+    "portrait": "people/tina.png",
     "person": "Tina",
     "reason": "Building InstantILL together"
   }

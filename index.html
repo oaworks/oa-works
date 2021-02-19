@@ -26,22 +26,9 @@ theme: dark
   </div>
 </section>
 
-<section class="section section--see-thru" data-aos="fade-up">
-  <aside style="margin-bottom: var(--space-lg);">
-    <div class="row" style="align-items: center;">
-      <h2 class="col col--1of3 font-serif">In partnership with</h2>
-      <ul class="col col--2of3" style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
-        {% for partner in partners %}
-        <li>
-          <a href="{{ partner.url }}" title="{{ partner.name }}’s site" target="_blank" rel="noopener" style="display: block;">
-            {% include partner.logo %}
-          </a>
-        </li>
-        {% endfor %}
-      </ul>
-    </div>
-  </aside>
+{% include 'partners.html'%}
 
+<section class="section section--see-thru" data-aos="fade-up">
   <h2 id="products" class="sticky" style="top: 5vh;">
     Products
     <sup>
@@ -126,8 +113,8 @@ theme: dark
           </p>
         </blockquote>
       </article>
-      <figure class="col col--1of4" style="display: flex;">
-        <img src="img/{{ t.img }}" style="align-self: flex-end;"/>
+      <figure class="col col--1of4 flex-end">
+        <img class="portrait" src="img/{{ t.img }}"/>
       </figure>
     </li>
     {% endfor %}

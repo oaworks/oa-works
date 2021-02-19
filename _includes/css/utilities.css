@@ -48,21 +48,25 @@
   text-align: right;
 }
 
+.bg-white-15 {
+  background-color: var(--white-15);
+}
+
 .bg-black {
   display: inline-block;
   background-color: var(--black-85);
+}
+
+.flex-end {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
 }
 
 @media only screen and (min-width: 1024px) {
   .flex-center {
     display: flex;
     justify-content: center;
-    flex-direction: column;
-  }
-
-  .flex-end {
-    display: flex;
-    justify-content: flex-end;
     flex-direction: column;
   }
 

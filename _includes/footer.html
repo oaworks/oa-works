@@ -1,4 +1,8 @@
 <footer class="row footer">
+  <a class="top" href="#top" id="topBtn" aria-label="Back to top">
+    <span class="top__emoji">👆</span>
+  </a>
+
   <nav class="col col--2of3">
     <div class="row">
       <div class="col col--1of2">
@@ -65,14 +69,6 @@
   for(var i = 0; i < testimonials.length; i++){
     testimonials[i].style.display = (i==random) ? "flex" : "none";
   };
-
-  // // Randomly display request stories
-  // var stories = document.getElementsByClassName("story");
-  // var random = Math.floor(Math.random() * stories.length);
-  //
-  // for(var i = 0; i < stories.length; i++){
-  //   stories[i].style.display = (i==random) ? "flex" : "none";
-  // };
 
   // Paint SVGs
   (function(){
