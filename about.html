@@ -10,16 +10,16 @@ title: About
 <section class="section section--inverted section--third">
   <div class="row">
     <header class="col col--1of4" data-aos="fade-up">
-      <h2>We're OA.Works</br> (say it: OA Works)</h2>
+      <h2>{{ about.heading_1 }}</h2>
     </header>
     <p class="col col--1of4" data-aos="fade-up" data-aos-delay="100">
-      We're a library-owned non-profit funded by leading foundations and libraries. </br>You may have known us as the Open Access Button.
+      {{ about.content_1 }}
     </p>
     <header class="col col--1of4" data-aos="fade-up" data-aos-delay="200">
-      <h2>We're building free & open source tools so that open access is easy and equitable</h2>
+      <h2>{{ about.heading_2 }}</h2>
     </header>
     <p class="col col--1of4" data-aos="fade-up" data-aos-delay="300">
-      We build them in partnership with librarians and opens advocates striving for a just and kind world.
+      {{ about.content_2 }}
     </p>
   </div>
 </section>
@@ -28,14 +28,10 @@ title: About
 <section class="section markdown">
   <div class="row row--centered">
     <div class="col col--1of2" data-aos="fade-up">
+      {% comment %} TODO: Move this section into its own Markdown file {% endcomment %}
       <h1>Hi, we're so glad you're here 👋</h1>
 
-      <p>
-
-      </p>
-
-
-      <!-- THE BELOW WOULD BE MEDIA LIKE NATURE ETC BUT JUST FEELING IT OUT -->
+      {% comment %} THE BELOW WOULD BE MEDIA LIKE NATURE ETC BUT JUST FEELING IT OUT {% endcomment %}
       <section class="section section--see-thru" data-aos="fade-up">
         <aside style="margin-bottom: var(--space-lg);">
           <div class="row" style="align-items: center;">
@@ -51,9 +47,9 @@ title: About
             </ul>
           </div>
         </aside>
+      </section>
 
-        <!--  NOTES TO SELF COULD WE INCLUDE RANDOM SNIPPETS OF STORIES, IMPACT, ETC FROM JSON FILES TO ADD FLAVOUR INTO THE PAGE -->
-
+      {% comment %} NOTES TO SELF COULD WE INCLUDE RANDOM SNIPPETS OF STORIES, IMPACT, ETC FROM JSON FILES TO ADD FLAVOUR INTO THE PAGE {% endcomment %}
 
     </div>
   </div>
