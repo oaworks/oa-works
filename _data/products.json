@@ -18,7 +18,7 @@
     "tagline": "Deliver easy access without subscriptions.",
     "cta": "Make a request",
     "description": "Lorem ipsum dolor sit amet. A description here. Lorem ipsum dolor sit amet. A description here. Lorem ipsum dolor sit amet. A description here.",
-    "embed": "<h2 class='type-3 font-sans'>Request articles from any library in the world</h2><div id='instantill'></div><script src='https://instantill.org/embed.js'></script><script>_oab=instantill({uid: 'by8dj55F7P6CY8hXM', config: {'owner':'sophy@openaccessbutton.org'}});</script>",
+    "embed": "<h2 class='type-3 font-sans'>Request articles from any library in the world</h2><label>Enter a full article title, citation, DOI, or URL</label><div id='instantill'></div><script src='https://instantill.org/embed.js'></script><script>_oab=instantill({uid: 'by8dj55F7P6CY8hXM', config: {'owner':'sophy@openaccessbutton.org'}});</script>",
     "colour": "var(--cyan)"
   },
   {
