@@ -1,0 +1,19 @@
+---
+layout: base.html
+theme: dark # Can be removed if we want it on a white bg
+title: About us
+---
+
+{% include 'about_header.html' %}
+
+<div class="row">
+  <header class="col col--1of3">
+    <h1>{{ title }}</h1>
+  </header>
+
+  <div class="col col--1of2" style="border-left: 1px solid;">
+    <section style="padding-top: 0;">
+      {{ content }}
+    </section>
+  </div>
+</div>
