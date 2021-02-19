@@ -1,15 +1,5 @@
 [
   {
-    "logo": "products/oar.svg",
-    "name": "OARights",
-    "url": "https://oarights.org",
-    "label": "Journal permissions",
-    "tagline": "We monitor 25,000 policies so you don’t have to.",
-    "cta": "Unlock your work",
-    "iframe": "<iframe title='OARights site' src='https://oarights.org' style='width: 100%; height: 45vh; border: 0;'></iframe>",
-    "colour": "var(--violet)"
-  },
-  {
     "logo": "products/syp.svg",
     "name": "ShareYourPaper",
     "url": "https://shareyourpaper.org",
@@ -36,7 +26,7 @@
     "label": "OA delivery",
     "tagline": "Get around paywalls in a click.",
     "cta": "Find an article",
-    "iframe": "<iframe title='OpenAccessButton site' src='https://openaccessbutton.org' style='width: 100%; height: 45vh; border: 0;'></iframe>",
+    "embed": "<script src='https://openaccessbutton.org/static/openaccessbutton_widget.js'></script><script>jQuery(document).ready(function(){openaccessbutton_widget({uid:'h9mTMgqeaKDyJW8E2'});});</script><div id='openaccessbutton_widget'></div>",
     "colour": "var(--carnation)"
   }
 ]
