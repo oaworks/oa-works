@@ -7,7 +7,7 @@
     "tagline": "A drag-and-drop Open Access deposit.",
     "cta": "Share your work",
     "description": "Lorem ipsum dolor sit amet. A description here. Lorem ipsum dolor sit amet. A description here. Lorem ipsum dolor sit amet. A description here.",
-    "embed": "<div id='shareyourpaper'></div><script src='https://shareyourpaper.org/embed.js'></script><script>_oab=shareyourpaper({uid: 'by8dj55F7P6CY8hXM', config: {'owner':'sophy@openaccessbutton.org'}});</script>",
+    "embed": "<h2 class='type-3 font-sans'>Find the easiest way to share your paper</h2><label>Enter your article’s DOI</label><div id='shareyourpaper'></div><script src='https://shareyourpaper.org/embed.js'></script><script>_oab=shareyourpaper({uid: 'by8dj55F7P6CY8hXM', config: {'owner':'sophy@openaccessbutton.org'}});</script>",
     "colour": "var(--azure)"
   },
   {
