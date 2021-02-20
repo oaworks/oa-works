@@ -48,7 +48,12 @@ theme: dark
       <aside class="col col--1of2 flex-center">
         <article class="card" style="box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;">
           <header class="card__header">
-            <a href="{{ product.url }}" target="_blank" rel="noopener" title="Go to {{ product.name }} site" class="flex-space-between">
+            <a href="{{ product.url }}"
+               target="_blank"
+               rel="noopener"
+               title="Go to {{ product.name }} site"
+               class="flex-space-between"
+            >
               {% include product.logo %}
               <strong>↗</strong>
             </a>

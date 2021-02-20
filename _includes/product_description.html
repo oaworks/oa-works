@@ -3,7 +3,18 @@
   <h3 class="font-serif">{{ product.tagline }}</h3>
   <p>{{ product.description }}</p>
   <p style="margin-top: var(--space-xxl);">
-    <a href="{{ product.url }}" target="_blank" rel="noopener" class="button">
+    <a href="{{ product.url }}"
+       target="_blank"
+       rel="noopener"
+       class="button"
+       style="
+         border: 0;
+         background-color: var(--{{ product.colour }});
+         font-weight: 700;
+         letter-spacing: 0.035em;
+         text-transform: uppercase;
+      "
+    >
       {{ product.cta }}
     </a>
   </p>

@@ -8,7 +8,7 @@
     "cta": "Share your work",
     "description": "Lorem ipsum dolor sit amet. A description here. Lorem ipsum dolor sit amet. A description here. Lorem ipsum dolor sit amet. A description here.",
     "embed": "<h2 class='type-3 font-sans'>Find the easiest way to share your paper</h2><label>Enter your article’s DOI</label><div id='shareyourpaper'></div><script src='https://shareyourpaper.org/embed.js'></script><script>_oab=shareyourpaper({uid: 'by8dj55F7P6CY8hXM', config: {'owner':'sophy@openaccessbutton.org'}});</script>",
-    "colour": "var(--azure)"
+    "colour": "azure"
   },
   {
     "logo": "products/ill.svg",
@@ -19,7 +19,7 @@
     "cta": "Make a request",
     "description": "Lorem ipsum dolor sit amet. A description here. Lorem ipsum dolor sit amet. A description here. Lorem ipsum dolor sit amet. A description here.",
     "embed": "<h2 class='type-3 font-sans'>Request articles from any library in the world</h2><label>Enter a full article title, citation, DOI, or URL</label><div id='instantill'></div><script src='https://instantill.org/embed.js'></script><script>_oab=instantill({uid: 'by8dj55F7P6CY8hXM', config: {'owner':'sophy@openaccessbutton.org'}});</script>",
-    "colour": "var(--cyan)"
+    "colour": "cyan"
   },
   {
     "logo": "products/oab.svg",
@@ -30,6 +30,6 @@
     "cta": "Find an article",
     "description": "Lorem ipsum dolor sit amet. A description here. Lorem ipsum dolor sit amet. A description here. Lorem ipsum dolor sit amet. A description here.",
     "embed": "<div id='oabutton'><h2>Avoid paywalls, request research</h2><label for='oabutton_url'>Enter an article’s URL, DOI, Title, or Citation</label><script src='https://openaccessbutton.org/static/jquery-1.10.2.min.js'></script><script src='https://openaccessbutton.org/static/openaccessbutton_widget.js'></script><script>jQuery(document).ready(function(){openaccessbutton_widget({uid:'h9mTMgqeaKDyJW8E2'});});</script><div id='openaccessbutton_widget'></div></div>",
-    "colour": "var(--carnation)"
+    "colour": "carnation"
   }
 ]
