@@ -20,6 +20,10 @@
     linear-gradient(90deg, transparent, transparent calc(83.3333333% - 1.5px), var(--light-grey) 83.3333333%, transparent 0); */
 }
 
+.section:first-of-type {
+  padding-top: var(--space-sm);
+}
+
 .section a {
   color: var(--black);
 }

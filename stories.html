@@ -1,11 +1,9 @@
 ---
-layout: base.html
+layout: about.html
 theme: dark
 data_file: about
 title: About
 ---
-
-<!-- This all needs to thrown away. Just using to show what I mean - Joe -->
 
 <section class="section section--inverted section--half">
   <div class="row">
@@ -16,7 +14,7 @@ title: About
   </div>
   <ul class="row">
     {% assign delay_count = 0 %}
-    {% for story in stories limit:12 %}
+    {% for story in stories %}
     {% assign delay_count = delay_count | plus: 50 %}
     <li class="story col col--1of3" data-aos="fade-up" data-aos-delay="{{ delay_count }}">
       <article class="card card--small">

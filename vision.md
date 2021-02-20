@@ -1,7 +1,8 @@
 ---
-layout: default.html
-theme: dark # Can be removed if we want it on a white bg
+layout: about.html
+theme: dark
 title: Vision
+meta_description: "Lorem ipsum dolor sit amet."
 ---
 
 ## We’re living in an unkind information age
