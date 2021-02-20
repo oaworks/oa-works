@@ -34,6 +34,10 @@ h5.card__header {
   font-size: 1em;
 }
 
+.card__header a {
+  color: var(--white);
+}
+
 .card__header svg {
   display: block;
   height: 30px;
