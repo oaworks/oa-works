@@ -41,7 +41,7 @@ theme: dark
     {% include 'embeds.css' %}
     {% for product in products %}
     {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
-    <li class="row">
+    <li class="row" data-aos="fade-up">
       {% if thecycle == 'odd' %}
         {% include 'product_description.html'%}
       {% endif %}
