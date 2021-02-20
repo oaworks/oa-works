@@ -113,16 +113,20 @@ theme: dark
 
     <div class="col col--3of4">
       <h2 class="font-serif">Latest updates</h2>
-      <ul class="row news">
+      <ul class="row">
         {% assign delay_count = 0 %}
         {% for post in posts limit:3 %}
         {% assign delay_count = delay_count | plus: 75 %}
-        <li class="col col--1of3" data-aos="fade-up" data-aos-delay="{{ delay_count }}">
+        <li class="col col--1of3 bg-pattern" data-aos="fade-up" data-aos-delay="{{ delay_count }}">
           <article class="card card--small">
             <a href="https://blog.openaccessbutton.org/{{ post.slug }}/" target="_blank" rel="noopener" style="display: block;">
               <h3 class="card__header card__header--plain label label--secondary">{{ post.title }}</h3>
               <div class="card__body" style="padding: 0;">
-                <img src="{{ post.feature_image }}" class="card__img"/>
+                {%- if post.feature_image -%}
+                  <img src="{{ post.feature_image }}" class="card__img"/>
+                {% else %}
+                  <div class="card__blank bg-pattern__child"/>
+                {% endif %}
               </div>
               <footer class="card__footer card__footer--inverted" style="padding: var(--space-xs);">
                 <time datetime="{{ post.updated_at }}"><small>{{ post.updated_at | date: "%b %d, %Y" }}</small></time>
