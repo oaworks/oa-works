@@ -18,6 +18,7 @@
 .lazy-line-painter.scrolled circle {
   stroke: var(--black-15) !important;
   transition: stroke .25s ease-in-out;
+  z-index: 10;
 }
 
 .products li {

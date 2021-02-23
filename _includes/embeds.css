@@ -40,7 +40,7 @@
     padding: var(--space-xs);
     background-color: var(--white);
     color: var(--black);
-    border-radius: 0;
+    border-radius: 3px;
     border: 1px solid;
     -webkit-box-shadow: none;
     box-shadow: none;
@@ -48,6 +48,7 @@
     min-width: auto !important;
     font-weight: 700;
     line-height: 1;
+    transition: all .1s ease-in-out;
   }
 
   #oabutton #oabutton_find {
@@ -59,6 +60,12 @@
     width: 50px;
     background-color: var(--black);
     font-size: inherit;
+  }
+
+  #shareyourpaper ._oab_button:hover,
+  #instantill ._oab_button:hover,
+  #oabutton #oabutton_find:hover {
+    border-radius: 3px;
   }
 
   #oabutton #oabutton_find img {

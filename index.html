@@ -8,11 +8,11 @@ theme: dark
     <div class="col col--1of2">
       <p class="bg-black-85 label">
         {{ site.lede }}
-        <sup>
+        <!-- <sup>
           <small class="font-sans">
             <a href="https://github.com/OAButton/oa-works/blob/main/_data/site.json" target="_blank" rel="noopener" style="color: var(--white);">Edit</a>
           </small>
-        </sup>
+        </sup> -->
       </p>
       <h2 class="bg-black-85 font-sans">{{ site.tagline }}</h2>
       <p class="bg-black-85">{{ site.description }}</p>
@@ -29,11 +29,11 @@ theme: dark
 <section id="products" class="section bg-white" data-aos="fade-up">
   <h2>
     Products
-    <sup>
+    <!-- <sup>
       <small class="font-sans">
         <a href="https://github.com/OAButton/oa-works/blob/main/_data/products.json" target="_blank" rel="noopener">Edit</a>
       </small>
-    </sup>
+    </sup> -->
   </h2>
   <ul class="products">
     {% include 'embeds.css' %}
@@ -106,9 +106,9 @@ theme: dark
         <h3 class="card__header label">{{ about.journey_heading }}</h3>
         <div class="card__body">
           <p>{{ about.journey_content }}</p>
-          <p>
+          <!-- <p>
             <a href="https://github.com/OAButton/oa-works/blob/main/_data/about.json" target="_blank" rel="noopener">Edit</a>
-          </p>
+          </p> -->
         </div>
         <div class="card__footer">
           <a href="/about/">{{ about.journey_cta }}</a>
@@ -130,7 +130,7 @@ theme: dark
                 {%- if post.feature_image -%}
                   <img src="{{ post.feature_image }}" class="card__img"/>
                 {% else %}
-                  <div class="card__blank bg-pattern__child"/>
+                  <div class="card__blank bg-pattern__child"></div>
                 {% endif %}
               </div>
               <footer class="card__footer card__footer--inverted" style="padding: var(--space-xs);">

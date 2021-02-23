@@ -3,6 +3,17 @@
   border: 1px solid;
 }
 
+.card a .card__img,
+.card a .card__blank {
+  transform: scale(1);
+  transition: all .5s;
+}
+
+.card a:hover .card__img,
+.card a:hover .card__blank {
+  transform: scale(1.05);
+}
+
 .card--small {
   font-size: var(--typescale-6);
 }
@@ -126,15 +137,6 @@ h5.card__header {
   width: 100%;
   height: 20vh;
   object-fit: cover;
-}
-
-.card > a .card__img {
-  transform: scale(1);
-  transition: all .5s;
-}
-
-.card > a:hover .card__img {
-  transform: scale(1.05);
 }
 
 .card__body a {
