@@ -6,7 +6,7 @@ theme: dark
 <section class="section section--cover" style="color: var(--white);">
   <div class="row">
     <div class="col col--1of2">
-      <p class="bg-black label">
+      <p class="bg-black-85 label">
         {{ site.lede }}
         <sup>
           <small class="font-sans">
@@ -14,8 +14,8 @@ theme: dark
           </small>
         </sup>
       </p>
-      <h2 class="bg-black font-sans">{{ site.tagline }}</h2>
-      <p class="bg-black">{{ site.description }}</p>
+      <h2 class="bg-black-85 font-sans">{{ site.tagline }}</h2>
+      <p class="bg-black-85">{{ site.description }}</p>
       <p style="margin-top: var(--space-xxl);">
         <a href="#products" class="button button--primary" style=" --initialTextColor: var(--black); --slideTextColor: var(--white); --initialBgColor: var(--white); --slideBgColor: var(--azure);">{{ site.cta }}</a>
       </p>
@@ -26,9 +26,7 @@ theme: dark
   </div>
 </section>
 
-{% include 'partners.html'%}
-
-<section id="products" class="section section--see-thru" data-aos="fade-up">
+<section id="products" class="section bg-white" data-aos="fade-up">
   <h2>
     Products
     <sup>
@@ -45,7 +43,7 @@ theme: dark
       {% if thecycle == 'odd' %}
         {% include 'product_description.html'%}
       {% endif %}
-      <aside class="col col--1of2 flex-center">
+      <aside class="col col--1of2 flex-center flex-col">
         <article class="card" style="box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;">
           <header class="card__header">
             <a href="{{ product.url }}"
@@ -71,12 +69,14 @@ theme: dark
   </ul>
 </section>
 
-<section class="section section--half section--inverted section--see-thru" style="padding-bottom: 0;" data-aos="fade-up">
+{% include 'partners.html'%}
+
+<section class="section section--half bg-black" style="padding-bottom: 0;" data-aos="fade-up">
   <h2 class="sr-only">Testimonials</h2>
   <ul class="testimonials" style="margin: 0;">
     {% for t in testimonials %}
     <li class="row row--centered flex-end testimonial" style="display: none;">
-      <article class="col col--2of4 flex-center">
+      <article class="col col--2of4 flex-center flex-col">
         <h3 class="label">On {{ t.product }}</h3>
         <blockquote>
           <p class="type-5">“{{ t.quote }}”</p>
@@ -90,7 +90,7 @@ theme: dark
           </p>
         </blockquote>
       </article>
-      <figure class="col col--1of4 flex-end">
+      <figure class="col col--1of4 flex-end flex-col">
         <img class="portrait" src="img/{{ t.img }}"/>
       </figure>
     </li>
@@ -99,7 +99,7 @@ theme: dark
 </section>
 
 
-<section class="section section--three-quarter" data-aos="fade-up">
+<section class="section section--three-quarter bg-white" data-aos="fade-up">
   <div class="row">
     <div class="col col--1of4">
       <article class="card card--small">

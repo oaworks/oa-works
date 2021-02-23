@@ -1,15 +1,17 @@
 {% comment %} TODO: THE BELOW WOULD BE MEDIA LIKE NATURE ETC BUT JUST FEELING IT OUT {% endcomment %}
-<section style="margin-left: var(--gutter-negative); margin-right: var(--gutter-negative); padding: var(--gutter);">
-  <div class="row">
-    <h2 class="col col--1of4 font-serif type-5">As seen in</h2>
-    <ul class="col col--3of4 row">
+<aside class="row bg-white aside">
+  <div class="col">
+    <h2 class="font-serif label flex-center" data-aos="fade-up">Covered in</h2>
+    <ul class="row">
+      {% assign delay_count = 0 %}
       {% for partner in partners %}
-      <li class="col col--group col--1of6">
-        <a href="{{ partner.url }}" title="{{ partner.name }}’s site" target="_blank" rel="noopener" style="display: block;">
+      {% assign delay_count = delay_count | plus: 50 %}
+      <li class="col col--1of3 flex-center" data-aos="fade-up" data-aos-delay="{{ delay_count }}">
+        <a href="{{ partner.url }}" title="{{ partner.name }}’s site" target="_blank" rel="noopener" class="bw" style="display: block; margin-top: var(--space-md);">
           {% include partner.logo %}
         </a>
       </li>
       {% endfor %}
     </ul>
   </div>
-</section>
+</aside>

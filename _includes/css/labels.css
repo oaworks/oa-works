@@ -1,6 +1,5 @@
 .label {
   margin: 0;
-  display: block;
   text-transform: uppercase;
   font-weight: 700;
   font-family: var(--sans-serif);
