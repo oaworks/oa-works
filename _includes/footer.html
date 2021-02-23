@@ -76,15 +76,15 @@
     document.onreadystatechange = function() {
       if (document.readyState === 'complete') {
         let el1 = document.querySelector('#introellipse');
-        let myAnimation1 = new LazyLinePainter(el1, {"ease":"easeInOutCubic","strokeWidth":100,"strokeOpacity":1,"strokeColor":"#0075FF","strokeCap":"square"});
+        let myAnimation1 = new LazyLinePainter(el1, {"ease":"easeInOutCubic","strokeWidth":70,"strokeOpacity":1,"strokeColor":"#0075FF","strokeCap":"square"});
         myAnimation1.paint();
 
         let el2 = document.querySelector('#introtriangle');
-        let myAnimation2 = new LazyLinePainter(el2, {"ease":"easeInOutCubic","strokeWidth":100,"strokeOpacity":1,"strokeColor":"#00FFD1","strokeCap":"square","delay":500});
+        let myAnimation2 = new LazyLinePainter(el2, {"ease":"easeInOutCubic","strokeWidth":70,"strokeOpacity":1,"strokeColor":"#00FFD1","strokeCap":"square","delay":500});
         myAnimation2.paint();
 
         let el3 = document.querySelector('#introsquiggle');
-        let myAnimation3 = new LazyLinePainter(el3, {"ease":"easeInOutCubic","strokeWidth":90,"strokeOpacity":1,"strokeColor":"#DBFF00","strokeCap":"square","delay":1500});
+        let myAnimation3 = new LazyLinePainter(el3, {"ease":"easeInOutCubic","strokeWidth":60,"strokeOpacity":1,"strokeColor":"#DBFF00","strokeCap":"square","delay":1500});
         myAnimation3.paint();
       }
     }

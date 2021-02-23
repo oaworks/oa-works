@@ -39,10 +39,8 @@ theme: dark
     {% include 'embeds.css' %}
     {% for product in products %}
     {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
-    <li class="row" style="background-color: var(--{{ product.colour }}-tint);" data-aos="fade-up">
-      {% if thecycle == 'odd' %}
-        {% include 'product_description.html'%}
-      {% endif %}
+    <li class="row" style="background-color: var(--{{ product.colour }}-tint); padding-top: calc(var(--gutter) * 2)" data-aos="fade-up">
+      {% include 'product_description.html'%}
       <aside class="col col--1of2 flex-center flex-col">
         <article class="card" style="box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;">
           <header class="card__header">
@@ -61,9 +59,6 @@ theme: dark
           </div>
         </article>
       </aside>
-      {% if thecycle == 'even' %}
-        {% include 'product_description.html'%}
-      {% endif %}
     </li>
     {% endfor %}
   </ul>
