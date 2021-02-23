@@ -1,19 +1,13 @@
-<article class="col col--1of2 flex-center flex-col fade" style="background: var(--white);">
+<article class="col col--1of2 flex-center flex-col fade">
   <p class="label">{{ product.label }}</p>
-  <h3 class="font-serif">{{ product.tagline }}</h3>
+  <h3 class="font-serif" style="border-bottom: 3px solid var(--{{ product.colour }}); padding-bottom: var(--space-sm);">{{ product.tagline }}</h3>
   <p>{{ product.description }}</p>
   <p style="margin-top: var(--space-xxl);">
     <a href="{{ product.url }}"
        target="_blank"
        rel="noopener"
-       class="button"
-       style="
-         border: 0;
-         background-color: var(--{{ product.colour }});
-         font-weight: 700;
-         letter-spacing: 0.035em;
-         text-transform: uppercase;
-      "
+       class="button button--secondary button--custom"
+       style="--custom-colour: var(--{{ product.colour }});"
     >
       {{ product.cta }}
     </a>

@@ -1,10 +1,10 @@
 .button {
   padding: 1em 1.25em;
-  border: 1px solid var(--black);
+  border: 3px solid var(--black);
   border-radius: 3px;
   text-decoration: none;
   font-size: var(--typescale-6);
-  transition: all .1s ease-in-out;
+  transition: all .15s ease-in-out;
 }
 
 .button--primary {
@@ -44,8 +44,13 @@
 }
 
 .button--secondary:hover {
-  background: linear-gradient(140deg, var(--black), var(--mid-grey));
-  background-size: 200% 200%;
-  animation: bg-slide 2s ease-in-out infinite;
+  border-color: var(--black);
+  background-color: var(--black);
   color: var(--white);
+}
+
+.button--custom:hover {
+  border-color: var(--custom-colour);
+  background-color: var(--custom-colour);
+  color: var(--black);
 }
