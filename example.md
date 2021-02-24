@@ -1,5 +1,5 @@
 ---
-layout: default.html
+layout: "layouts/default.liquid"
 theme: dark # Can be removed if we want it on a white bg
 title: An example default page
 ---

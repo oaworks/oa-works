@@ -1,0 +1,26 @@
+---
+layout: layouts/base.liquid
+---
+
+{% include 'snippets/about_header.liquid' %}
+
+{% if hero_heading_1 %}
+<section class="section bg-black section--third">
+  <div class="row">
+    <header class="col col--1of4" data-aos="fade-up">
+      <h2>{{ content.hero_content_1 }}</h2>
+    </header>
+    <p class="col col--1of4" data-aos="fade-up" data-aos-delay="100">
+      blab
+    </p>
+    <header class="col col--1of4" data-aos="fade-up" data-aos-delay="200">
+      <h2></h2>
+    </header>
+    <p class="col col--1of4" data-aos="fade-up" data-aos-delay="300">
+
+    </p>
+  </div>
+</section>
+{% endif %}
+
+{{ content }}

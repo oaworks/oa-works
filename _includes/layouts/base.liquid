@@ -2,7 +2,7 @@
 <html class="no-js" lang="en">
 
 <head>
-  {% include 'head.html' %}
+  {% include 'snippets/head.liquid' %}
 </head>
 
 <body class="{% if theme == 'dark' %}inverted {% endif %}{% if body_class %}{{ body_class }}{% endif %}">
@@ -10,13 +10,13 @@
   <p class="browserupgrade">You are using an outdated browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
   <![endif]-->
 
-  {% include 'header.html' %}
+  {% include 'snippets/header.liquid' %}
 
   <main>
     {{ content }}
   </main>
 
-  {% include 'footer.html' %}
+  {% include 'snippets/footer.liquid' %}
 
   <script>
   // Snap to sections

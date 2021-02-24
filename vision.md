@@ -1,5 +1,5 @@
 ---
-layout: about.html
+layout: "layouts/about.liquid"
 theme: dark
 title: Vision
 meta_description: "Lorem ipsum dolor sit amet."

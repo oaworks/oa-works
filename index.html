@@ -1,5 +1,5 @@
 ---
-layout: base.html
+layout: "layouts/base.liquid"
 theme: dark
 ---
 
@@ -40,7 +40,7 @@ theme: dark
     {% for product in products %}
     {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
     <li class="row" style="background-color: var(--{{ product.colour }}-tint); padding-top: calc(var(--gutter) * 2)" data-aos="fade-up">
-      {% include 'product_description.html'%}
+      {% include 'snippets/product_description.liquid'%}
       <aside class="col col--1of2 flex-center flex-col">
         <article class="card" style="box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;">
           <header class="card__header">
@@ -64,7 +64,7 @@ theme: dark
   </ul>
 </section>
 
-{% include 'partners.html'%}
+{% include 'snippets/partners.liquid'%}
 
 <section class="section section--half bg-black" style="padding-bottom: 0;" data-aos="fade-up">
   <h2 class="sr-only">Testimonials</h2>
@@ -141,7 +141,7 @@ theme: dark
   </div>
 </section>
 
-{% include 'stories.html' %}
+{% include 'snippets/stories.liquid' %}
 
 </body>
 
