@@ -6,7 +6,7 @@
     "label": "Paper deposit",
     "tagline": "A drag-and-drop Open Access deposit.",
     "cta": "Share your work",
-    "description": "Lorem ipsum dolor sit amet. A description here. Lorem ipsum dolor sit amet. A description here. Lorem ipsum dolor sit amet. A description here.",
+    "description": "ShareYourPaper.org uses self-archiving to make papers Open Access for free, and is the simplest way to increase a papers impact for authors and libraries.",
     "embed": "<h2 class='type-3 font-sans'>Find the easiest way to share your paper</h2><label>Enter your article’s DOI</label><div id='shareyourpaper'></div><script src='https://shareyourpaper.org/embed.js'></script><script>_oab=shareyourpaper({uid: 'by8dj55F7P6CY8hXM', config: {'owner':'sophy@openaccessbutton.org'}});</script>",
     "colour": "azure"
   },
@@ -17,7 +17,7 @@
     "label": "Inter-library loans",
     "tagline": "Deliver easy access without subscriptions.",
     "cta": "Make a request",
-    "description": "Lorem ipsum dolor sit amet. A description here. Lorem ipsum dolor sit amet. A description here. Lorem ipsum dolor sit amet. A description here.",
+    "description": "InstantILL is powering a global response to COVID-19 through RSCVD using Inter-library Loan, and can power a faster, less expensive, and more powerful inter-library loan system for your campus too.",
     "embed": "<h2 class='type-3 font-sans'>Request articles from any library in the world</h2><label>Enter a full article title, citation, DOI, or URL</label><div id='instantill'></div><script src='https://instantill.org/embed.js'></script><script>_oab=instantill({uid: 'by8dj55F7P6CY8hXM', config: {'owner':'sophy@openaccessbutton.org'}});</script>",
     "colour": "cyan"
   },
@@ -25,10 +25,10 @@
     "logo": "products/oab.svg",
     "name": "OAButton",
     "url": "https://oabutton.org",
-    "label": "OA delivery",
+    "label": "Open Access delivery",
     "tagline": "Get around paywalls in a click.",
     "cta": "Find an article",
-    "description": "Lorem ipsum dolor sit amet. A description here. Lorem ipsum dolor sit amet. A description here. Lorem ipsum dolor sit amet. A description here.",
+    "description": "OAButton get you free access legally by scouring the web and emailing authors from tools on our website, plugins for your browser, or your embedded into your library.",
     "embed": "<div id='oabutton'><h2>Avoid paywalls, request research</h2><label for='oabutton_url'>Enter an article’s URL, DOI, Title, or Citation</label><script src='https://openaccessbutton.org/static/jquery-1.10.2.min.js'></script><script src='https://openaccessbutton.org/static/openaccessbutton_widget.js'></script><script>jQuery(document).ready(function(){openaccessbutton_widget({uid:'h9mTMgqeaKDyJW8E2'});});</script><div id='openaccessbutton_widget'></div></div>",
     "colour": "carnation"
   }
