@@ -1,0 +1,17 @@
+<ul class="row col col--2of3">
+  {% assign delay_count = 0 %}
+  {% for stat in impact %}
+  {% assign delay_count = delay_count | plus: 100 %}
+  <li class="col col--1of2" data-aos="fade-up" data-aos-delay="{{ delay_count }}">
+    <article class="card card--small">
+      <header class="card__header">
+        <span style="font-weight: 700; letter-spacing: -0.015em; font-size: var(--typescale-2);">{{ stat.value }}</span><br/>
+        <span class="font-serif">{{ stat.key }}</span>
+      </header>
+      <div class="card__body">
+        {{ stat.desc }}
+      </div>
+    </article>
+  </li>
+  {% endfor %}
+</ul>

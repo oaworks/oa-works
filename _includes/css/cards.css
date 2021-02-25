@@ -23,18 +23,11 @@
   padding: var(--space-xs);
 }
 
+
 .card__header {
   padding: var(--space-sm);
-  background: var(--black);
-  border-bottom: 1px solid var(--black);
-  color: var(--white);
-  overflow-wrap: break-word;
-}
-
-.card__header--plain {
   border-bottom: 1px solid;
-  background: transparent;
-  color: var(--black);
+  overflow-wrap: break-word;
 }
 
 h2.card__header,

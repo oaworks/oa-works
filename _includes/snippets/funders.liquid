@@ -1,0 +1,11 @@
+<ul class="row col col--2of3">
+  {% assign delay_count = 0 %}
+  {% for funder in funders %}
+  {% assign delay_count = delay_count | plus: 100 %}
+  <li class="col col--1of2" data-aos="fade-up" data-aos-delay="{{ delay_count }}">
+    <a href="{{ funder.url }}" target="_blank" rel="noopener" title="Go to {{ funder.name }}’s site" style="display: block;">
+      {% include {{ funder.logo }} %}
+    </a>
+  </li>
+  {% endfor %}
+</ul>

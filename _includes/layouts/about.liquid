@@ -5,7 +5,7 @@ layout: layouts/base.liquid
 {% include 'snippets/about_header.liquid' %}
 
 {% comment %}If there’s a hero heading:{% endcomment %}
-{% if hero_heading_1 %}
+{%- if hero_heading_1 -%}
 <section class="section bg-black section--quarter">
   <div class="row">
     <header class="col col--1of4" data-aos="fade-up">
@@ -32,7 +32,28 @@ layout: layouts/base.liquid
   </div>
 </section>
 
-{% comment %}Otherwise, display content with a left-side heading{% endcomment %}
-{% else %}
-{{ content }}
-{% endif %}
+{% comment %}Datafile-based pages are displayed with a left sidebar{% endcomment %}
+{%- elsif data_file -%}
+<section id="values" class="section section--half bg-black" style="padding-bottom: 0;">
+  <header data-aos="fade-up">
+    <h1>{{ title }}</h1>
+    <p>{{ meta_description }}</p>
+  </header>
+  <div class="row{% if theme == 'dark' %} bg-black{% endif %}">
+    {% assign dir = "snippets/" %}
+    {% assign ext = ".liquid" %}
+    {% assign data_file = data_file | prepend: dir %}
+    {% include {{ data_file | append: ext }} %}
+  </div>
+</section>
+
+{%- else -%}
+<section class="section bg-white markdown">
+  <div class="row row--centered">
+    <div class="col col--1of2" data-aos="fade-up">
+      <h1>{{ title }}</h1>
+      {{ content }}
+    </div>
+  </div>
+</section>
+{%- endif -%}

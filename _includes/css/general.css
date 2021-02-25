@@ -6,7 +6,8 @@
 
 html {
   scroll-behavior: smooth;
-  color: var(--black);
+  background: var(--black);
+  color: var(--white);
 }
 
 main {
@@ -48,7 +49,7 @@ iframe {
 
 a {
   text-decoration: none;
-  color: var(--black);
+  color: var(--white);
 }
 
 p {

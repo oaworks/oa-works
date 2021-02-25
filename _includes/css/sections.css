@@ -9,10 +9,6 @@
   padding-top: var(--space-sm);
 }
 
-.section a {
-  color: var(--black);
-}
-
 .section--cover {
   display: flex;
   justify-content: center;

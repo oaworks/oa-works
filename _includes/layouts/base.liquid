@@ -5,7 +5,7 @@
   {% include 'snippets/head.liquid' %}
 </head>
 
-<body class="{% if theme == 'dark' %}inverted {% endif %}{% if body_class %}{{ body_class }}{% endif %}">
+<body{% if body_class %} class="{{ body_class }}"{% endif %}>
   <!--[if IE]>
   <p class="browserupgrade">You are using an outdated browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
   <![endif]-->

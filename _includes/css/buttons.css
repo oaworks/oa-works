@@ -4,6 +4,7 @@
   border-radius: 3px;
   text-decoration: none;
   font-size: var(--typescale-6);
+  color: var(--black);
   transition: all .15s ease-in-out;
 }
 

@@ -1,6 +1,5 @@
 ---
 layout: "layouts/base.liquid"
-theme: dark
 ---
 
 <section class="section section--cover" style="color: var(--white);">
@@ -35,7 +34,7 @@ theme: dark
       </small>
     </sup> -->
   </h2>
-  <ul class="products">
+  <ul class="products bg-white">
     {% include 'embeds.css' %}
     {% for product in products %}
     {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
@@ -43,7 +42,7 @@ theme: dark
       {% include 'snippets/product_description.liquid'%}
       <aside class="col col--1of2 flex-center flex-col">
         <article class="card" style="box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;">
-          <header class="card__header">
+          <header class="card__header bg-black">
             <a href="{{ product.url }}"
                target="_blank"
                rel="noopener"
@@ -72,7 +71,7 @@ theme: dark
     {% for t in testimonials %}
     <li class="row row--centered flex-end testimonial" style="display: none;">
       <article class="col col--2of4 flex-center flex-col">
-        <h3 class="label">On {{ t.product }}</h3>
+        <h3 class="label">Partnered on {{ t.product }}</h3>
         <blockquote>
           <p class="type-5">“{{ t.quote }}”</p>
           <a href="{{ t.aff_url }}" target="_blank" rel="noopener" style="display: block;">
@@ -98,7 +97,7 @@ theme: dark
   <div class="row">
     <div class="col col--1of4">
       <article class="card card--small">
-        <h3 class="card__header label">{{ about.journey_heading }}</h3>
+        <h3 class="card__header bg-black label">{{ about.journey_heading }}</h3>
         <div class="card__body">
           <p>{{ about.journey_content }}</p>
           <!-- <p>
@@ -120,7 +119,7 @@ theme: dark
         <li class="col col--1of3 bg-pattern" data-aos="fade-up" data-aos-delay="{{ delay_count }}">
           <article class="card card--small">
             <a href="https://blog.openaccessbutton.org/{{ post.slug }}/" target="_blank" rel="noopener" style="display: block;">
-              <h3 class="card__header card__header--plain label label--secondary">{{ post.title }}</h3>
+              <h3 class="card__header bg-white label label--secondary">{{ post.title }}</h3>
               <div class="card__body" style="padding: 0;">
                 {%- if post.feature_image -%}
                   <img src="{{ post.feature_image }}" class="card__img"/>
