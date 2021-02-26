@@ -109,8 +109,33 @@ layout: "layouts/base.liquid"
 
 
 <section class="section section--three-quarter bg-white" data-aos="fade-up">
-  <div class="row">
-    <div class="col col--1of4">
+  <h2 class="font-serif">Latest updates</h2>
+  <ul class="row">
+    {% assign delay_count = 0 %}
+    {% for post in posts limit:3 %}
+    {% assign delay_count = delay_count | plus: 50 %}
+    <li class="col col--1of3 bg-pattern" data-aos="fade-up" data-aos-delay="{{ delay_count }}">
+      <article class="card card--small">
+        <a href="https://blog.openaccessbutton.org/{{ post.slug }}/" target="_blank" rel="noopener" style="display: block;">
+          <h3 class="card__header bg-white label label--secondary">{{ post.title }}</h3>
+          <div class="card__body" style="padding: 0;">
+            {%- if post.feature_image -%}
+              <img src="{{ post.feature_image }}" class="card__img"/>
+            {% else %}
+              <div class="card__blank bg-pattern__child"></div>
+            {% endif %}
+          </div>
+          <footer class="card__footer card__footer--inverted" style="padding: var(--space-xs);">
+            <time datetime="{{ post.updated_at }}"><small>{{ post.updated_at | date: "%b %d, %Y" }}</small></time>
+          </footer>
+        </a>
+      </article>
+    </li>
+    {% endfor %}
+  </ul>
+
+  <div class="row row--centered" data-aos="fade-up">
+    <div class="col col--1of2">
       <article class="card card--small">
         <h3 class="card__header bg-black label">{{ about.journey_heading }}</h3>
         <div class="card__body">
@@ -123,34 +148,6 @@ layout: "layouts/base.liquid"
           <a href="/about/">{{ about.journey_cta }}</a>
         </div>
       </article>
-    </div>
-
-    <div class="col col--3of4">
-      <h2 class="font-serif">Latest updates</h2>
-      <ul class="row">
-        {% assign delay_count = 0 %}
-        {% for post in posts limit:3 %}
-        {% assign delay_count = delay_count | plus: 50 %}
-        <li class="col col--1of3 bg-pattern" data-aos="fade-up" data-aos-delay="{{ delay_count }}">
-          <article class="card card--small">
-            <a href="https://blog.openaccessbutton.org/{{ post.slug }}/" target="_blank" rel="noopener" style="display: block;">
-              <h3 class="card__header bg-white label label--secondary">{{ post.title }}</h3>
-              <div class="card__body" style="padding: 0;">
-                {%- if post.feature_image -%}
-                  <img src="{{ post.feature_image }}" class="card__img"/>
-                {% else %}
-                  <div class="card__blank bg-pattern__child"></div>
-                {% endif %}
-              </div>
-              <footer class="card__footer card__footer--inverted" style="padding: var(--space-xs);">
-                <time datetime="{{ post.updated_at }}"><small>{{ post.updated_at | date: "%b %d, %Y" }}</small></time>
-              </footer>
-            </a>
-          </article>
-        </li>
-        {% endfor %}
-      </ul>
-      <!-- <p style="text-align: right;"><a href="https://blog.openaccessbutton.org/" target="_blank" rel="noopener">Blog ⟶</a></p> -->
     </div>
   </div>
 </section>
