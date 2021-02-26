@@ -52,10 +52,6 @@ a {
   color: var(--white);
 }
 
-p {
-  margin-bottom: var(--space-md);
-}
-
 em, i {
   font-family: 'InterItalic';
 }
