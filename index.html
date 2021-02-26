@@ -63,7 +63,22 @@ layout: "layouts/base.liquid"
   </ul>
 </section>
 
-{% include 'snippets/partners.liquid'%}
+<aside class="row bg-white aside">
+  <div class="col">
+    <h2 class="font-serif label flex-center" data-aos="fade-up">In partnership with</h2>
+    <ul class="row unstyled-list flex-center">
+      {% assign delay_count = 0 %}
+      {% for partner in partners %}
+      {% assign delay_count = delay_count | plus: 50 %}
+      <li class="col col--1of3 flex-center" data-aos="fade-up" data-aos-delay="{{ delay_count }}">
+        <a href="{{ partner.url }}" title="{{ partner.name }}’s site" target="_blank" rel="noopener" class="bw" style="display: block; margin-top: var(--space-md);">
+          {% include partner.logo %}
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</aside>
 
 <section class="section section--half bg-black" style="padding-bottom: 0;" data-aos="fade-up">
   <h2 class="sr-only">Testimonials</h2>
