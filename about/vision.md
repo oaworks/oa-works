@@ -5,18 +5,11 @@ title: Vision
 meta_description: "Lorem ipsum dolor sit amet."
 ---
 
-## We’re living in an unkind information age
+## A just and kind information age
 
-I am a paragraph or two that expands on the unkind information age idea. I am a paragraph or two that expands on the unkind information age idea. I am a paragraph or two that expands on the unkind information age idea. I am a paragraph or two that expands on the unkind information age idea.
+We’re striving for a world where information ecosystems are designed and built to reduce inequality, protect human rights, and feel kinder. That can start with opening up how we share research so it’s possible to publish fairly, freely, and quickly while rewriting the rules to include people so often marginalized.
 
-## Our Vision is a just and kind informage age
 
-I am a paragraph or two that expands on this
+## Build powerfully simple open access tools
 
-## We believe a path is transforming how we share research to be more open
-
-I am a paragraph or two that expands on this
-
-## Our mission is to help by building powerfully simple tools for open access
-
-I am a paragraph or two that expands on this
+Open Access promises equitable information sharing, but we have a long journey ahead to realize it. We build tools that make doing open access equitably easier to help get us there faster. We carefully co-design with libraries, researchers, and educators who’ve always been at the forefront of sharing and shaping public knowledge in the public interest.
