@@ -8,14 +8,3 @@ hero_content_1: "We’re a library-owned non-profit funded by leading foundation
 hero_heading_2: "We’re building free & open source tools so that open access is easy and equitable"
 hero_content_2: "We build them in partnership with librarians and open advocates striving for a just and kind world."
 ---
-
-Lorem ipsum dolor sit amet.
-
-- Item
-- Item
-- Item
-- Item
-- Item
-- Item
-- Item
-- Item

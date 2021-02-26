@@ -1,5 +1,5 @@
 ---
-layout: "layouts/about.liquid"
+layout: "layouts/people.liquid"
 theme: dark
 data_file: funders
 title: Funders

@@ -1,5 +1,5 @@
 ---
-layout: "layouts/about.liquid"
+layout: "layouts/history.liquid"
 theme: dark
 title: History
 hero_heading_1: "Established in 2013"

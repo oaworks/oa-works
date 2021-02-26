@@ -1,0 +1,20 @@
+---
+layout: layouts/page.liquid
+---
+
+<header style="margin-top: var(--space-md);">
+  <h2 class="font-sans">
+    History
+  </h2>
+
+  <nav>
+    <ul class="tabs">
+      <li class="tab{% if page.url == '/history/' %} tab--active{% endif %}">
+        <a href="/history/">History</a>
+      </li>
+      <li class="tab{% if page.url == '/impact/' %} tab--active{% endif %}">
+        <a href="/history/impact/">Impact</a>
+      </li>
+    </ul>
+  </nav>
+</header>

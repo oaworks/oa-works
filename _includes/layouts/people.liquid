@@ -1,0 +1,23 @@
+---
+layout: layouts/page.liquid
+---
+
+<header style="margin-top: var(--space-md);">
+  <h2 class="font-sans">
+    People
+  </h2>
+
+  <nav>
+    <ul class="tabs">
+      <li class="tab{% if page.url == '/team/' %} tab--active{% endif %}">
+        <a href="/people/">Team</a>
+      </li>
+      <li class="tab{% if page.url == '/partners/' %} tab--active{% endif %}">
+        <a href="/people/partners/">Partners</a>
+      </li>
+      <li class="tab{% if page.url == '/funders/' %} tab--active{% endif %}">
+        <a href="/people/funders/">Funders</a>
+      </li>
+    </ul>
+  </nav>
+</header>

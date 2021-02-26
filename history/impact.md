@@ -1,5 +1,5 @@
 ---
-layout: "layouts/about.liquid"
+layout: "layouts/history.liquid"
 theme: dark
 data_file: impact
 title: Impact
