@@ -3,20 +3,16 @@ layout: layouts/base.liquid
 ---
 
 <header style="margin-top: var(--space-md);">
-  <h2 class="font-sans">
-    About
-  </h2>
-
   <nav>
     <ul class="tabs">
       <li class="tab{% if page.url == '/about/' %} tab--active{% endif %}">
-        <a href="/about/">About</a>
+        <a href="/about/" class="label">About</a>
       </li>
-      <li class="tab{% if page.url == '/vision/' %} tab--active{% endif %}">
-        <a href="/about/vision/">Vision</a>
+      <li class="tab{% if page.url == '/about/vision/' %} tab--active{% endif %}">
+        <a href="/about/vision/" class="label">Vision</a>
       </li>
-      <li class="tab{% if page.url == '/values/' %} tab--active{% endif %}">
-        <a href="/about/values/">Values</a>
+      <li class="tab{% if page.url == '/about/values/' %} tab--active{% endif %}">
+        <a href="/about/values/" class="label">Values</a>
       </li>
     </ul>
   </nav>
@@ -41,12 +37,15 @@ layout: layouts/base.liquid
   </div>
 </section>
 
-<section class="section bg-white markdown">
-  <div class="row row--centered">
-    <div class="col col--1of2" data-aos="fade-up">
-      <h1>{{ title }}</h1>
+<section class="row bg-white">
+  <header class="col col--1of3">
+    <h1 style="margin-top: var(--space-md);">{{ title }}</h1>
+  </header>
+
+  <div class="col col--1of2" style="border-left: 1px solid;" data-aos="fade-up">
+    <section class="markdown" style="margin-top: var(--space-md); padding-top: 0;">
       {{ content }}
-    </div>
+    </section>
   </div>
 </section>
 
@@ -66,12 +65,15 @@ layout: layouts/base.liquid
 </section>
 
 {%- else -%}
-<section class="section bg-white markdown">
-  <div class="row row--centered">
-    <div class="col col--1of2" data-aos="fade-up">
-      <h1>{{ title }}</h1>
+<section class="row bg-white">
+  <header class="col col--1of3">
+    <h1 style="margin-top: var(--space-md);">{{ title }}</h1>
+  </header>
+
+  <div class="col col--1of2" style="border-left: 1px solid;" data-aos="fade-up">
+    <section class="markdown" style="margin-top: var(--space-md); padding-top: 0;">
       {{ content }}
-    </div>
+    </section>
   </div>
 </section>
 {%- endif -%}

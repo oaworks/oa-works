@@ -44,6 +44,10 @@
   font-size: var(--typescale-6);
 }
 
+.type-unit {
+  font-size: 1rem;
+}
+
 .align-right {
   text-align: right;
 }
@@ -53,7 +57,7 @@
   color: var(--black);
 }
 
-.bg-black a {
+.bg-white a {
   color: var(--black);
 }
 

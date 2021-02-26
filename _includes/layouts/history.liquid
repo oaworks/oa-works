@@ -3,16 +3,12 @@ layout: layouts/base.liquid
 ---
 
 <header style="margin-top: var(--space-md);">
-  <h2 class="font-sans">
-    History
-  </h2>
-
   <nav>
     <ul class="tabs">
       <li class="tab{% if page.url == '/history/' %} tab--active{% endif %}">
         <a href="/history/">History</a>
       </li>
-      <li class="tab{% if page.url == '/impact/' %} tab--active{% endif %}">
+      <li class="tab{% if page.url == '/history/impact/' %} tab--active{% endif %}">
         <a href="/history/impact/">Impact</a>
       </li>
     </ul>
@@ -38,23 +34,26 @@ layout: layouts/base.liquid
   </div>
 </section>
 
-<section class="section bg-white markdown">
-  <div class="row row--centered">
-    <div class="col col--1of2" data-aos="fade-up">
-      <h1>{{ title }}</h1>
+<section class="row bg-white">
+  <header class="col col--1of3">
+    <h1 style="margin-top: var(--space-md);">{{ title }}</h1>
+  </header>
+
+  <div class="col col--1of2" style="border-left: 1px solid;" data-aos="fade-up">
+    <section class="markdown" style="margin-top: var(--space-md); padding-top: 0;">
       {{ content }}
-    </div>
+    </section>
   </div>
 </section>
 
 {% comment %}Datafile-based pages are displayed with a left sidebar{% endcomment %}
 {%- elsif data_file -%}
-<section id="values" class="section section--half bg-black" style="padding-bottom: 0;">
-  <header data-aos="fade-up">
+<section id="values" class="row bg-white" style="padding-top: var(--space-md); padding-bottom: 0;">
+  <header class="col col--1of3" data-aos="fade-up">
     <h1>{{ title }}</h1>
     <p>{{ meta_description }}</p>
   </header>
-  <div class="row{% if theme == 'dark' %} bg-black{% endif %}">
+  <div class="col col--2of3">
     {% assign dir = "snippets/" %}
     {% assign ext = ".liquid" %}
     {% assign data_file = data_file | prepend: dir %}
@@ -63,12 +62,15 @@ layout: layouts/base.liquid
 </section>
 
 {%- else -%}
-<section class="section bg-white markdown">
-  <div class="row row--centered">
-    <div class="col col--1of2" data-aos="fade-up">
-      <h1>{{ title }}</h1>
+<section class="row bg-white">
+  <header class="col col--1of3">
+    <h1 style="margin-top: var(--space-md);">{{ title }}</h1>
+  </header>
+
+  <div class="col col--1of2" style="border-left: 1px solid;" data-aos="fade-up">
+    <section class="markdown" style="margin-top: var(--space-md); padding-top: 0;">
       {{ content }}
-    </div>
+    </section>
   </div>
 </section>
 {%- endif -%}
