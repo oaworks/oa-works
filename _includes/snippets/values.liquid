@@ -1,10 +1,10 @@
-<ol class="col col--2of3 row values" style="margin-bottom: 0;">
+<ol class="row values">
   {% assign delay_count = 0 %}
   {% for value in values %}
   {% assign delay_count = delay_count | plus: 100 %}
   <li class="col col--1of2" data-aos="fade-up" data-aos-delay="{{ delay_count }}">
-    <p class="label label--secondary line-thru" style="margin-bottom: var(--space-xs); color: var(--light-grey);">
-      <small class="line-thru__inner">{{ value.goal }}</small>
+    <p class="label label--secondary line-thru" style="margin-bottom: var(--space-xs); color: var(--mid-grey);">
+      <small class="line-thru__inner label">{{ value.goal }}</small>
     </p>
     <article class="card">
       <header class="card__header">
@@ -20,13 +20,3 @@
   </li>
   {% endfor %}
 </ol>
-
-<figure class="col col--1of3 flex-end flex-col" style="display: flex;" data-aos="fade-up" data-aos-delay="200">
-  <img src="../img/people/camille.png" class="flex-end flex-col"/>
-  <figcaption style="position: absolute; bottom: var(--gutter); right: 0; " data-aos="fade-up" >
-    <strong>Camille Thomas</strong>
-    <br/>OA.Works Supporter
-    <br/>Scholarly Communication Librarian
-    <br/>at Florida State University
-  </figcaption>
-</figure>

@@ -14,6 +14,6 @@
 }
 
 .line-thru__inner {
-  background: var(--black);
-  padding-right: var(--space-sm);
+  background: var(--white);
+  padding-right: var(--space-xs);
 }

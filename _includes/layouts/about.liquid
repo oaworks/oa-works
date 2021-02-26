@@ -51,12 +51,12 @@ layout: layouts/base.liquid
 
 {% comment %}Datafile-based pages are displayed with a left sidebar{% endcomment %}
 {%- elsif data_file -%}
-<section id="values" class="section section--half bg-black" style="padding-bottom: 0;">
-  <header data-aos="fade-up">
+<section id="values" class="row bg-white" style="padding-top: var(--space-md); padding-bottom: 0;">
+  <header class="col col--1of3" data-aos="fade-up">
     <h1>{{ title }}</h1>
     <p>{{ meta_description }}</p>
   </header>
-  <div class="row{% if theme == 'dark' %} bg-black{% endif %}">
+  <div class="col col--2of3">
     {% assign dir = "snippets/" %}
     {% assign ext = ".liquid" %}
     {% assign data_file = data_file | prepend: dir %}
