@@ -34,7 +34,7 @@ layout: "layouts/base.liquid"
       </small>
     </sup> -->
   </h2>
-  <ul class="products bg-white">
+  <ul class="no-margin bg-white products">
     {% include 'embeds.css' %}
     {% for product in products %}
     {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
@@ -82,7 +82,7 @@ layout: "layouts/base.liquid"
 
 <section class="section section--half bg-black" style="padding-bottom: 0;" data-aos="fade-up">
   <h2 class="sr-only">Testimonials</h2>
-  <ul class="testimonials" style="margin: 0;">
+  <ul class="no-margin testimonials">
     {% for t in testimonials %}
     <li class="row row--centered flex-end testimonial" style="display: none;">
       <article class="col col--2of4 flex-center flex-col">

@@ -79,6 +79,10 @@
   color: var(--white);
 }
 
+.no-margin {
+  margin: 0;
+}
+
 .blend-difference {
   mix-blend-mode: difference;
 }

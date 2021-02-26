@@ -6,10 +6,6 @@
   font-size: var(--typescale-6);
 }
 
-.header h1 {
-  margin: 0;
-}
-
 .header svg {
   display: block;
   height: 5vh;
