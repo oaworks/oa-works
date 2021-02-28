@@ -1,26 +1,56 @@
 [
   {
-    "value": "603,514",
-    "key": "Requests received",
+    "value": "Hundreds",
+    "key": "of libraries use & recommend the tools",
     "app": "OpenAccessButton",
-    "desc": "Aliquam interdum consectetur hendrerit. Ut gravida libero ac tellus placerat, quis ornare lectus aliquet. Praesent."
+    "desc": "Libraries big and small suggest their patrons use OpenAccessButton."
+  },
+  {
+    "value": "25,000",
+    "key": "stories shared",
+    "app": "OpenAccessButton",
+    "desc": "The Open Access movement is propelled by stories of paywalls holding back progress. Through our tools, we've told powerful stories of real people affected by our broken system."
   },
   {
     "value": "10,000",
-    "key": "Documents loaned",
+    "key": "policies documented openly",
+    "app": "ShareYourPaper Permissions",
+    "desc": "ShareYourPaper Permissions has documented how to make your paper Open Access for 85% of papers and counting."
+  },
+  {
+    "value": "8500+",
+    "key": "papers and books supplied during Covid",
     "app": "InstantILL",
-    "desc": "Nullam eu nisl lacus. Proin eget ultricies felis. Vivamus venenatis viverra ex at consectetur. Vivamus."
+    "desc": "When Libraries around the world were closed due to Covid, we worked with IFLA to fill the gap with RSCVD. Powered by our tools, libraries around the world delivered documents for free."
   },
   {
-    "value": "10,000",
-    "key": "Papers deposited",
+  "value": "680,000",
+  "key": "searches for OA in ILL systems",
+  "app": "DeliverOA",
+  "desc": "We led the way for integrating Open Access into Interlibrary Loan systems. Every OA article delivered is money saved for libraries, quicker delivers for patrons, and one step closer to Open by default."
+  },
+  {
+  "value": "6",
+  "key": "guides to using and making Open Access",
+  "app": "",
+  "desc": "Some of our guides have been cited hundreds of times."
+  },
+  {
+    "value": "1000",
+    "key": "Papers made open for free",
     "app": "ShareYourPaper",
-    "desc": "Maecenas a ullamcorper mauris. Sed eleifend, urna non mollis pulvinar, mi neque aliquam justo, gravida."
+    "desc": "Our tools help authors make their work Open Access for free."
   },
   {
-    "value": "10,000",
-    "key": "Policies reviewed",
-    "app": "OARights",
-    "desc": "Cras in nunc iaculis, pellentesque sapien id, luctus massa. Phasellus semper dapibus ipsum sed dapibus."
+    "value": "Millions",
+    "key": "of searches for Open Access",
+    "app": "ShareYourPaper",
+    "desc": "Finding Open Access content wasn't always as easy as it today. We helped pioneer approaches, and today still help deliver Open Access articles."
+  },
+  {
+    "value": "Thousands",
+    "key": "Of authors educated on Open Access",
+    "app": "OpenAccessButton",
+    "desc": "We've worked with authors around the world to show them why Open Access matters, and how easy it can be."
   }
 ]
