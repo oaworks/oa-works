@@ -17,13 +17,4 @@
     "aff_logo": "logos/iupui.svg",
     "aff_url": "https://www.iupui.edu/"
   },
-  {
-    "name": "CJ de Jong",
-    "role": "Access Services Coordinator, Librarian",
-    "quote": "InstantILL is key to UAL in helping our users discover Open Access material. Supporting this development at the leadership level demonstrates our strategic commitment to Open Access.",
-    "product": "InstantILL.org",
-    "img": "people/cj.png",
-    "aff_logo": "logos/ualbertalibrary.svg",
-    "aff_url": "https://www.library.ualberta.ca/"
-  }
 ]
