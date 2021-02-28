@@ -1,7 +1,7 @@
 ---
 layout: "layouts/about.liquid"
 theme: dark
-title: Vision
+title: Vision & Mission
 meta_description: "Lorem ipsum dolor sit amet."
 ---
 
