@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Nature",
+    "logo": "logos/Nature.png"
+  },
+  {
+    "name": "huffpost",
+    "logo": "logos/huffpost.png"
+  },
+  {
+    "name": "The Guardian",
+    "logo": "logos/TheGuardian.png"
+  },
+  {
+    "name": "LSE",
+    "logo": "logos/lse.png"
+  },
+  {
+    "name": "Scientific American",
+    "logo": "logos/ScientificAmerican.png"
+  }
+]
