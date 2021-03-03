@@ -7,8 +7,7 @@ meta_description: "We build powerfully simple open access tools for a just and k
 
 ## *Vision*: A just and kind information age
 
-We’re striving for a world where information ecosystems are designed and built to reduce inequality, protect human rights, and feel kinder. That can start with opening up how we share research so it’s possible to publish fairly, freely, and quickly while rewriting the rules to include people so often marginalized.
-
+We’re striving for a world where information ecosystems get built to reduce inequality, protect human rights, and feel kinder. That can start with opening up how we share research. We want to make publishing fair, free, and open while rewriting the rules to include people too often marginalized.
 
 ## *Mission*: Build powerfully simple open access tools
 
