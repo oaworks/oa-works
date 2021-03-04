@@ -57,6 +57,8 @@
 <script src="js/lazy-line-painter-1.9.6.min.js"></script>
 {% comment %}Include AOS{% endcomment %}
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+{% comment %}Detect IE and show message to update browser{% endcomment %}
+{% include 'snippets/browser_detection.liquid' %}
 
 <script type="text/javascript">
   // Initialise AOS
@@ -90,7 +92,7 @@
     }
 
     window.onscroll = function() {
-      // Display back-to-top btn on scroll 
+      // Display back-to-top btn on scroll
       var topBtn = document.getElementById("topBtn");
 
       if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
