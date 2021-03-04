@@ -15,7 +15,7 @@ We went from late night emails, to hackdays, to an international volunteer team 
 
 Our plans expanded from just chronicling the failures of the information age. We dreamed to join the advocates and leaders working to rectify them. And so, the Open Access Button app got more powerful. We started linking people directly to Open Access versions when we could find them. When we couldn’t, we reached out directly to the scholars behind the paywalls. We shared our users’ stories, and helped them share their work freely.
 
-## Better tools for bigger problems
+## Better tools for bigger problems
 
 We found natural allies with librarians. After speaking with more than 100 we were shown an opportunity to shift the gears of the larger system. With Jisc’s support we worked to inject Open Access content into the InterLibrary Loan system, and worked to strengthen it so that libraries could more confidently cancel big deals. We built early tools, guides, and worked with the community at large.
 
