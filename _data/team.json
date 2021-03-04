@@ -5,7 +5,8 @@
     "bio": "Founded OA.Works. Worked at OpenCon and SPARC.",
     "img": "",
     "email": "joe@oa.works",
-    "twitter": "mcarthur_joe"
+    "twitter": "mcarthur_joe",
+    "github": "JosephMcArthur"
   },
   {
     "name": "Mark <br/>MacGillivray",
@@ -13,7 +14,8 @@
     "bio": "Founded <a href='https://cottagelabs.com/' target='_blank' rel='noopener'>Cottage Labs</a>",
     "img": "",
     "email": "mark@oa.works",
-    "twitter": "cottagelabs"
+    "twitter": "cottagelabs",
+    "github": "markmacgillivray"
   },
   {
     "name": "Natalia <br/>Norori",
@@ -21,14 +23,16 @@
     "bio": "Profiled by <a href='https://www.forbes.com/sites/andrewwight/2020/07/19/this-nicaraguan-is-showing-how-to-better-share-pandemic-health-data/' target='_blank' rel='noopener'>Forbes</a>",
     "img": "",
     "email": "natalia@oa.works",
-    "twitter": "natalianorori"
+    "twitter": "natalianorori",
+    "github": "natalianorori"
   },
   {
     "name": "Sophy <br/>Goddard",
     "role": "UX Designer & Developer",
     "bio": "Designed for <a href='https://doaj.org/' target='_blank' rel='noopener'>DOAJ</a>, <a href='https://erudit.org/' target='_blank' rel='noopener'>Érudit</a>, SPARC & PKP",
     "img": "",
-    "email": "sophy@oa.works"
+    "email": "sophy@oa.works",
+    "github": "sssoz"
   },
   {
     "name": "Jake <br/>Orlowitz",
@@ -36,7 +40,7 @@
     "bio": "Founded <a href='https://en.wikipedia.org/wiki/Wikipedia:The_Wikipedia_Library' target='_blank' rel='noopener'>WikiLibrary</a>",
     "img": "",
     "email": "jake@oa.works",
-    "twitter": "JakeOrlowitz"
-
+    "twitter": "JakeOrlowitz",
+    "github": "jorlowitz"
   }
 ]
