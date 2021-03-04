@@ -1,6 +1,5 @@
 ---
 layout: "layouts/about.liquid"
-theme: dark
 title: About
 hero_heading_1: "We’re OA.Works</br> (say it: OA Works)"
 hero_content_1: "We’re a library-owned non-profit funded by leading foundations and libraries. </br>You may have known us as the Open Access Button."

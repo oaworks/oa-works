@@ -1,6 +1,5 @@
 ---
 layout: "layouts/history.liquid"
-theme: dark
 title: History
 hero_heading_1: "Established in 2013"
 hero_content_1: "We got our start as the Open Access Button, but as our tools grew, so did we. OA.Works is now the home of our tools."

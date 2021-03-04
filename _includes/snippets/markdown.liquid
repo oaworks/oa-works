@@ -2,7 +2,7 @@
 
 {% comment %}Datafile-based pages are displayed with a left sidebar{% endcomment %}
 {%- if data_file -%}
-<section class="row bg-white data-file" style="padding-top: var(--space-md); padding-bottom: 0;">
+<section class="row data-file{% if theme != 'dark' %} bg-white{% endif %}" style="padding-top: var(--space-md); padding-bottom: 0;">
   <header class="col col--1of3" data-aos="fade-up">
     <h1>{{ title }}</h1>
     <p>{{ meta_description }}</p>
@@ -18,7 +18,7 @@
 {%- else -%}
   {% comment %}If there’s a hero heading:{% endcomment %}
   {%- if hero_heading_1 -%}
-  <section class="section bg-black section--quarter">
+  <section class="section section--quarter">
     <div class="row">
       <header class="col col--1of4" data-aos="fade-up">
         <h2>{{ hero_heading_1 }}</h2>
@@ -36,7 +36,7 @@
   </section>
   {%- endif -%}
 
-  <section class="row bg-white markdown">
+  <section class="row markdown{% if theme != 'dark' %} bg-white{% endif %}">
     <header class="col col--1of3 markdown__header">
       <h1 data-aos="fade-up">{{ title }}</h1>
     </header>

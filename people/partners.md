@@ -1,6 +1,5 @@
 ---
 layout: "layouts/people.liquid"
-theme: dark
 data_file: partners
 title: Partners
 meta_description: "We’re technical partners for librarians, funders, and open advocates. They inspire and guide what we do, and working in deep collaboration we do our best work. If you’d like to partner with us get in touch with a problem you have."
