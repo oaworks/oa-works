@@ -13,11 +13,6 @@ html {
 main {
   display: flex;
   flex-direction: column;
-  -webkit-animation: fadein 1.5s;
-  -moz-animation: fadein 1.5s;
-  -ms-animation: fadein 1.5s;
-  -o-animation: fadein 1.5s;
-  animation: fadein 1.5s;
 }
 
 article {
