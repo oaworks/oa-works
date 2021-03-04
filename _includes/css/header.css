@@ -4,7 +4,7 @@
   padding: 2.5vh var(--gutter);
   z-index: 10;
   height: 10vh;
-  width: 100%;
+  width: 100vw;
   background-color: var(--black);
   font-size: var(--typescale-6);
 }
