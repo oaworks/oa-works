@@ -48,18 +48,3 @@
 <meta name="twitter:description" content="{% if meta_description %}{{ meta_description }}{% else %}We partner with libraries to build free & open source tools.{% endif %}">
 <meta name="twitter:image" content="{{ site.base_url }}img/twitter_img.png">
 <meta name="twitter:image:alt" content="White OA.Works logo on a black background; the period in the logo is a large, yellow dot">
-
-<script>
-// Display back-to-top button on scroll
-var topBtn = document.getElementById("#topBtn");
-
-function checkPosition() {
-  if (window.pageYOffset > 100 || document.documentElement.scrollTop || document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-    topBtn.style.display = "flex";
-  } else {
-    topBtn.style.display = "none";
-  }
-}
-
-window.addEventListener('scroll', checkPosition);
-</script>

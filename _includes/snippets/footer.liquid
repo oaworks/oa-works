@@ -90,6 +90,15 @@
     }
 
     window.onscroll = function() {
+      // Display back-to-top btn on scroll 
+      var topBtn = document.getElementById("topBtn");
+
+      if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        topBtn.style.display = "flex";
+      } else {
+        topBtn.style.display = "none";
+      }
+
       // Add class to shapes when scrolling away from cover
       var svgShapes = document.getElementsByClassName("lazy-line-painter");
 
