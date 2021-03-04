@@ -43,5 +43,6 @@
 }
 
 .markdown__content {
-  margin-top: var(--space-md);
+  padding-top: var(--space-md);
+  border-left: 1px solid;
 }
