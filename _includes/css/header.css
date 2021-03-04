@@ -1,8 +1,12 @@
 .header {
   display: flex;
-  padding: 2.5vh 0;
+  position: fixed;
+  margin: 0 var(--gutter-negative);
+  padding: 2.5vh var(--gutter);
+  z-index: 10;
   height: 10vh;
   width: 100%;
+  background-color: var(--black);
   font-size: var(--typescale-6);
 }
 
@@ -14,6 +18,13 @@
 
 .header svg path:last-child {
   animation: flash 4s ease infinite;
+}
+
+.header nav {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: flex-end;
 }
 
 .header nav a {
