@@ -1,39 +1,8 @@
 {% comment %}Layouts for Markdown content{% endcomment %}
 
-{% comment %}If there’s a hero heading:{% endcomment %}
-{%- if hero_heading_1 -%}
-<section class="section bg-black section--quarter">
-  <div class="row">
-    <header class="col col--1of4" data-aos="fade-up">
-      <h2>{{ hero_heading_1 }}</h2>
-    </header>
-    <p class="col col--1of4" data-aos="fade-up" data-aos-delay="100">
-      {{ hero_content_1 }}
-    </p>
-    <header class="col col--1of4" data-aos="fade-up" data-aos-delay="200">
-      <h2>{{ hero_heading_2 }}</h2>
-    </header>
-    <p class="col col--1of4" data-aos="fade-up" data-aos-delay="300">
-      {{ hero_content_2 }}
-    </p>
-  </div>
-</section>
-
-<section class="row bg-white">
-  <header class="col col--1of3">
-    <h1 style="margin-top: var(--space-md);" data-aos="fade-up">{{ title }}</h1>
-  </header>
-
-  <div class="col col--1of2" style="border-left: 1px solid;" data-aos="fade-up" data-aos-delay="100">
-    <section class="markdown" style="margin-top: var(--space-md); padding-top: 0;">
-      {{ content }}
-    </section>
-  </div>
-</section>
-
 {% comment %}Datafile-based pages are displayed with a left sidebar{% endcomment %}
-{%- elsif data_file -%}
-<section id="values" class="row bg-white" style="padding-top: var(--space-md); padding-bottom: 0;">
+{%- if data_file -%}
+<section class="row bg-white data-file" style="padding-top: var(--space-md); padding-bottom: 0;">
   <header class="col col--1of3" data-aos="fade-up">
     <h1>{{ title }}</h1>
     <p>{{ meta_description }}</p>
@@ -47,15 +16,35 @@
 </section>
 
 {%- else -%}
-<section class="row bg-white">
-  <header class="col col--1of3">
-    <h1 style="margin-top: var(--space-md);" data-aos="fade-up">{{ title }}</h1>
-  </header>
+  {% comment %}If there’s a hero heading:{% endcomment %}
+  {%- if hero_heading_1 -%}
+  <section class="section bg-black section--quarter">
+    <div class="row">
+      <header class="col col--1of4" data-aos="fade-up">
+        <h2>{{ hero_heading_1 }}</h2>
+      </header>
+      <p class="col col--1of4" data-aos="fade-up" data-aos-delay="100">
+        {{ hero_content_1 }}
+      </p>
+      <header class="col col--1of4" data-aos="fade-up" data-aos-delay="200">
+        <h2>{{ hero_heading_2 }}</h2>
+      </header>
+      <p class="col col--1of4" data-aos="fade-up" data-aos-delay="300">
+        {{ hero_content_2 }}
+      </p>
+    </div>
+  </section>
+  {%- endif -%}
 
-  <div class="col col--1of2" style="border-left: 1px solid;" data-aos="fade-up" data-aos-delay="100">
-    <section class="markdown" style="margin-top: var(--space-md); padding-top: 0;">
-      {{ content }}
-    </section>
-  </div>
-</section>
+  <section class="row bg-white markdown">
+    <header class="col col--1of3 markdown__header">
+      <h1 data-aos="fade-up">{{ title }}</h1>
+    </header>
+
+    <div class="col col--1of2" style="border-left: 1px solid;">
+      <section class="markdown__content" data-aos="fade-up" data-aos-delay="100">
+        {{ content }}
+      </section>
+    </div>
+  </section>
 {%- endif -%}

@@ -37,3 +37,11 @@
 .markdown ul li:nth-of-type(6n+6):before {
   background-color: var(--chartreuse);
 }
+
+.markdown__header {
+  margin-top: var(--space-md);
+}
+
+.markdown__content {
+  margin-top: var(--space-md);
+}
