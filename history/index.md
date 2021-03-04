@@ -35,3 +35,30 @@ In 2021, our tools got a new home. The organization we’d called Open Access Bu
 Our history isn’t as clear as this story. It’s full of mistakes (see: the Open Data Button or, 373 bugs fixed and counting). Full of moments that mattered we weren’t at the centre of (howdy, Unpaywall). Full of pivot influences from endless people in communities like OpenCon. And that’s great with us, we’re on a journey to a more just and kind world so we expect a few dead ends and love company.
 
 But. The things that are at the centre of OA.Works and will define our future can be found. Our tools have always tried to make our user’s lives easier today, and change the system tomorrow. We’ve always worked in partnership, especially with librarians and advocates. We've always had a clear vision and values, and consistently put them into practice, even if we haven’t known how to express them.
+
+<section class="section section--three-quarter bg-white" data-aos="fade-up">
+<h2 class="font-serif">Latest updates</h2>
+<ul class="row">
+  {% assign delay_count = 0 %}
+  {% for post in posts limit:3 %}
+  {% assign delay_count = delay_count | plus: 50 %}
+  <li class="col col--1of3 bg-pattern" data-aos="fade-up" data-aos-delay="{{ delay_count }}">
+    <article class="card card--small">
+      <a href="https://blog.openaccessbutton.org/{{ post.slug }}/" target="_blank" rel="noopener" style="display: block;">
+        <h3 class="card__header bg-white label label--secondary">{{ post.title }}</h3>
+        <div class="card__body" style="padding: 0;">
+          {%- if post.feature_image -%}
+            <img src="{{ post.feature_image }}" class="card__img"/>
+          {% else %}
+            <div class="card__blank bg-pattern__child"></div>
+          {% endif %}
+        </div>
+        <footer class="card__footer card__footer--inverted" style="padding: var(--space-xs);">
+          <time datetime="{{ post.updated_at }}"><small>{{ post.updated_at | date: "%b %d, %Y" }}</small></time>
+        </footer>
+      </a>
+    </article>
+  </li>
+  {% endfor %}
+</ul>
+</section>
