@@ -5,7 +5,7 @@
     "logo": "logos/ifla.svg",
     "portrait": "",
     "person": "Peter Bae",
-    "reason": "Building RSCVD with the International Federation of Library Associations and Institutions (IFLA) Document Delivery and Resource Sharing (DDRS) Section"
+    "reason": "Building RSCVD with the International Federation of Library Associations and Institutions (IFLA) Document Delivery and Resource Sharing (DDRS) Section."
   },
   {
     "name": "Montana State University",
@@ -13,7 +13,7 @@
     "logo": "logos/montana.svg",
     "portrait": "people/leila.png",
     "person": "Leila Sterman",
-    "reason": "Building ShareYourPaper.org together"
+    "reason": "Building ShareYourPaper.org together."
   },
   {
     "name": "IUPUI",
@@ -21,6 +21,6 @@
     "logo": "logos/iupui.svg",
     "portrait": "people/tina.png",
     "person": "Tina Baich",
-    "reason": "Building InstantILL together"
+    "reason": "Building InstantILL together."
   }
 ]
