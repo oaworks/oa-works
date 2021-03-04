@@ -1,24 +1,63 @@
 ---
 layout: "layouts/history.liquid"
 title: History
-hero_heading_1: "Established in 2013"
+hero_heading_1: "Established in 2013."
 hero_content_1: "We got our start as the Open Access Button, but as our tools grew, so did we. OA.Works is now the home of our tools."
-hero_heading_2: "Started by students, sustained by a community"
-hero_content_2: "We build them in partnership with librarians and open advocates striving for a just and kind world."
+hero_heading_2: "Started by students, sustained by a community."
+hero_content_2: "We build in partnership with librarians and open advocates striving for a just and kind world. We've been fortunate to have the backing of generous funders."
 ---
 
-From the beginning, we've wanted to do more than just chronicle the failures of the information age. We dreamed to join the activists and leaders working to rectify them.
+## The early years
 
-We started our journey by facilitating author requests--ways to reach out directly to scholars for help accessing their research--using Open Access Button.
+In 2013, it wasn’t so clear Open Access would take off. As students, we’d seen paywalls get in the way of our education and our research -- In academia and industry. Powered by frustration, we started the Open Access Button, trying to tell real people’s stories of hitting individual paywalls. Tens of thousands at a time.
 
-For our second project we tried to shift the gears of the larger system, knowing big deals are continuing to hurt libraries. We crafted InstantILL, a frontend for interlibrary loan that can lead to faster and simpler sharing, in order to help put an end to the era of big deals.
+We went from late night emails, to hackdays, to an international volunteer team of students and early career librarians across the world. Supported by allies at the Right to Research Coalition, Students for Global Health, and with funding from the Open Societies Foundation we got to work.
 
-Repositories were our next focus, and we truly believed depositing papers could be done painlessly--and legally. We made ShareYourPaper.org with the goal of doubling self-archive rates in the next decade.
+Our plans expanded from just chronicling the failures of the information age. We dreamed to join the advocates and leaders working to rectify them. And so, the Open Access Button app got more powerful. We started linking people directly to Open Access versions when we could find them. When we couldn’t, we reached out directly to the scholars behind the paywalls. We shared our users' stories, and helped them share their work freely.
+
+## Better tools for bigger problems
+
+We found natural allies with librarians. After speaking with more than 100 we were shown an opportunity to shift the gears of the larger system. With Jisc’s support we worked to inject Open Access content into the InterLibrary Loan system, and worked to strengthen it so that libraries could more confidently cancel big deals. We built early tools, guides, and worked with the community at large.
+
+The Arcadia Fund, and our partnership with Tina at IUPUI allowed our work on InterLibrary Loan to be fully realized. We built InstantILL, a frontend for interlibrary loan that can lead to faster and simpler sharing. We built it in order to help put an end to the era of big deals, but it turned out to be just as useful responding to Covid-19.
+
+As we contacted more and more authors, and saw the wider ecosystem focus on paying to publish, we started exploring how we could make self-archiving easier. We spoke to authors, tested approaches, produced novel guides and simple tools. With the Arcadia Fund support (once again), and a partnership with Leila at Montana State, we went further. We made ShareYourPaper.org, the simplest way to self-archive a paper, with the goal of doubling self-archive rates in the next decade.
 
 Along the way our team carefully collated an up-to-date database of sharing permissions that can give immediate insight into the status of 25,000 open access policies.
 
-Over the course of our journey we've worked hand in hand with libraries, who have guided us and helped ensure our products work better to fit their needs.
+## Becoming OA.Works
 
-We could not have come this far without funding and inspiration from Arcadia Fund, Jisc, the Open Society Foundations, Center for Open Science, and SPARC.
+In 2021, our tools got a new home. The organization we’d called Open Access Button  became OA.Works.
 
-We are constantly working towards more tools that realize the vision of open access through better design and development. We have hope for the future, and we believe the best way to bring it about is to build it.
+## Reflections
+
+Our history isn’t as clear as this story. It’s full of mistakes (see: the Open Data Button or, 373 bugs fixed and counting). Full of moments that mattered we weren’t at the centre of (howdy, Unpaywall). Full of pivot influences from endless people in communities like OpenCon. And that’s great with us, we’re on a journey to a more just and kind world so we expect a few dead ends and love company.
+
+But. The things that are at the centre of OA.Works and will define our future can be found. Our tools have always tried to make our user’s lives easier today, and change the system tomorrow. We’ve always worked in partnership, especially with librarians and advocates. We've always had a clear vision and values, and consistently put them into practice, even if we haven’t known how to express them.
+
+<section class="section section--three-quarter bg-white" data-aos="fade-up">
+<h2 class="font-serif">Latest updates</h2>
+<ul class="row">
+  {% assign delay_count = 0 %}
+  {% for post in posts limit:3 %}
+  {% assign delay_count = delay_count | plus: 50 %}
+  <li class="col col--1of3 bg-pattern" data-aos="fade-up" data-aos-delay="{{ delay_count }}">
+    <article class="card card--small">
+      <a href="https://blog.openaccessbutton.org/{{ post.slug }}/" target="_blank" rel="noopener" style="display: block;">
+        <h3 class="card__header bg-white label label--secondary">{{ post.title }}</h3>
+        <div class="card__body" style="padding: 0;">
+          {%- if post.feature_image -%}
+            <img src="{{ post.feature_image }}" class="card__img"/>
+          {% else %}
+            <div class="card__blank bg-pattern__child"></div>
+          {% endif %}
+        </div>
+        <footer class="card__footer card__footer--inverted" style="padding: var(--space-xs);">
+          <time datetime="{{ post.updated_at }}"><small>{{ post.updated_at | date: "%b %d, %Y" }}</small></time>
+        </footer>
+      </a>
+    </article>
+  </li>
+  {% endfor %}
+</ul>
+</section>

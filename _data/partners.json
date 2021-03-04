@@ -4,23 +4,23 @@
     "url": "https://www.ifla.org/",
     "logo": "logos/ifla.svg",
     "portrait": "",
-    "person": "",
-    "reason": ""
+    "person": "Peter Bae",
+    "reason": "Building RSCVD with the International Federation of Library Associations and Institutions (IFLA) Document Delivery and Resource Sharing (DDRS) Section."
   },
   {
     "name": "Montana State University",
     "url": "https://sparcopen.org/",
     "logo": "logos/montana.svg",
     "portrait": "people/leila.png",
-    "person": "Leila",
-    "reason": "Building ShareYourPaper.org together"
+    "person": "Leila Sterman",
+    "reason": "Building ShareYourPaper.org together."
   },
   {
     "name": "IUPUI",
     "url": "https://ulib.iupui.edu/",
     "logo": "logos/iupui.svg",
     "portrait": "people/tina.png",
-    "person": "Tina",
-    "reason": "Building InstantILL together"
+    "person": "Tina Baich",
+    "reason": "Building InstantILL together."
   }
 ]
