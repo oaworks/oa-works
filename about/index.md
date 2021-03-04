@@ -11,12 +11,12 @@ hero_content_2: "We work in partnership with librarians and advocates using open
 
 ## Hi, we’re so glad you’re here 👋
 
-Society’s informational (and environmental, political) ecosystems are collapsing. The answers to those problems are paywalled, and most people around the world aren’t even able to share what they know.
+We’re working for a world where our systems for sharing knowledge reduce inequality, protect human rights, and feel kinder. That starts with opening up how we share research. We want to make publishing fair, free, and open while rewriting the rules to include people too often marginalized.
 
-We’re working with libraries, scholars, educators, and the people who fund them to change that. To make sure that academic papers and the research that supports them can be read openly, used easily, and published freely. To make sure that how we share information together is rooted in justice and kindness.
+At OA.Works, we’re partnered with libraries, scholars, educators, and the people who fund them so that research is read openly, used easily, and published freely. We need to anchor information dissemination in the pursuit of justice and in the service of kindness.
 
-Recently, we’ve built tools like ShareYourPaper.org that makes it simple to freely and legally unlock papers from behind paywalls. We’ve helped build a new global network of libraries sharing knowledge freely during COVID through RSCVD. Our tools like InstantILL and Open Access Button support libraries and researchers in accessing the research they need without a steep price tag. They’ve been used millions of times, across the world.
+We build tools like ShareYourPaper.org that make it simple to freely and legally unlock papers from behind paywalls. We helped create a global network of libraries sharing knowledge freely during COVID through RSCVD. Our tools like InstantILL and Open Access Button support reading research without a steep price tag. In the past decade our products have been used millions of times, across the world.
 
-OA.Works was founded in 2013 in reaction to an obsolete scholarly publishing landscape. But today, behind our work is our small but dedicated team, trusted partners, leading funders, and a strong set of values.
+We founded OA.Works in 2013 as students in reaction to a corporatized and locked down scholarly publishing landscape. Today, our work is driven by a dedicated and expert team, supported by generous funding, and committed to a strong set of values that keep us driven towards our goal.
 
-We’re OA.Works, and that’s our job--to make Open Access Work.
+We’re OA.Works. And, forgive us for this, but. We want Open Access works, we believe Open Access works, and we’re working to make Open Access work by building Open Access works that just work at our virtual works.
