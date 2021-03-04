@@ -6,14 +6,11 @@
   position: fixed;
   z-index: 2000;
   align-items: center;
+  justify-content: center;
   border-radius: 50%;
   width: var(--space-md);
   height: var(--space-md);
   bottom: var(--gutter);
   right: var(--gutter);
   background-color: var(--violet);
-}
-
-.top__emoji {
-  padding-top: 8px;
 }
