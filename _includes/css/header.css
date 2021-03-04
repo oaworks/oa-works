@@ -1,6 +1,5 @@
 .header {
   display: flex;
-  position: fixed;
   margin: 0 var(--gutter-negative);
   padding: 2.5vh var(--gutter);
   z-index: 10;
