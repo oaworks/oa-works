@@ -1,0 +1,37 @@
+---
+layout: layouts/base.liquid
+theme: dark
+---
+
+<section class="row data-file{% if theme != 'dark' %} bg-white{% endif %}" style="padding-top: var(--space-md); padding-bottom: 0;">
+  <header class="col col--1of3" data-aos="fade-up">
+    <h1>{{ title }}</h1>
+    <p>{{ meta_description }}</p>
+  </header>
+  <div class="col">
+    <ul class="row flex-center">
+      {% assign delay_count = 0 %}
+      {% for story in stories %}
+      {% assign delay_count = delay_count | plus: 50 %}
+      <li class="story col col--1of3" data-aos="fade-up" data-aos-delay="{{ delay_count }}">
+        <article class="card card--small">
+          <header class="card__header">
+            <h3 class="label">OA.W<span style="text-transform: lowercase;">orks for</span> {{ story.label }}</h3>
+          </header>
+          <figure style="overflow: hidden;">
+            <img src="{{ site.base_url }}/img/stories/{{ story.img }}" alt="{{ story.img_alt }}" class="card__img"/>
+            <figcaption><small>{{ story.img_credit }}</small></figcaption>
+          </figure>
+          <div class="card__body">
+            <blockquote style="margin: 0 0 var(--space-sm) 0;">
+              <p>“{{ story.content }}”</p>
+            </blockquote>
+            <p><small class="label label--secondary">Written in search of</small></p>
+            <p class="font-serif type-5">{{ story.article }}</p>
+          </div>
+        </article>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>
