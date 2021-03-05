@@ -32,3 +32,13 @@ title: Timeline
   - Lorem ipsum dolor sit amet.
 
 {.timeline}
+
+---
+
+* list item
+* list item
+* list item
+
+1. ordered list item
+2. ordered list item
+3. ordered list item 
