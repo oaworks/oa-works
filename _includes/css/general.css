@@ -31,10 +31,9 @@ figure {
 
 figcaption {
   padding: var(--space-xs);
-  background: var(--black-75);
-  text-align: right;
-  color: var(--white);
+  margin-top: calc(var(--space-md) * -1);
   font-size: var(--typescale-6);
+  box-shadow: var(--black-85) 0px var(--space-xs) var(--space-xs), var(--black-85) 0px var(--space-xs) var(--space-sm), var(--black-85) 0px 0px 0px 1px inset;
 }
 
 iframe {
