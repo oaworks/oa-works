@@ -2,12 +2,15 @@
 
 {% comment %}Datafile-based pages are displayed with a left sidebar{% endcomment %}
 {%- if data_file -%}
-<section class="row data-file{% if theme != 'dark' %} bg-white{% endif %}" style="padding-top: var(--space-md); padding-bottom: 0;">
+<section class="row data-file{% if theme != 'dark' %} bg-white{% endif %}">
   <header class="col col--1of3" data-aos="fade-up">
     <h1>{{ title }}</h1>
     <p>{{ meta_description }}</p>
   </header>
   <div class="col col--2of3">
+    <div class="col col--group col--2of3 data-file__content">
+      {{ content }}
+    </div>
     {% assign dir = "snippets/" %}
     {% assign ext = ".liquid" %}
     {% assign data_file = data_file | prepend: dir %}
