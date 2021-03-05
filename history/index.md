@@ -7,7 +7,7 @@ hero_heading_2: "Started by students, sustained by a community"
 hero_content_2: "We build in partnership with librarians and open advocates striving for a just and kind world. We’ve been fortunate to have the backing of generous funders."
 ---
 
-## The early years
+## The early years 
 
 In 2013, it wasn’t so clear Open Access would take off. As students, we’d seen paywalls get in the way of our education and our research &mdash; in academia and industry. Powered by frustration, we started the Open Access Button, trying to tell real people’s stories of hitting individual paywalls. Tens of thousands at a time.
 
