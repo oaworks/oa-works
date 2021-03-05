@@ -1,6 +1,6 @@
 .button {
   padding: 1em 1.25em;
-  border: 2px solid;
+  border: 1px solid;
   border-radius: 3px;
   text-decoration: none;
   font-size: var(--typescale-6);
