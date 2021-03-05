@@ -2,6 +2,7 @@
 layout: "layouts/about.liquid"
 title: Vision & Mission
 meta_description: "We build powerfully simple open access tools for a just and kind information age."
+request_stories: true
 ---
 
 Vision{.label}
