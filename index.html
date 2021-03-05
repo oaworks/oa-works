@@ -110,7 +110,7 @@ layout: "layouts/base.liquid"
 
 <section class="section section--three-quarter bg-white" data-aos="fade-up">
   <h2 class="font-serif">Latest updates</h2>
-  <ul class="row">
+  <ul class="row flex-center">
     {% assign delay_count = 0 %}
     {% for post in posts limit:3 %}
     {% assign delay_count = delay_count | plus: 50 %}
