@@ -6,7 +6,7 @@
     "url": "https://openaccessbutton.org/request/HFauEb77nnjhfMfnZ",
     "requester": "James at UCLA",
     "img": "surg.jpg",
-    "img_credit": "Photo by <a href='https://unsplash.com/@designer4u'>Olga Guryanova</a>",
+    "img_credit": "Photo by <a href='https://unsplash.com/@designer4u' target='_blank' rel='noopener'>Olga Guryanova</a>",
     "img_alt": "Two men performing surgery wearing blue smocks"
   },
   {
@@ -16,7 +16,7 @@
     "url": "https://openaccessbutton.org/request/2E5y3nzcBMGvrPyKC",
     "requester": "Mark, student at Sonoma Community Resilience Collaborative, Santa Rosa Community Health",
     "img": "fire.jpg",
-    "img_credit": "Photo by <a href='https://unsplash.com/@heytowner'>JOHN TOWNER</a>",
+    "img_credit": "Photo by <a href='https://unsplash.com/@heytowner' target='_blank' rel='noopener'>JOHN TOWNER</a>",
     "img_alt": "Aerial photograph of smoke-covered trees in Yosemite Valley, California"
   },
   {
@@ -26,7 +26,7 @@
     "url": "https://openaccessbutton.org/request/tS9YGjfZzfQKDvA8W",
     "requester": "Marissa, student at Arteveldehogeschool Gent",
     "img": "dog.jpg",
-    "img_credit": "Photo by <a href='https://unsplash.com/@jamie452'>Jamie Street</a>",
+    "img_credit": "Photo by <a href='https://unsplash.com/@jamie452' target='_blank' rel='noopener'>Jamie Street</a>",
     "img_alt": "Gold-coloured dog on moss-covered rock surrounded by flowers"
   },
   {
@@ -36,7 +36,7 @@
     "url": "https://openaccessbutton.org/request/zet2ruPdhtaGhddZW",
     "requester": "Graham, student",
     "img": "solar-panels.jpg",
-    "img_credit": "Photo by <a href='https://unsplash.com/@macauphotoagency'>Macau Photo Agency</a>",
+    "img_credit": "Photo by <a href='https://unsplash.com/@macauphotoagency' target='_blank' rel='noopener'>Macau Photo Agency</a>",
     "img_alt": "Aerial photograph of numerous solar panels"
   },
   {
@@ -45,7 +45,7 @@
     "content": "I do clinical research for individual patients with breast cancer. This research article is very important for this effort. I am deeply thankful for your dedication in making your important research available to all",
     "url": "https://openaccessbutton.org/request/LvQ6Py7MmbR9fomCN",
     "img": "breast-cancer-cells.jpg",
-    "img_credit": "Photo by <a href='https://unsplash.com/@nci'>National Cancer Institute</a>",
+    "img_credit": "Photo by <a href='https://unsplash.com/@nci' target='_blank' rel='noopener'>National Cancer Institute</a>",
     "img_alt": "Microscopic photography of stress fibers and microtubules in human breast cancer cells"
   },
   {
@@ -55,7 +55,7 @@
     "url": "https://openaccessbutton.org/request/iTyA9KhZTdZoanH3x",
     "requester": "Christina, student at California State University Long Beach",
     "img": "classroom.jpg",
-    "img_credit": "Photo by <a href='https://unsplash.com/@mikael_k'>Mikael Kristenson</a>",
+    "img_credit": "Photo by <a href='https://unsplash.com/@mikael_k' target='_blank' rel='noopener'>Mikael Kristenson</a>",
     "img_alt": "High-angle photograph of people sitting in classroom"
   },
   {
@@ -65,7 +65,7 @@
     "url": "https://openaccessbutton.org/request/iMwXS5fuFXXxStFpF",
     "requester": "Jennifer, student at Arizona State University",
     "img": "youth.jpg",
-    "img_credit": "Photo by <a href='https://unsplash.com/@timmarshall'>Tim Marshall</a>",
+    "img_credit": "Photo by <a href='https://unsplash.com/@timmarshall' target='_blank' rel='noopener'>Tim Marshall</a>",
     "img_alt": "Silhouette of people at sunset"
   },
   {
@@ -75,7 +75,7 @@
     "url": "https://openaccessbutton.org/request/cacCjdhGWRqZn8GAW",
     "requester": "Hyein, student",
     "img": "women-hijabs.jpg",
-    "img_credit": "Photo by <a href='https://unsplash.com/@hasanalmasi'>Hasan Almasi</a>",
+    "img_credit": "Photo by <a href='https://unsplash.com/@hasanalmasi' target='_blank' rel='noopener'>Hasan Almasi</a>",
     "img_alt": "Three women in pink floral hijabs surrounded by flowering tree"
   },
 
@@ -86,7 +86,7 @@
     "url": "https://openaccessbutton.org/request/H6ub2zSEFdc7ySzsy",
     "requester": "Melissa, researcher at University of California-Davis",
     "img": "horse.jpg",
-    "img_credit": "Photo by <a href='https://unsplash.com/@dos'>Filipe Dos Santos Mendes</a>",
+    "img_credit": "Photo by <a href='https://unsplash.com/@dos' target='_blank' rel='noopener'>Filipe Dos Santos Mendes</a>",
     "img_alt": "Softly-lit brown & white horse in a stable"
   }
 ]
