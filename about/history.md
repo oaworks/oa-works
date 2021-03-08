@@ -26,7 +26,8 @@ hero_content_2: "We build in partnership with librarians and open advocates stri
 * 2017 {data-aos=fade-up data-aos-delay=200}
   - Jisc funds exploration for using Open Access materials as a part of Interlibrary Loan to deliver cost savings and faster results
 * 2016 {data-aos=fade-up data-aos-delay=250}  
-  - We collected our 10,000th story on the Open Access Button.
+  - We collected our 10,000th story on the Open Access Button
+  - We released Open Data Button
 * 2015 {data-aos=fade-up data-aos-delay=300}
   - Open Access Button is awarded the SPARC Innovator Award
 * 2014 {data-aos=fade-up data-aos-delay=350}
