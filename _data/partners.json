@@ -26,8 +26,8 @@
   {
     "name": "Cottage Labs",
     "url": "https://cottagelabs.com/",
-    "logo": "",
-    "portrait": "",
+    "logo": "logos/iupui.svg",
+    "portrait": "logos/iupui.svg",
     "person": "Mark MacGillivray",
     "reason": "Building all our tools together."
   }
