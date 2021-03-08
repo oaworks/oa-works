@@ -1,37 +1,37 @@
 [
   {
     "value": "25,000",
-    "key": "stories shared",
+    "key": "Stories shared",
     "app": "OpenAccessButton",
     "desc": "The Open Access movement is propelled by stories of paywalls holding back progress. Through our tools, we’ve told powerful stories of real people affected by our broken system."
   },
   {
     "value": "25,000",
-    "key": "policies documented openly",
+    "key": "Policies documented openly",
     "app": "ShareYourPaper Permissions",
     "desc": "ShareYourPaper Permissions has documented how to make your paper Open Access for 85% of papers and counting."
   },
   {
     "value": "8,500",
-    "key": "papers and books supplied during Covid",
+    "key": "Papers and books supplied during Covid",
     "app": "InstantILL",
     "desc": "When Libraries around the world were closed due to Covid, we worked with IFLA to fill the gap with RSCVD."
   },
   {
     "value": "6,500,000+",
-    "key": "of searches for Open Access",
+    "key": "Of searches for Open Access",
     "app": "OpenAccessButton",
     "desc": "Finding Open Access content wasn't always as easy as it today. We helped pioneer approaches, and today still help deliver Open Access articles."
   },
   {
   "value": "680,000",
-  "key": "searches for OA in ILL systems",
+  "key": "Searches for OA in ILL systems",
   "app": "DeliverOA",
   "desc": "We led the way for integrating Open Access into Interlibrary Loan systems. Every OA article delivered is money saved for libraries, quicker delivers for patrons, and one step closer to Open by default."
   },
   {
   "value": "6",
-  "key": "guides to using and making Open Access",
+  "key": "Guides to using and making Open Access",
   "app": "",
   "desc": "Some of our guides have been cited hundreds of times."
   },
@@ -43,13 +43,13 @@
   },
   {
     "value": "100s",
-    "key": "of libraries use & recommend the tools",
+    "key": "Of libraries use & recommend the tools",
     "app": "OpenAccessButton",
     "desc": "Libraries big and small suggest their patrons use OpenAccessButton."
   },
   {
     "value": "13,000",
-    "key": "authors educated on Open Access",
+    "key": "Authors educated on Open Access",
     "app": "OpenAccessButton",
     "desc": "We’ve worked with authors around the world to show them why Open Access matters, and how easy it can be."
   }
