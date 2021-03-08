@@ -22,5 +22,13 @@
     "portrait": "people/tina.png",
     "person": "Tina Baich",
     "reason": "Building InstantILL together."
+  },
+  {
+    "name": "Cottage Labs",
+    "url": "https://cottagelabs.com/",
+    "logo": "",
+    "portrait": "",
+    "person": "Mark MacGillivray",
+    "reason": "Building all our tools together."
   }
 ]
