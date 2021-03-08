@@ -1,5 +1,5 @@
 ---
-layout: "layouts/history.liquid"
+layout: "layouts/about.liquid"
 title: Timeline
 meta_description: Meta description here.
 hero_heading_1: "Established in 2013"
