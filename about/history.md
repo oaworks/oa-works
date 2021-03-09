@@ -10,6 +10,7 @@ hero_content_2: "We build in partnership with librarians and open advocates stri
 
 * 2021 {data-aos=fade-up}
   - Open Access Button Organization rebrands as OA.Works
+  - Plan S releases the Journal Checker Tool backed by our permissions data.
   - ShareYourPaper For Libraries is released
 * 2020 {data-aos=fade-up data-aos-delay=50}
   - RSCVD is released, built in partnership with IFLA, to help respond to libraries closing during Covid
