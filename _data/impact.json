@@ -18,8 +18,8 @@
     "desc": "When Libraries around the world were closed due to Covid, we worked with IFLA to fill the gap with RSCVD."
   },
   {
-    "value": "6,500,000+",
-    "key": "Of searches for Open Access",
+    "value": "6,500,000",
+    "key": "Searches for Open Access",
     "app": "OpenAccessButton",
     "desc": "Finding Open Access content wasn't always as easy as it today. We helped pioneer approaches, and today still help deliver Open Access articles."
   },
@@ -43,7 +43,7 @@
   },
   {
     "value": "100s",
-    "key": "Of libraries use & recommend the tools",
+    "key": "Libraries use & recommend the tools",
     "app": "OpenAccessButton",
     "desc": "Libraries big and small suggest their patrons use OpenAccessButton."
   },
