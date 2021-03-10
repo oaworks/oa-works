@@ -10,40 +10,35 @@
   font-size: var(--typescale-6);
 }
 
-.header svg {
+.header .logotype {
   display: block;
   height: 5vh;
   width: auto;
 }
 
-.header svg path:last-child {
+.header .logotype path:last-child {
   animation: flash 4s ease infinite;
-}
-
-.header nav a {
-  margin-left: 2em;
-  text-decoration: none;
-  text-align: right;
-}
-
-.header > a {
-  width: 25%;
-}
-
-.header > nav {
-  width: 75%;
-  text-align: right;
 }
 
 .header__nav {
   display: none;
+  padding: var(--space-md);
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 10;
+  height: 100vh;
+  width: 50%;
+  background-color: var(--violet);
+  font-size: var(--typescale-2);
 }
 
 .header__nav--open {
-  display: flex;
-  align-content: center;
-  align-items: center;
-  justify-content: flex-end;
+  display: block;
+}
+
+.header__nav-trigger {
+  z-index: 15;
 }
 
 .header--inverted svg path  {
