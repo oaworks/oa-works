@@ -3,13 +3,17 @@
     <h1 class="no-margin">{% include 'logos/logotype.svg' %}</h1>
   </a>
 
-  <nav>
+  <nav class="header__nav">
     <h2 class="sr-only">Menu</h2>
     <a href="{{ base_url }}/#products">Products</a>
     <a href="{{ base_url }}/people">People</a>
     <a href="{{ base_url }}/impact">Impact</a>
     <a href="{{ base_url }}/about">About</a>
   </nav>
+
+  <button class="header__nav-trigger">
+    MENU
+  </button>
 </header>
 
 <svg width="768" height="768" viewBox="0 0 768 768" fill="none" xmlns="http://www.w3.org/2000/svg" data-llp-composed="true" id="introellipse" class="lazy-line-painter" style="position: fixed; right: -10vw; z-index: -1;">

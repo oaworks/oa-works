@@ -1,5 +1,6 @@
 .header {
   display: flex;
+  justify-content: space-between;
   margin: 0 var(--gutter-negative);
   padding: 2.5vh var(--gutter);
   z-index: 10;
@@ -19,13 +20,6 @@
   animation: flash 4s ease infinite;
 }
 
-.header nav {
-  display: flex;
-  align-content: center;
-  align-items: center;
-  justify-content: flex-end;
-}
-
 .header nav a {
   margin-left: 2em;
   text-decoration: none;
@@ -39,6 +33,17 @@
 .header > nav {
   width: 75%;
   text-align: right;
+}
+
+.header__nav {
+  display: none;
+}
+
+.header__nav--open {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: flex-end;
 }
 
 .header--inverted svg path  {

@@ -72,9 +72,31 @@
     testimonials[i].style.display = (i==random) ? "flex" : "none";
   };
 
-  // Paint SVGs
+  // Hamburger menu
+  var nav = document.querySelector(".header__nav"),
+      navTrigger = document.querySelector(".header__nav-trigger");
+
+  if (navTrigger) {
+    navTrigger.addEventListener("click",
+    function(e) {
+      nav.classList.toggle('header__nav--open');
+      e.preventDefault();
+    }, false);
+  }
+
+  // Any click outside of the nav element will close the menu if it's open
+  var specifiedElement = document.querySelector('.header__nav');
+
+  document.addEventListener('click', function(event) {
+    var isClickInside = specifiedElement.contains(event.target);
+    if (!isClickInside && nav.className == 'header__nav--open') {
+      nav.classList.toggle('header__nav--open');
+    }
+  });
+
   (function(){
 
+    // Paint SVGs
     document.onreadystatechange = function() {
       if (document.readyState === 'complete') {
         let el1 = document.querySelector('#introellipse');
