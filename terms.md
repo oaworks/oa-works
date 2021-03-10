@@ -2,7 +2,7 @@
 layout: "layouts/default.liquid"
 theme: dark
 title: Terms of Service
-meta_description: ""
+meta_description: "These terms of service cover your use and access to the services."
 ---
 
 These terms of service cover your use and access to the services ("the service"), software ("the software") and websites ("the website") provided by the Open Access Button. Our Privacy Policy explains how we collect and use your information. By using our service, you are agreeing to be bound by these Terms and to accept our [Privacy Policy](/privacy).

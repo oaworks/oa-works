@@ -3,13 +3,13 @@ layout: "layouts/about.liquid"
 title: About
 hero_heading_1: "We’re OA.Works</br> (pronounced OA Works)"
 hero_content_1: "We’re a library-owned non-profit funded by leading foundations and libraries.</br></br>You may have known us as the Open Access Button."
-hero_heading_2: "We’re building free & open source tools so that open access is easy and equitable"
-hero_content_2: "We work in partnership with librarians and advocates using openness to create a more just and kind world."
+hero_heading_2: "We make tools so open access is easy and equitable"
+hero_content_2: "They're free, open source, and built in partnership with librarians and advocates using openness to create a more just and kind world."
 ---
 
 ## Hi, we’re so glad you’re here 👋
 
-We’re working for a world where our systems for sharing knowledge reduce inequality, protect human rights, and feel kinder. That starts with opening up how we share research. We want to make publishing fair, free, and open while rewriting the rules to include people too often marginalized.
+We’re working for a world where our systems for sharing knowledge reduce inequality, protect human rights, and feel kinder. That starts with opening up how we share research.
 
 At OA.Works, we’re partnered with libraries, scholars, educators, and the people who fund them so that research is read openly, used easily, and published freely. We need to anchor information dissemination in the pursuit of justice and in the service of kindness.
 

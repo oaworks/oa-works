@@ -2,7 +2,7 @@
 layout: "layouts/default.liquid"
 theme: dark
 title: Privacy Policy
-meta_description: ""
+meta_description: "We are committed to protecting your privacy."
 ---
 Open Access Button is committed to protecting the privacy of visitors to our website, our users, and activists. We have established this Privacy Policy to explain what information we collect through our website and how it is used. In this policy, Open Access Button refers to Open Access Button team members.
 
