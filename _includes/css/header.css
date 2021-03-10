@@ -28,9 +28,25 @@
   right: 0;
   z-index: 10;
   height: 100vh;
-  width: 50%;
+  width: 100%;
   background-color: var(--violet);
   font-size: var(--typescale-2);
+}
+
+@media only screen and (min-width: 768px) {
+  .header__nav {
+    width: 75%;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .header__nav {
+    width: 50%;
+  }
+}
+
+.header__nav a {
+  color: var(--black);
 }
 
 .header__nav--open {
