@@ -3,8 +3,14 @@
     <h1 class="no-margin">{% include 'logos/logotype.svg' %}</h1>
   </a>
 
+  <button class="menu-trigger" aria-label="Open menu">
+    <span class="menu-trigger__icon"></span>
+    <span class="menu-trigger__icon"></span>
+    <span class="menu-trigger__icon"></span>
+  </button>
+
   <nav class="header__nav">
-    <h2 class="sr-only">Menu</h2>
+    <h2 class="sr-only">Table of contents</h2>
     <ul>
       <li>
         <a href="{{ base_url }}/#products" class="header__nav-section">Products</a>
@@ -110,10 +116,6 @@
       </li>
     </ul>
   </nav>
-
-  <button class="header__nav-trigger">
-    MENU
-  </button>
 </header>
 
 <svg width="768" height="768" viewBox="0 0 768 768" fill="none" xmlns="http://www.w3.org/2000/svg" data-llp-composed="true" id="introellipse" class="lazy-line-painter" style="position: fixed; right: -10vw; z-index: -1;">

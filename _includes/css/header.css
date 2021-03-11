@@ -64,10 +64,6 @@
   display: block;
 }
 
-.header__nav-trigger {
-  z-index: 15;
-}
-
 .header--inverted svg path  {
   fill: var(--white);
 }

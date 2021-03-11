@@ -1,0 +1,34 @@
+.menu-trigger {
+  padding: 0;
+  position: fixed;
+  top: var(--gutter);
+  right: var(--gutter);
+  width: 50px;
+  height: 50px;
+  z-index: 15;
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+}
+
+.menu-trigger__icon {
+  display: block;
+  position: absolute;
+  height: 5px;
+  width: 50px;
+  border-radius: 2px;
+  background: var(--white);
+  content: '';
+}
+
+.menu-trigger__icon:first-child {
+  top: 0;
+}
+
+.menu-trigger__icon:nth-child(2) {
+  top: 22.5px;
+}
+
+.menu-trigger__icon:last-child {
+  bottom: 0;
+}
