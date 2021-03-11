@@ -48,12 +48,12 @@
 
 .header__nav-section {
   margin-bottom: var(--space-xs);
-  font-size: var(--typescale-3);
+  font-size: var(--typescale-4);
   color: var(--black);
 }
 
 .header__nav-subsection {
-  font-size: var(--typescale-4);
+  font-size: var(--typescale-5);
   color: var(--black);
 }
 
