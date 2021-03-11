@@ -47,9 +47,12 @@
 }
 
 .header__nav-section {
+  display: block;
   margin-bottom: var(--space-xs);
-  font-size: var(--typescale-4);
   color: var(--black);
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: var(--typescale-6);
 }
 
 .header__nav-subsection {
