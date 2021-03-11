@@ -1,37 +1,23 @@
 <!doctype html>
 <html class="no-js" lang="en">
+  <head>
+    {% include 'snippets/head.liquid' %}
+  </head>
 
-<head>
-  {% include 'snippets/head.liquid' %}
-</head>
+  <body{% if body_class %} class="{{ body_class }}"{% endif %}>
+    <!--[if IE]>
+    <p class="browserupgrade">You are using an outdated browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+    <![endif]-->
 
-<body{% if body_class %} class="{{ body_class }}"{% endif %}>
-  <!--[if IE]>
-  <p class="browserupgrade">You are using an outdated browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-  <![endif]-->
+    {% include 'snippets/header.liquid' %}
 
-  {% include 'snippets/header.liquid' %}
+    <main id="main">
+      {{ content }}
+    </main>
 
-  <main id="main">
-    {{ content }}
-  </main>
+    {% include 'snippets/footer.liquid' %}
 
-  {% include 'snippets/footer.liquid' %}
-
-  <script>
-  // Snap to sections
-  const gra = function(min, max) {
-    return Math.random() * (max - min) + min;
-  }
-
-  const gri = function(min, max) {
-    return Math.floor(Math.random() * (max - min + 1)) + min;
-  }
-
-  const init = function(){
-    let items = document.querySelectorAll('main .section');
-    cssScrollSnapPolyfill()
-  }
-  init();
-
-  </script>
+    {% include 'snippets/js.liquid' %}
+    {% block extra_js %}{% endblock %}
+  </body>
+</html>
