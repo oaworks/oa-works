@@ -41,3 +41,15 @@
 .menu-trigger--open .menu-trigger__icon {
   background: var(--black);
 }
+
+.menu-trigger--open .menu-trigger__icon:first-child {
+  transform: rotate(45deg) translate(12.5px, 12.5px);
+}
+
+.menu-trigger--open .menu-trigger__icon:nth-child(2) {
+  display: none;
+}
+
+.menu-trigger--open .menu-trigger__icon:last-child {
+  transform: rotate(-45deg) translate(12.5px, -12.5px);
+}
