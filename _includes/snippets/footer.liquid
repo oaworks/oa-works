@@ -10,7 +10,7 @@
         <ul>
           {% for product in products %}
           <li>
-            <a href="https://{{ product.name }}" target="_blank" rel="noopener">
+            <a href="{{ product.url }}" target="_blank" rel="noopener">
               {{ product.name }}
             </a>
           </li>
@@ -54,7 +54,7 @@
         <ul>
           {% for item in navigation.resources %}
           <li>
-            <a href="{{ item.url }}">
+            <a href="{{ base_url }/{{ item.url }}">
               {{ item.text }}
             </a>
           </li>
