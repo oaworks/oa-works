@@ -4,7 +4,7 @@
   display: none;
   flex-direction: column;
   position: fixed;
-  z-index: 2000;
+  z-index: 5;
   align-items: center;
   justify-content: center;
   border-radius: 50%;
