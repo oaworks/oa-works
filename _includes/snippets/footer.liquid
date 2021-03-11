@@ -16,26 +16,46 @@
           </li>
           {% endfor %}
         </ul>
+        <h2 class="label">Impact</h2>
+        <ul>
+          {% for item in navigation.impact %}
+          <li>
+            <a href="{{ base_url }}/{{ item.url }}">
+              {{ item.text }}
+            </a>
+          </li>
+          {% endfor %}
+        </ul>
       </div>
       <div class="col col--1of2">
         <h2 class="label">About</h2>
         <ul>
-          {% for utility in utilities %}
+          {% for item in navigation.about %}
           <li>
-            <a href="{{ utility.url }}" target="_blank" rel="noopener">
-              {{ utility.title }}
+            <a href="{{ base_url }}/{{ item.url }}">
+              {{ item.text }}
+            </a>
+          </li>
+          {% endfor %}
+        </ul>
+        <h2 class="label">People</h2>
+        <ul>
+          {% for item in navigation.people %}
+          <li>
+            <a href="{{ base_url }}/{{ item.url }}">
+              {{ item.text }}
             </a>
           </li>
           {% endfor %}
         </ul>
       </div>
       <div class="col footer__legal">
-        <h2 class="sr-only">Legal</h2>
+        <h2 class="sr-only">Resources</h2>
         <ul>
-          {% for link in footer %}
+          {% for item in navigation.resources %}
           <li>
-            <a href="{{ link.url }}" target="_blank" rel="noopener">
-              {{ link.heading }}
+            <a href="{{ item.url }}">
+              {{ item.text }}
             </a>
           </li>
           {% endfor %}

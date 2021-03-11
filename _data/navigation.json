@@ -1,0 +1,66 @@
+{
+  "people": [
+    {
+      "text": "Team",
+      "url": "/people/"
+    },
+    {
+      "text": "Partners",
+      "url": "/people/partners/"
+    }
+  ],
+  "impact": [
+    {
+      "text": "Impact",
+      "url": "/impact/"
+    },
+    {
+      "text": "Stories",
+      "url": "/impact/stories/"
+    },
+    {
+      "text": "Testimonials",
+      "url": "/impact/testimonials/"
+    }
+  ],
+  "about": [
+    {
+      "text": "About",
+      "url": "/about/"
+    },
+    {
+      "text": "Vision",
+      "url": "/about/vision/"
+    },
+    {
+      "text": "Values",
+      "url": "/about/values/"
+    },
+    {
+      "text": "History",
+      "url": "/about/history/"
+    }
+  ],
+  "resources": [
+    {
+      "text": "Governance",
+      "url": "/resources/governance/"
+    },
+    {
+      "text": "Succession & contingency plan",
+      "url": "/resources/preservation/"
+    },
+    {
+      "text": "Openness policy",
+      "url": "/resources/openness/"
+    },
+    {
+      "text": "Privacy policy",
+      "url": "/resources/privacy/"
+    },
+    {
+      "text": "Terms & conditions",
+      "url": "/resources/terms/"
+    }
+  ]
+}
