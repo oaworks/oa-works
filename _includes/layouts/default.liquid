@@ -3,14 +3,15 @@ layout: layouts/base.liquid
 body_class: default
 ---
 
-<div class="row">
-  <header class="col col--1of3">
+<section class="row markdown{% if theme != 'dark' %} bg-white{% endif %}">
+  <header class="col col--1of3 markdown__header" data-aos="fade-up">
     <h1>{{ title }}</h1>
+    {% if meta_description %}<p>{{ meta_description }}</p>{% endif %}
   </header>
 
-  <div class="col col--1of2" style="border-left: 1px solid;">
-    <section style="padding-top: 0;">
+  <div class="col col--1of2 markdown__content">
+    <section data-aos="fade-up" data-aos-delay="100">
       {{ content }}
     </section>
   </div>
-</div>
+</section>
