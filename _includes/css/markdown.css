@@ -1,3 +1,11 @@
+.markdown h2,
+.markdown h3,
+.markdown h4,
+.markdown h5,
+.markdown h6 {
+  padding-top: var(--space-md);
+}
+
 .markdown ul, ol {
   padding-left: var(--space-xs);
   margin-bottom: var(--space-md);
@@ -36,6 +44,25 @@
 
 .markdown ul li:nth-of-type(6n+6):before {
   background-color: var(--chartreuse);
+}
+
+.markdown a {
+  display: inline-block;
+  text-decoration: none;
+  transition: color .25s;
+}
+
+.markdown a:after {
+  display: block;
+  width: 100%;
+  height: 1px;
+  transition: width 0.25s;
+  content: '';
+  border-bottom: 1px solid;
+}
+
+.markdown a:hover:after {
+  width: 0%;
 }
 
 .markdown__header {

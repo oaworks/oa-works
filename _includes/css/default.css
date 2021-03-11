@@ -2,10 +2,6 @@
   margin-top: var(--space-xl);
 }
 
-.default header {
-  background-image: linear-gradient(90deg, transparent, transparent 100%, var(--white) 100%, transparent 1.5px);
-}
-
 .default h1 {
   position: sticky;
   top: var(--gutter);
