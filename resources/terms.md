@@ -15,14 +15,10 @@ You may browse the website and view content without registering, but as a condit
 
 We trust you to use our services responsibly. You agree not to misuse the Open Access Button services ("Services"). For example, you must not, and must not attempt to do the following:
 
-<li>access, tamper with, or use non public areas or parts of the Services, or shared areas of the Services you have not been invited to;</li>
-
-<li>interfere with or disrupt any user, host, or network</li>
-
-<li>use automated or other means to create accounts in bulk or to access the Services other than by using our official interface and/or APIs;</li>
-
-<li>violate the law in any way including storing, publishing or sharing material that is fraudulent, defamatory, misleading, or that violates the privacy or infringes the rights of others.</li>
-<br/>
+- access, tamper with, or use non public areas or parts of the Services, or shared areas of the Services you have not been invited to;
+- interfere with or disrupt any user, host, or network
+- use automated or other means to create accounts in bulk or to access the Services other than by using our official interface and/or APIs;
+- violate the law in any way including storing, publishing or sharing material that is fraudulent, defamatory, misleading, or that violates the privacy or infringes the rights of others.
 
 ## Third Party Sites and Services
 
@@ -43,9 +39,8 @@ This policy is current as of February 27th, 2020. Our Privacy Policy may change 
 
 ### Updates
 
-<li>October 24th, 2016: Updated text to remove references to passwords. We no longer have them in favour of a more secure password less system. This page structure was also updated to mimic our privacy policy so there is now a clear place to ask questions and understand our update policy. We also cleaned up some formatting and removed the "welcome message" at the start of the policy. This was not posted to our blog as it wasn't deemed a substantial change.</li>
-
-<li>February 27th 2020: Updated terms with an additional standard disclaimer to support Shareyourpaper.org. We did not post notices as this wasn't deemed a substantial change, and users of that service will be asked to accept these separately.</li>
+- October 24th, 2016: Updated text to remove references to passwords. We no longer have them in favour of a more secure password less system. This page structure was also updated to mimic our privacy policy so there is now a clear place to ask questions and understand our update policy. We also cleaned up some formatting and removed the "welcome message" at the start of the policy. This was not posted to our blog as it wasn't deemed a substantial change.
+- February 27th 2020: Updated terms with an additional standard disclaimer to support Shareyourpaper.org. We did not post notices as this wasn't deemed a substantial change, and users of that service will be asked to accept these separately.
 
 ### Questions?
 

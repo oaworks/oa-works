@@ -48,7 +48,7 @@ This policy is current as of October 19th, 2016. Our Privacy Policy may change f
 
 ### Updates
 
-<li>October 24, 2016: Updated to reflect changes in the Open Access Button team, how we use data, and make structural improvements to the page.</li>
+- October 24, 2016: Updated to reflect changes in the Open Access Button team, how we use data, and make structural improvements to the page.
 
 ## Questions?
 

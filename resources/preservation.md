@@ -14,14 +14,14 @@ Outside of these day-to-day considerations for avoiding issues, in this plan, we
 
 While these are plans, that doesn’t mean they’re theoretical. We have dealt with many situations where we’ve put them into effect, or been close to. We have had expected permanent shutdowns of our services, prepared for imminent shutdown of our work due to lack of funds, and had unexpected departures and unavailabilities from the team. While we’re much more stable now, we expect to update this plan as we continue to learn how to manage these, and review it yearly.
 
-## Contingency plan
+## Contingency plan
 
 * Financially, we aim to maintain a small contingency reserve (~ 4% our budget) to use for unexpected costs.
 * Technically, several people are able to post alerts to our website and communications platforms regarding issues. Services can be rolled back to stable builds and quickly restarted when required by multiple people.
 * Personnel are all trained in, and expected to practice, agile deployment, share all documents, and conduct documented long-, medium-, and short-term planning to limit the impact of unexpected unavailability. In the case of total unavailability, we prevent single points of failure through, for example, shared but secure account access maintained via a shared password manager and good management practices. Through our fiscal sponsor, experts, such as lawyers are readily available to provide advice and counsel.
 * We keep local copies of mission critical cloud hosted documents, such as those on Github and Google, for use should there be extended or permanent unavailability or loss of data by those services.
 
-## Succession plan
+## Succession plan
 
 * To manage an orderly transition or service termination, our earned revenue and reserve will cover server costs, essential systems administration, and a limited number of major bug fixes helping ensure that we’re able to sustain basic operations for a reasonable timeline (> 1 year) during funding interruptions. We actively work to ensure all our core services can be maintained to a useful degree with only servers while value-adding human mediated elements of services can be paused or limited as required.
 * In the event a shutdown becomes likely, available technical and non-technical resources will be immediately redirected to ensuring an orderly shut down. We estimate that the necessary work would take six weeks, but could be done faster if required.
