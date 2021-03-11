@@ -7,18 +7,107 @@
     <h2 class="sr-only">Menu</h2>
     <ul>
       <li>
-        <a href="{{ base_url }}/#products">Products</a>
+        <a href="{{ base_url }}/#products" class="header__nav-section">Products</a>
+        <ul>
+          {% for product in products %}
+          <li>
+            <a href="{{ product.url }}" target="_blank" rel="noopener" class="header__nav-subsection">
+              {{ product.name }}
+            </a>
+          </li>
+          {% endfor %}
+        </ul>
       </li>
       <li>
-        <a href="{{ base_url }}/people">People</a>
+        <span class="header__nav-section">People</span>
+        <ul>
+          <li>
+            <a href="{{ base_url }}/people/" class="header__nav-subsection">
+              Team
+            </a>
+          </li>
+          <li>
+            <a href="{{ base_url }}/people/partners" class="header__nav-subsection">
+              Partners
+            </a>
+          </li>
+        </ul>
       </li>
       <li>
-        <a href="{{ base_url }}/impact">Impact</a>
+        <span class="header__nav-section">Impact</span>
+        <ul>
+          <li>
+            <a href="{{ base_url }}/impact/" class="header__nav-subsection">
+              Impact
+            </a>
+          </li>
+          <li>
+            <a href="{{ base_url }}/impact/stories/" class="header__nav-subsection">
+              Stories
+            </a>
+          </li>
+          <li>
+            <a href="{{ base_url }}/impact/testimonials" class="header__nav-subsection">
+              Testimonials
+            </a>
+          </li>
+        </ul>
       </li>
       <li>
-        <a href="{{ base_url }}/about">About</a>
+        <span class="header__nav-section">About</span>
+        <ul>
+          <li>
+            <a href="{{ base_url }}/about/" class="header__nav-subsection">
+              About
+            </a>
+          </li>
+          <li>
+            <a href="{{ base_url }}/about/vision/" class="header__nav-subsection">
+              Vision
+            </a>
+          </li>
+          <li>
+            <a href="{{ base_url }}/about/values/" class="header__nav-subsection">
+              Values
+            </a>
+          </li>
+          <li>
+            <a href="{{ base_url }}/about/history/" class="header__nav-subsection">
+              History
+            </a>
+          </li>
+        </ul>
       </li>
       <li>
+        <span class="header__nav-section">Resources</span>
+        <ul>
+          <li>
+            <a href="{{ base_url }}/governance/" class="header__nav-subsection">
+              Governance
+            </a>
+          </li>
+          <li>
+            <a href="{{ base_url }}/preservation/" class="header__nav-subsection">
+              Succession & contingency plan
+            </a>
+          </li>
+          <li>
+            <a href="{{ base_url }}/openness/" class="header__nav-subsection">
+              Openness policy
+            </a>
+          </li>
+          <li>
+            <a href="{{ base_url }}/privacy/" class="header__nav-subsection">
+              Privacy policy
+            </a>
+          </li>
+          <li>
+            <a href="{{ base_url }}/terms/" class="header__nav-subsection">
+              Terms & conditions
+            </a>
+          </li>
+        </ul>
+      </li>
     </ul>
   </nav>
 

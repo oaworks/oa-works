@@ -30,7 +30,7 @@
   height: 100vh;
   width: 100%;
   background-color: var(--violet);
-  font-size: var(--typescale-2);
+  color: var(--black);
 }
 
 @media only screen and (min-width: 768px) {
@@ -46,8 +46,19 @@
 }
 
 .header__nav a {
+  display: block;
   color: var(--black);
 }
+
+.header__nav-section {
+  margin-bottom: var(--space-xs);
+  font-size: var(--typescale-3);
+}
+
+.header__nav-subsection {
+  font-size: var(--typescale-4);
+}
+
 
 .header__nav--open {
   display: block;
