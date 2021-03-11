@@ -74,12 +74,14 @@
 
   // Hamburger menu
   var nav = document.querySelector(".header__nav"),
-      navTrigger = document.querySelector(".menu-trigger");
+      navTrigger = document.querySelector(".menu-trigger"),
+      menuBtn = document.getElementById("menuBtn");
 
   if (navTrigger) {
     navTrigger.addEventListener("click",
     function(e) {
       nav.classList.toggle('header__nav--open');
+      menuBtn.classList.toggle('menu-trigger--open');
       e.preventDefault();
     }, false);
   }
@@ -138,6 +140,15 @@
         topBtn.style.display = "flex";
       } else {
         topBtn.style.display = "none";
+      }
+
+      // Add lass to menu btn on scroll
+      var menuBtn = document.getElementById("menuBtn");
+
+      if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        menuBtn.classList.add('menu-trigger--scrolled');
+      } else {
+        menuBtn.classList.remove('menu-trigger--scrolled');
       }
 
       // Add class to shapes when scrolling away from cover
