@@ -10,6 +10,11 @@
   font-size: var(--typescale-6);
 }
 
+.header ul,
+.header ol {
+  line-height: 2;
+}
+
 .header .logotype {
   display: block;
   height: 5vh;
@@ -21,7 +26,7 @@
 }
 
 .header__nav {
-  padding: var(--space-md);
+  padding: var(--gutter);
   position: fixed;
   top: 0;
   right: 0;

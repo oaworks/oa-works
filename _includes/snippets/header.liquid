@@ -9,9 +9,9 @@
     <span class="menu-trigger__icon"></span>
   </button>
 
-  <nav class="header__nav">
+  <nav class="row header__nav">
     <h2 class="sr-only">Table of contents</h2>
-    <ul>
+    <ul class="col col--1of2">
       <li>
         <a href="{{ site.base_url }}/#products" class="header__nav-section">Products</a>
         <ul>
@@ -25,93 +25,55 @@
         </ul>
       </li>
       <li>
-        <span class="header__nav-section">People</span>
-        <ul>
-          <li>
-            <a href="{{ site.base_url }}/people/" class="header__nav-subsection">
-              Team
-            </a>
-          </li>
-          <li>
-            <a href="{{ site.base_url }}/people/partners" class="header__nav-subsection">
-              Partners
-            </a>
-          </li>
-        </ul>
-      </li>
-      <li>
         <span class="header__nav-section">Impact</span>
         <ul>
+          {% for item in navigation.impact %}
           <li>
-            <a href="{{ site.base_url }}/impact/" class="header__nav-subsection">
-              Impact
+            <a href="{{ site.base_url }}/{{ item.url }}" class="header__nav-subsection">
+              {{ item.text }}
             </a>
           </li>
-          <li>
-            <a href="{{ site.base_url }}/impact/stories/" class="header__nav-subsection">
-              Stories
-            </a>
-          </li>
-          <li>
-            <a href="{{ site.base_url }}/impact/testimonials" class="header__nav-subsection">
-              Testimonials
-            </a>
-          </li>
+          {% endfor %}
         </ul>
       </li>
+    </ul>
+    <ul class="col col--1of2">
       <li>
         <span class="header__nav-section">About</span>
         <ul>
+          {% for item in navigation.about %}
           <li>
-            <a href="{{ site.base_url }}/about/" class="header__nav-subsection">
-              About
+            <a href="{{ site.base_url }}/{{ item.url }}" class="header__nav-subsection">
+              {{ item.text }}
             </a>
           </li>
-          <li>
-            <a href="{{ site.base_url }}/about/vision/" class="header__nav-subsection">
-              Vision
-            </a>
-          </li>
-          <li>
-            <a href="{{ site.base_url }}/about/values/" class="header__nav-subsection">
-              Values
-            </a>
-          </li>
-          <li>
-            <a href="{{ site.base_url }}/about/history/" class="header__nav-subsection">
-              History
-            </a>
-          </li>
+          {% endfor %}
         </ul>
       </li>
       <li>
-        <span class="header__nav-section">Resources</span>
+        <span class="header__nav-section">People</span>
         <ul>
+          {% for item in navigation.people %}
           <li>
-            <a href="{{ site.base_url }}/resources/governance/" class="header__nav-subsection">
-              Governance
+            <a href="{{ site.base_url }}/{{ item.url }}" class="header__nav-subsection">
+              {{ item.text }}
             </a>
           </li>
+          {% endfor %}
+        </ul>
+      </li>
+    </ul>
+    <ul class="col">
+      <li>
+        <span class="header__nav-section">Resources</span>
+        <ul class="inlined-list">
+          {% for item in navigation.resources %}
           <li>
-            <a href="{{ site.base_url }}/resources/preservation/" class="header__nav-subsection">
-              Succession & contingency plan
+            <a href="{{ site.base_url }}/{{ item.url }}" class="header__nav-subsection">
+              {{ item.text }}
             </a>
           </li>
-          <li>
-            <a href="{{ site.base_url }}/resources/openness/" class="header__nav-subsection">
-              Openness policy
-            </a>
-          </li>
-          <li>
-            <a href="{{ site.base_url }}/resources/privacy/" class="header__nav-subsection">
-              Privacy policy
-            </a>
-          </li>
-          <li>
-            <a href="{{ site.base_url }}/resources/terms/" class="header__nav-subsection">
-              Terms & conditions
-            </a>
-          </li>
+          {% endfor %}
         </ul>
       </li>
     </ul>
