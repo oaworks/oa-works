@@ -40,7 +40,7 @@ layout: "layouts/base.liquid"
         </a>
       </header>
       {% include 'snippets/product_description.liquid'%}
-      <aside class="col col--1of2 flex-center flex-col" style="background-color: var(--{{ product.colour }});" data-aos="fade-{% if the_cycle == 'odd' %}right{% else %}left{% endif %}"
+      <aside class="col col--1of2 flex-center flex-col" data-aos="fade-{% if the_cycle == 'odd' %}right{% else %}left{% endif %}"
       data-aos-delay="150">
         <article class="card" style="box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;">
           <div class="card__body flex-center" style="height: 45vh; background: var(--white); overflow-y: scroll;">
