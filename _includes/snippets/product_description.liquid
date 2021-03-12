@@ -1,20 +1,20 @@
 <article class="col col--1of2 flex-center flex-col fade">
   <p class="label"
      style="align-self: flex-start; padding: var(--space-sm); background-color: var(--{{ product.colour }}-shade); color: var(--white);"
-     data-aos="fade-left"
+     data-aos="fade-{% if the_cycle == 'odd' %}left{% else %}right{% endif %}"
   >
     {{ product.label }}
   </p>
 
   <h3 class="font-serif"
-      style="margin: 0 var(--gutter) var(--space-md) var(--gutter); padding: var(--space-sm); align-self: flex-start; background-color: var(--white);"
-      data-aos="fade-left"
+      style="margin: 0 0 var(--space-md) var(--gutter); padding: var(--space-sm); align-self: flex-start; background-color: var(--{{ product.colour }});"
+      data-aos="fade-{% if the_cycle == 'odd' %}left{% else %}right{% endif %}"
       data-aos-delay="100"
   >
     {{ product.tagline }}
   </h3>
   <div style="margin-left: var(--gutter);"
-       data-aos="fade-left"
+       data-aos="fade-{% if the_cycle == 'odd' %}left{% else %}right{% endif %}"
        data-aos-delay="150"
   >
     <p>{{ product.description }}</p>
@@ -23,7 +23,7 @@
          target="_blank"
          rel="noopener"
          class="button button--secondary button--custom"
-         style="--custom-colour: var(--{{ product.colour }}-shade);"
+         style="--custom-colour: var(--{{ product.colour }});"
       >
         {{ product.cta }}
       </a>
