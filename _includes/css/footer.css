@@ -76,6 +76,7 @@
 
   .footer__legal ul {
     flex-wrap: wrap;
+    justify-content: space-around;
   }
 }
 
