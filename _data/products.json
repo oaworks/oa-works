@@ -30,6 +30,6 @@
     "cta": "Find an article",
     "description": "OAButton gets you free access legally by scouring the web and emailing authors. Use it from tools on our website, plugins for Chrome and Firefox, or embedded into library systems.",
     "embed": "<div id='oabutton'><h2>Avoid paywalls, request research</h2><label for='oabutton_url'>Enter an article’s URL, DOI, Title, or Citation</label><script src='https://openaccessbutton.org/static/jquery-1.10.2.min.js'></script><script src='https://openaccessbutton.org/static/openaccessbutton_widget.js'></script><script>jQuery(document).ready(function(){openaccessbutton_widget({uid:'h9mTMgqeaKDyJW8E2'});});</script><div id='openaccessbutton_widget'></div></div>",
-    "colour": "carnation"
+    "colour": "chartreuse"
   }
 ]
