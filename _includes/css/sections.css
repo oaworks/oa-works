@@ -3,6 +3,7 @@
   margin-right: var(--gutter-negative);
   padding: calc(var(--gutter) * 2) var(--gutter) var(--gutter) var(--gutter);
   min-height: 100vh;
+  overflow-x: hidden;
 }
 
 .section:first-of-type {
