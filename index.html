@@ -28,21 +28,21 @@ layout: "layouts/base.liquid"
     {% include 'embeds.css' %}
     {% for product in products %}
     {% capture the_cycle %}{% cycle 'odd', 'even' %}{% endcapture %}
-    <li class="row" style="padding-top: calc(var(--gutter) * 2)" data-aos="fade-up">
+    <li class="row" data-aos="fade-up">
+      <header class="flex-center" style="width: 100%; border-bottom: 1px solid; border-top: 1px solid; background-color: var(--black);">
+        <a href="{{ product.url }}"
+           target="_blank"
+           rel="noopener"
+           title="Go to {{ product.name }} site"
+           style="align-self: center;"
+        >
+          {% include product.logo %}
+        </a>
+      </header>
       {% include 'snippets/product_description.liquid'%}
-      <aside class="col col--1of2 flex-center flex-col">
+      <aside class="col col--1of2 flex-center flex-col" style="background-color: var(--{{ product.colour }});" data-aos="fade-{% if the_cycle == 'odd' %}right{% else %}left{% endif %}"
+      data-aos-delay="150">
         <article class="card" style="box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;">
-          <header class="card__header bg-black">
-            <a href="{{ product.url }}"
-               target="_blank"
-               rel="noopener"
-               title="Go to {{ product.name }} site"
-               class="flex-space-between"
-            >
-              {% include product.logo %}
-              <strong>↗</strong>
-            </a>
-          </header>
           <div class="card__body flex-center" style="height: 45vh; background: var(--white); overflow-y: scroll;">
             {{ product.embed }}
           </div>
