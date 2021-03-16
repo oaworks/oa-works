@@ -144,6 +144,8 @@ layout: "layouts/base.liquid"
 {% include 'snippets/stories.liquid' %}
 
 {% block extra_js %}
+<script src="{{ site.base_url }}/js/lazy-line-painter-1.9.6.min.js"></script>
+
 <script>
   // Randomly display testimonials
   var testimonials = document.getElementsByClassName("testimonial");
