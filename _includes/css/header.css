@@ -25,6 +25,20 @@
   animation: flash 4s ease infinite;
 }
 
+.header__featured-items {
+  margin: auto var(--gutter) auto 0;
+  padding: 0;
+}
+
+.header__featured-items li {
+  display: inline-block;
+}
+
+.header__featured-items a {
+  margin-right: var(--gutter);
+  display: block;
+}
+
 .header__nav {
   padding: var(--gutter);
   position: fixed;
