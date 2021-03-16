@@ -2,7 +2,8 @@
 .markdown h3,
 .markdown h4,
 .markdown h5,
-.markdown h6 {
+.markdown h6,
+.markdown .label {
   padding-top: var(--space-md);
 }
 
