@@ -26,9 +26,9 @@
           </ul>
         </li>
         <li>
-          <span class="header__nav-section">Impact</span>
+          <span class="header__nav-section">People</span>
           <ul>
-            {% for item in navigation.impact %}
+            {% for item in navigation.people %}
             <li>
               <a href="{{ site.base_url }}/{{ item.url }}" class="header__nav-subsection">
                 {{ item.text }}
@@ -52,9 +52,9 @@
           </ul>
         </li>
         <li>
-          <span class="header__nav-section">People</span>
+          <span class="header__nav-section">Impact</span>
           <ul>
-            {% for item in navigation.people %}
+            {% for item in navigation.impact %}
             <li>
               <a href="{{ site.base_url }}/{{ item.url }}" class="header__nav-subsection">
                 {{ item.text }}
