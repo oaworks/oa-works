@@ -23,16 +23,6 @@
     }, false);
   }
 
-  // Any click outside of the nav element will close the menu if it's open
-  var specifiedElement = document.querySelector('.header__nav');
-
-  document.addEventListener('click', function(event) {
-    var isClickInside = specifiedElement.contains(event.target);
-    if (!isClickInside && nav.className == 'header__nav--open') {
-      nav.classList.toggle('header__nav--open');
-    }
-  });
-
   (function(){
 
     // Hide header menu on down scroll; display on scroll up
