@@ -2,7 +2,8 @@
   "people": [
     {
       "text": "Team",
-      "url": "/people/"
+      "url": "/people/",
+      "featured": true
     },
     {
       "text": "Partners",
@@ -12,7 +13,8 @@
   "impact": [
     {
       "text": "Impact",
-      "url": "/impact/"
+      "url": "/impact/",
+      "featured": true
     },
     {
       "text": "Stories",
@@ -26,7 +28,8 @@
   "about": [
     {
       "text": "About",
-      "url": "/about/"
+      "url": "/about/",
+      "featured": true
     },
     {
       "text": "Vision",

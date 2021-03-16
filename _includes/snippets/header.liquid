@@ -4,9 +4,13 @@
   </a>
 
   <ul class="header__featured-items">
-    <li><a href="{{ site.base_url }}#products" class="label">Products</a></li>
-    <li><a href="{{ site.base_url }}/impact" class="label">Impact</a></li>
-    <li><a href="{{ site.base_url }}/about" class="label">About</a></li>
+    {% for item in navigation %}
+      {% for subitem in item[1] %}
+        {% if subitem.featured %}
+          <li><a href="{{ site.base_url }}{{ subitem.url }}" class="label">{{ subitem.text }}</a></li>
+        {% endif %}
+      {% endfor %}
+    {% endfor %}
   </ul>
 
   <button class="menu-trigger" aria-label="Open menu" id="menuBtn">
