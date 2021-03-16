@@ -6,6 +6,14 @@
   padding-top: var(--space-md);
 }
 
+.markdown .label + h1,
+.markdown .label + h2,
+.markdown .label + h3,
+.markdown .label + h4,
+.markdown .label + h5 {
+  padding-top: 0;
+}
+
 .markdown ul, ol {
   padding-left: var(--space-xs);
   margin-bottom: var(--space-md);
