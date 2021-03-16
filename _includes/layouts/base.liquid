@@ -17,7 +17,11 @@
 
     {% include 'snippets/footer.liquid' %}
 
-    {% include 'snippets/js.liquid' %}
+    <script src="js/lazy-line-painter-1.9.6.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/detect-browser.js"></script>
+    <script src="js/main.js"></script>
+
     {% block extra_js %}{% endblock %}
   </body>
 </html>
