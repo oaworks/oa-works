@@ -8,7 +8,8 @@
     "cta": "Share your work",
     "description": "ShareYourPaper.org uses self-archiving to make papers Open Access, for free, in minutes. It’s the simplest way to increase a paper’s impact for authors and libraries.",
     "embed": "<h2 class='type-3 font-sans'>Find the easiest way to share your paper</h2><label>Enter your article’s DOI</label><div id='shareyourpaper'></div><script src='https://shareyourpaper.org/embed.js'></script><script>_oab=shareyourpaper({uid: 'by8dj55F7P6CY8hXM', config: {'owner':'sophy@openaccessbutton.org'}});</script>",
-    "colour": "azure"
+    "colour": "azure",
+    "featured": true
   },
   {
     "logo": "products/ill.svg",
@@ -19,7 +20,8 @@
     "cta": "Make a request",
     "description": "InstantILL makes Interlibrary Loan delivery faster, less expensive, and simpler for users. Libraries use it to deliver access without big deals, and it’s powering a global response to COVID-19 through RSCVD.",
     "embed": "SOMETHING BETTER COMING SOON",
-    "colour": "cyan"
+    "colour": "cyan",
+    "featured": true
   },
   {
     "logo": "products/oab.svg",
@@ -30,6 +32,22 @@
     "cta": "Find an article",
     "description": "OAButton gets you free access legally by scouring the web and emailing authors. Use it from tools on our website, plugins for Chrome and Firefox, or embedded into library systems.",
     "embed": "<div id='oabutton'><h2>Avoid paywalls, request research</h2><label for='oabutton_url'>Enter an article’s URL, DOI, Title, or Citation</label><script src='https://openaccessbutton.org/static/jquery-1.10.2.min.js'></script><script src='https://openaccessbutton.org/static/openaccessbutton_widget.js'></script><script>jQuery(document).ready(function(){openaccessbutton_widget({uid:'h9mTMgqeaKDyJW8E2'});});</script><div id='openaccessbutton_widget'></div></div>",
-    "colour": "chartreuse"
+    "colour": "chartreuse",
+    "featured": true
+  },
+  {
+    "name": "Infrastructure",
+    "url": "{{ site.base_url }}/infrastructure/",
+    "featured": false
+  },
+  {
+    "name": "Roadmap",
+    "url": "{{ site.base_url }}/roadmap/",
+    "featured": false
+  },
+  {
+    "name": "Labs",
+    "url": "{{ site.base_url }}/labs/",
+    "featured": false
   }
 ]

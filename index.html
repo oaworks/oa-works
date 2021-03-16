@@ -28,6 +28,7 @@ layout: "layouts/base.liquid"
     {% include 'embeds.css' %}
     {% for product in products %}
     {% capture the_cycle %}{% cycle 'odd', 'even' %}{% endcapture %}
+    {% if featured %}
     <li class="row" data-aos="fade-up">
       <header class="flex-center" style="width: 100%; border-bottom: 1px solid; border-top: 1px solid; background-color: var(--black);">
         <a href="{{ product.url }}"
@@ -49,6 +50,7 @@ layout: "layouts/base.liquid"
         </article>
       </aside>
     </li>
+    {% endif %}
     {% endfor %}
   </ul>
 </section>
