@@ -23,6 +23,14 @@
   color: var(--white);
 }
 
+.footer hr {
+  margin: 0 var(--gutter-negative) var(--gutter) var(--gutter-negative);
+  width: auto;
+  border: none;
+  background: var(--white);
+  height: 1px;
+}
+
 .footer svg {
   display: block;
   width: 100%;
@@ -63,7 +71,7 @@
 }
 
 @media only screen and (max-width: 1023px) {
-  .footer{
+  .footer {
     background-image:
       linear-gradient(90deg, transparent, transparent 50%, var(--white) 50%, transparent calc(50% + 1.5px));
   }
@@ -81,7 +89,7 @@
 }
 
 @media only screen and (min-width: 1024px) {
-  .footer{
+  .footer {
     background-image:
       linear-gradient(90deg, transparent, transparent 33.3333333%, var(--white) 33.3333333%, transparent calc(33.3333333% + 1.5px)),
       linear-gradient(90deg, transparent, transparent calc(66.6666667% - 1.5px), var(--white) 66.6666667%, transparent 0);
