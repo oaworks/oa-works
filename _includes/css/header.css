@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   margin: 0 var(--gutter-negative);
-  padding: 2.5vh var(--gutter);
+  padding: var(--gutter);
   z-index: 10;
   height: 10vh;
   width: 100vw;
