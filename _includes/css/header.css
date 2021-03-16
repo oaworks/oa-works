@@ -73,6 +73,11 @@
   }
 }
 
+.header__list {
+  margin-bottom: 0;
+  width: 50%;
+}
+
 .header__nav-section {
   display: block;
   margin-bottom: var(--space-xs);

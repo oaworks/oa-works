@@ -22,7 +22,7 @@
   <nav class="row header__nav">
     <h2 class="sr-only">Table of contents</h2>
     <div class="flex" style="width: 100%;">
-      <ul style="width: 50%;">
+      <ul class="header__list">
         <li>
           <a href="{{ site.base_url }}/#products" class="header__nav-section">Products</a>
           <ul>
@@ -48,7 +48,7 @@
           </ul>
         </li>
       </ul>
-      <ul style="width: 50%;">
+      <ul class="header__list">
         <li>
           <span class="header__nav-section">About</span>
           <ul>
@@ -75,6 +75,13 @@
         </li>
       </ul>
     </div>
+    <form class="col">
+      <label for="newsletter-signup">Sign up to our newsletter</label>
+      <div class="flex">
+        <input type="text" name="newsletter-signup" id="newsletter-signup"/>
+        <button type="submit">Sign up</button>
+      </div>
+    </form>
     <ul>
       <li>
         <span class="header__nav-section">Resources</span>

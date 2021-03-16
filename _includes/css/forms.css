@@ -4,11 +4,26 @@
   color: var(--mid-grey);
 }
 
-label, input {
+label, input, button {
   display: block;
   margin-bottom: var(--space-sm);
 }
 
+label {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-weight: 700;
+  letter-spacing: 0.045em;
+}
+
 input {
-  padding: var(--space-md);
+  padding: var(--space-xs);
+}
+
+button {
+  padding: var(--space-xs);
+  cursor: pointer;
+  border: 1px solid var(--black);
+  background-color: var(--black);
+  color: var(--white);
 }
