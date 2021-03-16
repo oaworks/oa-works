@@ -25,12 +25,12 @@
   display: flex;
   flex-basis: 100%;
   flex-direction: column;
-  padding-left: 0;
   font-weight: 400;
 }
 
 .timeline > li > ul > li {
-  padding-left: var(--space-md);
+  margin-left: calc(var(--space-md) + var(--space-sm));
+  list-style: disc;
 }
 
 .timeline > li > ul > li:before {
