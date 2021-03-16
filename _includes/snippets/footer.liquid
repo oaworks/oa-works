@@ -10,7 +10,7 @@
         <ul>
           {% for product in products %}
           <li>
-            <a href="{{ product.url }}" target="_blank" rel="noopener">
+            <a href="{{ product.url }}"{% if product.url contains 'https' %} target="_blank" rel="noopener"{% endif %}>
               {{ product.name }}
             </a>
           </li>
