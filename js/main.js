@@ -1,4 +1,7 @@
 (function(){
+  // Initialise AOS
+  AOS.init();
+  
   // Open menu w/ hamburger icon
   var nav = document.querySelector(".header__nav"),
       navTrigger = document.querySelector(".menu-trigger"),
