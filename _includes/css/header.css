@@ -26,6 +26,7 @@
 }
 
 .header__featured-items {
+  display: none;
   margin: auto var(--gutter) auto 0;
   padding: 0;
 }
@@ -37,6 +38,12 @@
 .header__featured-items a {
   margin-right: var(--gutter);
   display: block;
+}
+
+@media only screen and (min-width: 768px) {
+  .header__featured-items {
+    display: block;
+  }
 }
 
 .header__nav {
