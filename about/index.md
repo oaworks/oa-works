@@ -17,4 +17,4 @@ We build tools like ShareYourPaper.org that make it simple to freely and legally
 
 We founded OA.Works in 2013 as students in reaction to a corporatized and locked down scholarly publishing landscape. Today, our work is driven by a dedicated and expert team, supported by generous funding, and committed to a strong set of values that keep us driven towards our goal.
 
-We’re OA.Works, and that’s our commitment. To make Open Access Work.
+We’re OA.Works, and that’s our commitment: to make Open Access Work.
