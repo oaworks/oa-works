@@ -23,9 +23,12 @@ input {
 }
 
 button {
-  padding: var(--space-xs);
+  padding: var(--space-xs) var(--space-sm);
   cursor: pointer;
   border: 1px solid var(--black);
   background-color: var(--black);
   color: var(--white);
+  font-family: var(--sans-serif);
+  text-transform: uppercase;
+  letter-spacing: 0.045em;
 }
