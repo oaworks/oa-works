@@ -41,11 +41,11 @@
 
   --azure-shade:      hsl(212, 100%, 20%);
   --azure:            hsl(212, 100%, 50%);
-  --azure-tint:       hsl(212, 100%, 98%);
+  --azure-tint:       hsl(212, 100%, 88%);
 
   --cyan-shade:       hsl(169, 100%, 30%);
   --cyan:             hsl(169, 100%, 50%);
-  --cyan-tint:        hsl(169, 100%, 98%);
+  --cyan-tint:        hsl(169, 100%, 88%);
 
   --carnation-shade:  hsl(000, 100%, 40%);
   --carnation:        hsl(000, 100%, 70%);
