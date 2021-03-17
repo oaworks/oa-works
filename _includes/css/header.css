@@ -1,7 +1,7 @@
 .header {
   display: flex;
   justify-content: space-between;
-  margin: 0 var(--gutter-negative);
+  margin: 0 var(--gutter-negative) var(--gutter) var(--gutter-negative);
   padding: var(--gutter);
   z-index: 10;
   height: 10vh;
