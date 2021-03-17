@@ -43,9 +43,18 @@ layout: "layouts/base.liquid"
       {% include 'snippets/product_description.liquid'%}
       <aside class="col col--1of2 flex-col" data-aos="fade-{% if the_cycle == 'odd' %}right{% else %}left{% endif %}"
       data-aos-delay="150" style="margin-top: var(--gutter);">
-        <article class="card" style="box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;">
+        <article class="card card--floating">
+          <header class="bg-black card__header">
+            <h3 class="label">
+              {% if product.embed %}
+                Try <a href="{{ product.url }}" target="_blank" rel="noopener">{{ product.name }}</a> now 👇
+              {% else %}
+
+              {% endif %}
+            </h3>
+          </header>
           <div class="card__body flex-center" style="height: 45vh; background: var(--white); overflow-y: scroll;">
-            {{ product.embed }}
+            {% if product.embed %}{{ product.embed }}{% endif %}
           </div>
         </article>
       </aside>
