@@ -10,9 +10,13 @@
   font-size: var(--typescale-6);
 }
 
+.header__logo {
+  display: block;
+}
+
 .header .logotype {
   display: block;
-  height: 5vh;
+  height: 50px;
   width: auto;
 }
 
