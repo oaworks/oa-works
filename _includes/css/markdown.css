@@ -1,9 +1,9 @@
-.markdown h2,
-.markdown h3,
-.markdown h4,
-.markdown h5,
-.markdown h6,
-.markdown .label {
+.markdown h2:not(:first-child),
+.markdown h3:not(:first-child),
+.markdown h4:not(:first-child),
+.markdown h5:not(:first-child),
+.markdown h6:not(:first-child),
+.markdown .label:not(:first-child) {
   padding-top: var(--space-md);
 }
 
@@ -74,11 +74,18 @@
   width: 0%;
 }
 
-.markdown__header {
-  margin-top: var(--space-md);
+.markdown__header-wrapper {
+  padding-top: var(--space-md);
+  position: sticky;
+  top: var(--gutter);
 }
 
 .markdown__content {
   padding-top: var(--space-md);
-  border-left: 1px solid;
+}
+
+@media only screen and (min-width: 1024px) {
+  .markdown__content {
+    border-left: 1px solid;
+  }
 }
