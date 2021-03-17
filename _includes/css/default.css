@@ -1,9 +1,0 @@
-.default main {
-  margin-top: var(--space-xl);
-}
-
-.default h1 {
-  position: sticky;
-  top: var(--gutter);
-  font-family: var(--serif);
-}
