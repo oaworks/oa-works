@@ -4,11 +4,9 @@ layout: null
 eleventyExcludeFromCollections: true
 ---
 
-{% comment %}
-FIXME: first include doesn’t work unless it’s repeated twice here. Why??
-{% endcomment %}
+{%- comment -%}FIXME: first include doesn’t work unless it’s repeated twice here. Why??{%- endcomment -%}
 
-{% capture css %}
+{%- capture css -%}
   {% include "css/fonts.css" %}
   {% include "css/fonts.css" %}
   {% include "css/variables.css" %}
@@ -38,8 +36,6 @@ FIXME: first include doesn’t work unless it’s repeated twice here. Why??
 
   {% include "css/homepage.css" %}
   {% include "css/markdown.css" %}
-{% endcapture %}
+{%- endcapture -%}
 
-<style>
-  {{ css | cssmin | safe }}
-</style>
+{{ css | cssmin | safe }}
