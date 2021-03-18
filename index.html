@@ -2,17 +2,32 @@
 layout: "layouts/base.liquid"
 ---
 
-<section class="section section--cover" style="color: var(--white);">
+<section class="section section--cover">
   <div class="row row--centered">
     <div class="col col--1of2">
-      <p class="bg-black-85 label" data-aos="fade-up">
-        {{ site.lede }}
-      </p>
-      <h2 class="bg-black-85 font-sans" data-aos="fade-up" data-aos-delay="50">{{ site.tagline }}</h2>
-      <p class="bg-black-85" data-aos="fade-up" data-aos-delay="100">{{ site.description }}</p>
-      <p style="margin-top: var(--space-xxl);">
-        <a href="#products" class="button button--primary" style=" --initialTextColor: var(--black); --slideTextColor: var(--white); --initialBgColor: var(--white); --slideBgColor: var(--azure);" data-aos="fade-up" data-aos-delay="150">{{ site.cta }}</a>
-      </p>
+      <div class="card card--large bg-black-85">
+        <header class="flex card__header">
+          <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg" style="margin-right: var(--space-xs);">
+            <path d="M15.9197 8.41943C15.9197 12.5616 12.5618 15.9194 8.41968 15.9194C4.27754 15.9194 0.919678 12.5616 0.919678 8.41943C0.919678 4.2773 4.27754 0.919434 8.41968 0.919434C12.5618 0.919434 15.9197 4.2773 15.9197 8.41943Z" stroke="white"/>
+          </svg>
+          <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg" style="margin-right: var(--space-xs);">
+            <path d="M15.9197 8.41943C15.9197 12.5616 12.5618 15.9194 8.41968 15.9194C4.27754 15.9194 0.919678 12.5616 0.919678 8.41943C0.919678 4.2773 4.27754 0.919434 8.41968 0.919434C12.5618 0.919434 15.9197 4.2773 15.9197 8.41943Z" stroke="white"/>
+          </svg>
+          <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M15.9197 8.41943C15.9197 12.5616 12.5618 15.9194 8.41968 15.9194C4.27754 15.9194 0.919678 12.5616 0.919678 8.41943C0.919678 4.2773 4.27754 0.919434 8.41968 0.919434C12.5618 0.919434 15.9197 4.2773 15.9197 8.41943Z" stroke="white"/>
+          </svg>
+        </header>
+        <div class="card__body">
+          <p class="label" data-aos="fade-up">
+            {{ site.lede }}
+          </p>
+          <h2 data-aos="fade-up" data-aos-delay="50">{{ site.tagline }}</h2>
+          <p data-aos="fade-up" data-aos-delay="100">{{ site.description }}</p>
+        </div>
+        <footer class="card__footer">
+          <a href="#products" data-aos="fade-up" data-aos-delay="150">{{ site.cta }}</a>
+        </footer>
+      </div>
     </div>
   </div>
 </section>

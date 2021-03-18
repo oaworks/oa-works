@@ -14,16 +14,6 @@
   transform: scale(1.05);
 }
 
-.card--small {
-  font-size: var(--typescale-6);
-}
-
-.card--small .card__header,
-.card--small .card__body {
-  padding: var(--space-xs);
-}
-
-
 .card__header {
   padding: var(--space-sm);
   border-bottom: 1px solid;
@@ -171,6 +161,21 @@ h5.card__header {
 .card--inverted .card__body {
   background: var(--black);
   color: var(--white);
+}
+
+.card--small {
+  font-size: var(--typescale-6);
+}
+
+.card--small .card__header,
+.card--small .card__body {
+  padding: var(--space-xs);
+}
+
+.card--large .card__header,
+.card--large .card__body,
+.card--large .card__footer a {
+  padding: var(--space-unit);
 }
 
 .bg-black .card__body a:after {

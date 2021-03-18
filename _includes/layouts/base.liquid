@@ -9,11 +9,15 @@
     <p class="browserupgrade">You are using an outdated browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
     <![endif]-->
 
+    {% if page.url == '/' %}<div style="margin-left: var(--gutter-negative); margin-right: var(--gutter-negative); padding-left: var(--gutter); padding-right: var(--gutter); overflow-x: hidden; background-image: url('../img/bg1.jpg'); background-size: contain;">{% endif %}
+
     {% include 'snippets/header.liquid' %}
 
     <main id="main">
       {{ content }}
     </main>
+
+    {% if page.url == '/' %}</div>{% endif %}
 
     {% include 'snippets/footer.liquid' %}
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
