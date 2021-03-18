@@ -4,13 +4,6 @@ body {
   padding: 0 var(--gutter);
   margin: 0 auto;
   max-width: 100%;
-
-  /* background-image:
-    linear-gradient(90deg, transparent, transparent 16.6666667%, var(--light-grey) 16.6666667%, transparent calc(16.6666667% + 1.5px)),
-    linear-gradient(90deg, transparent, transparent 33.3333333%, var(--light-grey) 33.3333333%, transparent calc(33.3333333% + 1.5px)),
-    linear-gradient(90deg, transparent, transparent calc(50% - 1.5px), var(--light-grey) 50%, transparent 0),
-    linear-gradient(90deg, transparent, transparent calc(66.6666667% - 1.5px), var(--light-grey) 66.6666667%, transparent 0),
-    linear-gradient(90deg, transparent, transparent calc(83.3333333% - 1.5px), var(--light-grey) 83.3333333%, transparent 0); */
 }
 
 .row {
