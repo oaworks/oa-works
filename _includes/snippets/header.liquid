@@ -27,9 +27,18 @@
           <a href="{{ site.base_url }}/#products" class="header__nav-section">Products</a>
           <ul>
             {% for product in products %}
+            {% if product.featured %}
             <li>
               <a href="{{ product.url }}" class="header__nav-subsection"{% if product.url contains 'https' %} target="_blank" rel="noopener"{% endif %}>
                 {{ product.name }}
+              </a>
+            </li>
+            {% endif %}
+            {% endfor %}
+            {% for item in navigation.products %}
+            <li>
+              <a href="{{ site.base_url }}/{{ item.url }}" class="header__nav-subsection">
+                {{ item.text }}
               </a>
             </li>
             {% endfor %}

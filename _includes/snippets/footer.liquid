@@ -9,9 +9,18 @@
         <h2 class="label">Products</h2>
         <ul>
           {% for product in products %}
+          {% if product.featured %}
           <li>
             <a href="{{ product.url }}"{% if product.url contains 'https' %} target="_blank" rel="noopener"{% endif %}>
               {{ product.name }}
+            </a>
+          </li>
+          {% endif %}
+          {% endfor %}
+          {% for item in navigation.products %}
+          <li>
+            <a href="{{ site.base_url }}{{ item.url }}">
+              {{ item.text }}
             </a>
           </li>
           {% endfor %}
@@ -21,7 +30,7 @@
         <ul>
           {% for item in navigation.people %}
           <li>
-            <a href="{{ site.base_url }}/{{ item.url }}">
+            <a href="{{ site.base_url }}{{ item.url }}">
               {{ item.text }}
             </a>
           </li>
@@ -33,7 +42,7 @@
         <ul>
           {% for item in navigation.about %}
           <li>
-            <a href="{{ site.base_url }}/{{ item.url }}">
+            <a href="{{ site.base_url }}{{ item.url }}">
               {{ item.text }}
             </a>
           </li>
@@ -44,7 +53,7 @@
         <ul>
           {% for item in navigation.impact %}
           <li>
-            <a href="{{ site.base_url }}/{{ item.url }}">
+            <a href="{{ site.base_url }}{{ item.url }}">
               {{ item.text }}
             </a>
           </li>
@@ -56,7 +65,7 @@
         <ul>
           {% for item in navigation.resources %}
           <li>
-            <a href="{{ site.base_url }}/{{ item.url }}">
+            <a href="{{ site.base_url }}{{ item.url }}">
               {{ item.text }}
             </a>
           </li>

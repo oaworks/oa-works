@@ -1,13 +1,21 @@
 {
-  "people": [
+  "products": [
     {
-      "text": "Team",
-      "url": "/people/",
+      "text": "Products",
+      "url": "/products/",
       "featured": true
     },
     {
-      "text": "Partners",
-      "url": "/people/partners/"
+      "text": "Infrastructure",
+      "url": "/products/infrastructure/"
+    },
+    {
+      "text": "Roadmap",
+      "url": "/products/roadmap/"
+    },
+    {
+      "text": "Labs",
+      "url": "/products/labs/"
     }
   ],
   "impact": [
@@ -42,6 +50,17 @@
     {
       "text": "History",
       "url": "/about/history/"
+    }
+  ],
+  "people": [
+    {
+      "text": "Team",
+      "url": "/people/",
+      "featured": false
+    },
+    {
+      "text": "Partners",
+      "url": "/people/partners/"
     }
   ],
   "resources": [
