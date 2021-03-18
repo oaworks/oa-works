@@ -6,11 +6,12 @@
   <header class="col col--1of3" data-aos="fade-up">
     <h1>{{ title }}</h1>
     {% if meta_description %}<p>{{ meta_description }}</p>{% endif %}
-  </header>
-  <div class="col col--2of3">
-    <div class="col col--group col--2of3 data-file__content">
+    <div class="type-4" style="margin-top: var(--space-md);">
       {{ content }}
     </div>
+  </header>
+  <div class="col col--2of3">
+
     {% assign dir = "snippets/" %}
     {% assign ext = ".liquid" %}
     {% assign data_file = data_file | prepend: dir %}
