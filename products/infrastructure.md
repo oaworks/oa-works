@@ -1,5 +1,5 @@
 ---
-layout: "layouts/default.liquid"
+layout: "layouts/products.liquid"
 title: Infrastructure [DRAFT]
 meta_description: "Our products are backed by a core infrastructure built with exclusively open code, open data, and our values."
 ---

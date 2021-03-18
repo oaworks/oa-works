@@ -1,0 +1,61 @@
+---
+layout: layouts/base.liquid
+---
+
+<header style="margin-top: var(--space-md);">
+  <nav>
+    <ul class="tabs">
+      <li class="tab{% if page.url == '/products/' %} tab--active{% endif %}">
+        <a href="/products/" class="label">Products</a>
+      </li>
+      <li class="tab{% if page.url == '/products/infrastructure/' %} tab--active{% endif %}">
+        <a href="/products/infrastructure/" class="label">Infrastructure</a>
+      </li>
+      <li class="tab{% if page.url == '/products/roadmap/' %} tab--active{% endif %}">
+        <a href="/products/roadmap/" class="label">Roadmap</a>
+      </li>
+      <li class="tab{% if page.url == '/products/labs/' %} tab--active{% endif %}">
+        <a href="/products/labs/" class="label">Labs</a>
+      </li>
+    </ul>
+  </nav>
+</header>
+
+{%- if page.url == '/products/' -%}
+<section class="row data-file{% if theme != 'dark' %} bg-white{% endif %}" style="padding-top: var(--space-md); padding-bottom: 0;">
+  <header class="col col--2of3" data-aos="fade-up">
+    <h1>{{ title }}</h1>
+    <p>{{ meta_description }}</p>
+  </header>
+  <div class="col">
+    <ul class="row flex-center">
+      {% assign delay_count = 0 %}
+      {% for product in products %}
+      {% assign delay_count = delay_count | plus: 50 %}
+      <li class="product col col--1of3" data-aos="fade-up" data-aos-delay="{{ delay_count }}">
+        <p class="label label--secondary line-thru" style="margin-bottom: var(--space-xs); color: var(--mid-grey);">
+          <small class="line-thru__inner label">{{ product.label }}</small>
+        </p>
+        <article class="card">
+          <header class="card__header">
+            {% if product.logo %}
+              <h3>{% include product.logo %}</h3>
+            {% else %}
+              <h3>{{ product.name }}</h3>
+            {% endif %}
+          </header>
+          <div class="card__body">
+            {{ product.description }}
+          </div>
+          <footer class="card__footer">
+            <a href="{{ product.url }}" target="_blank" rel="noopener">{{ product.cta }}</a>
+          </footer>
+        </article>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>
+{% else %}
+  {% include 'snippets/markdown.liquid' %}
+{% endif %}
