@@ -36,7 +36,9 @@
 
 .header__featured-items a {
   margin-right: var(--gutter);
+  padding: var(--space-xs);
   display: block;
+  background-color: var(--black);
 }
 
 @media only screen and (min-width: 768px) {

@@ -1,5 +1,6 @@
 .card {
   margin-bottom: calc(var(--gutter) * 2);
+  border-radius: 5px;
   border: 1px solid;
 }
 
@@ -164,12 +165,17 @@ h5.card__header {
 }
 
 .card--small {
+  border-radius: 2px;
   font-size: var(--typescale-6);
 }
 
 .card--small .card__header,
 .card--small .card__body {
   padding: var(--space-xs);
+}
+
+.card--large {
+  border-radius: 10px;
 }
 
 .card--large .card__header,

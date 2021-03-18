@@ -25,14 +25,14 @@ layout: "layouts/base.liquid"
           <p data-aos="fade-up" data-aos-delay="100">{{ site.description }}</p>
         </div>
         <footer class="card__footer">
-          <a href="#products" data-aos="fade-up" data-aos-delay="150">{{ site.cta }}</a>
+          <a href="#products">{{ site.cta }}</a>
         </footer>
       </div>
     </div>
   </div>
 </section>
 
-<section class="section bg-black" id="products" data-aos="fade-up">
+<section class="section bg-black" id="products">
   <h2 style="margin-bottom: var(--space-lg);">Featured products</h2>
   <ul class="row row--centered">
     {% assign delay_count = 0 %}
@@ -40,71 +40,33 @@ layout: "layouts/base.liquid"
     {%- if product.featured -%}
     {% assign delay_count = delay_count | plus: 100 %}
     <li class="col col--1of3" data-aos="fade-up" data-aos-delay="{{ delay_count }}">
-      <header>
-        <p class="label">{{ product.label }}</p>
-        <h3 class="sr-only">{{ product.name }}</h3>
-        <div style="display: block;">
+      <article class="card">
+        <header class="card__header">
+          <p class="label" style="margin-bottom: var(--space-sm);">{{ product.label }}</p>
+          <h3 class="sr-only">{{ product.name }}</h3>
           {% include product.logo %}
+        </header>
+        <div class="card__body">
+          <h4 class="type-1" style="margin-bottom: var(--space-md);">{{ product.tagline }}</h4>
+          <p>{{ product.description }}</p>
         </div>
-        <h4 class="type-1">{{ product.tagline }}</h4>
-      </header>
-      <p>{{ product.description }}</p>
-      <p style="margin: var(--space-xl) 0 var(--space-lg) 0;">
-        <a href="{{ product.url }}"
-           target="_blank"
-           rel="noopener"
-           class="button button--secondary button--custom"
-           style="--custom-colour: var(--{{ product.colour }});"
-        >
-          {{ product.cta }}
-        </a>
-      </p>
+        <footer class="card__footer">
+          <a href="{{ product.url }}"
+             target="_blank"
+             rel="noopener"
+             style="--slideBgColor: var(--{{ product.colour }}); --slideTextColor: var(--black);"
+          >
+            {{ product.cta }}
+          </a>
+        </footer>
+      </article>
     </li>
     {%- endif -%}
     {%- endfor -%}
   </ul>
 </section>
 
-<section class="section bg-white" data-aos="fade-up" style="padding-top: 0;">
-  <h2 class="sr-only">
-    Products
-  </h2>
-  <ul class="no-margin products">
-    {% include 'embeds.css' %}
-    {% for product in products %}
-    {% capture the_cycle %}{% cycle 'odd', 'even' %}{% endcapture %}
-    {% if product.featured %}
-    <li class="row" data-aos="fade-up">
-      <header class="flex-center bg-black" style="width: 100%;">
-        <div style="align-self: center; padding: var(--space-md);">
-          {% include product.logo %}
-        </div>
-      </header>
-      {% include 'snippets/product_description.liquid'%}
-      <aside class="col col--1of2 flex-col" data-aos="fade-{% if the_cycle == 'odd' %}right{% else %}left{% endif %}"
-      data-aos-delay="150" style="margin-top: var(--gutter);">
-        <article class="card card--floating">
-          <header class="bg-black card__header">
-            <h3 class="label">
-              {% if product.embed %}
-                Try <a href="{{ product.url }}" target="_blank" rel="noopener">{{ product.name }}</a> now 👇
-              {% else %}
-
-              {% endif %}
-            </h3>
-          </header>
-          <div class="card__body flex-center" style="height: 45vh; background: var(--white); overflow-y: scroll;">
-            {% if product.embed %}{{ product.embed }}{% endif %}
-          </div>
-        </article>
-      </aside>
-    </li>
-    {% endif %}
-    {% endfor %}
-  </ul>
-</section>
-
-<aside class="row bg-white aside">
+<aside class="row bg-white section section--quarter">
   <div class="col">
     <h2 class="font-serif label flex-center" data-aos="fade-up">In partnership with</h2>
     <ul class="row unstyled-list flex-center">
@@ -175,18 +137,17 @@ layout: "layouts/base.liquid"
     {% endfor %}
   </ul>
 
-  <div class="row row--centered" data-aos="fade-up">
-    <div class="col col--1of2">
-      <article class="card card--small">
-        <h3 class="card__header bg-black label">{{ about.journey_heading }}</h3>
-        <div class="card__body">
-          <p>{{ about.journey_content }}</p>
-        </div>
-        <div class="card__footer">
-          <a href="/about/">{{ about.journey_cta }}</a>
-        </div>
-      </article>
-    </div>
+  <div class="row" data-aos="fade-up">
+    <article class="col col--1of2">
+      <h3 class="type-1">{{ about.journey_heading }}</h3>
+      <p class="type-4">{{ about.journey_content }}</p><br/><br/><br/>
+      <a class="button" href="/about/">{{ about.journey_cta }}</a>
+    </article>
+    <aside class="col col--1of2">
+      <a class="twitter-timeline" data-height="500" href="https://twitter.com/OA_Button?ref_src=twsrc%5Etfw">Tweets by OA_Button</a>
+      <script async charset="utf-8" src="https://platform.twitter.com/widgets.js">
+      </script>
+    </aside>
   </div>
 </section>
 
