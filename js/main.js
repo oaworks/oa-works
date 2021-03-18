@@ -1,7 +1,7 @@
 (function(){
   // Initialise AOS
   AOS.init();
-  
+
   // Open menu w/ hamburger icon
   var nav = document.querySelector(".header__nav"),
       navTrigger = document.querySelector(".menu-trigger"),
@@ -35,17 +35,5 @@
     } else {
       menuBtn.classList.remove("menu-trigger--scrolled");
     }
-
-    // Add class to shapes when scrolling away from cover
-    var svgShapes = document.getElementsByClassName("lazy-line-painter");
-
-    for (i = 0; i < svgShapes.length; i++) {
-      if (window.pageYOffset > 75) {
-        svgShapes[i].classList.add("scrolled");
-      }
-      else {
-        svgShapes[i].classList.remove("scrolled")
-      };
-    };
   };
 })();
