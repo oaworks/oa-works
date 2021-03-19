@@ -89,6 +89,10 @@
   }
 }
 
+.header__nav ul {
+  margin-bottom: var(--space-sm);
+}
+
 .header__list {
   margin-bottom: 0;
   width: 50%;
@@ -107,6 +111,19 @@
   font-size: var(--typescale-5);
   color: var(--black);
   line-height: 2;
+}
+
+.header__nav-subsection:before {
+  content: '👉 ';
+  display: none;
+}
+
+.header__nav-subsection:hover {
+  font-weight: 700;
+}
+
+.header__nav-subsection:hover {
+  display: inline-block;
 }
 
 .header__nav--open {
