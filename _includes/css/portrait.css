@@ -1,4 +1,5 @@
 .portrait {
+  margin-bottom: var(--gutter-negative);
   max-height: 30vh;
   width: auto;
   align-self: flex-end;
