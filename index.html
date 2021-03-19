@@ -102,7 +102,7 @@ layout: "layouts/base.liquid"
   <h2 class="sr-only">Testimonials</h2>
   <ul class="no-margin testimonials">
     {% for t in testimonials %}
-    <li class="row row--centered flex-end testimonial" style="display: none;">
+    <li class="row row--centered flex-end testimonial" style="display: none;" data-aos="fade-up" data-aos-delay="100">
       <article class="col col--2of4 flex-col">
         <h3 class="label">Our partner for {{ t.product }}</h3>
         <blockquote>
