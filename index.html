@@ -69,18 +69,7 @@ layout: "layouts/base.liquid"
 </section>
 
 <aside class="bg-white section section--quarter">
-  <h2 class="font-serif label flex-center" data-aos="fade-up">Covered by</h2>
-  <ul class="row row--centered flex-center unstyled-list">
-    {% assign delay_count = 0 %}
-    {% for item in coverage %}
-    {% assign delay_count = delay_count | plus: 50 %}
-    <li class="col col--1of6" data-aos="fade-up" data-aos-delay="{{ delay_count }}">
-      <a href="{{ item.url }}" title="{{ item.name }}’s site" target="_blank" rel="noopener" class="bw" style="display: block; margin-top: var(--space-md);">
-        {% include item.logo %}
-      </a>
-    </li>
-    {% endfor %}
-  </ul>
+  {% include 'snippets/coverage.liquid' %}
 
   <br/><br/>
 

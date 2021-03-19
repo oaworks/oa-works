@@ -92,6 +92,7 @@
 }
 
 .bw {
+  display: block;
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
   opacity: .75;

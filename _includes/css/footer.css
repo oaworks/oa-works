@@ -65,8 +65,9 @@
 }
 
 .footer__logo {
-  padding-top: var(--space-lg);
-  padding-bottom: var(--space-lg);
+  display: block;
+  margin-top: var(--space-lg);
+  margin-bottom: var(--space-lg);
   background-color: var(--azure);
 }
 

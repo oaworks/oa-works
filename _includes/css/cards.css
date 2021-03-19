@@ -44,6 +44,10 @@ h5.card__header {
   max-width: 100%;
 }
 
+.card__icon {
+  margin-bottom: var(--space-xs);
+}
+
 .card__body {
   display: flex;
   flex-direction: column;

@@ -7,12 +7,10 @@
       <small class="line-thru__inner bg-white label">{{ value.goal }}</small>
     </p>
     <article class="card">
-      <header class="card__header">
-        <div style="display: flex; align-items: center;">
-          {% include value.shape %}
-          <h3 style="margin: 0 0 0 var(--space-sm);">{{ value.heading }}</h3>
-        </div>
-      </header>
+      <h3 class="card__header">
+        <div class="card__icon">{% include value.shape %}</div>
+        <span class="type-3">{{ value.heading }}</span>
+      </h3>
       <div class="card__body">
         <p>{{ value.desc }}</p>
       </div>

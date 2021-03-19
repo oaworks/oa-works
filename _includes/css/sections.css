@@ -6,6 +6,10 @@
   overflow-x: hidden;
 }
 
+.section__header {
+  margin-bottom: var(--space-xl);
+}
+
 .section--cover {
   display: flex;
   justify-content: center;
