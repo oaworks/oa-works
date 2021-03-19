@@ -3,8 +3,8 @@
   {% for value in values %}
   {% assign delay_count = delay_count | plus: 100 %}
   <li class="col col--1of2" data-aos="fade-up" data-aos-delay="{{ delay_count }}">
-    <p class="label label--secondary line-thru" style="margin-bottom: var(--space-xs); color: var(--mid-grey);">
-      <small class="line-thru__inner label">{{ value.goal }}</small>
+    <p class="label label--secondary line-thru">
+      <small class="line-thru__inner bg-white label">{{ value.goal }}</small>
     </p>
     <article class="card">
       <header class="card__header">

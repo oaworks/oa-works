@@ -40,9 +40,11 @@ layout: "layouts/base.liquid"
     {%- if product.featured -%}
     {% assign delay_count = delay_count | plus: 100 %}
     <li class="col col--1of3" data-aos="fade-up" data-aos-delay="{{ delay_count }}">
+      <p class="label label--secondary line-thru">
+        <small class="line-thru__inner bg-black label">{{ product.label }}</small>
+      </p>
       <article class="card">
         <header class="card__header">
-          <p class="label" style="margin-bottom: var(--space-sm);">{{ product.label }}</p>
           <h3 class="sr-only">{{ product.name }}</h3>
           {% include product.logo %}
         </header>

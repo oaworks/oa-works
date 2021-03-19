@@ -1,6 +1,8 @@
 .line-thru {
+  margin-bottom: var(--space-xs);
   position: relative;
   z-index: 1;
+  color: currentColor;
 }
 
 .line-thru:before {
@@ -14,6 +16,5 @@
 }
 
 .line-thru__inner {
-  background: var(--white);
   padding-right: var(--space-xs);
 }
