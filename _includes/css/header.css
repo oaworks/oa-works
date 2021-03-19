@@ -122,7 +122,7 @@
   font-weight: 700;
 }
 
-.header__nav-subsection:hover {
+.header__nav-subsection:hover:before {
   display: inline-block;
 }
 

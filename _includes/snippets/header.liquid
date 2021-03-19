@@ -26,20 +26,11 @@
     <div class="flex" style="width: 100%;">
       <ul class="header__list">
         <li>
-          <a href="{{ site.base_url }}/#products" class="header__nav-section">Products</a>
+          <span class="header__nav-section">Products</span>
           <ul>
-            {% for product in products %}
-            {% if product.featured %}
-            <li>
-              <a href="{{ product.url }}" class="header__nav-subsection"{% if product.url contains 'https' %} target="_blank" rel="noopener"{% endif %}>
-                {{ product.name }}
-              </a>
-            </li>
-            {% endif %}
-            {% endfor %}
             {% for item in navigation.products %}
             <li>
-              <a href="{{ site.base_url }}{{ item.url }}" class="header__nav-subsection">
+              <a href="{% if item.url contains 'https' %}{% else %}{{ site.base_url }}{% endif %}{{ item.url }}" {% if item.url contains 'https' %} target="_blank" rel="noopener"{% endif %} class="header__nav-subsection">
                 {{ item.text }}
               </a>
             </li>
@@ -94,6 +85,32 @@
       </div>
     </form>
     <ul>
+      <li>
+        <span class="header__nav-section">Contact</span>
+        <ul class="inlined-list">
+          <li>
+            <a href="https://twitter.com/{{ site.twitter }}" target="_blank" rel="noopener" class="header__nav-subsection">Twitter<a>
+          </li>
+          <li>
+            <a href="https://github.com/{{ site.github }}" target="_blank" rel="noopener" class="header__nav-subsection">Github<a>
+          </li>
+          <li>
+            <a href="{{ site.blog }}" target="_blank" rel="noopener" class="header__nav-subsection">Blog<a>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <span class="header__nav-section">Support</span>
+        <ul class="inlined-list">
+          {% for item in navigation.support %}
+          <li>
+            <a href="{% if item.url contains 'https' %}{% else %}{{ site.base_url }}{% endif %}{{ item.url }}" {% if item.url contains 'https' %} target="_blank" rel="noopener"{% endif %} class="header__nav-subsection">
+              {{ item.text }}
+            </a>
+          </li>
+          {% endfor %}
+        </ul>
+      </li>
       <li>
         <span class="header__nav-section">Resources</span>
         <ul class="inlined-list">

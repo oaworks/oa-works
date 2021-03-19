@@ -6,6 +6,10 @@
       "featured": true
     },
     {
+      "text": "API",
+      "url": "https://openaccessbutton.org/api"
+    },
+    {
       "text": "Infrastructure",
       "url": "/products/infrastructure/"
     },
@@ -87,6 +91,24 @@
     {
       "text": "Terms",
       "url": "/resources/terms/"
+    }
+  ],
+  "support": [
+    {
+      "text": "Bugs",
+      "url": ""
+    },
+    {
+      "text": "Feedback",
+      "url": ""
+    },
+    {
+      "text": "Status",
+      "url": "https://status.openaccessbutton.org/"
+    },
+    {
+      "text": "Contact",
+      "url": ""
     }
   ]
 }
