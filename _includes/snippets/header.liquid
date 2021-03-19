@@ -39,7 +39,7 @@
             {% endfor %}
             {% for item in navigation.products %}
             <li>
-              <a href="{{ site.base_url }}/{{ item.url }}" class="header__nav-subsection">
+              <a href="{{ site.base_url }}{{ item.url }}" class="header__nav-subsection">
                 {{ item.text }}
               </a>
             </li>
@@ -51,7 +51,7 @@
           <ul>
             {% for item in navigation.people %}
             <li>
-              <a href="{{ site.base_url }}/{{ item.url }}" class="header__nav-subsection">
+              <a href="{{ site.base_url }}{{ item.url }}" class="header__nav-subsection">
                 {{ item.text }}
               </a>
             </li>
@@ -65,7 +65,7 @@
           <ul>
             {% for item in navigation.about %}
             <li>
-              <a href="{{ site.base_url }}/{{ item.url }}" class="header__nav-subsection">
+              <a href="{{ site.base_url }}{{ item.url }}" class="header__nav-subsection">
                 {{ item.text }}
               </a>
             </li>
@@ -77,7 +77,7 @@
           <ul>
             {% for item in navigation.impact %}
             <li>
-              <a href="{{ site.base_url }}/{{ item.url }}" class="header__nav-subsection">
+              <a href="{{ site.base_url }}{{ item.url }}" class="header__nav-subsection">
                 {{ item.text }}
               </a>
             </li>
@@ -99,7 +99,7 @@
         <ul class="inlined-list">
           {% for item in navigation.resources %}
           <li>
-            <a href="{{ site.base_url }}/{{ item.url }}" class="header__nav-subsection">
+            <a href="{{ site.base_url }}{{ item.url }}" class="header__nav-subsection">
               {{ item.text }}
             </a>
           </li>
