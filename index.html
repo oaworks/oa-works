@@ -43,7 +43,7 @@ layout: "layouts/base.liquid"
       <p class="label label--secondary line-thru">
         <small class="line-thru__inner bg-black label">{{ product.label }}</small>
       </p>
-      <article class="card">
+      <article class="card" style="flex-grow : 1;">
         <header class="card__header">
           <h3 class="sr-only">{{ product.name }}</h3>
           {% include product.logo %}
@@ -90,7 +90,7 @@ layout: "layouts/base.liquid"
     {% for partner in partners %}
     {% assign delay_count = delay_count | plus: 50 %}
     <li class="col col--1of6 flex-center" data-aos="fade-up" data-aos-delay="{{ delay_count }}">
-      <a href="{{ partner.url }}" title="{{ partner.name }}’s site" target="_blank" rel="noopener" class="bw" style="display: block; margin-top: var(--space-md);">
+      <a href="{{ partner.url }}" title="{{ partner.name }}’s site" target="_blank" rel="noopener" class="bw">
         {% include partner.logo %}
       </a>
     </li>
