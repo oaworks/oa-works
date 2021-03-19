@@ -17,23 +17,19 @@
   }
 
   window.onscroll = function() {
-
-    // Display back-to-top btn on scroll
-    var topBtn = document.getElementById("topBtn");
-
-    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-      topBtn.style.display = "flex";
-    } else {
-      topBtn.style.display = "none";
-    }
-
-    // Add class to menu btn on scroll
-    var menuBtn = document.getElementById("menuBtn");
+    // On scroll, Add class to logo + menu btn, display back-to-top btn
+    var menuBtn = document.getElementById("menuBtn"),
+        headerLogo = document.getElementById("headerLogo"),
+        topBtn = document.getElementById("topBtn");
 
     if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
       menuBtn.classList.add("menu-trigger--scrolled");
+      headerLogo.classList.add("header__logo--scrolled");
+      topBtn.style.display = "flex";
     } else {
       menuBtn.classList.remove("menu-trigger--scrolled");
+      headerLogo.classList.remove("header__logo--scrolled");
+      topBtn.style.display = "none";
     }
   };
 })();
