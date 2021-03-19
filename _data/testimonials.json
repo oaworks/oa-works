@@ -5,6 +5,7 @@
     "quote": "We’re excited to finally build everything we’ve learned from mediated deposit into a simple tool, not a dozen workarounds, that enables every library to make self-archiving not just the right thing, but the easy thing, for every author.",
     "product": "ShareYourPaper.org",
     "img": "people/leila.png",
+    "affiliation": "Montana State University Library",
     "aff_logo": "logos/montana.svg",
     "aff_url": "https://www.lib.montana.edu/"
   },
@@ -14,6 +15,7 @@
     "quote": "We provide leadership support as an investment in community-owned infrastructure that improves our services, helps reduce dependency on subscriptions, and advances equitable access to information",
     "product": "InstantILL.org",
     "img": "people/tina.png",
+    "affiliation": "Indiana University–Purdue University Indianapolis",
     "aff_logo": "logos/iupui.svg",
     "aff_url": "https://www.iupui.edu/"
   }

@@ -66,9 +66,11 @@ layout: "layouts/base.liquid"
         <h3 class="label">Our partner for {{ t.product }}</h3>
         <blockquote>
           <p class="type-5">“{{ t.quote }}”</p>
-          <a href="{{ t.aff_url }}" target="_blank" rel="noopener" style="display: block;">
-            {% include t.aff_logo %}
-          </a>
+          <p>
+            <a href="{{ t.aff_url }}" title="{{ t.affiliation }}’s site" target="_blank" rel="noopener" style="display: block;">
+              {% include t.aff_logo %}
+            </a>
+          </p>
           <p class="type-6">
             <cite>
               — {{ t.name }} <br/>{{ t.role }}
