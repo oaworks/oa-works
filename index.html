@@ -70,17 +70,15 @@ layout: "layouts/base.liquid"
   </ul>
 </section>
 
-<aside class="bg-white section section--quarter">
+<aside class="bg-white section section--quarter" data-aos="fade-up">
   {% include 'snippets/coverage.liquid' %}
 
   <br/><br/>
 
-  <h2 class="font-serif label flex-center" data-aos="fade-up">In partnership with</h2>
+  <h2 class="font-serif label flex-center">In partnership with</h2>
   <ul class="row row--centered flex-center unstyled-list">
-    {% assign delay_count = 0 %}
     {% for partner in partners %}
-    {% assign delay_count = delay_count | plus: 50 %}
-    <li class="col col--1of6 flex-center" data-aos="fade-up" data-aos-delay="{{ delay_count }}">
+    <li class="col col--1of6 flex-center">
       <a href="{{ partner.url }}" title="{{ partner.name }}’s site" target="_blank" rel="noopener" class="bw">
         {% include partner.logo %}
       </a>
