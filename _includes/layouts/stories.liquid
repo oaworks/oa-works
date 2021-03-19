@@ -23,16 +23,16 @@ theme: dark
     <p>{{ meta_description }}</p>
   </header>
   <div class="col">
-    <ul class="row flex-center">
+    <ul class="row">
       {% assign delay_count = 0 %}
       {% for story in stories %}
       {% assign delay_count = delay_count | plus: 50 %}
-      <li class="story col col--1of3" data-aos="fade-up" data-aos-delay="{{ delay_count }}">
+      <li class="col col--1of3" data-aos="fade-up" data-aos-delay="{{ delay_count }}">
         <article class="card card--small">
           <header class="card__header">
             <h3 class="label">OA.W<span style="text-transform: lowercase;">orks for</span> {{ story.label }}</h3>
           </header>
-          <figure style="overflow: hidden;">
+          <figure>
             <img src="{{ site.base_url }}/img/stories/{{ story.img }}" alt="{{ story.img_alt }}" class="card__img"/>
             <figcaption><small>{{ story.img_credit }}</small></figcaption>
           </figure>

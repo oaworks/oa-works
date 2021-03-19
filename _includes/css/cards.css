@@ -4,6 +4,10 @@
   border: 1px solid;
 }
 
+.card figure {
+  overflow: hidden;
+}
+
 .card a .card__img,
 .card a .card__blank {
   transform: scale(1);
