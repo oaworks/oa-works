@@ -43,7 +43,7 @@
 }
 
 .menu-trigger--open .menu-trigger__icon:first-child {
-  transform: rotate(45deg) translate(15.5px, 15.5px);
+  transform: rotate(45deg) translate(15.75px, 15.75px);
 }
 
 .menu-trigger--open .menu-trigger__icon:nth-child(2) {
@@ -51,5 +51,5 @@
 }
 
 .menu-trigger--open .menu-trigger__icon:last-child {
-  transform: rotate(-45deg) translate(15.5px, -15.5px);
+  transform: rotate(-45deg) translate(15.75px, -15.75px);
 }
