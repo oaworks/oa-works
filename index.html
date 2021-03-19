@@ -66,21 +66,34 @@ layout: "layouts/base.liquid"
   </ul>
 </section>
 
-<aside class="row bg-white section section--quarter">
-  <div class="col">
-    <h2 class="font-serif label flex-center" data-aos="fade-up">In partnership with</h2>
-    <ul class="row unstyled-list flex-center">
-      {% assign delay_count = 0 %}
-      {% for partner in partners %}
-      {% assign delay_count = delay_count | plus: 50 %}
-      <li class="col col--1of3 flex-center" data-aos="fade-up" data-aos-delay="{{ delay_count }}">
-        <a href="{{ partner.url }}" title="{{ partner.name }}’s site" target="_blank" rel="noopener" class="bw" style="display: block; margin-top: var(--space-md);">
-          {% include partner.logo %}
-        </a>
-      </li>
-      {% endfor %}
-    </ul>
-  </div>
+<aside class="bg-white section section--quarter">
+  <h2 class="font-serif label flex-center" data-aos="fade-up">Covered by</h2>
+  <ul class="row row--centered flex-center unstyled-list">
+    {% assign delay_count = 0 %}
+    {% for item in coverage %}
+    {% assign delay_count = delay_count | plus: 50 %}
+    <li class="col col--1of6" data-aos="fade-up" data-aos-delay="{{ delay_count }}">
+      <a href="{{ item.url }}" title="{{ item.name }}’s site" target="_blank" rel="noopener" class="bw" style="display: block; margin-top: var(--space-md);">
+        {% include item.logo %}
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+
+  <br/><br/>
+
+  <h2 class="font-serif label flex-center" data-aos="fade-up">In partnership with</h2>
+  <ul class="row row--centered flex-center unstyled-list">
+    {% assign delay_count = 0 %}
+    {% for partner in partners %}
+    {% assign delay_count = delay_count | plus: 50 %}
+    <li class="col col--1of6 flex-center" data-aos="fade-up" data-aos-delay="{{ delay_count }}">
+      <a href="{{ partner.url }}" title="{{ partner.name }}’s site" target="_blank" rel="noopener" class="bw" style="display: block; margin-top: var(--space-md);">
+        {% include partner.logo %}
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
 </aside>
 
 <section class="section section--half bg-black" data-aos="fade-up">

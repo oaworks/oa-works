@@ -1,6 +1,4 @@
 .header {
-  display: flex;
-  justify-content: space-between;
   margin: 0 var(--gutter-negative) var(--gutter) var(--gutter-negative);
   padding: var(--gutter);
   z-index: 10;
@@ -15,8 +13,17 @@
 
 .header .logotype {
   display: block;
+  position: fixed;
+  top: var(--gutter);
+  left: var(--gutter);
   height: 50px;
   width: auto;
+  z-index: 30;
+}
+
+.header .logotype path {
+  stroke: var(--black);
+  stroke-width: 1px;
 }
 
 .header .logotype path:last-child {

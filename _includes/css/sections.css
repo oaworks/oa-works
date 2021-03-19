@@ -6,10 +6,6 @@
   overflow-x: hidden;
 }
 
-.section:first-of-type {
-  padding-top: var(--space-sm);
-}
-
 .section--cover {
   display: flex;
   justify-content: center;

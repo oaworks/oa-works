@@ -1,22 +1,27 @@
 [
   {
     "name": "Nature",
-    "logo": "logos/Nature.png"
+    "logo": "logos/nature.svg",
+    "url": "https://www.nature.com/articles/d41586-017-05922-9"
   },
   {
     "name": "huffpost",
-    "logo": "logos/huffpost.png"
+    "logo": "logos/huffpost.svg",
+    "url": "https://www.huffingtonpost.co.uk/will-ross/new-app-makes-research-ac_b_6019428.html"
   },
   {
     "name": "The Guardian",
-    "logo": "logos/TheGuardian.png"
+    "logo": "logos/TheGuardian.svg",
+    "url": "https://www.theguardian.com/science/blog/2014/apr/29/paywalls-open-access-button-scientific-research"
   },
   {
     "name": "LSE",
-    "logo": "logos/lse.png"
+    "logo": "logos/lse.svg",
+    "url": "https://blogs.lse.ac.uk/impactofsocialsciences/2019/09/16/open-access-to-teaching-material-how-far-have-we-come/"
   },
   {
     "name": "Scientific American",
-    "logo": "logos/ScientificAmerican.png"
+    "logo": "logos/scientificamerican.svg",
+    "url": "https://blogs.scientificamerican.com/information-culture/the-open-access-button-discovering-when-and-where-researchers-hit-paywalls"
   }
 ]
