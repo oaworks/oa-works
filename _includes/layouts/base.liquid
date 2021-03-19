@@ -9,11 +9,14 @@
     <p class="browserupgrade">You are using an outdated browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
     <![endif]-->
 
-    {% include 'snippets/header.liquid' %}
+    {% if page.url == '/' %}<div class="cover">{% endif %}
 
+    {% include 'snippets/header.liquid' %}
     <main id="main">
       {{ content }}
     </main>
+
+    {% if page.url == '/' %}</div>{% endif %}
 
     {% include 'snippets/footer.liquid' %}
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
