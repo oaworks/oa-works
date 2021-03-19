@@ -13,13 +13,13 @@ layout: "layouts/base.liquid"
       <p class="label label--secondary line-thru">
         <small class="line-thru__inner bg-black label">{{ product.label }}</small>
       </p>
-      <article class="card" style="flex-grow : 1;">
+      <article class="card">
         <header class="card__header">
           <h3 class="sr-only">{{ product.name }}</h3>
           {% include product.logo %}
         </header>
         <div class="card__body">
-          <h4 class="type-1" style="margin-bottom: var(--space-md);">{{ product.tagline }}</h4>
+          <h4 class="type-2">{{ product.tagline }}</h4>
           <p>{{ product.description }}</p>
         </div>
         <footer class="card__footer">
