@@ -90,6 +90,7 @@ h5.card__header {
 
   color: var(--initialTextColor);
   text-decoration: none;
+  font-size: var(--typescale-6);
 }
 
 .card__footer a:hover {
