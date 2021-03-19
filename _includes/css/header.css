@@ -9,6 +9,11 @@
 
 .header__logo {
   display: block;
+  width: 25%;
+}
+
+.header__menu-wrapper {
+  width: 25%;
 }
 
 .header__logo .logotype {
@@ -30,7 +35,8 @@
 
 .header__featured-items {
   display: none;
-  margin: auto var(--gutter) auto 0;
+  margin: auto var(--gutter);
+  width: 50%;
   padding: 0;
   line-height: 40px;
 }
@@ -44,6 +50,10 @@
   padding: var(--space-xs);
   display: block;
   background-color: var(--black);
+}
+
+.header__featured-items li:last-child a {
+  margin-right: 0;
 }
 
 @media only screen and (min-width: 768px) {
