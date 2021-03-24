@@ -1,18 +1,18 @@
 [
   {
     "name": "Joe <br/>McArthur",
-    "role": "Director",
+    "role": "Director<br/><br/>",
     "bio": "Founded OA.Works. Worked at OpenCon and SPARC.",
-    "img": "",
+    "img": "people/joe.png",
     "email": "joe@oa.works",
     "twitter": "mcarthur_joe",
     "github": "JosephMcArthur"
   },
   {
     "name": "Mark <br/>MacGillivray",
-    "role": "Developer",
+    "role": "Developer<br/><br/>",
     "bio": "Founded <a href='https://cottagelabs.com/' target='_blank' rel='noopener'>Cottage Labs</a>",
-    "img": "",
+    "img": "people/mark.png",
     "email": "mark@oa.works",
     "twitter": "cottagelabs",
     "github": "markmacgillivray"
@@ -21,16 +21,16 @@
     "name": "Natalia <br/>Norori",
     "role": "Data wrangler & systems manager",
     "bio": "Profiled by <a href='https://www.forbes.com/sites/andrewwight/2020/07/19/this-nicaraguan-is-showing-how-to-better-share-pandemic-health-data/' target='_blank' rel='noopener'>Forbes</a>",
-    "img": "",
+    "img": "people/natalia.png",
     "email": "natalia@oa.works",
     "twitter": "natalianorori",
     "github": "natalianorori"
   },
   {
-    "name": "Sophy <br/>Goddard",
-    "role": "UX designer & developer",
+    "name": "Sophy <br/>Ouch",
+    "role": "UX designer & <br/>developer<br/>",
     "bio": "Designed for <a href='https://doaj.org/' target='_blank' rel='noopener'>DOAJ</a>, <a href='https://erudit.org/' target='_blank' rel='noopener'>Érudit</a>, SPARC & PKP",
-    "img": "",
+    "img": "people/sophy.png",
     "email": "sophy@oa.works",
     "github": "sssoz"
   },
@@ -38,7 +38,7 @@
     "name": "Jake <br/>Orlowitz",
     "role": "Communications & strategy",
     "bio": "Founded <a href='https://en.wikipedia.org/wiki/Wikipedia:The_Wikipedia_Library' target='_blank' rel='noopener'>WikiLibrary</a>",
-    "img": "",
+    "img": "people/jake.png",
     "email": "jake@oa.works",
     "twitter": "JakeOrlowitz",
     "github": "jorlowitz"
