@@ -1,0 +1,60 @@
+[
+  {
+    "codename": "ShareYourPaper for Funders",
+    "cta": "Get in Touch",
+    "link": "mailto:joe@openaccessbutton.org?subject=ShareYourPaper for Funders",
+    "about": "Like ShareYourPaper for Libraries, but for funders!"
+  },
+  {
+    "codename": "ShareYourPaper for Journals",
+    "cta": "Get in Touch",
+    "link": "mailto:joe@openaccessbutton.org?subject=ShareYourPaper for Journals",
+    "about": "Like ShareYourPaper for Libraries, but for journals!"
+  },
+  {
+    "codename": "ShareYourPaper Permissions Interface",
+    "cta": "Get in Touch",
+    "link": "mailto:joe@openaccessbutton.org?subject=ShareYourPaper Permissions",
+    "about": "Easily find and understand how you can make your work open access for free"
+  },
+  {
+    "codename": "OA Policy Analysis",
+    "cta": "Get in Touch",
+    "link": "mailto:joe@openaccessbutton.org?subject=OA Policy Analysis",
+    "about": "Check and improve your open access policy compliance."
+  },
+  {
+    "codename": "OA helpdesk",
+    "cta": "Get in Touch",
+    "link": "mailto:joe@openaccessbutton.org?subject=OA Helpdesk",
+    "about": "An easier way to have the important conversations about Open Access"
+  },
+  {
+    "codename": "CovidPapers.com",
+    "link": "https://covidpapers.com/",
+    "about": "All the open Covid papers, searchable and made useful with text and data mining"
+  },
+  {
+    "codename": "Open Journals Database",
+    "cta": "Get in Touch",
+    "link": "mailto:joe@openaccessbutton.org?subject=Open Journals Database",
+    "about": "All the data on all the journals we can find"
+  },
+  {
+    "codename": "Paradigm",
+    "link": "https://github.com/OAButton/paradigm",
+    "about": "Forkable backend and API framework for fast, open, privacy-centric scholarly communications"
+  },
+  {
+    "codename": "Status page for research",
+    "cta": "Take a peak",
+    "link": "https://oab-status-prototype.netlify.app/",
+    "about": "Uptime checker for academic publishers"
+  },
+  {
+    "codename": "OATP adder",
+    "cta": "Try it out",
+    "link": "https://github.com/OAButton/OATP-Extension/tree/master",
+    "about": "Chrome Extension to add items to the Open Access Tracking Project"
+  }
+]
