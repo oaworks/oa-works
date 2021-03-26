@@ -23,6 +23,7 @@ module.exports = function(eleventyConfig) {
     // Set directories to pass through to the dist folder
     eleventyConfig.addPassthroughCopy('./src/img/');
     eleventyConfig.addPassthroughCopy('./src/fonts/');
+    eleventyConfig.addPassthroughCopy('./src/js/');
 
   eleventyConfig.setLiquidOptions({
     dynamicPartials: true
