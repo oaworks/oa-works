@@ -4,6 +4,7 @@
     "role": "Director<br/><br/>",
     "bio": "Founded OA.Works. Worked at OpenCon and SPARC.",
     "img": "people/joe.png",
+    "colour": "cyan",
     "email": "joe@oa.works",
     "twitter": "mcarthur_joe",
     "github": "JosephMcArthur"
@@ -13,6 +14,7 @@
     "role": "Developer<br/><br/>",
     "bio": "Founded <a href='https://cottagelabs.com/' target='_blank' rel='noopener'>Cottage Labs</a>",
     "img": "people/mark.png",
+    "colour": "carnation",
     "email": "mark@oa.works",
     "twitter": "cottagelabs",
     "github": "markmacgillivray"
@@ -22,6 +24,7 @@
     "role": "Data wrangler & systems manager",
     "bio": "Profiled by <a href='https://www.forbes.com/sites/andrewwight/2020/07/19/this-nicaraguan-is-showing-how-to-better-share-pandemic-health-data/' target='_blank' rel='noopener'>Forbes</a>",
     "img": "people/natalia.png",
+    "colour": "violet",
     "email": "natalia@oa.works",
     "twitter": "natalianorori",
     "github": "natalianorori"
@@ -31,6 +34,7 @@
     "role": "UX designer & <br/>developer<br/>",
     "bio": "Designed for <a href='https://doaj.org/' target='_blank' rel='noopener'>DOAJ</a>, <a href='https://erudit.org/' target='_blank' rel='noopener'>Érudit</a>, SPARC & PKP",
     "img": "people/sophy.png",
+    "colour": "azure",
     "email": "sophy@oa.works",
     "github": "sssoz"
   },
@@ -39,6 +43,7 @@
     "role": "Communications & strategy",
     "bio": "Founded <a href='https://en.wikipedia.org/wiki/Wikipedia:The_Wikipedia_Library' target='_blank' rel='noopener'>WikiLibrary</a>",
     "img": "people/jake.png",
+    "colour": "chartreuse",
     "email": "jake@oa.works",
     "twitter": "JakeOrlowitz",
     "github": "jorlowitz"

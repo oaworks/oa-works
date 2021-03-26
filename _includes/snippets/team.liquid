@@ -1,15 +1,22 @@
-<ul class="row">
-  {% assign delay_count = 0 %}
-  {% for person in team %}
-  {% assign delay_count = delay_count | plus: 100 %}
-  <li class="col col--1of3" data-aos="fade-up" data-aos-delay="{{ delay_count }}">
-    <article class="card card--small">
-      <p class="card__header card__header--plain label">{{ person.role }}</p>
-      <div class="card__body">
-        <h2 class="font-sans type-4">{{ person.name }}</h2>
+<div class="col">
+  <ul class="row">
+    {% assign delay_count = 0 %}
+    {% for person in team %}
+    {% assign delay_count = delay_count | plus: 100 %}
+    <li class="col col--1of3" data-aos="fade-up" data-aos-delay="{{ delay_count }}">
+      <article>
+        {% if person.img %}
+        <figure style="margin-bottom: var(--space-md); border-radius: 50%; height: 150px; width: 150px; background-color: var(--{{ person.colour }});">
+          <img src="../img/{{ person.img }}" alt="Portrait of {{ person.name }}" style="display: block; border-radius: 50%;"/>
+        </figure>
+        {% endif %}
+        <header>
+          <h2 class="font-sans type-4">{{ person.name }}</h2>
+          <p class="label">{{ person.role }}</p>
+        </header>
         <p>{{ person.bio }}</p>
-      </div>
-    </article>
-  </li>
-  {% endfor %}
-</ul>
+      </article>
+    </li>
+    {% endfor %}
+  </ul>
+</div>
