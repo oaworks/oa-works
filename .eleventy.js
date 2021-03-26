@@ -15,28 +15,22 @@ const markdownLib = markdownIt(markdownItOptions).use(markdownItAttrs)
 module.exports = function(eleventyConfig) {
   eleventyConfig.setLibrary('md', markdownLib)
 
-  // Copy to _site/
-  eleventyConfig.addPassthroughCopy("img");
-  eleventyConfig.addPassthroughCopy("fonts");
-  eleventyConfig.addPassthroughCopy("js");
-  eleventyConfig.addPassthroughCopy("favicons");
-
   // Add CSS minifier
   eleventyConfig.addFilter("cssmin", function(code) {
     return new CleanCSS({}).minify(code).styles;
   });
 
-  // Copy css/ to _site/
-  // eleventyConfig.addPassthroughCopy('css');
-
-  // eleventyConfig.addPlugin(pluginSass, sassPluginOptions);
+    // Set directories to pass through to the dist folder
+    eleventyConfig.addPassthroughCopy('./src/img/');
 
   eleventyConfig.setLiquidOptions({
     dynamicPartials: true
   });
 
   return {
-    passthroughFileCopy: true
-
-  };
+    dir: {
+      input: 'src',
+      output: 'dist'
+    }
+};
 };
