@@ -1,0 +1,54 @@
+@keyframes bg-slide {
+  0% {
+    background-position: left;
+  }
+
+  50% {
+    background-position: right;
+  }
+
+  100% {
+    background-position: left;
+  }
+}
+
+@keyframes flash {
+  0% {
+    fill: var(--azure);
+  }
+  20% {
+    fill: var(--carnation);
+  }
+  40% {
+    fill: var(--chartreuse);
+  }
+  60% {
+    fill: var(--cyan);
+  }
+  80% {
+    fill: var(--violet);
+  }
+}
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}

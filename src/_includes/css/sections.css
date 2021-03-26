@@ -1,0 +1,35 @@
+.section {
+  margin-left: var(--gutter-negative);
+  margin-right: var(--gutter-negative);
+  padding: calc(var(--gutter) * 2) var(--gutter) var(--gutter) var(--gutter);
+  min-height: 100vh;
+}
+
+.section__header {
+  margin-bottom: var(--space-xl);
+}
+
+.section--cover {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 90vh;
+  background-color: transparent;
+}
+
+.section--quarter {
+  min-height: 25vh;
+  padding: var(--gutter);
+}
+
+.section--third {
+  min-height: 33.3333vh;
+}
+
+.section--half {
+  min-height: 50vh;
+}
+
+.section--three-quarter {
+  min-height: 75vh;
+}

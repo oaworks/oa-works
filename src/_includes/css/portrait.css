@@ -1,0 +1,13 @@
+.portrait {
+  margin-bottom: var(--gutter-negative);
+  max-height: 30vh;
+  width: auto;
+  align-self: flex-end;
+}
+
+@media only screen and (min-width: 1024px) {
+  .portrait {
+    max-height: fit-content;
+    align-self: center;
+  }
+}
