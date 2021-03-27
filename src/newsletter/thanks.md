@@ -1,6 +1,8 @@
 ---
 layout: "layouts/default.liquid"
-title: Thanks!
-meta_description: "We've got your sign up."
+title: "We've got your sign up."
+meta_description: "Thanks so much for your interest 🤗"
 ---
-I'm some words or inserts that maybe ask that you share us on twitter or some other place, or, I point you to places you can find more info like the blog or social media.
+To hear more about a specific product, sign up for [ShareYourPaper.org](https://ShareYourPaper.org/updates) or [InstantILL](https://instantill.org/updates) updates too.
+
+You can also follow us on [Twitter](https://twitter.com/oa_button), [Facebook](https://facebook.com), and even [LinkedIn](https://linkedin.com)!
