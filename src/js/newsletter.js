@@ -69,7 +69,7 @@ url = 'https://api.openaccessbutton.org/ill/collect/' + sid;
 fields = [];
 
   // Allow the enter key to be used to submit while in the text box
-  var input = document.getElementById("email");
+  var input = document.getElementById("header-email-signup");
   // Execute a function when the user releases a key on the keyboard
   input.addEventListener("keyup", function(event) {
     // Number 13 is the "Enter" key on the keyboard
@@ -77,6 +77,6 @@ fields = [];
       // Cancel the default action, if needed
       event.preventDefault();
       // Trigger the button element with a click
-      document.getElementById("submit").click();
+      document.getElementById("header-email-submit").click();
     }
   });
