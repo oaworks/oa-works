@@ -25,10 +25,10 @@ jQuery(document).ready(function() {
 
       valid = $('#newsletter')[0].checkValidity();
       if (!valid) {
-        $('#header-email-submit').click(); // will run again, but this time skip to letting the form display warning
+        $('#submit').click(); // will run again, but this time skip to letting the form display warning
       } else {
         // form valid now, send the data and go to thanks
-        $('#header-email-submit').replaceWith('<button>Submitting&hellip;</button>');
+        $('#submit').replaceWith('<button>Submitting&hellip;</button>');
 
         var data = {};
 
@@ -60,7 +60,7 @@ jQuery(document).ready(function() {
       }
     }
   }
-  $('body').on('click','#header-email-submit',submit);
+  $('body').on('click','#submit',submit);
 });
 
 // Above script supports many forms, the script below points it to the right sheet
@@ -69,7 +69,7 @@ url = 'https://api.openaccessbutton.org/ill/collect/' + sid;
 fields = [];
 
   // Allow the enter key to be used to submit while in the text box
-  var input = document.getElementById("header-email-signup");
+  var input = document.getElementById("email");
   // Execute a function when the user releases a key on the keyboard
   input.addEventListener("keyup", function(event) {
     // Number 13 is the "Enter" key on the keyboard
@@ -77,6 +77,6 @@ fields = [];
       // Cancel the default action, if needed
       event.preventDefault();
       // Trigger the button element with a click
-      document.getElementById("header-email-submit").click();
+      document.getElementById("submit").click();
     }
   });
