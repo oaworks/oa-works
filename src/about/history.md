@@ -1,6 +1,6 @@
 ---
 layout: "layouts/about.liquid"
-title: Timeline
+title: History
 meta_description: Our journey from 2013 to now.
 hero_heading_1: "Started in 2013 by students"
 hero_content_1: "We got our start as the Open Access Button, but as our tools grew, so did we. OA.Works is now the home of our tools."
