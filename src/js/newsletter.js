@@ -25,10 +25,10 @@ jQuery(document).ready(function() {
 
       valid = $('#newsletter')[0].checkValidity();
       if (!valid) {
-        $('#submit').click(); // will run again, but this time skip to letting the form display warning
+        $('#header-email-submit').click(); // will run again, but this time skip to letting the form display warning
       } else {
         // form valid now, send the data and go to thanks
-        $('#submit').replaceWith('<p>Submitting...</p>');
+        $('#header-email-submit').replaceWith('<button>Submitting&hellip;</button>');
 
         var data = {};
 
@@ -60,7 +60,7 @@ jQuery(document).ready(function() {
       }
     }
   }
-  $('body').on('click','#submit',submit);
+  $('body').on('click','#header-email-submit',submit);
 });
 
 // Above script supports many forms, the script below points it to the right sheet
