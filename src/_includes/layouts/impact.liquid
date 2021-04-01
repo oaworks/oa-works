@@ -2,20 +2,18 @@
 layout: layouts/base.liquid
 ---
 
-<header style="margin-top: var(--space-md);">
-  <nav>
-    <ul class="tabs">
-      <li class="tab{% if page.url == '/impact/' %} tab--active{% endif %}">
-        <a href="/impact/" class="label">Impact</a>
-      </li>
-      <li class="tab{% if page.url == '/impact/stories/' %} tab--active{% endif %}">
-        <a href="/impact/stories/" class="label">Stories</a>
-      </li>
-      <li class="tab{% if page.url == '/impact/testimonials/' %} tab--active{% endif %}">
-        <a href="/impact/testimonials/" class="label">Testimonials</a>
-      </li>
-    </ul>
-  </nav>
-</header>
+<nav class="subnav">
+  <ul class="tabs">
+    <li class="tab{% if page.url == '/impact/' %} tab--active{% endif %}">
+      <a href="/impact/" class="label">Impact</a>
+    </li>
+    <li class="tab{% if page.url == '/impact/stories/' %} tab--active{% endif %}">
+      <a href="/impact/stories/" class="label">Stories</a>
+    </li>
+    <li class="tab{% if page.url == '/impact/testimonials/' %} tab--active{% endif %}">
+      <a href="/impact/testimonials/" class="label">Testimonials</a>
+    </li>
+  </ul>
+</nav>
 
 {% include 'snippets/markdown.liquid' %}

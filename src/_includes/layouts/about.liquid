@@ -2,23 +2,21 @@
 layout: layouts/base.liquid
 ---
 
-<header style="margin-top: var(--space-md);">
-  <nav>
-    <ul class="tabs">
-      <li class="tab{% if page.url == '/about/' %} tab--active{% endif %}">
-        <a href="/about/" class="label">About</a>
-      </li>
-      <li class="tab{% if page.url == '/about/vision/' %} tab--active{% endif %}">
-        <a href="/about/vision/" class="label">Vision</a>
-      </li>
-      <li class="tab{% if page.url == '/about/values/' %} tab--active{% endif %}">
-        <a href="/about/values/" class="label">Values</a>
-      </li>
-      <li class="tab{% if page.url == '/about/history/' %} tab--active{% endif %}">
-        <a href="/about/history/" class="label">History</a>
-      </li>
-    </ul>
-  </nav>
-</header>
+<nav class="subnav">
+  <ul class="tabs">
+    <li class="tab{% if page.url == '/about/' %} tab--active{% endif %}">
+      <a href="/about/" class="label">About</a>
+    </li>
+    <li class="tab{% if page.url == '/about/vision/' %} tab--active{% endif %}">
+      <a href="/about/vision/" class="label">Vision</a>
+    </li>
+    <li class="tab{% if page.url == '/about/values/' %} tab--active{% endif %}">
+      <a href="/about/values/" class="label">Values</a>
+    </li>
+    <li class="tab{% if page.url == '/about/history/' %} tab--active{% endif %}">
+      <a href="/about/history/" class="label">History</a>
+    </li>
+  </ul>
+</nav>
 
 {% include 'snippets/markdown.liquid' %}
