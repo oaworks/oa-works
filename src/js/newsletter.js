@@ -1,4 +1,3 @@
-<script>
 jQuery(document).ready(function() {
 
   var paramsintoform = function() {
@@ -63,17 +62,13 @@ jQuery(document).ready(function() {
   }
   $('body').on('click','#submit',submit);
 });
-</script>
 
-<!-- Above script supports many forms, the script below points it to the right sheet -->
-<script>
+// Above script supports many forms, the script below points it to the right sheet
 sid = 'AKfycbyVmK7svDvj2yg9SpFNH6dZ0zF33oXUcfj_OhWVjSHKNEIVNuVdybbMIHOjcH_DA5VD';
 url = 'https://api.openaccessbutton.org/ill/collect/' + sid;
 fields = [];
-</script>
 
-<!-- Allow the enter key to be used to submit while in the text box -->
-<script>
+  // Allow the enter key to be used to submit while in the text box
   var input = document.getElementById("email");
   // Execute a function when the user releases a key on the keyboard
   input.addEventListener("keyup", function(event) {
@@ -85,4 +80,3 @@ fields = [];
       document.getElementById("submit").click();
     }
   });
-</script>
