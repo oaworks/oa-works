@@ -1,11 +1,12 @@
-<ul class="row">
-  {% assign delay_count = 0 %}
-  {% for funder in funders %}
-  {% assign delay_count = delay_count | plus: 100 %}
-  <li class="col col--1of2" data-aos="fade-up" data-aos-delay="{{ delay_count }}">
-    <a href="{{ funder.url }}" target="_blank" rel="noopener" title="Go to {{ funder.name }}’s site">
-      {% include {{ funder.logo }} %}
-    </a>
-  </li>
-  {% endfor %}
-</ul>
+<section class="section section--quarter">
+  <h2 class="label align-center">Funded by</h2>
+  <ul class="row unstyled-list flex-center">
+    {% for funder in funders %}
+    <li class="col col--1of2 flex-center">
+      <a href="{{ funder.url }}" target="_blank" rel="noopener" title="Go to {{ funder.name }}’s site">
+        {% include {{ funder.logo }} %}
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+</section>

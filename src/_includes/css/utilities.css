@@ -48,6 +48,10 @@
   font-size: 1rem;
 }
 
+.align-center {
+  text-align: center;
+}
+
 .align-right {
   text-align: right;
 }
@@ -131,6 +135,8 @@
 }
 
 .unstyled-list {
+  margin-top: 0;
+  margin-bottom: 0;
   list-style: none;
 }
 
