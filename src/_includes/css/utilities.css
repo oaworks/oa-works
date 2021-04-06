@@ -144,8 +144,10 @@
   display: none;
 }
 
-.unstyled-list svg {
-  margin-bottom: var(--space-md);
+@media only screen and (max-width: 767px) {
+  .unstyled-list li:not(:last-child) svg {
+    margin-bottom: var(--space-md);
+  }
 }
 
 .inlined-list {
