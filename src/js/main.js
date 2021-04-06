@@ -2,7 +2,7 @@
   // Initialise AOS
   AOS.init();
 
-  // Open menu w/ hamburger icon
+  // Slide out side menu w/ hamburger icon, switch icon to X 
   var nav = document.querySelector(".header__nav"),
       navTrigger = document.querySelector(".menu-trigger"),
       menuBtn = document.getElementById("menuBtn");
@@ -10,7 +10,7 @@
   if (navTrigger) {
     navTrigger.addEventListener("click",
     function(e) {
-      nav.classList.toggle("header__nav--open");
+      nav.style.transform = nav.style.transform === 'translateX(100%)' ? 'translateX(0%)' : 'translateX(100%)';
       menuBtn.classList.toggle("menu-trigger--open");
       e.preventDefault();
     }, false);
