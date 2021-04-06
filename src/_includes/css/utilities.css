@@ -144,7 +144,7 @@
   display: none;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1023px) {
   .unstyled-list li:not(:last-child) svg {
     margin-bottom: var(--space-md);
   }
