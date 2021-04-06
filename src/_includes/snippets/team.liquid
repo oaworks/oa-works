@@ -3,15 +3,15 @@
     {% assign delay_count = 0 %}
     {% for person in team %}
     {% assign delay_count = delay_count | plus: 100 %}
-    <li class="col col--1of3" data-aos="fade-up" data-aos-delay="{{ delay_count }}">
+    <li class="col col--1of2" data-aos="fade-up" data-aos-delay="{{ delay_count }}">
       <article>
-        {% if person.img %}
-        <figure style="margin-bottom: var(--space-md); border-radius: 50%; height: 150px; width: 150px; background-color: var(--{{ person.colour }});">
-          <img src="../img/{{ person.img }}" alt="Portrait of {{ person.name }}" style="display: block; border-radius: 50%;"/>
-        </figure>
-        {% endif %}
         <header>
-          <h2 class="font-sans type-4">{{ person.name }}</h2>
+          <h2 class="type-4">{{ person.name }}</h2>
+          {% if person.img %}
+          <figure class="portrait portrait--circular" style="background-color: var(--{{ person.colour }});">
+            <img src="../img/{{ person.img }}" alt="Portrait of {{ person.name }}"/>
+          </figure>
+          {% endif %}
           <p class="label">{{ person.role }}</p>
         </header>
         <p>{{ person.bio }}</p>

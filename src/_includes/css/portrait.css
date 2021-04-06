@@ -11,3 +11,14 @@
     align-self: center;
   }
 }
+
+.portrait--circular {
+  margin-bottom: var(--space-md);
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+}
+
+.portrait--circular img {
+  border-radius: 50%;
+}
