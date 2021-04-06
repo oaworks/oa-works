@@ -70,8 +70,8 @@ body {
   }
 
   .col--1of6 {
-    flex-basis: 16.6666667%;
-    max-width: 16.6666667%;
+    flex-basis: 33.3333333%;
+    max-width: 33.3333333%;
   }
 
   .col--2of3,
