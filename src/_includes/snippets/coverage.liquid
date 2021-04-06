@@ -2,7 +2,7 @@
   <h2 class="font-serif label flex-center">Covered in</h2>
   <ul class="row row--centered flex-center unstyled-list">
     {% for item in coverage %}
-    <li class="col col--1of6">
+    <li class="col col--1of6 flex-center">
       <a href="{{ item.url }}" title="{{ item.name }}’s site" target="_blank" rel="noopener" class="bw">
         {% include item.logo %}
       </a>

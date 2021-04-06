@@ -144,6 +144,10 @@
   display: none;
 }
 
+.unstyled-list svg {
+  margin-bottom: var(--space-md);
+}
+
 .inlined-list {
   list-style: none;
 }
