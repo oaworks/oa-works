@@ -4,19 +4,32 @@
     "role": "Scholarly Communication Librarian & Assistant Professor",
     "quote": "We’re excited to finally build everything we’ve learned from mediated deposit into a simple tool, not a dozen workarounds, that enables every library to make self-archiving not just the right thing, but the easy thing, for every author.",
     "product": "ShareYourPaper.org",
-    "img": "people/leila.png",
+    "img": "people/leila.jpg",
     "affiliation": "Montana State University Library",
     "aff_logo": "logos/montana.svg",
-    "aff_url": "https://www.lib.montana.edu/"
+    "aff_url": "https://www.lib.montana.edu/",
+    "featured": true
   },
   {
     "name": "Tina Baich",
     "role": "Senior Associate Dean for Scholarly Communication & Content Strategies",
     "quote": "InstantILL is community-owned infrastructure that improves our services, helps reduce dependency on subscriptions, and advances equitable access to information",
     "product": "InstantILL.org",
-    "img": "people/tina.png",
-    "affiliation": "Indiana University–Purdue University Indianapolis",
+    "img": "people/tina.jpg",
+    "affiliation": "Indiana University–Purdue University Indianapolis (IUPUI)",
     "aff_logo": "logos/iupui.svg",
-    "aff_url": "https://www.iupui.edu/"
+    "aff_url": "https://www.iupui.edu/",
+    "featured": true
+  },
+  {
+    "name": "Peter Bae",
+    "role": "Assistant University Librarian for Scholarly Collections Services at Princeton University",
+    "quote": "Finding an OA article is not an easy task even for librarians whose job is getting materials for their patrons. With InstantILL, finding what’s available on the net has become very easy. InstantILL has greatly helped our new international resource sharing initiative, RSCVD, in responding to Covid-19.",
+    "product": "InstantILL.org",
+    "img": "people/peter.jpg",
+    "affiliation": "International Federation of Library Associations and Institutions (IFLA)",
+    "aff_logo": "logos/ifla.svg",
+    "url": "https://www.ifla.org/",
+    "featured": true
   }
 ]

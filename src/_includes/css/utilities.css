@@ -56,6 +56,14 @@
   text-align: right;
 }
 
+.border-left {
+  border-left: 1px solid;
+}
+
+.border-right {
+  border-right: 1px solid;
+}
+
 .bg-white {
   background-color: var(--white);
   color: var(--black);
