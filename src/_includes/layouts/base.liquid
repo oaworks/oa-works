@@ -9,14 +9,11 @@
     <p class="browserupgrade">You are using an outdated browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
     <![endif]-->
 
-    {% if page.url == '/' %}<div class="cover">{% endif %}
-
     {% include 'snippets/header.liquid' %}
     <main id="main">
       {{ content }}
     </main>
 
-    {% if page.url == '/' %}</div>{% endif %}
     {% include 'snippets/footer.liquid' %}
 
     <script src="{{ site.base_url }}/js/sal.js"></script>

@@ -1,34 +1,109 @@
-<header class="flex-space-between header{% if theme == 'dark' %} header--inverted{% endif %}" id="header">
-  <a href="{{ baseurl }}/" title="Return to home page" class="header__logo" id="headerLogo">
-    <h1 class="no-margin">{% include 'logos/logotype.svg' %}</h1>
-  </a>
+{% if page.url == '/' %}<div class="cover">{% endif %}
+  <header class="flex-space-between header{% if theme == 'dark' %} header--inverted{% endif %}" id="header">
+    <a href="{{ baseurl }}/" title="Return to home page" class="header__logo" id="headerLogo">
+      <h1 class="no-margin">{% include 'logos/logotype.svg' %}</h1>
+    </a>
 
-  <ul class="header__featured-items">
-    {% for item in navigation %}
-      {% for subitem in item[1] %}
-        {% if subitem.featured %}
-          <li><a href="{{ site.base_url }}{{ subitem.url }}" class="label">{{ subitem.text }}</a></li>
-        {% endif %}
+    <ul class="header__featured-items">
+      {% for item in navigation %}
+        {% for subitem in item[1] %}
+          {% if subitem.featured %}
+            <li><a href="{{ site.base_url }}{{ subitem.url }}" class="label">{{ subitem.text }}</a></li>
+          {% endif %}
+        {% endfor %}
       {% endfor %}
-    {% endfor %}
-  </ul>
+    </ul>
 
-  <div>
-    <button class="menu-trigger" aria-label="Open menu" id="menuBtn">
-      <span class="menu-trigger__icon"></span>
-      <span class="menu-trigger__icon"></span>
-      <span class="menu-trigger__icon"></span>
-    </button>
-  </div>
+    <div>
+      <button class="menu-trigger" aria-label="Open menu" id="menuBtn">
+        <span class="menu-trigger__icon"></span>
+        <span class="menu-trigger__icon"></span>
+        <span class="menu-trigger__icon"></span>
+      </button>
+    </div>
 
-  <nav class="row header__nav" style="transform: translateX(100%);">
-    <h2 class="sr-only">Table of contents</h2>
-    <div class="flex" style="width: 100%;">
-      <ul class="header__list">
+    <nav class="row header__nav" style="transform: translateX(100%);">
+      <h2 class="sr-only">Table of contents</h2>
+      <div class="flex" style="width: 100%;">
+        <ul class="header__list">
+          <li>
+            <span class="header__nav-section">Products</span>
+            <ul>
+              {% for item in navigation.products %}
+              <li>
+                <a href="{% if item.url contains 'https' %}{% else %}{{ site.base_url }}{% endif %}{{ item.url }}" {% if item.url contains 'https' %} target="_blank" rel="noopener"{% endif %} class="header__nav-subsection">
+                  {{ item.text }}
+                </a>
+              </li>
+              {% endfor %}
+            </ul>
+          </li>
+          <li>
+            <span class="header__nav-section">People</span>
+            <ul>
+              {% for item in navigation.people %}
+              <li>
+                <a href="{{ site.base_url }}{{ item.url }}" class="header__nav-subsection">
+                  {{ item.text }}
+                </a>
+              </li>
+              {% endfor %}
+            </ul>
+          </li>
+        </ul>
+        <ul class="header__list">
+          <li>
+            <span class="header__nav-section">About</span>
+            <ul>
+              {% for item in navigation.about %}
+              <li>
+                <a href="{{ site.base_url }}{{ item.url }}" class="header__nav-subsection">
+                  {{ item.text }}
+                </a>
+              </li>
+              {% endfor %}
+            </ul>
+          </li>
+          <li>
+            <span class="header__nav-section">Impact</span>
+            <ul>
+              {% for item in navigation.impact %}
+              <li>
+                <a href="{{ site.base_url }}{{ item.url }}" class="header__nav-subsection">
+                  {{ item.text }}
+                </a>
+              </li>
+              {% endfor %}
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <form id="newsletter">
+        <label for="email">Sign up to our newsletter</label>
+        <div class="flex">
+          <input class="_oaworks_form" type="email" placeholder="you@institution.edu" required="required" name="email" id="email"/>
+          <button type="submit" id="submit" aria-label="submit" value="Submit Request" href="/newsletter/thanks/">Sign up</button>
+        </div>
+      </form>
+      <ul>
         <li>
-          <span class="header__nav-section">Products</span>
-          <ul>
-            {% for item in navigation.products %}
+          <span class="header__nav-section">Contact</span>
+          <ul class="inlined-list">
+            <li>
+              <a href="https://twitter.com/{{ site.twitter }}" target="_blank" rel="noopener" class="header__nav-subsection">Twitter<a>
+            </li>
+            <li>
+              <a href="https://github.com/{{ site.github }}" target="_blank" rel="noopener" class="header__nav-subsection">Github<a>
+            </li>
+            <li>
+              <a href="{{ site.blog }}" target="_blank" rel="noopener" class="header__nav-subsection">Blog<a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <span class="header__nav-section">Support</span>
+          <ul class="inlined-list">
+            {% for item in navigation.support %}
             <li>
               <a href="{% if item.url contains 'https' %}{% else %}{{ site.base_url }}{% endif %}{{ item.url }}" {% if item.url contains 'https' %} target="_blank" rel="noopener"{% endif %} class="header__nav-subsection">
                 {{ item.text }}
@@ -38,9 +113,9 @@
           </ul>
         </li>
         <li>
-          <span class="header__nav-section">People</span>
-          <ul>
-            {% for item in navigation.people %}
+          <span class="header__nav-section">Resources</span>
+          <ul class="inlined-list">
+            {% for item in navigation.resources %}
             <li>
               <a href="{{ site.base_url }}{{ item.url }}" class="header__nav-subsection">
                 {{ item.text }}
@@ -50,79 +125,40 @@
           </ul>
         </li>
       </ul>
-      <ul class="header__list">
-        <li>
-          <span class="header__nav-section">About</span>
-          <ul>
-            {% for item in navigation.about %}
-            <li>
-              <a href="{{ site.base_url }}{{ item.url }}" class="header__nav-subsection">
-                {{ item.text }}
-              </a>
-            </li>
-            {% endfor %}
-          </ul>
-        </li>
-        <li>
-          <span class="header__nav-section">Impact</span>
-          <ul>
-            {% for item in navigation.impact %}
-            <li>
-              <a href="{{ site.base_url }}{{ item.url }}" class="header__nav-subsection">
-                {{ item.text }}
-              </a>
-            </li>
-            {% endfor %}
-          </ul>
-        </li>
-      </ul>
-    </div>
-    <form id="newsletter">
-      <label for="email">Sign up to our newsletter</label>
-      <div class="flex">
-        <input class="_oaworks_form" type="email" placeholder="you@institution.edu" required="required" name="email" id="email"/>
-        <button type="submit" id="submit" aria-label="submit" value="Submit Request" href="/newsletter/thanks/">Sign up</button>
+    </nav>
+  </header>
+
+{% if page.url == '/' %}
+  <section class="section section--cover">
+    <div class="row row--centered">
+      <div class="col col--1of2">
+        <div class="card card--large bg-black-85" data-sal="slide-up">
+          <header class="flex card__header">
+            <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg" style="margin-right: var(--space-xs);">
+              <path d="M15.9197 8.41943C15.9197 12.5616 12.5618 15.9194 8.41968 15.9194C4.27754 15.9194 0.919678 12.5616 0.919678 8.41943C0.919678 4.2773 4.27754 0.919434 8.41968 0.919434C12.5618 0.919434 15.9197 4.2773 15.9197 8.41943Z" fill="var(--carnation)"/>
+            </svg>
+            <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg" style="margin-right: var(--space-xs);">
+              <path d="M15.9197 8.41943C15.9197 12.5616 12.5618 15.9194 8.41968 15.9194C4.27754 15.9194 0.919678 12.5616 0.919678 8.41943C0.919678 4.2773 4.27754 0.919434 8.41968 0.919434C12.5618 0.919434 15.9197 4.2773 15.9197 8.41943Z" fill="var(--mango)"/>
+            </svg>
+            <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M15.9197 8.41943C15.9197 12.5616 12.5618 15.9194 8.41968 15.9194C4.27754 15.9194 0.919678 12.5616 0.919678 8.41943C0.919678 4.2773 4.27754 0.919434 8.41968 0.919434C12.5618 0.919434 15.9197 4.2773 15.9197 8.41943Z" fill="var(--chartreuse)"/>
+            </svg>
+          </header>
+          <div class="card__body">
+            <p class="label" data-sal="slide-up" data-sal-delay="100">
+              {{ site.lede }}
+            </p>
+            <h2 data-sal="slide-up" data-sal-delay="150">{{ site.tagline }}</h2>
+            <p data-sal="slide-up" data-sal-delay="200">{{ site.description }}</p>
+          </div>
+          <footer class="card__footer">
+            <a href="#products">{{ site.cta }}</a>
+          </footer>
+        </div>
       </div>
-    </form>
-    <ul>
-      <li>
-        <span class="header__nav-section">Contact</span>
-        <ul class="inlined-list">
-          <li>
-            <a href="https://twitter.com/{{ site.twitter }}" target="_blank" rel="noopener" class="header__nav-subsection">Twitter<a>
-          </li>
-          <li>
-            <a href="https://github.com/{{ site.github }}" target="_blank" rel="noopener" class="header__nav-subsection">Github<a>
-          </li>
-          <li>
-            <a href="{{ site.blog }}" target="_blank" rel="noopener" class="header__nav-subsection">Blog<a>
-          </li>
-        </ul>
-      </li>
-      <li>
-        <span class="header__nav-section">Support</span>
-        <ul class="inlined-list">
-          {% for item in navigation.support %}
-          <li>
-            <a href="{% if item.url contains 'https' %}{% else %}{{ site.base_url }}{% endif %}{{ item.url }}" {% if item.url contains 'https' %} target="_blank" rel="noopener"{% endif %} class="header__nav-subsection">
-              {{ item.text }}
-            </a>
-          </li>
-          {% endfor %}
-        </ul>
-      </li>
-      <li>
-        <span class="header__nav-section">Resources</span>
-        <ul class="inlined-list">
-          {% for item in navigation.resources %}
-          <li>
-            <a href="{{ site.base_url }}{{ item.url }}" class="header__nav-subsection">
-              {{ item.text }}
-            </a>
-          </li>
-          {% endfor %}
-        </ul>
-      </li>
-    </ul>
-  </nav>
-</header>
+    </div>
+  </section>
+
+  <p class="align-right"><small>Photo by <a href="https://unsplash.com/@kknrynsk_jp">Ryunosuke Kikuno</a></small></p>
+</div>
+{% endif %}
