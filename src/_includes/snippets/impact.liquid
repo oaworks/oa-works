@@ -2,7 +2,7 @@
   {% assign delay_count = 0 %}
   {% for stat in impact %}
   {% assign delay_count = delay_count | plus: 100 %}
-  <li class="col col--1of2" data-aos="fade-up" data-aos-delay="{{ delay_count }}">
+  <li class="col col--1of2" data-sal="slide-up" data-sal-delay="{{ delay_count }}">
     <article class="card card--small">
       <header class="card__header">
         <span class="type-1">{{ stat.value }}</span><br/>

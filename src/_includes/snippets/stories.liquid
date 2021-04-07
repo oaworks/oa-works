@@ -1,6 +1,6 @@
 <section class="section bg-black section--half">
   <div class="row">
-    <header class="col col--2of3 section__header" data-aos="fade-up">
+    <header class="col col--2of3 section__header" data-sal="slide-up">
       <h2>Why we work for Open</h2>
       <p><a href="/impact/stories" class="button">More stories 👉</a></p>
     </header>
@@ -9,7 +9,7 @@
     {% assign delay_count = 0 %}
     {% for story in stories limit:3 %}
     {% assign delay_count = delay_count | plus: 50 %}
-    <li class="col col--1of3" data-aos="fade-up" data-aos-delay="{{ delay_count }}">
+    <li class="col col--1of3" data-sal="slide-up" data-sal-delay="{{ delay_count }}">
       <article class="card card--small">
         <header class="card__header">
           <h3 class="label">OA.W<span style="text-transform: lowercase;">orks for</span> {{ story.label }}</h3>

@@ -5,7 +5,7 @@ layout: "layouts/base.liquid"
 <section class="section section--cover">
   <div class="row row--centered">
     <div class="col col--1of2">
-      <div class="card card--large bg-black-85" data-aos="fade-up">
+      <div class="card card--large bg-black-85" data-sal="slide-up">
         <header class="flex card__header">
           <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg" style="margin-right: var(--space-xs);">
             <path d="M15.9197 8.41943C15.9197 12.5616 12.5618 15.9194 8.41968 15.9194C4.27754 15.9194 0.919678 12.5616 0.919678 8.41943C0.919678 4.2773 4.27754 0.919434 8.41968 0.919434C12.5618 0.919434 15.9197 4.2773 15.9197 8.41943Z" fill="var(--carnation)"/>
@@ -18,11 +18,11 @@ layout: "layouts/base.liquid"
           </svg>
         </header>
         <div class="card__body">
-          <p class="label" data-aos="fade-up" data-aos-delay="100">
+          <p class="label" data-sal="slide-up" data-sal-delay="100">
             {{ site.lede }}
           </p>
-          <h2 data-aos="fade-up" data-aos-delay="150">{{ site.tagline }}</h2>
-          <p data-aos="fade-up" data-aos-delay="200">{{ site.description }}</p>
+          <h2 data-sal="slide-up" data-sal-delay="150">{{ site.tagline }}</h2>
+          <p data-sal="slide-up" data-sal-delay="200">{{ site.description }}</p>
         </div>
         <footer class="card__footer">
           <a href="#products">{{ site.cta }}</a>
@@ -41,7 +41,7 @@ layout: "layouts/base.liquid"
     {%- for product in products -%}
     {%- if product.featured -%}
     {% assign delay_count = delay_count | plus: 100 %}
-    <li class="col col--1of3" data-aos="fade-up" data-aos-delay="{{ delay_count }}">
+    <li class="col col--1of3" data-sal="slide-up" data-sal-delay="{{ delay_count }}">
       <p class="label label--secondary line-thru">
         <small class="line-thru__inner bg-black label">{{ product.label }}</small>
       </p>
@@ -70,7 +70,7 @@ layout: "layouts/base.liquid"
   </ul>
 </section>
 
-<aside class="bg-white section section--quarter" data-aos="fade-up">
+<aside class="bg-white section section--quarter" data-sal="slide-up">
   {% include 'snippets/coverage.liquid' %}
 
   <br/><br/>
@@ -92,7 +92,7 @@ layout: "layouts/base.liquid"
   <ul class="no-margin testimonials">
     {% for t in testimonials %}
     {%- if t.featured -%}
-    <li class="row row--centered flex-end testimonial" style="display: none;" data-aos="fade-up" data-aos-delay="100">
+    <li class="row row--centered flex-end testimonial" style="display: none;" data-sal="slide-up" data-sal-delay="100">
       <figure class="col col--1of4 flex-end flex-col">
         <img class="portrait" src="img/{{ t.img }}" alt="{{t.img_alt}}"/>
       </figure>
@@ -125,7 +125,7 @@ layout: "layouts/base.liquid"
     {% assign delay_count = 0 %}
     {% for post in posts limit:3 %}
     {% assign delay_count = delay_count | plus: 50 %}
-    <li class="col col--1of3 bg-pattern" data-aos="fade-up" data-aos-delay="{{ delay_count }}">
+    <li class="col col--1of3 bg-pattern" data-sal="slide-up" data-sal-delay="{{ delay_count }}">
       <article class="card card--small">
         <a href="https://blog.openaccessbutton.org/{{ post.slug }}/" target="_blank" rel="noopener" style="display: block;">
           <h3 class="card__header bg-white label label--secondary">{{ post.title }}</h3>

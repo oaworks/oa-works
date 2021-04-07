@@ -16,7 +16,7 @@ theme: dark
   </ul>
 </nav>
 <section class="row data-file{% if theme != 'dark' %} bg-white{% endif %}">
-  <header class="col col--2of3" data-aos="fade-up">
+  <header class="col col--2of3" data-sal="slide-up">
     <h1>{{ title }}</h1>
     <p>{{ meta_description }}</p>
   </header>
@@ -25,7 +25,7 @@ theme: dark
       {% assign delay_count = 0 %}
       {% for story in stories %}
       {% assign delay_count = delay_count | plus: 50 %}
-      <li class="col col--1of3" data-aos="fade-up" data-aos-delay="{{ delay_count }}">
+      <li class="col col--1of3" data-sal="slide-up" data-sal-delay="{{ delay_count }}">
         <article class="card card--small">
           <header class="card__header">
             <h3 class="label">OA.W<span style="text-transform: lowercase;">orks for</span> {{ story.label }}</h3>

@@ -2,7 +2,7 @@
   {% assign delay_count = 0 %}
   {% for partners in partners %}
   {% assign delay_count = delay_count | plus: 100 %}
-  <li class="col col--1of3" data-aos="fade-up" data-aos-delay="{{ delay_count }}">
+  <li class="col col--1of3" data-sal="slide-up" data-sal-delay="{{ delay_count }}">
     <article class="card card--small">
       <p class="card__header card__header--plain label">{{ partners.name }}</p>
       <div class="card__body">

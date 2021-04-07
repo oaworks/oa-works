@@ -3,7 +3,7 @@
     {% assign delay_count = 0 %}
     {% for person in team %}
     {% assign delay_count = delay_count | plus: 100 %}
-    <li class="col col--1of2" data-aos="fade-up" data-aos-delay="{{ delay_count }}">
+    <li class="col col--1of2" data-sal="slide-up" data-sal-delay="{{ delay_count }}">
       <article>
         <header>
           <h2 class="type-4">{{ person.name }}</h2>

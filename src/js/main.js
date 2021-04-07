@@ -1,8 +1,8 @@
 (function(){
-  // Initialise AOS
-  AOS.init();
+  // Initialise SAL for on-scroll animations
+  sal();
 
-  // Slide out side menu w/ hamburger icon, switch icon to X 
+  // Slide out side menu w/ hamburger icon, switch icon to X
   var nav = document.querySelector(".header__nav"),
       navTrigger = document.querySelector(".menu-trigger"),
       menuBtn = document.getElementById("menuBtn");

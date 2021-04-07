@@ -4,7 +4,7 @@ body_class: default
 ---
 
 <section class="row markdown{% if theme != 'dark' %} bg-white{% endif %}">
-  <header class="col col--1of3 markdown__header-wrapper" data-aos="fade-up">
+  <header class="col col--1of3 markdown__header-wrapper" data-sal="slide-up">
     <div>
       <h1>{{ title }}</h1>
       {% if meta_description %}<p>{{ meta_description }}</p>{% endif %}
@@ -12,7 +12,7 @@ body_class: default
   </header>
 
   <div class="col col--1of2 markdown__content">
-    <section data-aos="fade-up" data-aos-delay="100">
+    <section data-sal="slide-up" data-sal-delay="100">
       {{ content }}
     </section>
   </div>

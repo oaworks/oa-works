@@ -21,7 +21,7 @@ layout: layouts/base.liquid
 
 {%- if page.url == '/products/' -%}
 <section class="row data-file{% if theme != 'dark' %} bg-white{% endif %}">
-  <header class="col col--2of3" data-aos="fade-up">
+  <header class="col col--2of3" data-sal="slide-up">
     <h1>{{ title }}</h1>
     <p>{{ meta_description }}</p>
   </header>
@@ -30,7 +30,7 @@ layout: layouts/base.liquid
       {% assign delay_count = 0 %}
       {% for product in products %}
       {% assign delay_count = delay_count | plus: 50 %}
-      <li class="product col col--1of3" data-aos="fade-up" data-aos-delay="{{ delay_count }}">
+      <li class="product col col--1of3" data-sal="slide-up" data-sal-delay="{{ delay_count }}">
         <p class="label label--secondary line-thru">
           <small class="line-thru__inner bg-white label">{{ product.label }}</small>
         </p>
