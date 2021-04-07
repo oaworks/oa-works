@@ -1,7 +1,7 @@
 .portrait {
-  max-height: 30vh;
+  margin-bottom: var(--space-md);
   width: auto;
-  align-self: flex-end;
+  align-self: flex-start;
 }
 
 @media only screen and (min-width: 1024px) {

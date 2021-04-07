@@ -62,22 +62,30 @@ layout: "layouts/base.liquid"
     {%- if t.featured -%}
     <li class="row row--centered flex-end testimonial" style="display: none;" data-sal="slide-up" data-sal-delay="100">
       <figure class="col col--1of4 flex-end flex-col">
+        <header>
+          <p class="label label--secondary line-thru">
+            <small class="line-thru__inner bg-black label">Our partner for</small>
+          </p>
+          <h3> {{ t.product }}</h3>
+        </header>
         <img class="portrait" src="img/{{ t.img }}" alt="{{ t.img_alt }}"/>
+        <figcaption class="bg-black-85" style=" margin-top: -125px;">
+          <a href="{{ t.aff_url }}" title="{{ t.affiliation }}’s site" target="_blank" rel="noopener" style="display: block;">
+            {% include t.aff_logo %}
+          </a>
+        </figcaption>
       </figure>
       <article class="col col--2of4 flex-col border-left">
-        <h3 class="label">Our partner for {{ t.product }}</h3>
+        <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg" style="margin: 0 var(--space-md) var(--space-md) 0; width: 50px; height: 50px;" aria-hidden="true">
+          <path d="M15.9197 8.41943C15.9197 12.5616 12.5618 15.9194 8.41968 15.9194C4.27754 15.9194 0.919678 12.5616 0.919678 8.41943C0.919678 4.2773 4.27754 0.919434 8.41968 0.919434C12.5618 0.919434 15.9197 4.2773 15.9197 8.41943Z" fill="var(--{{ t.colour }})"/>
+        </svg>
         <blockquote>
-          <p class="type-5">“{{ t.quote }}”</p>
-          <p>
-            <a href="{{ t.aff_url }}" title="{{ t.affiliation }}’s site" target="_blank" rel="noopener" style="display: block;">
-              {% include t.aff_logo %}
-            </a>
-          </p>
-          <p class="type-6">
+          <p class="type-3">“{{ t.quote }}”</p>
+          <footer class="type-5">
             <cite>
-              — {{ t.name }} <br/>{{ t.role }}
+              — <strong>{{ t.name }}</strong><br/><br/>{{ t.role }}, <a href="{{ t.aff_url }}" title="{{ t.affiliation }}’s site" target="_blank" rel="noopener">{{ t.affiliation }}</a>
             </cite>
-          </p>
+          </footer>
         </blockquote>
       </article>
     </li>
