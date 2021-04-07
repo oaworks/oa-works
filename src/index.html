@@ -94,7 +94,7 @@ layout: "layouts/base.liquid"
     {%- if t.featured -%}
     <li class="row row--centered flex-end testimonial" style="display: none;" data-aos="fade-up" data-aos-delay="100">
       <figure class="col col--1of4 flex-end flex-col">
-        <img class="portrait" src="img/{{ t.img }}"/>
+        <img class="portrait" src="img/{{ t.img }}" alt="{{t.img_alt}}"/>
       </figure>
       <article class="col col--2of4 flex-col border-left">
         <h3 class="label">Our partner for {{ t.product }}</h3>
