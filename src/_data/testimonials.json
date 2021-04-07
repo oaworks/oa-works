@@ -37,5 +37,18 @@
     "aff_logo": "logos/ifla.svg",
     "aff_url": "https://www.ifla.org/",
     "featured": true
+  },
+  {
+    "name": "Iryna Kuchma",
+    "role": "Open Access Programme Manager",
+    "quote": "Lorem ipsum dolor sit amet.",
+    "product": "",
+    "colour": "violet",
+    "img": "people/iryna-kuchma.jpg",
+    "img_alt": "Blue-eyed woman looking over her shoulder with arms crossed.",
+    "affiliation": "Electronic Information for Libraries (EIFL)",
+    "aff_logo": "logos/eifl.svg",
+    "aff_url": "https://www.eifl.net/",
+    "featured": false
   }
 ]
