@@ -15,18 +15,23 @@
 @keyframes flash {
   0% {
     fill: var(--azure);
+    color: var(--azure);
   }
   20% {
     fill: var(--carnation);
+    color: var(--carnation);
   }
   40% {
     fill: var(--chartreuse);
+    color: var(--chartreuse);
   }
   60% {
     fill: var(--cyan);
+    color: var(--cyan);
   }
   80% {
     fill: var(--violet);
+    color: var(--violet);
   }
 }
 

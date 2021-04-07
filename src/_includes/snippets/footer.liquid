@@ -1,3 +1,17 @@
+<aside class="section section--quarter align-center flex-center border-top">
+  <ul class="type-2 font-serif inlined-list no-margin">
+    <li>
+      <a href="https://github.com/OAButton/" target="_blank" rel="noopener" class="flash-colours">Open source</a>
+    </li>
+    <li>
+      <a href="{{ site.base_url }}/people/partners/" class="flash-colours">Community-controlled</a>
+    </li>
+    <li>
+      <a href="{{ site.base_url }}/resources/governance/" class="flash-colours">Not-for-profit</a>
+    </li>
+  </ul>
+</aside>
+
 <footer class="row footer">
   <a class="top" href="#top" id="topBtn" aria-label="Back to top">
     <span class="top__icon">&#8593;</span>
@@ -60,26 +74,37 @@
           {% endfor %}
         </ul>
       </div>
-      <div class="col footer__legal">
-        <h2 class="sr-only">Resources</h2>
-        <ul>
-          {% for item in navigation.resources %}
-          <li>
-            <a href="{{ site.base_url }}{{ item.url }}">
-              {{ item.text }}
-            </a>
-          </li>
-          {% endfor %}
-        </ul>
-      </div>
     </div>
   </nav>
-  <div class="col col--1of3 flex-end flex-col">
-    <a href="/" class="footer_logo">{% include 'logos/logotype.svg' %}</a>
-    <p class="type-6 align-right">
-      <small>
-        <a href="https://github.com/OAButton/" target="_blank" rel="noopener">Open source</a> • Community-controlled • Not-for-profit
-      </small>
-    </p>
+  <div class="col col--1of3 flex-space-between flex-col">
+    <div>
+      <h2 class="label">Connect with us</h2>
+      <ul class="inlined-list">
+        <li>
+          <a href="https://twitter.com/{{ site.twitter }}" target="_blank" rel="noopener">Twitter</a>
+        </li>
+        <li>
+          <a href="https://github.com/{{ site.github }}" target="_blank" rel="noopener">Github</a>
+        </li>
+        <li>
+          <a href="{{ site.blog }}" target="_blank" rel="noopener">Blog</a>
+        </li>
+      </ul>
+    </div>
+    <a href="/" class="footer__logo">{% include 'logos/logotype.svg' %}</a>
+  </div>
+
+  <div class="col footer__legal">
+    <h2 class="sr-only">Resources</h2>
+    <ul>
+      {% for item in navigation.resources %}
+      <li>
+        <a href="{{ site.base_url }}{{ item.url }}">
+          {{ item.text }}
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+    <p class="align-center"><small>This website’s content is licensed under a <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">Creative Commons Attribution 4.0 International License</a>.</small></p>
   </div>
 </footer>

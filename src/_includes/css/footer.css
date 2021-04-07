@@ -8,10 +8,6 @@
   color: var(--white);
 }
 
-.footer p {
-  margin: 0;
-}
-
 .footer ul {
   font-size: var(--typescale-6);
   font-weight: 700;
@@ -66,7 +62,6 @@
 
 .footer__logo {
   display: block;
-  margin-top: var(--space-lg);
   margin-bottom: var(--space-lg);
   background-color: var(--azure);
 }
