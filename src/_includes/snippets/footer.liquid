@@ -25,7 +25,7 @@
           {% for product in products %}
           {% if product.featured %}
           <li>
-            <a href="{{ product.url }}"{% if product.url contains 'https' %} target="_blank" rel="noopener"{% endif %}>
+            <a href="{% if item.url contains 'https' %}{% else %}{{ site.base_url }}{% endif %}{{ item.url }}" {% if item.url contains 'https' %} target="_blank" rel="noopener"{% endif %}>
               {{ product.name }}
             </a>
           </li>
@@ -33,7 +33,7 @@
           {% endfor %}
           {% for item in navigation.products %}
           <li>
-            <a href="{{ site.base_url }}{{ item.url }}">
+            <a href="{% if item.url contains 'https' %}{% else %}{{ site.base_url }}{% endif %}{{ item.url }}" {% if item.url contains 'https' %} target="_blank" rel="noopener"{% endif %}>
               {{ item.text }}
             </a>
           </li>
