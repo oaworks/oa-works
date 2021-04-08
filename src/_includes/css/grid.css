@@ -9,7 +9,6 @@ body {
 .row {
   display: flex;
   flex: 0 1 auto;
-  flex-direction: column;
   flex-wrap: wrap;
   margin-left: var(--gutter-negative);
   margin-right: var(--gutter-negative);
@@ -43,6 +42,11 @@ body {
 .col--6of6 {
   flex-basis: 100%;
   max-width: 100%;
+}
+
+.col--1of6 {
+  flex-basis: 50%;
+  max-width: 50%;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
