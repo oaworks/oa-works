@@ -1,0 +1,12 @@
+<section class="bg-white section section--quarter">
+  <h2 class="font-serif label flex-center">In partnership with</h2>
+  <ul class="row row--centered flex-center unstyled-list">
+    {% for partner in partners %}
+    <li class="col col--1of6 flex-center">
+      <a href="{{ partner.url }}" title="{{ partner.name }}’s site" target="_blank" rel="noopener" class="bw">
+        {% include partner.logo %}
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
