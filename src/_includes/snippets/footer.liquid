@@ -73,24 +73,23 @@
           </li>
           {% endfor %}
         </ul>
+        <hr/>
+        <h2 class="label">Connect with us</h2>
+        <ul class="inlined-list">
+          <li>
+            <a href="https://twitter.com/{{ site.twitter }}" target="_blank" rel="noopener">Twitter</a>
+          </li>
+          <li>
+            <a href="https://github.com/{{ site.github }}" target="_blank" rel="noopener">Github</a>
+          </li>
+          <li>
+            <a href="{{ site.blog }}" target="_blank" rel="noopener">Blog</a>
+          </li>
+        </ul>
       </div>
     </div>
   </nav>
-  <div class="col col--1of3 flex-space-between flex-col">
-    <div>
-      <h2 class="label">Connect with us</h2>
-      <ul class="inlined-list">
-        <li>
-          <a href="https://twitter.com/{{ site.twitter }}" target="_blank" rel="noopener">Twitter</a>
-        </li>
-        <li>
-          <a href="https://github.com/{{ site.github }}" target="_blank" rel="noopener">Github</a>
-        </li>
-        <li>
-          <a href="{{ site.blog }}" target="_blank" rel="noopener">Blog</a>
-        </li>
-      </ul>
-    </div>
+  <div class="col col--1of3 flex-end flex-col">
     <a href="/" class="footer__logo">{% include 'logos/logotype.svg' %}</a>
   </div>
 
