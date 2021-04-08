@@ -19,7 +19,7 @@
   content: '';
   height: 1px;
   width: 0%;
-  transition: all .5s ease-out;
+  transition: all .15s ease-out;
   border-bottom: 2px solid var(--white);
 }
 
@@ -29,5 +29,5 @@
 
 .tab:not(.tab--active) a:hover:after {
   width: 100%;
-  transition: all .5s ease-in;
+  transition: all .15s ease-in;
 }
