@@ -1,6 +1,8 @@
 (function(){
   // Initialise SAL for on-scroll animations
-  sal();
+  sal({
+    threshold: .15,
+  });
 
   // Slide out side menu w/ hamburger icon, switch icon to X
   var nav = document.querySelector(".header__nav"),
