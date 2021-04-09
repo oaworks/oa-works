@@ -1,12 +1,12 @@
 .portrait {
   margin-bottom: var(--space-md);
-  width: auto;
+  height: auto;
+  width: 100%;
   align-self: flex-start;
 }
 
 @media only screen and (min-width: 1024px) {
   .portrait {
-    max-height: fit-content;
     align-self: center;
   }
 }
