@@ -15,7 +15,7 @@
     "codename": "ShareYourPaper Permissions Interface",
     "cta": "Get in Touch",
     "link": "mailto:joe@openaccessbutton.org?subject=ShareYourPaper Permissions",
-    "about": "Easily find and understand how you can make your work open access for free"
+    "about": "Easily understand how to make your work open access for free"
   },
   {
     "codename": "OA Policy Analysis",
@@ -27,12 +27,12 @@
     "codename": "OA helpdesk",
     "cta": "Get in Touch",
     "link": "mailto:joe@openaccessbutton.org?subject=OA Helpdesk",
-    "about": "An easier way to have the important conversations about Open Access"
+    "about": "An easier way to have important conversations about Open"
   },
   {
     "codename": "CovidPapers.com",
     "link": "https://covidpapers.com/",
-    "about": "All the open Covid papers, searchable and made useful with text and data mining"
+    "about": "All open Covid papers, searchable and made useful with text and data mining"
   },
   {
     "codename": "Open Journals Database",
@@ -43,7 +43,7 @@
   {
     "codename": "Paradigm",
     "link": "https://github.com/OAButton/paradigm",
-    "about": "Forkable backend and API framework for fast, open, privacy-centric scholarly communications"
+    "about": "Backend and API framework for fast, open, private scholarly communications"
   },
   {
     "codename": "Status page for research",
@@ -55,6 +55,6 @@
     "codename": "OATP adder",
     "cta": "Try it out",
     "link": "https://github.com/OAButton/OATP-Extension/tree/master",
-    "about": "Chrome Extension to add items to the Open Access Tracking Project"
+    "about": "Chrome Extension to add items to the OA Tracking Project"
   }
 ]
