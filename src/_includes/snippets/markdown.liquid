@@ -4,10 +4,12 @@
 {%- if data_file -%}
 <section class="row data-file{% if theme != 'dark' %} bg-white{% endif %}">
   <header class="col col--1of3">
-    <h1>{{ title }}</h1>
-    {% if meta_description %}<p>{{ meta_description }}</p>{% endif %}
-    <div>
-      {{ content }}
+    <div class="markdown__header-wrapper">
+      <h1>{{ title }}</h1>
+      {% if meta_description %}<p>{{ meta_description }}</p>{% endif %}
+      <div>
+        {{ content }}
+      </div>
     </div>
   </header>
   <div class="col col--2of3">
