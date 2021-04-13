@@ -87,7 +87,9 @@ layout: "layouts/base.liquid"
 <section class="section section--quarter bg-white">
   <div class="row">
     <article class="col col--1of2" data-sal="slide-up" data-sal-delay="50">
-      <h3 class="type-1">{{ about.journey_heading }}</h3>
+      <h3 class="type-1 line-thru">
+        <span class="line-thru__inner bg-white">{{ about.journey_heading }}</span>
+      </h3>
       <p class="type-4">{{ about.journey_content }}</p><br/><br/><br/>
       <a class="button" href="/about/">{{ about.journey_cta }}</a>
     </article>
