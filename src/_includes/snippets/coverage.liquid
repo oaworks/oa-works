@@ -1,8 +1,10 @@
-<section class="bg-white border-top section section--quarter">
+<section class="bg-white border-top section section--quarter" data-sal="slide-up">
   <h2 class="font-serif label flex-center">Covered in</h2>
   <ul class="row row--centered flex-center unstyled-list">
+    {% assign delay_count = 0 %}
     {% for item in coverage %}
-    <li class="col col--1of6 flex-center">
+    {% assign delay_count = delay_count | plus: 100 %}
+    <li class="col col--1of6 flex-center" data-sal="slide-up" data-sal-delay="{{ delay_count }}">
       <a href="{{ item.url }}" title="{{ item.name }}’s site" target="_blank" rel="noopener" class="bw">
         {% include item.logo %}
       </a>

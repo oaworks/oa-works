@@ -48,8 +48,8 @@ layout: "layouts/base.liquid"
   <ul class="no-margin testimonials">
     {% for t in testimonials %}
     {%- if t.featured -%}
-    <li class="row row--centered flex-end testimonial" style="display: none;" data-sal="slide-up" data-sal-delay="100">
-      <figure class="col col--1of4 flex-end flex-col">
+    <li class="row row--centered flex-end testimonial" style="display: none;">
+      <figure class="col col--1of4 flex-end flex-col" data-sal="slide-up" data-sal-delay="50">
         <header>
           <p class="label label--secondary line-thru">
             <small class="line-thru__inner bg-black label">Our partner for</small>
@@ -63,7 +63,7 @@ layout: "layouts/base.liquid"
           </a>
         </figcaption>
       </figure>
-      <article class="col col--2of4 flex-col border-left">
+      <article class="col col--2of4 flex-col border-left" data-sal="slide-up" data-sal-delay="150">
         <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg" style="margin: 0 var(--space-md) var(--space-md) 0; width: 50px; height: 50px;" aria-hidden="true">
           <path d="M15.9197 8.41943C15.9197 12.5616 12.5618 15.9194 8.41968 15.9194C4.27754 15.9194 0.919678 12.5616 0.919678 8.41943C0.919678 4.2773 4.27754 0.919434 8.41968 0.919434C12.5618 0.919434 15.9197 4.2773 15.9197 8.41943Z" fill="var(--{{ t.colour }})"/>
         </svg>
@@ -86,12 +86,12 @@ layout: "layouts/base.liquid"
 
 <section class="section section--quarter bg-white">
   <div class="row">
-    <article class="col col--1of2">
+    <article class="col col--1of2" data-sal="slide-up" data-sal-delay="50">
       <h3 class="type-1">{{ about.journey_heading }}</h3>
       <p class="type-4">{{ about.journey_content }}</p><br/><br/><br/>
       <a class="button" href="/about/">{{ about.journey_cta }}</a>
     </article>
-    <aside class="col col--1of2">
+    <aside class="col col--1of2" data-sal="slide-up" data-sal-delay="150">
       <a class="twitter-timeline" data-height="500" href="https://twitter.com/OA_Button?ref_src=twsrc%5Etfw">Tweets by OA_Button</a>
       <script async charset="utf-8" src="https://platform.twitter.com/widgets.js">
       </script>
