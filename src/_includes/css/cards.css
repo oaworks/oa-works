@@ -1,5 +1,6 @@
 .card {
   margin-bottom: calc(var(--gutter) * 2);
+  height: 90%;
   border-radius: 5px;
   border: 1px solid;
 }
