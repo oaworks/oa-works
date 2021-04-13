@@ -77,7 +77,7 @@
 .markdown__header-wrapper {
   padding-top: var(--space-md);
   position: sticky;
-  top: var(--gutter);
+  top: 0;
 }
 
 .markdown__content {
