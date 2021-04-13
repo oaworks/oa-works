@@ -8,8 +8,12 @@
         <h2 class="card__header card__header--plain label">{{ item.codename }}</h2>
         <div class="card__body">
           <p class="type-4">{{ item.about }}</p>
-          <p><a href="{% if item.url contains 'https' %}{% else %}{{ site.base_url }}{% endif %}{{ item.url }}" {% if item.url contains 'https' %} target="_blank" rel="noopener"{% endif %}" class="button">{{ item.cta }}</a></p>
         </div>
+        {%- if item.cta -%}
+        <footer class="card__footer">
+          <a href="{% if item.url contains 'https' or 'mailto:' %}{% else %}{{ site.base_url }}{% endif %}{{ item.url }}" {% if item.url contains 'https' %} target="_blank" rel="noopener"{% endif %}">{{ item.cta }}</a>
+        </footer>
+        {%- endif -%}
       </article>
     </li>
     {% endfor %}
