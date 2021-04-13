@@ -1,0 +1,17 @@
+<div class="col">
+  <ul class="row">
+    {% assign delay_count = 0 %}
+    {% for labs in labs %}
+    {% assign delay_count = delay_count | plus: 100 %}
+    <li class="col col--1of2" data-aos="fade-up" data-aos-delay="{{ delay_count }}">
+      <article class="card card--small">
+        <p class="card__header card__header--plain label">{{ labs.codename }}</p>
+        <div class="card__body">
+          <h2 class="font-sans type-4">{{ labs.about }}</h2>
+          <p><a href="{{ labs.link }}">{{ labs.cta }}</a></p>
+        </div>
+      </article>
+    </li>
+    {% endfor %}
+  </ul>
+</div>

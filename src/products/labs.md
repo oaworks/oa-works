@@ -1,5 +1,6 @@
 ---
 layout: "layouts/products.liquid"
-title: Labs (coming soon)
-meta_description: "What's in the workshop. Please beware, these are all experiments and playgrounds. If you're interested, get in touch, and don't rely on these sticking around."
+data_file: labs
+title: Labs
+meta_description: "What’s in the workshop. Beware, these are all experiments and playgrounds. Get in touch if you’re interested, but don’t rely on these sticking around."
 ---

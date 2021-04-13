@@ -1,0 +1,17 @@
+---
+layout: layouts/base.liquid
+---
+
+<nav class="subnav">
+  <ul class="tabs">
+    <li class="tab{% if page.url == '/products/' %} tab--active{% endif %}">
+      <a href="/products/" class="label">Products</a>
+    </li>
+    <li class="tab{% if page.url == '/products/infrastructure/' %} tab--active{% endif %}">
+      <a href="/products/infrastructure/" class="label">Infrastructure</a>
+    </li>
+    <li class="tab{% if page.url == '/products/labs/' %} tab--active{% endif %}">
+      <a href="/products/labs/" class="label">Labs</a>
+    </li>
+  </ul>
+</nav>
