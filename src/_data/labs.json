@@ -3,13 +3,13 @@
     "codename": "ShareYourPaper for Funders",
     "cta": "Get in Touch",
     "link": "mailto:joe@openaccessbutton.org?subject=ShareYourPaper for Funders",
-    "about": "Like ShareYourPaper for Libraries, but for funders!"
+    "about": "Like ShareYourPaper for Libraries but for funders."
   },
   {
     "codename": "ShareYourPaper for Journals",
     "cta": "Get in Touch",
     "link": "mailto:joe@openaccessbutton.org?subject=ShareYourPaper for Journals",
-    "about": "Like ShareYourPaper for Libraries, but for journals!"
+    "about": "Like ShareYourPaper for Libraries, but for journals."
   },
   {
     "codename": "ShareYourPaper Permissions Interface",
@@ -38,7 +38,7 @@
     "codename": "Open Journals Database",
     "cta": "Get in Touch",
     "link": "mailto:joe@openaccessbutton.org?subject=Open Journals Database",
-    "about": "All the data on all the journals we can find"
+    "about": "All the data on all the journals we can find."
   },
   {
     "codename": "Paradigm",
@@ -49,7 +49,7 @@
     "codename": "Status page for research",
     "cta": "Take a peak",
     "link": "https://oab-status-prototype.netlify.app/",
-    "about": "Uptime checker for academic publishers"
+    "about": "Uptime checker for academic publishers."
   },
   {
     "codename": "OATP adder",
