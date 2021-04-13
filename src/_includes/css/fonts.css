@@ -2,12 +2,14 @@
   font-family: 'Wremena';
   src: url('/fonts/WremenaRegular.woff') format('woff');
   unicode-range: U+0020-007F; /* The bare minimum English */
+  font-display: swap;
 }
 
 @font-face {
   font-family: 'Inter';
   src: url('/fonts/Inter-3.15/Inter-roman.ttf');
   unicode-range: U+0020-007F;
+  font-display: swap;
 }
 
 @font-face {
@@ -15,4 +17,5 @@
   src: url('/fonts/Inter-3.15/Inter-italic.ttf');
   unicode-range: U+0020-007F;
   font-style: italic, oblique;
+  font-display: swap;
 }
