@@ -52,8 +52,8 @@ em, i {
 }
 
 strong, b {
-  font-weight: 800;
-  font-variation-settings: 'wght' 800;
+  font-weight: 600;
+  font-variation-settings: 'wght' 600;
 }
 
 blockquote {

@@ -1,5 +1,6 @@
 ---
 layout: "layouts/base.liquid"
+body_class: homepage
 ---
 
 <section class="section bg-black" id="products">
@@ -57,7 +58,7 @@ layout: "layouts/base.liquid"
           <h3> {{ t.product }}</h3>
         </header>
         <img class="portrait" src="img/{{ t.img }}" alt="{{ t.img_alt }}" width="500" height="500"/>
-        <figcaption class="bg-black-85" style=" margin-top: -125px;">
+        <figcaption class="bg-black-85" style=" margin: -125px 0 125px 0;">
           <a href="{{ t.aff_url }}" title="{{ t.affiliation }}’s site" target="_blank" rel="noopener" style="display: block;">
             {% include t.aff_logo %}
           </a>
@@ -71,7 +72,7 @@ layout: "layouts/base.liquid"
           <p class="type-3">“{{ t.quote }}”</p>
           <footer class="type-5">
             <cite>
-              — <strong>{{ t.name }}</strong><br/><br/>{{ t.role }}, <a href="{{ t.aff_url }}" title="{{ t.affiliation }}’s site" target="_blank" rel="noopener">{{ t.affiliation }}</a>
+              — <strong>{{ t.name }}</strong><br/><br/>{{ t.role }}, <em>{{ t.affiliation }}</em>
             </cite>
           </footer>
         </blockquote>

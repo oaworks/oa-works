@@ -10,6 +10,7 @@
   src: url('/fonts/WremenaBold.woff') format('woff');
   unicode-range: U+0020-007F; /* The bare minimum for English */
   font-display: swap;
+  font-weight: bold;
 }
 
 @font-face {

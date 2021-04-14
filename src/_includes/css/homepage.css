@@ -1,15 +1,4 @@
-.products li {
-  min-height: 100vh;
-  bottom: 15vh;
-}
-
-@media only screen and (min-width: 1024px) {
-  .products li:nth-child(even) {
-    flex-direction: row-reverse;
-  }
-}
-
-.cover {
+.homepage__cover {
   margin: 0 var(--gutter-negative);
   padding: 0 var(--gutter);
   overflow-x: hidden;
