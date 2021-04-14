@@ -8,7 +8,7 @@
       <article class="card">
         <a href="https://blog.openaccessbutton.org/{{ post.slug }}/" target="_blank" rel="noopener" style="display: block; overflow: hidden;">
           {%- if post.feature_image -%}
-            <img src="{{ post.feature_image | img_url }}" alt="blab" class="card__img"/>
+            <img src="{{ post.feature_image | img_url }}" alt="" role="presentation" class="card__img"/>
           {% else %}
             <div class="card__blank bg-pattern__child"></div>
           {% endif %}
