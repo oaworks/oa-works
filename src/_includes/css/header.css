@@ -132,3 +132,7 @@
 .header--inverted svg path  {
   fill: var(--white);
 }
+
+.header input::placeholder {
+  color: var(--white-50);
+}
