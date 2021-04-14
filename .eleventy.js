@@ -5,6 +5,7 @@ const markdownIt = require('markdown-it');
 const markdownItAttrs = require('markdown-it-attrs');
 
 const sal = require('sal.js');
+const lazyImagesPlugin = require('eleventy-plugin-lazyimages');
 
 const markdownItOptions = {
   html: true,
@@ -16,6 +17,8 @@ const markdownLib = markdownIt(markdownItOptions).use(markdownItAttrs)
 
 module.exports = function(eleventyConfig) {
   eleventyConfig.setLibrary('md', markdownLib)
+
+  eleventyConfig.addPlugin(lazyImagesPlugin);
 
   // Add CSS minifier
   eleventyConfig.addFilter("cssmin", function(code) {
