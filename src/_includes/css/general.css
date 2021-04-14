@@ -48,10 +48,12 @@ a {
 
 em, i {
   font-style: italic;
+  font-variation-settings: 'slnt' -1;
 }
 
 strong, b {
   font-weight: 800;
+  font-variation-settings: 'wght' 800;
 }
 
 blockquote {
