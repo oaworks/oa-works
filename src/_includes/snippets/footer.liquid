@@ -22,15 +22,6 @@
       <div class="col col--1of2">
         <h2 class="label">Products</h2>
         <ul>
-          {% for product in products %}
-          {% if product.featured %}
-          <li>
-            <a href="{% if item.url contains 'https' %}{% else %}{{ site.base_url }}{% endif %}{{ item.url }}" {% if item.url contains 'https' %} target="_blank" rel="noopener"{% endif %}>
-              {{ product.name }}
-            </a>
-          </li>
-          {% endif %}
-          {% endfor %}
           {% for item in navigation.products %}
           <li>
             <a href="{% if item.url contains 'https' %}{% else %}{{ site.base_url }}{% endif %}{{ item.url }}" {% if item.url contains 'https' %} target="_blank" rel="noopener"{% endif %}>
