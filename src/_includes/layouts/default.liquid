@@ -8,6 +8,7 @@ body_class: default
     <div class="markdown__header-wrapper">
       <h1>{{ title }}</h1>
       {% if meta_description %}<p>{{ meta_description }}</p>{% endif %}
+      {% include 'snippets/ellipsis.liquid' %}
     </div>
   </header>
 
