@@ -9,7 +9,7 @@ layout: "layouts/base.liquid"
     {%- for product in products -%}
     {%- if product.featured -%}
     {% assign delay_count = delay_count | plus: 100 %}
-    <li class="col col--1of3" data-sal="slide-up" data-sal-delay="{{ delay_count }}">
+    <li class="col col--1of3 card-wrapper" data-sal="slide-up" data-sal-delay="{{ delay_count }}">
       <p class="label label--secondary line-thru">
         <small class="line-thru__inner bg-black label">{{ product.label }}</small>
       </p>
