@@ -1,22 +1,20 @@
-<div class="col">
-  <ul class="row">
-    {% assign delay_count = 0 %}
-    {% for person in team %}
-    {% assign delay_count = delay_count | plus: 100 %}
-    <li class="col col--1of2" data-sal="slide-up" data-sal-delay="{{ delay_count }}">
-      <article>
-        <header>
-          <h2 class="type-4">{{ person.name }}</h2>
-          {% if person.img %}
-          <figure class="portrait portrait--circular" style="background-color: var(--{{ person.colour }});">
-            <img src="../img/{{ person.img }}" alt="Portrait of {{ person.name }}"/>
-          </figure>
-          {% endif %}
-          <p class="label">{{ person.role }}</p>
-        </header>
-        <p>{{ person.bio }}</p>
-      </article>
-    </li>
-    {% endfor %}
-  </ul>
-</div>
+<ul class="unstyled-list row">
+  {% assign delay_count = 0 %}
+  {% for person in team %}
+  {% assign delay_count = delay_count | plus: 100 %}
+  <li class="col col--1of2" data-sal="slide-up" data-sal-delay="{{ delay_count }}">
+    <article>
+      <header>
+        <h2 class="type-4">{{ person.name }}</h2>
+        {% if person.img %}
+        <figure class="portrait portrait--circular" style="background-color: var(--{{ person.colour }});">
+          <img src="../img/{{ person.img }}" alt="Portrait of {{ person.name }}"/>
+        </figure>
+        {% endif %}
+        <p class="label">{{ person.role }}</p>
+      </header>
+      <p>{{ person.bio }}</p>
+    </article>
+  </li>
+  {% endfor %}
+</ul>
