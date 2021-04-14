@@ -52,6 +52,7 @@ h5.card__header {
 .card__body {
   display: flex;
   flex-direction: column;
+  flex-grow: 1;
   padding: var(--space-sm);
   overflow: hidden;
 }

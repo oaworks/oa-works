@@ -10,10 +10,8 @@
     {% for story in stories limit:3 %}
     {% assign delay_count = delay_count | plus: 50 %}
     <li class="col col--1of3" data-sal="slide-up" data-sal-delay="{{ delay_count }}">
-      <article class="card card--small">
-        <header class="card__header">
-          <h3 class="label">OA.W<span style="text-transform: lowercase;">orks for</span> {{ story.label }}</h3>
-        </header>
+      <article class="flex-col flex-space-between card card--small">
+        <h3 class="label card__header">OA.W<span style="text-transform: lowercase;">orks for</span> {{ story.label }}</h3>
         <figure>
           <img src="{{ site.base_url }}/img/stories/{{ story.img }}" alt="{{ story.img_alt }}" class="card__img"/>
           <figcaption><small>{{ story.img_credit }}</small></figcaption>

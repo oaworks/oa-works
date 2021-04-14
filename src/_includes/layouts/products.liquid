@@ -31,14 +31,12 @@ layout: layouts/base.liquid
         <p class="label label--secondary line-thru">
           <small class="line-thru__inner bg-white label">{{ product.label }}</small>
         </p>
-        <article class="card">
-          <header class="card__header">
-            {% if product.logo %}
-              <h3>{% include product.logo %}</h3>
-            {% else %}
-              <h3>{{ product.name }}</h3>
-            {% endif %}
-          </header>
+        <article class="flex-col flex-space-between card">
+          {% if product.logo %}
+            <h3 class="card__header">{% include product.logo %}</h3>
+          {% else %}
+            <h3 class="card__header">{{ product.name }}</h3>
+          {% endif %}
           <div class="card__body">
             {{ product.description }}
           </div>
