@@ -57,3 +57,11 @@
   from { opacity: 0; }
   to   { opacity: 1; }
 }
+
+/* Disable animations for prefers-reduced-motion */
+@media (prefers-reduced-motion: reduce) {
+  [data-sal] {
+    opacity: 1;
+    transform: none;
+  }
+}
