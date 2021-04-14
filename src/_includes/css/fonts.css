@@ -1,21 +1,13 @@
 @font-face {
   font-family: 'Wremena';
   src: url('/fonts/WremenaRegular.woff') format('woff');
-  unicode-range: U+0020-007F; /* The bare minimum English */
+  unicode-range: U+0020-007F; /* The bare minimum for English */
   font-display: swap;
 }
 
 @font-face {
   font-family: 'Inter';
-  src: url('/fonts/Inter-3.15/Inter-roman.ttf');
+  src: url('/fonts/Inter.woff2') format('woff2');
   unicode-range: U+0020-007F;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'InterItalic';
-  src: url('/fonts/Inter-3.15/Inter-italic.ttf');
-  unicode-range: U+0020-007F;
-  font-style: italic, oblique;
   font-display: swap;
 }

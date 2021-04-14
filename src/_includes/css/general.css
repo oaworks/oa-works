@@ -47,7 +47,11 @@ a {
 }
 
 em, i {
-  font-family: 'InterItalic';
+  font-style: italic;
+}
+
+strong, b {
+  font-weight: 800;
 }
 
 blockquote {
