@@ -1,11 +1,5 @@
 [
   {
-    "codename": "ShareYourPaper for Funders",
-    "cta": "Get in touch",
-    "url": "mailto:joe@oa.works?subject=ShareYourPaper for Funders",
-    "about": "Like ShareYourPaper for Libraries but for funders."
-  },
-  {
     "codename": "ShareYourPaper for Journals",
     "cta": "Get in touch",
     "url": "mailto:joe@oa.works?subject=ShareYourPaper for Journals",
@@ -16,18 +10,6 @@
     "cta": "Get in touch",
     "url": "mailto:joe@oa.works?subject=ShareYourPaper Permissions",
     "about": "Easily understand how to make your work open access for free"
-  },
-  {
-    "codename": "OA Policy Analysis",
-    "cta": "Get in touch",
-    "url": "mailto:joe@oa.works?subject=OA Policy Analysis",
-    "about": "Check and improve your open access policy compliance."
-  },
-  {
-    "codename": "OA helpdesk",
-    "cta": "Get in touch",
-    "url": "mailto:joe@oa.works?subject=OA Helpdesk",
-    "about": "An easier way to have important conversations about Open"
   },
   {
     "codename": "CovidPapers.com",
