@@ -1,5 +1,6 @@
 .card-wrapper {
   padding-bottom: var(--gutter);
+  margin-bottom: var(--space-lg);
 }
 
 .card {
