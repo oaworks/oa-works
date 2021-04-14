@@ -1,5 +1,5 @@
 ---
-layout: layouts/impact.liquid
+layout: layouts/testimonials.liquid
 title: Testimonials
 meta_description: "Coming soon"
 ---

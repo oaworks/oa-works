@@ -1,0 +1,49 @@
+---
+layout: layouts/base.liquid
+theme: dark
+---
+<nav class="subnav">
+  <ul class="tabs">
+    <li class="tab{% if page.url == '/impact/' %} tab--active{% endif %}">
+      <a href="/impact/" class="label">Impact</a>
+    </li>
+    <li class="tab{% if page.url == '/impact/stories/' %} tab--active{% endif %}">
+      <a href="/impact/stories/" class="label">Stories</a>
+    </li>
+    <li class="tab{% if page.url == '/impact/testimonials/' %} tab--active{% endif %}">
+      <a href="/impact/testimonials/" class="label">Testimonials</a>
+    </li>
+  </ul>
+</nav>
+<section class="row data-file{% if theme != 'dark' %} bg-white{% endif %}">
+  <header class="col col--2of3" data-sal="slide-up">
+    <h1>{{ title }}</h1>
+    <p>{{ meta_description }}</p>
+  </header>
+  <div class="col">
+    <ul class="row">
+      {% assign delay_count = 0 %}
+      {% for t in testimonials %}
+      {% assign delay_count = delay_count | plus: 50 %}
+      <li class="col col--1of3" data-sal="slide-up" data-sal-delay="{{ delay_count }}">
+        <article class="card card--small">
+          <header class="card__header">
+            <h2 class="type-4">{{ t.name }}</h2>
+          </header>
+          <figure>
+            <img src="{{ site.base_url }}/img/{{ t.img }}" alt="{{ story.img_alt }}" class="card__img" style="height: 50vh;"/>
+          </figure>
+          <div class="card__body">
+            <blockquote>
+              <p>“{{ t.quote }}”</p>
+            </blockquote>
+            <p>&mdash; {{ t.role }} at {{ t.affiliation }}</p>
+            <p><small class="label label--secondary">Written about</small></p>
+            <p class="font-serif type-5">{{ t.product }}</p>
+          </div>
+        </article>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>
