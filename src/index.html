@@ -70,7 +70,7 @@ body_class: homepage
         </svg>
         <blockquote>
           <p class="type-3">“{{ t.quote }}”</p>
-          <footer class="type-5">
+          <footer class="type-6">
             <cite>
               — <strong>{{ t.name }}</strong><br/><br/>{{ t.role }}, <em>{{ t.affiliation }}</em>
             </cite>
@@ -85,21 +85,25 @@ body_class: homepage
 
 {% include 'snippets/blog.liquid' %}
 
-<section class="section section--quarter bg-white">
-  <div class="row">
-    <article class="col col--1of2" data-sal="slide-up" data-sal-delay="50">
-      <h3 class="type-1 line-thru">
-        <span class="line-thru__inner bg-white">{{ about.journey_heading }}</span>
+<section class="section section--third bg-white border-top">
+  <article class="row row--centered">
+    <header class="col col--1of3" data-sal="slide-up" data-sal-delay="50">
+      <svg width="38" height="68" viewBox="0 0 38 68" fill="none" xmlns="http://www.w3.org/2000/svg" style="margin-bottom: var(--space-sm);">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M19.4376 41.3794C16.8629 41.3794 14.7758 43.4666 14.7758 46.0412C14.7758 47.8588 15.816 49.4331 17.3329 50.2019L15.3309 56.7905H23.5442L21.5422 50.2019C23.0591 49.4331 24.0993 47.8588 24.0993 46.0412C24.0993 43.4666 22.0122 41.3794 19.4376 41.3794ZM15.0634 46.0412C15.0634 43.6254 17.0218 41.667 19.4376 41.667C21.8534 41.667 23.8117 43.6254 23.8117 46.0412C23.8117 47.7877 22.7881 49.2955 21.3075 49.9967L21.1954 50.0498L23.1563 56.5029H15.7189L17.6797 50.0498L17.5676 49.9967C16.087 49.2955 15.0634 47.7877 15.0634 46.0412Z" fill="currentColor"/>
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M2.22509 19.3496C2.22511 9.84344 9.93136 2.1372 19.4375 2.1372C26.8391 2.1372 33.1498 6.80903 35.5811 13.3652L35.8507 13.2652C33.379 6.59993 26.9632 1.84961 19.4375 1.84961C9.77252 1.84961 1.9375 9.68463 1.9375 19.3496V66.585H36.9375V31.585H2.22509L2.22509 19.3496ZM2.22509 66.2974V31.8725H36.6499V66.2974H2.22509Z" fill="currentColor"/>
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M34.9912 14.6505L34.6435 13.7129C32.3529 7.5361 26.4075 3.1372 19.4375 3.1372C10.4836 3.1372 3.22511 10.3957 3.22509 19.3496L3.22509 30.585H37.9375V67.585H0.9375V19.3496C0.9375 9.13234 9.22023 0.849609 19.4375 0.849609C27.3948 0.849609 34.1759 5.87289 36.7884 12.9175L37.1361 13.8551L34.9912 14.6505ZM35.5811 13.3652L35.8507 13.2652C35.7345 12.9517 35.6095 12.6424 35.4761 12.3376C32.7729 6.16353 26.6092 1.84961 19.4375 1.84961C9.77252 1.84961 1.9375 9.68463 1.9375 19.3496V19.3496V66.585H36.9375V31.585H2.22509L2.22509 19.3496C2.22511 9.84344 9.93136 2.1372 19.4375 2.1372C26.8391 2.1372 33.1498 6.80903 35.5811 13.3652ZM2.22509 31.8725V66.2974H36.6499V31.8725H2.22509ZM35.6499 32.8725H3.22509V65.2974H35.6499V32.8725ZM19.9878 49.5153L20.8794 49.093C22.0239 48.5509 22.8117 47.387 22.8117 46.0412C22.8117 44.1777 21.3011 42.667 19.4376 42.667C17.5741 42.667 16.0634 44.1777 16.0634 46.0412C16.0634 47.387 16.8512 48.5509 17.9957 49.093L18.8873 49.5153L17.0679 55.5029H21.8072L19.9878 49.5153ZM15.7189 56.5029L17.6797 50.0498L17.5676 49.9967C17.5325 49.9801 17.4976 49.963 17.4629 49.9454C16.039 49.2237 15.0634 47.7463 15.0634 46.0412C15.0634 43.6254 17.0218 41.667 19.4376 41.667C21.8534 41.667 23.8117 43.6254 23.8117 46.0412C23.8117 47.7463 22.8362 49.2237 21.4122 49.9454C21.3775 49.963 21.3426 49.9801 21.3075 49.9967L21.1954 50.0498L23.1563 56.5029H15.7189ZM15.3309 56.7905L17.3329 50.2019C17.113 50.0905 16.9031 49.9621 16.7049 49.8184C15.5362 48.9715 14.7758 47.5952 14.7758 46.0412C14.7758 43.4666 16.8629 41.3794 19.4376 41.3794C22.0122 41.3794 24.0993 43.4666 24.0993 46.0412C24.0993 47.5952 23.3389 48.9715 22.1702 49.8184C21.972 49.9621 21.7621 50.0905 21.5422 50.2019L23.5442 56.7905H15.3309ZM16.1511 50.6518C14.7147 49.6261 13.7758 47.9441 13.7758 46.0412C13.7758 42.9143 16.3107 40.3794 19.4376 40.3794C22.5645 40.3794 25.0993 42.9143 25.0993 46.0412C25.0993 47.9441 24.1604 49.6261 22.724 50.6518L24.8932 57.7905H13.9819L16.1511 50.6518Z" fill="currentColor"/>
+      </svg>
+      <h3 class="type-1">
+        <div class="line-thru">
+          <span class="line-thru__inner bg-white">{{ about.journey_heading }}</span>
+        </div>
       </h3>
-      <p class="type-4">{{ about.journey_content }}</p><br/><br/><br/>
+    </header>
+    <div class="col col--1of3" data-sal="slide-up" data-sal-delay="150">
+      <p>{{ about.journey_content }}</p>
       <a class="button button--primary" href="/about/">{{ about.journey_cta }}</a>
-    </article>
-    <aside class="col col--1of2" data-sal="slide-up" data-sal-delay="150">
-      <a class="twitter-timeline" data-height="500" href="https://twitter.com/OA_Button?ref_src=twsrc%5Etfw">Tweets by OA_Button</a>
-      <script async charset="utf-8" src="https://platform.twitter.com/widgets.js">
-      </script>
-    </aside>
-  </div>
+    </div>
+  </article>
 </section>
 
 {% include 'snippets/stories.liquid' %}
