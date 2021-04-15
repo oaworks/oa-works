@@ -4,7 +4,6 @@
 
 .data-file__content {
   padding-top: var(--space-md);
-  margin-bottom: var(--space-xl);
 }
 
 .data-file a {
