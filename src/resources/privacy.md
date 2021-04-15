@@ -36,11 +36,11 @@ We understand that some users may require a higher level of privacy. If you'd li
 
 ## Updating and Removing Your Data
 
-You may choose to correct, update, or delete the information you have submitted to us by sending an email requesting changes to hello@openaccessbutton.org. If we inadvertently collect more personal information than intended, we endeavor to delete the extraneous information. However, please understand that deleted information may continue to persist on backup media.
+You may choose to correct, update, or delete the information you have submitted to us by sending an email requesting changes to [legal@oa.works](mailto:legal@oa.works). If we inadvertently collect more personal information than intended, we endeavor to delete the extraneous information. However, please understand that deleted information may continue to persist on backup media.
 
 ## Security
 
-Open Access Button has [HTTPS](https://en.wikipedia.org/wiki/HTTPS) turned on by default for both access to the public website as well as for our API. We make good faith efforts to store information collected by Open Access Button in an environment that is secure, however we cannot guarantee complete security. We will store any information collected for a length of time appropriate to our needs. The data collected by the Open Access Button is stored on servers in Europe, which are only accessible via [Secure Shell Public Key Cryptography](https://en.wikipedia.org/wiki/SSH_(Secure_Shell)) and are fully firewalled.
+Open Access Button has [HTTPS](https://en.wikipedia.org/wiki/HTTPS) turned on by default for both access to the public website as well as for our API. We make good faith efforts to store information collected by Open Access Button in an environment that is secure, however we cannot guarantee complete security. We will store any information collected for a length of time appropriate to our needs. The data collected by the Open Access Button is stored on servers in Europe, which are only accessible via Secure Shell Public Key Cryptography [(SSH)](https://en.wikipedia.org/wiki/SSH_(Secure_Shell)) and are fully firewalled.
 
 ## Changes to Our Policies
 
@@ -52,4 +52,4 @@ This policy is current as of October 19th, 2016. Our Privacy Policy may change f
 
 ## Questions?
 
-Email [legal@openaccessbutton.org](mailto:legal@openaccessbutton.org)
+Email [legal@oa.works](mailto:legal@oa.works)

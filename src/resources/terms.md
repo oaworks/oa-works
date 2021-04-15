@@ -44,4 +44,4 @@ This policy is current as of February 27th, 2020. Our Privacy Policy may change 
 
 ### Questions?
 
-Email [legal@openaccessbutton.org](mailto:legal@openaccessbutton.org)
+Email [legal@oa.works](mailto:legal@oa.works)

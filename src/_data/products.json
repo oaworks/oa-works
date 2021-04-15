@@ -7,7 +7,7 @@
     "tagline": "A drag-and-drop Open Access deposit.",
     "cta": "Share your work",
     "description": "ShareYourPaper.org uses self-archiving to make papers Open Access, for free, in minutes. It’s the simplest way to increase a research paper’s impact for authors and libraries.",
-    "embed": "<h2 class='type-3 font-sans'>Find the easiest way to share your paper</h2><label>Enter your article’s DOI</label><div id='shareyourpaper'></div><script src='https://shareyourpaper.org/embed.js'></script><script>_oab=shareyourpaper({uid: 'by8dj55F7P6CY8hXM', config: {'owner':'sophy@openaccessbutton.org'}});</script>",
+    "embed": "<h2 class='type-3 font-sans'>Find the easiest way to share your paper</h2><label>Enter your article’s DOI</label><div id='shareyourpaper'></div><script src='https://shareyourpaper.org/embed.js'></script><script>_oab=shareyourpaper({uid: 'by8dj55F7P6CY8hXM', config: {'owner':'sophy@oa.works'}});</script>",
     "colour": "azure",
     "featured": true
   },
