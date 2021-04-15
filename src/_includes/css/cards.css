@@ -63,7 +63,7 @@ h5.card__header {
 }
 
 .card__body p {
-  margin-bottom: var(--space-xs);
+  margin-bottom: var(--space-sm);
 }
 
 .card__footer {

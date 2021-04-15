@@ -1,11 +1,10 @@
 .data-file {
-  padding-top: var(--space-md);
   padding-bottom: 0;
 }
 
 .data-file__content {
+  padding-top: var(--space-md);
   margin-bottom: var(--space-xl);
-  font-size: var(--typescale-4);
 }
 
 .data-file a {
