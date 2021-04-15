@@ -5,17 +5,16 @@ meta_description: "Our products are backed by a core infrastructure built with e
 ---
 Our infrastructure is what makes our powerfully simple tools possible. Behind the scenes it enables:
 
-* **100ms API response times** so you’re never left watching a loading bar.
-* **0 privacy invading trackers** so users’ data stays theirs.
-* **AA accessibility** so more people can use our services.
-* **750GB of open data** to answer your problems.
-* **100/100 on Google’s web metrics** so you can enjoy a great user experience.
-* **99.999% uptime** so you can count on us.
-* Servers in **200 cities and 100 countries** so you get a first class service everywhere.
-* **Documented, open code** built with popular languages means you can fork and run it too.
+* 100ms API response times so you’re never left watching a loading bar.
+* 0 privacy invading trackers so users’ data stays theirs.
+* AA accessibility so more people can use our services.
+* 750GB of open data to answer your problems.
+* 100/100 on Google’s web metrics so you can enjoy a great user experience.
+* 99.999% uptime so you can count on us.
+* Servers in 200 cities and 100 countries so you get a first class service everywhere.
+* Documented, open code built with popular languages means you can fork and run it too.
 
 Read on for more technical details.
-
 
 ## Data
 
