@@ -7,11 +7,3 @@
 .section__header {
   margin-bottom: var(--space-xl);
 }
-
-.section--cover {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  min-height: 90vh;
-  background-color: transparent;
-}
