@@ -4,7 +4,7 @@
       <h1 class="no-margin">{% include 'logos/logotype.svg' %}</h1>
     </a>
 
-    <ul class="header__featured-items">
+    <ul class="align-center flex-center header__featured-items" style="width: 50%;">
       {% for item in navigation %}
         {% for subitem in item[1] %}
           {% if subitem.featured %}
@@ -15,7 +15,7 @@
     </ul>
 
     <div>
-      <button class="menu-trigger" aria-label="Open menu" id="menuBtn">
+      <button class="menu-trigger" aria-label="Open menu" id="menuBtn" style="width: 25%;">
         <span class="menu-trigger__icon"></span>
         <span class="menu-trigger__icon"></span>
         <span class="menu-trigger__icon"></span>
