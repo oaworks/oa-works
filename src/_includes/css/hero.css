@@ -1,5 +1,5 @@
 .hero {
-
+  padding-top: var(--space-md);
 }
 
 .hero p:first-of-type {
