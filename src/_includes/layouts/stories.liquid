@@ -22,7 +22,7 @@ theme: dark
       {% assign delay_count = 0 %}
       {% for story in stories %}
       {% assign delay_count = delay_count | plus: 50 %}
-      <li class="col col--1of3" data-sal="slide-up" data-sal-delay="{{ delay_count }}">
+      <li class="col col--1of3 card-wrapper" data-sal="slide-up" data-sal-delay="{{ delay_count }}">
         <article class="flex-col flex-space-between card card--small">
           <header class="card__header">
             <h3 class="label">OA.W<span style="text-transform: lowercase;">orks for</span> {{ story.label }}</h3>
