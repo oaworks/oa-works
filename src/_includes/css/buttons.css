@@ -1,7 +1,7 @@
 .button {
   padding: var(--space-xs);
   border: 1px solid;
-  border-radius: 3px;
+  border-radius: 5px;
   text-decoration: none;
   font-size: var(--typescale-6);
   color: var(--black);
@@ -29,7 +29,7 @@ a.button--primary {
     transition: background-position .3s cubic-bezier(.47, .1, 1, .63),
     color .0015s linear;
     transition-delay: 0.0s, 0.15s;
-
+  border: 1px solid var(--initialBgColor);
   color: var(--initialTextColor);
   text-decoration: none;
 }
