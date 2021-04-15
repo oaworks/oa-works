@@ -83,6 +83,10 @@
   background-color: var(--white-15);
 }
 
+.bg-white-75 {
+  background-color: var(--white-75);
+}
+
 .bg-black-85 {
   display: inline-block;
   background-color: var(--black-85);

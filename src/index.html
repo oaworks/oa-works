@@ -47,7 +47,7 @@ body_class: homepage
   {% include 'snippets/partnerships.liquid' %}
 </aside>
 
-<section class="section section--half bg-black">
+<section class="section section--half bg-white">
   <h2 class="sr-only">Testimonials</h2>
   <ul class="no-margin testimonials">
     {% for t in testimonials %}
@@ -56,12 +56,12 @@ body_class: homepage
       <figure class="col col--1of4 flex-end flex-col" data-sal="slide-up" data-sal-delay="50">
         <header>
           <p class="label label--secondary line-thru">
-            <small class="line-thru__inner bg-black label">Our partner for</small>
+            <small class="line-thru__inner bg-white label">Our partner for</small>
           </p>
           <h3> {{ t.product }}</h3>
         </header>
         <img class="portrait" src="img/{{ t.img }}" alt="{{ t.img_alt }}" width="500" height="500"/>
-        <figcaption class="bg-black-85" style=" margin: -125px 0 125px 0;">
+        <figcaption class="bg-white-75" style=" margin: -115px 0 115px 0;">
           <a href="{{ t.aff_url }}" title="{{ t.affiliation }}’s site" target="_blank" rel="noopener" style="display: block;">
             {% include t.aff_logo %}
           </a>
@@ -75,7 +75,7 @@ body_class: homepage
           <p class="type-4">“{{ t.quote }}”</p>
           <footer class="type-6">
             <cite>
-              — <strong>{{ t.name }}</strong><br/><br/>{{ t.role }}, <em>{{ t.affiliation }}</em>
+              — <strong>{{ t.name }}</strong><br/><br/>{{ t.role }}<br/> <em>{{ t.affiliation }}</em>
             </cite>
           </footer>
         </blockquote>
@@ -88,7 +88,7 @@ body_class: homepage
 
 {% include 'snippets/blog.liquid' %}
 
-<section class="section section--third bg-white border-top">
+<section class="section section--third bg-white">
   <article class="row row--centered">
     <header class="col col--1of3" data-sal="slide-up" data-sal-delay="50">
       <svg width="38" height="68" viewBox="0 0 38 68" fill="none" xmlns="http://www.w3.org/2000/svg" style="margin-bottom: var(--space-sm);">
