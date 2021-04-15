@@ -4,10 +4,10 @@
       <a href="https://github.com/OAButton/" target="_blank" rel="noopener" class="flash-colours">Open-source</a>
     </li>
     <li>
-      <a href="{{ site.base_url }}/about/values/" class="flash-colours">Values-driven</a>
+      <a href="/about/values/" class="flash-colours">Values-driven</a>
     </li>
     <li>
-      <a href="{{ site.base_url }}/resources/governance/" class="flash-colours">Non-profit</a>
+      <a href="/resources/governance/" class="flash-colours">Non-profit</a>
     </li>
   </ul>
 </aside>
@@ -24,7 +24,7 @@
         <ul>
           {% for item in navigation.products %}
           <li>
-            <a href="{% if item.url contains 'https' %}{% else %}{{ site.base_url }}{% endif %}{{ item.url }}" {% if item.url contains 'https' %} target="_blank" rel="noopener"{% endif %}>
+            <a href="{{ item.url }}" {% if item.url contains 'https' %} target="_blank" rel="noopener"{% endif %}>
               {{ item.text }}
             </a>
           </li>
@@ -35,7 +35,7 @@
         <ul>
           {% for item in navigation.people %}
           <li>
-            <a href="{{ site.base_url }}{{ item.url }}">
+            <a href="{{ item.url }}">
               {{ item.text }}
             </a>
           </li>
@@ -47,7 +47,7 @@
         <ul>
           {% for item in navigation.about %}
           <li>
-            <a href="{{ site.base_url }}{{ item.url }}">
+            <a href="{{ item.url }}">
               {{ item.text }}
             </a>
           </li>
@@ -58,7 +58,7 @@
         <ul>
           {% for item in navigation.impact %}
           <li>
-            <a href="{{ site.base_url }}{{ item.url }}">
+            <a href="{{ item.url }}">
               {{ item.text }}
             </a>
           </li>
@@ -89,7 +89,7 @@
     <ul>
       {% for item in navigation.resources %}
       <li>
-        <a href="{{ site.base_url }}{{ item.url }}">
+        <a href="{{ item.url }}">
           {{ item.text }}
         </a>
       </li>

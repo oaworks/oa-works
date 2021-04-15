@@ -8,7 +8,7 @@
       {% for item in navigation %}
         {% for subitem in item[1] %}
           {% if subitem.featured %}
-            <li><a href="{{ site.base_url }}{{ subitem.url }}" class="label">{{ subitem.text }}</a></li>
+            <li><a href="{{ subitem.url }}" class="label">{{ subitem.text }}</a></li>
           {% endif %}
         {% endfor %}
       {% endfor %}
@@ -31,7 +31,7 @@
             <ul>
               {% for item in navigation.products %}
               <li>
-                <a href="{% if item.url contains 'https' %}{% else %}{{ site.base_url }}{% endif %}{{ item.url }}" {% if item.url contains 'https' %} target="_blank" rel="noopener"{% endif %} class="header__nav-subsection">
+                <a href="{{ item.url }}" {% if item.url contains 'https' %} target="_blank" rel="noopener"{% endif %} class="header__nav-subsection">
                   {{ item.text }}
                 </a>
               </li>
@@ -43,7 +43,7 @@
             <ul>
               {% for item in navigation.people %}
               <li>
-                <a href="{{ site.base_url }}{{ item.url }}" class="header__nav-subsection">
+                <a href="{{ item.url }}" class="header__nav-subsection">
                   {{ item.text }}
                 </a>
               </li>
@@ -57,7 +57,7 @@
             <ul>
               {% for item in navigation.about %}
               <li>
-                <a href="{{ site.base_url }}{{ item.url }}" class="header__nav-subsection">
+                <a href="{{ item.url }}" class="header__nav-subsection">
                   {{ item.text }}
                 </a>
               </li>
@@ -69,7 +69,7 @@
             <ul>
               {% for item in navigation.impact %}
               <li>
-                <a href="{{ site.base_url }}{{ item.url }}" class="header__nav-subsection">
+                <a href="{{ item.url }}" class="header__nav-subsection">
                   {{ item.text }}
                 </a>
               </li>
@@ -105,7 +105,7 @@
           <ul class="inlined-list">
             {% for item in navigation.support %}
             <li>
-              <a href="{% if item.url contains 'https' %}{% else %}{{ site.base_url }}{% endif %}{{ item.url }}" {% if item.url contains 'https' %} target="_blank" rel="noopener"{% endif %} class="header__nav-subsection">
+              <a href="{{ item.url }}" {% if item.url contains 'https' %} target="_blank" rel="noopener"{% endif %} class="header__nav-subsection">
                 {{ item.text }}
               </a>
             </li>
@@ -117,7 +117,7 @@
           <ul class="inlined-list">
             {% for item in navigation.resources %}
             <li>
-              <a href="{{ site.base_url }}{{ item.url }}" class="header__nav-subsection">
+              <a href="{{ item.url }}" class="header__nav-subsection">
                 {{ item.text }}
               </a>
             </li>
