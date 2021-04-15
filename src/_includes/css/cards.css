@@ -181,7 +181,7 @@ h5.card__header {
 
 .card--small {
   border-radius: 2px;
-  font-size: var(--typescale-6);
+  font-size: smaller;
 }
 
 .card--small .card__header,

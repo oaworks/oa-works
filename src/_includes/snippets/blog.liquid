@@ -5,7 +5,8 @@
     {% for post in posts limit:3 %}
     {% assign delay_count = delay_count | plus: 50 %}
     <li class="col col--1of3 bg-pattern" data-sal="slide-up" data-sal-delay="{{ delay_count }}">
-      <article class="card">
+      <article class="card card--small">
+        <h4 class="label card__header"><time datetime="{{ post.updated_at }}"><small>{{ post.updated_at | date: "%b %d, %Y" }}</small></time></h4>
         <a href="https://blog.openaccessbutton.org/{{ post.slug }}/" target="_blank" rel="noopener" style="display: block; overflow: hidden;">
           {%- if post.feature_image -%}
             <img src="{{ post.feature_image | img_url }}" alt="" role="presentation" class="card__img"/>
@@ -13,9 +14,6 @@
             <div class="card__blank bg-pattern__child"></div>
           {% endif %}
           <div class="flex-space-between card__body">
-            <p>
-              <time datetime="{{ post.updated_at }}"><small>{{ post.updated_at | date: "%b %d, %Y" }}</small></time>
-            </p>
             <h3 class="type-4">{{ post.title }}</h3>
           </div>
         </a>
