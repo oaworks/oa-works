@@ -1,11 +1,15 @@
 .card-wrapper {
   padding-bottom: var(--gutter);
-  margin-bottom: var(--space-lg);
+}
+
+@media only screen and (max-width: 1023px) {
+  .card-wrapper:not(:last-child) {
+    margin-bottom: var(--space-md);
+  }
 }
 
 .card {
-  margin-bottom: calc(var(--gutter) * 2);
-  height: 90%;
+  height: 100%;
   border-radius: 5px;
   border: 1px solid;
 }
