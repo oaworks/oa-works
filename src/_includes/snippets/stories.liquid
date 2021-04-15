@@ -1,11 +1,8 @@
 <section class="section bg-black section--half">
   <div class="row">
-    <header class="col col--2of3 section__header" data-sal="slide-up">
-      <h2>Why we work for Open</h2>
-      <p><a href="/impact/stories" class="button button--primary">More stories 👉</a></p>
-    </header>
+    <h2 class="col col--2of3 section__header" data-sal="slide-up">Why we work for Open</h2>
   </div>
-  <ul class="row">
+  <ul class="unstyled-list row">
     {% assign delay_count = 0 %}
     {% for story in stories limit:3 %}
     {% assign delay_count = delay_count | plus: 50 %}
@@ -27,4 +24,5 @@
     </li>
     {% endfor %}
   </ul>
+  <p><a href="/impact/stories" class="button button--primary">More stories 👉</a></p>
 </section>

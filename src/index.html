@@ -3,6 +3,10 @@ layout: "layouts/base.liquid"
 body_class: homepage
 ---
 
+<aside data-sal="slide-up">
+  {% include 'snippets/coverage.liquid' %}
+</aside>
+
 <section class="section bg-black" id="products">
   <h2>Featured products</h2>
   <ul class="row row--centered">
@@ -40,7 +44,6 @@ body_class: homepage
 </section>
 
 <aside data-sal="slide-up">
-  {% include 'snippets/coverage.liquid' %}
   {% include 'snippets/partnerships.liquid' %}
 </aside>
 

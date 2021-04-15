@@ -1,7 +1,7 @@
 .section {
   margin-left: var(--gutter-negative);
   margin-right: var(--gutter-negative);
-  padding: calc(var(--gutter) * 2) var(--gutter);
+  padding: var(--gutter);
   min-height: 100vh;
 }
 
