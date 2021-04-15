@@ -4,8 +4,8 @@
     {% assign delay_count = 0 %}
     {% for partner in partners %}
     {% assign delay_count = delay_count | plus: 100 %}
-    <li class="col col--1of6 flex-center" data-sal="slide-up" data-sal-delay="{{ delay_count }}">
-      <a href="{{ partner.url }}" title="{{ partner.name }}’s site" target="_blank" rel="noopener" class="bw">
+    <li class="col col--1of4" data-sal="slide-up" data-sal-delay="{{ delay_count }}">
+      <a href="{{ partner.url }}" title="{{ partner.name }}’s site" target="_blank" rel="noopener" class="flex-center bw">
         {% include partner.logo %}
       </a>
     </li>

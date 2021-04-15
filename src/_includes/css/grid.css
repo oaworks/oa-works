@@ -44,6 +44,7 @@ body {
   max-width: 100%;
 }
 
+.col--1of4,
 .col--1of6 {
   flex-basis: 50%;
   max-width: 50%;
