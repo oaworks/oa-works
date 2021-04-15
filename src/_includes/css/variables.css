@@ -10,8 +10,8 @@
   --serif:           'Wremena', serif;
   --serif-bold:      'WremenaBold', serif;
 
-  --gutter:           3vw;
-  --gutter-negative:  -3vw;
+  --gutter:           4vw;
+  --gutter-negative:  -4vw;
 
   --space-unit:       1.5rem;
   --space-xxs:        calc(.25 * var(--space-unit));
