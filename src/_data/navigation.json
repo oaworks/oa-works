@@ -6,6 +6,18 @@
       "featured": true
     },
     {
+      "text": "ShareYourPaper",
+      "url": "https://shareyourpaper.org/"
+    },
+    {
+      "text": "InstantILL",
+      "url": "https://instantill.org/"
+    },
+    {
+      "text": "OAButton",
+      "url": "https://oabutton.org/"
+    },
+    {
       "text": "Labs",
       "url": "/products/labs/"
     }
