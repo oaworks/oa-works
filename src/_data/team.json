@@ -1,7 +1,7 @@
 [
   {
-    "name": "Joe <br/>McArthur",
-    "role": "Director<br/><br/>",
+    "name": "Joe McArthur",
+    "role": "Director",
     "bio": "Founded OA.Works. Worked at OpenCon and SPARC.",
     "img": "people/joe.png",
     "colour": "cyan",
@@ -10,8 +10,8 @@
     "github": "JosephMcArthur"
   },
   {
-    "name": "Mark <br/>MacGillivray",
-    "role": "Developer<br/><br/>",
+    "name": "Mark MacGillivray",
+    "role": "Developer",
     "bio": "Founded <a href='https://cottagelabs.com/' target='_blank' rel='noopener'>Cottage Labs</a>",
     "img": "people/mark.png",
     "colour": "carnation",
@@ -20,7 +20,7 @@
     "github": "markmacgillivray"
   },
   {
-    "name": "Natalia <br/>Norori",
+    "name": "Natalia Norori",
     "role": "Data wrangler & systems manager",
     "bio": "Profiled by <a href='https://www.forbes.com/sites/andrewwight/2020/07/19/this-nicaraguan-is-showing-how-to-better-share-pandemic-health-data/' target='_blank' rel='noopener'>Forbes</a>",
     "img": "people/natalia.png",
@@ -30,15 +30,7 @@
     "github": "natalianorori"
   },
   {
-    "name": "Sophy <br/>Ouch",
-    "role": "UX designer & <br/>developer<br/>",
-    "bio": "Designed for <a href='https://doaj.org/' target='_blank' rel='noopener'>DOAJ</a>, <a href='https://erudit.org/' target='_blank' rel='noopener'>Érudit</a>, SPARC & PKP",
-    "colour": "azure",
-    "email": "sophy@oa.works",
-    "github": "sssoz"
-  },
-  {
-    "name": "Jake <br/>Orlowitz",
+    "name": "Jake Orlowitz",
     "role": "Communications & strategy",
     "bio": "Founded <a href='https://en.wikipedia.org/wiki/Wikipedia:The_Wikipedia_Library' target='_blank' rel='noopener'>WikiLibrary</a>",
     "img": "people/jake.png",
@@ -46,5 +38,13 @@
     "email": "jake@oa.works",
     "twitter": "JakeOrlowitz",
     "github": "jorlowitz"
+  },
+  {
+    "name": "Sophy",
+    "role": "UX designer & developer",
+    "bio": "Designed for <a href='https://doaj.org/' target='_blank' rel='noopener'>DOAJ</a>, <a href='https://erudit.org/' target='_blank' rel='noopener'>Érudit</a>, SPARC & PKP",
+    "colour": "azure",
+    "email": "sophy@oa.works",
+    "github": "sssoz"
   }
 ]
