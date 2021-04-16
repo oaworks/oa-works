@@ -23,7 +23,7 @@
         <h2 class="label">Products</h2>
         <ul>
           {% for item in navigation.products %}
-          <li>
+          <li{% if item.indented %} style="margin-left: var(--space-xs); padding-left: var(--space-xs); border-left: 1px solid;"{% endif %}>
             <a href="{{ item.url }}" {% if item.url contains 'https' %} target="_blank" rel="noopener"{% endif %}>
               {{ item.text }}
             </a>

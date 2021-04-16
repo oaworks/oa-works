@@ -7,15 +7,18 @@
     },
     {
       "text": "ShareYourPaper",
-      "url": "https://shareyourpaper.org/"
+      "url": "https://shareyourpaper.org/",
+      "indented": true
     },
     {
       "text": "InstantILL",
-      "url": "https://instantill.org/"
+      "url": "https://instantill.org/",
+      "indented": true
     },
     {
       "text": "OAButton",
-      "url": "https://oabutton.org/"
+      "url": "https://oabutton.org/",
+      "indented": true 
     },
     {
       "text": "Labs",
