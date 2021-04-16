@@ -6,18 +6,6 @@
       "featured": true
     },
     {
-      "text": "API",
-      "url": "https://openaccessbutton.org/api"
-    },
-    {
-      "text": "Infrastructure",
-      "url": "/products/infrastructure/"
-    },
-    {
-      "text": "Roadmap",
-      "url": "https://github.com/orgs/OAButton/projects/13"
-    },
-    {
       "text": "Labs",
       "url": "/products/labs/"
     }
@@ -63,43 +51,72 @@
       "url": "/people/partners/"
     }
   ],
+  "developers": [
+    {
+      "text": "API",
+      "url": "https://openaccessbutton.org/api"
+    },
+    {
+      "text": "Infrastructure",
+      "url": "/developers/infrastructure/"
+    }
+  ],
   "resources": [
     {
+      "text": "Report an issue",
+      "url": "#"
+    },
+    {
+      "text": "Service status",
+      "url": "#"
+    },
+
+    {
+      "text": "Roadmap",
+      "url": "#"
+    },
+    {
+      "text": "Contact",
+      "url": "mailto:hello@oa.works"
+    }
+  ],
+  "policies": [
+    {
       "text": "Governance",
-      "url": "/resources/governance/"
+      "url": "/policies/governance/"
     },
     {
       "text": "Preservation",
-      "url": "/resources/preservation/"
+      "url": "/policies/preservation/"
     },
     {
       "text": "Openness",
-      "url": "/resources/openness/"
+      "url": "/policies/openness/"
     },
     {
       "text": "Accessibility",
-      "url": "/resources/accessibility/"
+      "url": "/policies/accessibility/"
     },
     {
       "text": "Privacy",
-      "url": "/resources/privacy/"
+      "url": "/policies/privacy/"
     },
     {
       "text": "Terms",
-      "url": "/resources/terms/"
+      "url": "/policies/terms/"
     }
   ],
   "support": [
     {
-      "text": "Bugs",
+      "text": "Report an issue",
       "url": ""
     },
     {
-      "text": "Feedback",
-      "url": ""
+      "text": "Roadmap",
+      "url": "https://github.com/orgs/OAButton/projects/13"
     },
     {
-      "text": "Status",
+      "text": "Service status",
       "url": "https://status.openaccessbutton.org/"
     },
     {

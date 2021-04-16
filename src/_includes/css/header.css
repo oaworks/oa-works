@@ -89,7 +89,11 @@
 }
 
 .header__nav ul {
-  margin-bottom: var(--space-sm);
+  margin-top: 0;
+}
+
+.header__nav ul ul {
+  margin-bottom: var(--space-md);
 }
 
 .header__list {
@@ -102,19 +106,14 @@
   margin-bottom: var(--space-xs);
   color: var(--black);
   text-transform: uppercase;
-  font-weight: 700;
-  font-size: var(--typescale-6);
+  font-weight: 800;
 }
 
 .header__nav-subsection {
   font-size: var(--typescale-5);
   color: var(--black);
   line-height: 2;
-}
-
-.header__nav-subsection:before {
-  content: '👉 ';
-  display: none;
+  transition: all .15s ease-in-out;
 }
 
 .header__nav-subsection:hover {

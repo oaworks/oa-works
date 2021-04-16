@@ -22,10 +22,10 @@
       </button>
     </div>
 
-    <nav class="row header__nav" style="transform: translateX(100%);">
+    <nav class="header__nav" style="transform: translateX(100%);">
       <h2 class="sr-only">Table of contents</h2>
-      <div class="flex" style="width: 100%;">
-        <ul class="header__list">
+      <div class="row">
+        <ul class="col col--1of3 header__list">
           <li>
             <span class="header__nav-section">Products</span>
             <ul>
@@ -39,25 +39,11 @@
             </ul>
           </li>
           <li>
-            <span class="header__nav-section">People</span>
+            <span class="header__nav-section">Developers</span>
             <ul>
-              {% for item in navigation.people %}
+              {% for item in navigation.developers %}
               <li>
-                <a href="{{ item.url }}" class="header__nav-subsection">
-                  {{ item.text }}
-                </a>
-              </li>
-              {% endfor %}
-            </ul>
-          </li>
-        </ul>
-        <ul class="header__list">
-          <li>
-            <span class="header__nav-section">About</span>
-            <ul>
-              {% for item in navigation.about %}
-              <li>
-                <a href="{{ item.url }}" class="header__nav-subsection">
+                <a href="{{ item.url }}" {% if item.url contains 'https' %} target="_blank" rel="noopener"{% endif %} class="header__nav-subsection">
                   {{ item.text }}
                 </a>
               </li>
@@ -77,54 +63,94 @@
             </ul>
           </li>
         </ul>
+        <ul class="col col--1of3 header__list">
+          <li>
+            <span class="header__nav-section">People</span>
+            <ul>
+              {% for item in navigation.people %}
+              <li>
+                <a href="{{ item.url }}" class="header__nav-subsection">
+                  {{ item.text }}
+                </a>
+              </li>
+              {% endfor %}
+            </ul>
+          </li>
+          <li>
+            <span class="header__nav-section">About</span>
+            <ul>
+              {% for item in navigation.about %}
+              <li>
+                <a href="{{ item.url }}" class="header__nav-subsection">
+                  {{ item.text }}
+                </a>
+              </li>
+              {% endfor %}
+            </ul>
+          </li>
+        </ul>
+        <ul class="col col--1of3 header__list">
+          <li>
+          </li>
+        </ul>
       </div>
+
       <form id="newsletter">
         <label for="email">Sign up to our newsletter</label>
-        <div class="flex">
-          <input class="_oaworks_form" type="email" placeholder="you@institution.edu" required="required" name="email" id="email"/>
-          <button type="submit" id="submit" aria-label="submit" value="Submit Request" href="/newsletter/thanks/">Sign up</button>
+        <div class="flex" style="margin-bottom: var(--space-md);">
+          <input class="_oaworks_form" type="email" placeholder="you@institution.edu" required="required" name="email" id="email" style="width: 60%;"/>
+          <button type="submit" id="submit" aria-label="submit" value="Submit Request" href="/newsletter/thanks/" style="width: 20%;">Sign up</button>
         </div>
       </form>
-      <ul>
-        <li>
-          <span class="header__nav-section">Contact</span>
-          <ul class="inlined-list">
-            <li>
-              <a href="https://twitter.com/{{ site.twitter }}" target="_blank" rel="noopener" class="header__nav-subsection">Twitter</a>
-            </li>
-            <li>
-              <a href="https://github.com/{{ site.github }}" target="_blank" rel="noopener" class="header__nav-subsection">Github</a>
-            </li>
-            <li>
-              <a href="{{ site.blog }}" target="_blank" rel="noopener" class="header__nav-subsection">Blog</a>
-            </li>
-          </ul>
-        </li>
-        <li>
-          <span class="header__nav-section">Support</span>
-          <ul class="inlined-list">
-            {% for item in navigation.support %}
-            <li>
-              <a href="{{ item.url }}" {% if item.url contains 'https' %} target="_blank" rel="noopener"{% endif %} class="header__nav-subsection">
-                {{ item.text }}
-              </a>
-            </li>
-            {% endfor %}
-          </ul>
-        </li>
-        <li>
-          <span class="header__nav-section">Resources</span>
-          <ul class="inlined-list">
-            {% for item in navigation.resources %}
-            <li>
-              <a href="{{ item.url }}" class="header__nav-subsection">
-                {{ item.text }}
-              </a>
-            </li>
-            {% endfor %}
-          </ul>
-        </li>
-      </ul>
+
+      <div class="row">
+        <ul class="col">
+          <li>
+            <span class="header__nav-section">Policies</span>
+            <ul class="inlined-list">
+              {% for item in navigation.policies %}
+              <li>
+                <a href="{{ item.url }}" class="header__nav-subsection">
+                  {{ item.text }}
+                </a>
+              </li>
+              {% endfor %}
+            </ul>
+          </li>
+          <li>
+            <span class="header__nav-section">Support</span>
+            <ul class="inlined-list">
+              {% for item in navigation.support %}
+              <li>
+                <a href="{{ item.url }}" {% if item.url contains 'https' %} target="_blank" rel="noopener"{% endif %} class="header__nav-subsection">
+                  {{ item.text }}
+                </a>
+              </li>
+              {% endfor %}
+            </ul>
+          </li>
+          <li>
+            <span class="header__nav-section">Connect</span>
+            <ul class="inlined-list">
+              <li>
+                <a href="https://twitter.com/{{ site.twitter }}" target="_blank" rel="noopener" class="header__nav-subsection">Twitter</a>
+              </li>
+              <li>
+                <a href="#" target="_blank" rel="noopener" class="header__nav-subsection">Facebook</a>
+              </li>
+              <li>
+                <a href="#" target="_blank" rel="noopener" class="header__nav-subsection">Linkedin</a>
+              </li>
+              <li>
+                <a href="https://github.com/{{ site.github }}" target="_blank" rel="noopener" class="header__nav-subsection">Github</a>
+              </li>
+              <li>
+                <a href="{{ site.blog }}" target="_blank" rel="noopener" class="header__nav-subsection">Blog</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
     </nav>
   </header>
 

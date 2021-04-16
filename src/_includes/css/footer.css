@@ -3,14 +3,13 @@
 .footer {
   margin-left: var(--gutter-negative);
   margin-right: var(--gutter-negative);
-  padding-top: var(--gutter);
+  padding: var(--gutter) 0;
   background-color: var(--azure);
   color: var(--white);
 }
 
 .footer ul {
   font-size: var(--typescale-6);
-  font-weight: 700;
   line-height: 3;
 }
 
@@ -19,45 +18,15 @@
   color: var(--white);
 }
 
-.footer hr {
-  margin: 0 var(--gutter-negative) var(--gutter) var(--gutter-negative);
-  width: auto;
-  border: none;
-  background: var(--white);
-  height: 1px;
-}
-
 .footer svg {
   display: block;
   width: 100%;
   height: auto;
 }
 
-.footer svg path {
-  fill: var(--white);
-}
-
-.footer svg path:last-child {
-  fill: var(--mango);
-}
-
-.footer .row {
-  flex-direction: row;
-}
-
 .footer .col--1of2 {
   flex-basis: 50%;
   max-width: 50%;
-}
-
-.footer__legal {
-  background-color: var(--azure);
-}
-
-.footer__legal ul {
-  margin: var(--gutter) 0;
-  display: flex;
-  justify-content: space-between;
 }
 
 .footer__logo {
@@ -66,7 +35,7 @@
   background-color: var(--azure);
 }
 
-@media only screen and (max-width: 1023px) {
+/* @media only screen and (max-width: 1023px) {
   .footer {
     background-image:
       linear-gradient(90deg, transparent, transparent 50%, var(--white) 50%, transparent calc(50% + 1.5px));
@@ -96,4 +65,4 @@
       linear-gradient(180deg, transparent, transparent  0%, var(--white) 0%, transparent 1.5px),
       linear-gradient(90deg, transparent, transparent calc(100% - 1.5px), var(--white) 100%, transparent 0);
   }
-}
+} */

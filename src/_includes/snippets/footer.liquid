@@ -12,14 +12,14 @@
   </ul>
 </aside>
 
-<footer class="row footer">
+<footer class="footer">
   <a class="top" href="#top" id="topBtn" aria-label="Back to top">
     <span class="top__icon">&#8593;</span>
   </a>
 
-  <nav class="col col--2of3">
+  <nav class="col">
     <div class="row">
-      <div class="col col--1of2">
+      <div class="col col--1of6">
         <h2 class="label">Products</h2>
         <ul>
           {% for item in navigation.products %}
@@ -30,7 +30,28 @@
           </li>
           {% endfor %}
         </ul>
-        <hr/>
+        <h2 class="label">Developers</h2>
+        <ul>
+          {% for item in navigation.developers %}
+          <li>
+            <a href="{{ item.url }}">
+              {{ item.text }}
+            </a>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="col col--1of6">
+        <h2 class="label">Impact</h2>
+        <ul>
+          {% for item in navigation.impact %}
+          <li>
+            <a href="{{ item.url }}">
+              {{ item.text }}
+            </a>
+          </li>
+          {% endfor %}
+        </ul>
         <h2 class="label">People</h2>
         <ul>
           {% for item in navigation.people %}
@@ -42,7 +63,7 @@
           {% endfor %}
         </ul>
       </div>
-      <div class="col col--1of2">
+      <div class="col col--1of6">
         <h2 class="label">About</h2>
         <ul>
           {% for item in navigation.about %}
@@ -53,10 +74,11 @@
           </li>
           {% endfor %}
         </ul>
-        <hr/>
-        <h2 class="label">Impact</h2>
+      </div>
+      <div class="col col--1of6">
+        <h2 class="label">Policies</h2>
         <ul>
-          {% for item in navigation.impact %}
+          {% for item in navigation.policies %}
           <li>
             <a href="{{ item.url }}">
               {{ item.text }}
@@ -64,11 +86,30 @@
           </li>
           {% endfor %}
         </ul>
-        <hr/>
-        <h2 class="label">Connect with us</h2>
-        <ul class="inlined-list">
+      </div>
+      <div class="col col--1of6">
+        <h2 class="label">Support</h2>
+        <ul>
+          {% for item in navigation.support %}
+          <li>
+            <a href="{{ item.url }}">
+              {{ item.text }}
+            </a>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="col col--1of6">
+        <h2 class="label">Connect</h2>
+        <ul>
           <li>
             <a href="https://twitter.com/{{ site.twitter }}" target="_blank" rel="noopener">Twitter</a>
+          </li>
+          <li>
+            <a href="#" target="_blank" rel="noopener">Facebook</a>
+          </li>
+          <li>
+            <a href="#" target="_blank" rel="noopener">Linkedin</a>
           </li>
           <li>
             <a href="https://github.com/{{ site.github }}" target="_blank" rel="noopener">Github</a>
@@ -80,21 +121,12 @@
       </div>
     </div>
   </nav>
-  <div class="col col--1of3 flex-end flex-col">
-    <a href="/" class="footer__logo">{% include 'logos/logotype.svg' %}</a>
-  </div>
+
+  <!-- <div class="col col--1of6 flex-col">
+    <a href="/" class="footer__logo">{% include 'logos/oaw-90deg.svg' %}</a>
+  </div> -->
 
   <div class="col footer__legal">
-    <h2 class="sr-only">Resources</h2>
-    <ul>
-      {% for item in navigation.resources %}
-      <li>
-        <a href="{{ item.url }}">
-          {{ item.text }}
-        </a>
-      </li>
-      {% endfor %}
-    </ul>
-    <p class="align-center"><small>This website’s content is licensed under a <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">Creative Commons Attribution 4.0 International License</a>.</small></p>
+    <p class="no-margin align-center"><small>This website’s content is licensed under a <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">Creative Commons Attribution 4.0 International License</a>.</small></p>
   </div>
 </footer>
