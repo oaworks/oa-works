@@ -45,6 +45,7 @@ body {
 .col--2of2,
 .col--3of3,
 .col--4of4,
+.col--5of5,
 .col--6of6 {
   flex-basis: 100%;
   max-width: 100%;
@@ -98,14 +99,34 @@ body {
 }
 
 @media only screen and (min-width: 1024px) {
+  .col--1of5 {
+    flex-basis: 20%;
+    max-width: 20%;
+  }
+
   .col--1of4 {
     flex-basis: 25%;
     max-width: 25%;
   }
 
+  .col--2of5 {
+    flex-basis: 40%;
+    max-width: 40%;
+  }
+
+  .col--3of5 {
+    flex-basis: 60%;
+    max-width: 60%;
+  }
+
   .col--3of4 {
     flex-basis: 75%;
     max-width: 75%;
+  }
+
+  .col--4of5 {
+    flex-basis: 80%;
+    max-width: 80%;
   }
 
   .col--1of2,
