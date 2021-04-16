@@ -39,21 +39,9 @@
             </ul>
           </li>
           <li>
-            <span class="header__nav-section">Developers</span>
+            <span class="header__nav-section">About</span>
             <ul>
-              {% for item in navigation.developers %}
-              <li>
-                <a href="{{ item.url }}" {% if item.url contains 'https' %} target="_blank" rel="noopener"{% endif %} class="header__nav-subsection">
-                  {{ item.text }}
-                </a>
-              </li>
-              {% endfor %}
-            </ul>
-          </li>
-          <li>
-            <span class="header__nav-section">Impact</span>
-            <ul>
-              {% for item in navigation.impact %}
+              {% for item in navigation.about %}
               <li>
                 <a href="{{ item.url }}" class="header__nav-subsection">
                   {{ item.text }}
@@ -77,11 +65,23 @@
             </ul>
           </li>
           <li>
-            <span class="header__nav-section">About</span>
+            <span class="header__nav-section">Impact</span>
             <ul>
-              {% for item in navigation.about %}
+              {% for item in navigation.impact %}
               <li>
                 <a href="{{ item.url }}" class="header__nav-subsection">
+                  {{ item.text }}
+                </a>
+              </li>
+              {% endfor %}
+            </ul>
+          </li>
+          <li>
+            <span class="header__nav-section">Developers</span>
+            <ul>
+              {% for item in navigation.developers %}
+              <li>
+                <a href="{{ item.url }}" {% if item.url contains 'https' %} target="_blank" rel="noopener"{% endif %} class="header__nav-subsection">
                   {{ item.text }}
                 </a>
               </li>

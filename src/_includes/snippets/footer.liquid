@@ -30,9 +30,22 @@
           </li>
           {% endfor %}
         </ul>
-        <h2 class="label">Developers</h2>
+      </div>
+      <div class="col col--1of6">
+        <h2 class="label">About</h2>
         <ul>
-          {% for item in navigation.developers %}
+          {% for item in navigation.about %}
+          <li>
+            <a href="{{ item.url }}">
+              {{ item.text }}
+            </a>
+          </li>
+          {% endfor %}
+        </ul>
+
+        <h2 class="label">People</h2>
+        <ul>
+          {% for item in navigation.people %}
           <li>
             <a href="{{ item.url }}">
               {{ item.text }}
@@ -52,21 +65,10 @@
           </li>
           {% endfor %}
         </ul>
-        <h2 class="label">People</h2>
+
+        <h2 class="label">Developers</h2>
         <ul>
-          {% for item in navigation.people %}
-          <li>
-            <a href="{{ item.url }}">
-              {{ item.text }}
-            </a>
-          </li>
-          {% endfor %}
-        </ul>
-      </div>
-      <div class="col col--1of6">
-        <h2 class="label">About</h2>
-        <ul>
-          {% for item in navigation.about %}
+          {% for item in navigation.developers %}
           <li>
             <a href="{{ item.url }}">
               {{ item.text }}
