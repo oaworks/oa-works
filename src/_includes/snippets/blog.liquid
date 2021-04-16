@@ -4,7 +4,7 @@
     {% assign delay_count = 0 %}
     {% for post in posts limit:3 %}
     {% assign delay_count = delay_count | plus: 50 %}
-    <li class="col col--1of3 bg-pattern" data-sal="slide-up" data-sal-delay="{{ delay_count }}">
+    <li class="col col--1of3 bg-pattern card-wrapper" data-sal="slide-up" data-sal-delay="{{ delay_count }}">
       <article class="card card--small">
         <h4 class="label card__header"><time datetime="{{ post.updated_at }}"><small>{{ post.updated_at | date: "%b %d, %Y" }}</small></time></h4>
         <a href="https://blog.openaccessbutton.org/{{ post.slug }}/" target="_blank" rel="noopener" style="display: block; overflow: hidden;">
