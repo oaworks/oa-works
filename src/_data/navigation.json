@@ -18,7 +18,7 @@
     {
       "text": "OAButton",
       "url": "https://oabutton.org/",
-      "indented": true 
+      "indented": true
     },
     {
       "text": "Labs",
@@ -76,25 +76,6 @@
       "url": "/developers/infrastructure/"
     }
   ],
-  "resources": [
-    {
-      "text": "Report an issue",
-      "url": "#"
-    },
-    {
-      "text": "Service status",
-      "url": "#"
-    },
-
-    {
-      "text": "Roadmap",
-      "url": "#"
-    },
-    {
-      "text": "Contact",
-      "url": "mailto:hello@oa.works"
-    }
-  ],
   "policies": [
     {
       "text": "Governance",
@@ -124,7 +105,7 @@
   "support": [
     {
       "text": "Report an issue",
-      "url": ""
+      "url": "https://openaccessbutton.org/feedback#bug"
     },
     {
       "text": "Roadmap",
@@ -136,7 +117,7 @@
     },
     {
       "text": "Contact",
-      "url": ""
+      "url": "mailto:hello@oa.works"
     }
   ]
 }
