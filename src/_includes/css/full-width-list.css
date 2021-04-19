@@ -1,5 +1,5 @@
-.full-width-list li:not(:first-child) {
-  padding-top: var(--space-md);
+.full-width-list li {
+  padding: var(--space-md) 0;
 }
 
 .full-width-list li:not(:last-child) {
