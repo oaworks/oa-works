@@ -4,20 +4,20 @@
     "url": "https://www.ifla.org/",
     "logo": "logos/ifla.svg",
     "person": "Peter Bae",
-    "reason": "Building RSCVD with the International Federation of Library Associations and Institutions (IFLA) Document Delivery and Resource Sharing (DDRS) Section."
+    "reason": "Building <a href = 'https://rscvd.org' target='_blank' rel='noopener'>RSCVD</a> with the Document Delivery and Resource Sharing Section."
   },
   {
     "name": "Montana State University",
     "url": "https://www.lib.montana.edu/",
     "logo": "logos/montana.svg",
     "person": "Leila Sterman",
-    "reason": "Building ShareYourPaper.org together."
+    "reason": "Building <a href = 'https://shareyourpaper.org' target='_blank' rel='noopener'>ShareYourPaper</a> together."
   },
   {
     "name": "IUPUI",
     "url": "https://ulib.iupui.edu/",
     "logo": "logos/iupui.svg",
     "person": "Tina Baich",
-    "reason": "Building InstantILL together."
+    "reason": "Building <a href = 'https://instantill.org' target='_blank' rel='noopener'>InstantILL</a> together."
   }
 ]
