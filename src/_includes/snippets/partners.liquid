@@ -7,6 +7,11 @@
       <p class="card__header card__header--plain label">{{ partners.name }}</p>
       <div class="card__body">
         <h2 class="font-sans type-4">{{ partners.person }}</h2>
+        {% if partners.img %}
+        <figure class="portrait">
+          <img src="/img/{{ partners.img }}" alt="{{ partners.img_alt }}"/>
+        </figure>
+        {% endif %}
         <p>{{ partners.reason }}</p>
       </div>
     </article>

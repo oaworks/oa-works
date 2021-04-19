@@ -4,6 +4,9 @@
     "url": "https://www.ifla.org/",
     "logo": "logos/ifla.svg",
     "person": "Peter Bae",
+    "img":"people/peter-bae.jpg",
+    "img_alt": "Headshot of Asian man wearing glasses and a tie.",
+    "product": "RSCVD",
     "reason": "Building <a href = 'https://rscvd.org' target='_blank' rel='noopener'>RSCVD</a> with the Document Delivery and Resource Sharing Section."
   },
   {
@@ -11,6 +14,9 @@
     "url": "https://www.lib.montana.edu/",
     "logo": "logos/montana.svg",
     "person": "Leila Sterman",
+    "img":"people/leila-sterman.jpg",
+    "img_alt": "Black-haired woman laughing against a bright blue background.",
+    "product": "ShareYourPaper",
     "reason": "Building <a href = 'https://shareyourpaper.org' target='_blank' rel='noopener'>ShareYourPaper</a> together."
   },
   {
@@ -18,6 +24,9 @@
     "url": "https://ulib.iupui.edu/",
     "logo": "logos/iupui.svg",
     "person": "Tina Baich",
+    "img":"people/tina-baich.jpg",
+    "img_alt": "Brown woman wearing glasses and a chunky necklace in a library.",
+    "product": "InstantILL",
     "reason": "Building <a href = 'https://instantill.org' target='_blank' rel='noopener'>InstantILL</a> together."
   }
 ]
