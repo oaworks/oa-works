@@ -2,7 +2,7 @@
   {
     "name": "Joe McArthur",
     "role": "Director",
-    "bio": "Founded OA.Works. Worked at OpenCon and SPARC.",
+    "bio": "Co-founded OA.Works. Worked at <a href ='https://www.opencon.community' target='_blank' rel='noopener'>OpenCon</a> and <a href ='https://sparcopen.org' target='_blank' rel='noopener'>SPARC</a>.",
     "img": "people/joe.png",
     "colour": "cyan",
     "email": "joe@oa.works",
