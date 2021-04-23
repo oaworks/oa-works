@@ -2,8 +2,10 @@
 layout: "layouts/default.liquid"
 theme: dark
 title: "Succession & Contingency Plan"
-meta_description: "Established August 2019, updated frequently, because all good things come to an end."
+meta_description: "What we're doing to limit the impact of the unexpected, and ensure an orderly shutdown if required."
 ---
+Established: August 2019
+Last updated: July 2020
 
 We are a mission-driven nonprofit and, as such, our goal is to exist only as long as needed to serve our mission. Practically speaking, we currently run services that individuals and institutions rely on for mission-critical functions. We take that seriously and carefully plan our budget, operations, and development in line with best practice approaches (including those outlined in ‘Principles for Open Scholarly Infrastructures’) to maintain these to the highest standards for their useful life.
 
