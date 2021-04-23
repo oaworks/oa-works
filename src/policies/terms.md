@@ -5,7 +5,7 @@ title: Terms of Service
 meta_description: "These terms of service cover your use and access to the services."
 ---
 
-These terms of service cover your use and access to the services ("the service"), software ("the software") and websites ("the website") provided by the Open Access Button. Our Privacy Policy explains how we collect and use your information. By using our service, you are agreeing to be bound by these Terms and to accept our [Privacy Policy](/privacy).
+These terms of service cover your use and access to the services ("the service"), software ("the software") and websites ("the website") provided by the Open Access Button. Our Privacy Policy explains how we collect and use your information. By using our service, you are agreeing to be bound by these Terms and to accept our [Privacy Policy](/policies/privacy).
 
 ## Registration
 
