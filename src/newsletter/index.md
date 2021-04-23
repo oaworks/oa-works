@@ -12,4 +12,4 @@ meta_description: "Hear more from us when it matters. Expect an email every mont
   </div>
 </form>
 
-<small>By signing you agree to our [terms](/resources/terms/).</small>
+<small>By signing you agree to our [terms](/policies/terms/).</small>
