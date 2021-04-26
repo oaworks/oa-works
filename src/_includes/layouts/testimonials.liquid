@@ -20,26 +20,26 @@ theme: dark
     <h1>{{ title }}</h1>
     <p>{{ meta_description }}</p>
   </header>
-  <div class="col data-file__content">
+  <div class="col">
     <ul class="row">
       {% assign delay_count = 0 %}
-      {% for story in stories %}
+      {% for t in testimonials %}
       {% assign delay_count = delay_count | plus: 50 %}
       <li class="col col--1of3 card-wrapper" data-sal="slide-up" data-sal-delay="{{ delay_count }}">
-        <article class="flex-col flex-space-between card card--small">
+        <article class="card card--small">
           <header class="card__header">
-            <h3 class="label">OA.W<span style="text-transform: lowercase;">orks for</span> {{ story.label }}</h3>
+            <h2 class="type-4">{{ t.name }}</h2>
           </header>
           <figure>
-            <img src="{{ site.base_url }}/img/stories/{{ story.img }}" alt="{{ story.img_alt }}" class="card__img"/>
-            <figcaption><small>{{ story.img_credit }}</small></figcaption>
+            <img src="{{ site.base_url }}/img/{{ t.img }}" alt="{{ story.img_alt }}" class="card__img" style="height: 40vh;"/>
           </figure>
           <div class="card__body">
             <blockquote>
-              <p>“{{ story.content }}”</p>
+              <p>“{{ t.quote }}”</p>
             </blockquote>
-            <p><small class="label label--secondary">Written in search of</small></p>
-            <p class="font-serif type-5">{{ story.article }}</p>
+            <p>&mdash; {{ t.role }}{% if t.affiliation %} at {{ t.affiliation }}{% endif %}</p>
+            <p><small class="label label--secondary">Written about</small></p>
+            <p class="font-serif type-5">{{ t.product }}</p>
           </div>
         </article>
       </li>

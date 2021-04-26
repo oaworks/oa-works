@@ -1,17 +1,17 @@
-{% if page.url == '/' %}<div class="homepage__cover">{% endif %}
+{% if page.url == '/' %}<div class="homepage__cover flex-col flex-space-between">{% endif %}
   <header class="flex-space-between header{% if theme == 'dark' %} header--inverted{% endif %}" id="header">
     <a href="{{ baseurl }}/" title="Return to home page" class="header__logo" id="headerLogo">
       <h1 class="no-margin">{% include 'logos/logotype.svg' %}</h1>
     </a>
 
     <ul class="align-center flex-center header__featured-items" style="width: 50%;">
-      {% for item in navigation %}
-        {% for subitem in item[1] %}
-          {% if subitem.featured %}
+      {%- for item in navigation -%}
+        {%- for subitem in item[1] -%}
+          {%- if subitem.featured -%}
             <li><a href="{{ subitem.url }}" class="label">{{ subitem.text }}</a></li>
-          {% endif %}
-        {% endfor %}
-      {% endfor %}
+          {%- endif -%}
+        {%- endfor -%}
+      {%- endfor -%}
     </ul>
 
     <div style="width: 25%;">
@@ -30,7 +30,7 @@
             <span class="header__nav-section">Products</span>
             <ul>
               {% for item in navigation.products %}
-              <li{% if item.indented %} style="margin-left: var(--space-xs); padding-left: var(--space-xs); border-left: 1px solid;"{% endif %}>
+              <li{% if item.indented %} style="padding-left: var(--space-xs); border-left: 1px solid;"{% endif %}>
                 <a href="{{ item.url }}" {% if item.url contains 'https' %} target="_blank" rel="noopener"{% endif %} class="header__nav-subsection">
                   {{ item.text }}
                 </a>

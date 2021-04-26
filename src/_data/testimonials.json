@@ -6,7 +6,7 @@
     "product": "ShareYourPaper.org",
     "colour": "azure",
     "img": "people/leila-sterman.jpg",
-    "img_alt": "Black-haired woman laughing against a bright blue background.",
+    "img_alt": "Black-haired light-skinned woman laughing against a bright blue background.",
     "affiliation": "Montana State University Library",
     "aff_logo": "logos/montana.svg",
     "aff_url": "https://www.lib.montana.edu/",
@@ -19,7 +19,7 @@
     "product": "InstantILL.org",
     "colour": "carnation",
     "img": "people/tina-baich.jpg",
-    "img_alt": "Brown woman wearing glasses and a chunky necklace in a library.",
+    "img_alt": "Light-skinned woman with brown hair wearing glasses and a chunky necklace in a library.",
     "affiliation": "Indiana University–Purdue University Indianapolis (IUPUI)",
     "aff_logo": "logos/iupui.svg",
     "aff_url": "https://www.iupui.edu/",
@@ -41,14 +41,24 @@
   {
     "name": "Iryna Kuchma",
     "role": "Open Access Programme Manager",
-    "quote": "Lorem ipsum dolor sit amet.",
-    "product": "",
+    "quote": "ShareYourPaper removes the challenge of depositing the right version at the right time that many researchers and repository managers face. Open Access Button facilitates free access to journal articles. It’s critical that these essential infrastructures be free, open source, and built with the community!",
+    "product": "ShareYourPaper.org",
     "colour": "violet",
     "img": "people/iryna-kuchma.jpg",
-    "img_alt": "Blue-eyed woman looking over her shoulder with arms crossed.",
+    "img_alt": "Blue-eyed, fair-skinned woman looking over her shoulder with arms crossed.",
     "affiliation": "Electronic Information for Libraries (EIFL)",
     "aff_logo": "logos/eifl.svg",
     "aff_url": "https://www.eifl.net/",
+    "featured": false
+  },
+  {
+    "name": "Sarah Wipperman",
+    "role": "Scholarly Communication Librarian",
+    "quote": "Figuring out if a paper can go into a repository is one of the biggest barriers to Open Access. That’s why we worked with the Open Access Button to turn our on-campus dataset into a global service that simplifies and explains the process to authors and libraries!",
+    "product": "OAButton.org",
+    "colour": "cyan",
+    "img": "people/sarah-wipperman.jpeg",
+    "img_alt": "Black and white photo of a light-skinned woman.",
     "featured": false
   }
 ]

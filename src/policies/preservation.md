@@ -2,7 +2,7 @@
 layout: "layouts/default.liquid"
 theme: dark
 title: "Succession & Contingency Plan"
-meta_description: "What we're doing to limit the impact of the unexpected, and ensure an orderly shutdown if required."
+meta_description: "What we’re doing to limit the impact of the unexpected, and ensure an orderly shutdown if required."
 ---
 Established: August 2019
 Last updated: July 2020

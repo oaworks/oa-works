@@ -2,7 +2,7 @@
 {% for item in history %}
 {% assign delay_count = delay_count | plus: 100 %}
 <article data-sal="slide-up"  data-sal-delay="{{ delay_count }}">
-  <h2 class="type-1 font-sans">{{ item.year }}</h2>
+  <h2 class="type-1 font-sans weight-800">{{ item.year }}</h2>
 
   <ul>
     {% for event in item.content %}
