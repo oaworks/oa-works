@@ -20,6 +20,10 @@
   font-family: var(--sans-serif);
 }
 
+.weight-800 {
+  font-weight: 800;
+}
+
 .type-1 {
   font-size: var(--typescale-1);
 }
