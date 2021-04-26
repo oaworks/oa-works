@@ -75,14 +75,14 @@
 }
 
 .markdown__header-wrapper {
-  padding-top: var(--space-md);
+  padding-top: var(--space-lg);
   margin-bottom: var(--space-md);
   position: sticky;
   top: 0;
 }
 
 .markdown__content {
-  padding-top: var(--space-md);
+  padding-top: var(--space-lg);
 }
 
 @media only screen and (min-width: 1024px) {
