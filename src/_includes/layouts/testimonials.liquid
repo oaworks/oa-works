@@ -37,7 +37,7 @@ theme: dark
             <blockquote>
               <p>“{{ t.quote }}”</p>
             </blockquote>
-            <p>&mdash; {{ t.role }} at {{ t.affiliation }}</p>
+            <p>&mdash; {{ t.role }}{% if t.affiliation %} at {{ t.affiliation }}{% endif %}</p>
             <p><small class="label label--secondary">Written about</small></p>
             <p class="font-serif type-5">{{ t.product }}</p>
           </div>
