@@ -20,8 +20,13 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.setLibrary('md', markdownLib)
 
   eleventyConfig.addPlugin(lazyImagesPlugin);
-  
-  const cacheBusterOptions = {};
+
+  const cacheBusterOptions = {
+    outputDirectory: 'dist',
+    createResourceHash(outputDirectoy, url, target) {
+      return Date.now();
+    }
+  };
   eleventyConfig.addPlugin(cacheBuster(cacheBusterOptions));
 
   // Add CSS minifier
