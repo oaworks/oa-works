@@ -3,7 +3,7 @@ layout: "layouts/about.liquid"
 title: History
 data_file: history
 timeline: true
-meta_description: Our journey from 2013 to now.
+meta_description: "Our journey from 2013 to now."
 hero_heading_1: "Started in 2013 by students"
 hero_content_1: "We got our start as the Open Access Button, but as our tools grew, so did we. OA.Works is now the home of our tools."
 hero_heading_2: "Sustained by a community"
