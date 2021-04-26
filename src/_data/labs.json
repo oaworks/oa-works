@@ -26,7 +26,7 @@
   {
     "codename": "Paradigm",
     "cta": "Follow on Github",
-    "url": "https://github.com/OAButton/paradigm",
+    "url": "https://github.com/oaworks/paradigm",
     "about": "Backend and API framework for fast, open, private scholarly communications"
   },
   {
@@ -38,7 +38,7 @@
   {
     "codename": "OATP adder",
     "cta": "Follow on Github",
-    "url": "https://github.com/OAButton/OATP-Extension/tree/master",
+    "url": "https://github.com/oaworks/OATP-Extension/tree/master",
     "about": "Chrome Extension to add items to the OA Tracking Project"
   }
 ]
