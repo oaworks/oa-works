@@ -1,7 +1,7 @@
 (function(){
   // Initialise SAL for on-scroll animations
   sal({
-    threshold: .1,
+    threshold: .15,
   });
 
   // Slide out side menu w/ hamburger icon, switch icon to X
