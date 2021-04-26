@@ -4,9 +4,6 @@ title: Newsletter Signup
 meta_description: "Hear more from us when it matters. Expect an email every month or two."
 ---
 
-<script src="/js/jquery-3.6.0.min.js"></script>
-<script src="/js/fullpage-newsletter.js"></script>
-
 <form id="fullpage-newsletter">
   <label for="fullpage-email-signup">Sign up to our newsletter</label>
   <div class="flex">
@@ -16,3 +13,6 @@ meta_description: "Hear more from us when it matters. Expect an email every mont
 </form>
 
 <small>By signing you agree to our [terms](/policies/terms/).</small>
+
+<script src="/js/jquery-3.6.0.min.js"></script>
+<script src="/js/fullpage-newsletter.js"></script>
