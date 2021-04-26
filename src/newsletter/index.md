@@ -4,6 +4,7 @@ title: Newsletter Signup
 meta_description: "Hear more from us when it matters. Expect an email every month or two."
 ---
 
+<script src="/js/jquery-3.6.0.min.js"></script>
 <script src="/js/fullpage-newsletter.js"></script>
 
 <form id="fullpage-newsletter">
