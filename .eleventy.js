@@ -6,6 +6,7 @@ const markdownItAttrs = require('markdown-it-attrs');
 
 const sal = require('sal.js');
 const lazyImagesPlugin = require('eleventy-plugin-lazyimages');
+const cacheBuster = require('@mightyplow/eleventy-plugin-cache-buster');
 
 const markdownItOptions = {
   html: true,
@@ -19,6 +20,9 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.setLibrary('md', markdownLib)
 
   eleventyConfig.addPlugin(lazyImagesPlugin);
+  
+  const cacheBusterOptions = {};
+  eleventyConfig.addPlugin(cacheBuster(cacheBusterOptions));
 
   // Add CSS minifier
   eleventyConfig.addFilter("cssmin", function(code) {
