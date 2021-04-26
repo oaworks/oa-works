@@ -1,6 +1,6 @@
 ---
 layout: "layouts/default.liquid"
-title: Newsletter signup
+title: Newsletter Signup
 meta_description: "Hear more from us when it matters. Expect an email every month or two."
 ---
 
