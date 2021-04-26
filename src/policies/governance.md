@@ -2,7 +2,7 @@
 layout: "layouts/default.liquid"
 theme: dark
 title: "Governance"
-meta_description: "We're a non-profit owned by our community"
+meta_description: "We’re a non-profit owned by our community"
 ---
 
 OA.Works is a community-governed non-profit. Our assets and strategic direction are ultimately controlled by the librarians, researchers, and institutions we serve. As we evolve, we aim to build increasing alignment with the [Principles for Open Infrastructure](https://cameronneylon.net/blog/principles-for-open-scholarly-infrastructures/).
