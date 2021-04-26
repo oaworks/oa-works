@@ -4,9 +4,9 @@
   </div>
   <ul class="unstyled-list row row--centered">
     {% assign delay_count = 0 %}
-    {% for story in stories limit:3 %}
+    {% for story in stories limit:4 %}
     {% assign delay_count = delay_count | plus: 50 %}
-    <li class="col col--1of3 card-wrapper" data-sal="slide-up" data-sal-delay="{{ delay_count }}">
+    <li class="col col--1of4 card-wrapper" data-sal="slide-up" data-sal-delay="{{ delay_count }}">
       <article class="flex-col flex-space-between card card--small">
         <h3 class="label card__header">OA.W<span style="text-transform: lowercase;">orks for</span> {{ story.label }}</h3>
         <figure>
