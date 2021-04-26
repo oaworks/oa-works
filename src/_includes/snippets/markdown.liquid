@@ -4,7 +4,7 @@
 {%- if data_file -%}
 <section class="row data-file{% if theme != 'dark' %} bg-white{% endif %}">
   <header class="col col--1of3">
-    <div class="markdown__header-wrapper">
+    <div class="data-file__header-wrapper">
       <h1>{{ title }}</h1>
       {% if meta_description %}<p>{{ meta_description }}</p>{% endif %}
       {% include 'snippets/ellipsis.liquid' %}

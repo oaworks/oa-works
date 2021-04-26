@@ -2,6 +2,17 @@
   padding-bottom: 0;
 }
 
+.data-file__header {
+  padding-top: var(--space-lg);
+}
+
+.data-file__header {
+  padding-top: var(--space-lg);
+  margin-bottom: var(--space-md);
+  position: sticky;
+  top: 0;
+}
+
 .data-file__content {
   padding-top: var(--space-md);
 }
