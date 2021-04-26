@@ -25,13 +25,13 @@ theme: dark
       {% assign delay_count = 0 %}
       {% for t in testimonials %}
       {% assign delay_count = delay_count | plus: 50 %}
-      <li class="col col--1of3" data-sal="slide-up" data-sal-delay="{{ delay_count }}">
+      <li class="col col--1of3 card-wrapper" data-sal="slide-up" data-sal-delay="{{ delay_count }}">
         <article class="card card--small">
           <header class="card__header">
             <h2 class="type-4">{{ t.name }}</h2>
           </header>
           <figure>
-            <img src="{{ site.base_url }}/img/{{ t.img }}" alt="{{ story.img_alt }}" class="card__img" style="height: 50vh;"/>
+            <img src="{{ site.base_url }}/img/{{ t.img }}" alt="{{ story.img_alt }}" class="card__img" style="height: 40vh;"/>
           </figure>
           <div class="card__body">
             <blockquote>
