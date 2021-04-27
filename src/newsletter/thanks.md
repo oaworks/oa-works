@@ -1,7 +1,7 @@
 ---
 layout: "layouts/default.liquid"
 theme: dark
-title: "We've got your sign up."
+title: "We've got your signup."
 meta_description: "Thank you for your interest 📨"
 noindex: true
 ---
