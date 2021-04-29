@@ -9,7 +9,9 @@ const api = new contentAPI({
 
 // Export data called from the API
 module.exports = async function() {
-  return api.posts.browse()
+  return api.posts.browse({
+    filter: 'tag:-talk'
+      })
       .catch((err) => {
           console.error(err);
       });
