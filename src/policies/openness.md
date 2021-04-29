@@ -1,7 +1,7 @@
 ---
 layout: "layouts/default.liquid"
 theme: dark
-title: "Openness Policy"
+title: "Openness policy"
 meta_description: "Everything we do is open."
 ---
 
