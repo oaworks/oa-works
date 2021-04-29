@@ -1,7 +1,7 @@
 ---
 layout: "layouts/default.liquid"
 theme: dark
-title: Terms of Service
+title: Terms of service
 meta_description: "These terms of service cover your use and access to the services."
 ---
 

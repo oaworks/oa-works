@@ -1,7 +1,7 @@
 ---
 layout: "layouts/default.liquid"
 theme: dark
-title: "Accessibility Policy"
+title: "Accessibility policy"
 meta_description: "Making our services and sites work for everyone."
 ---
 
