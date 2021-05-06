@@ -1,6 +1,6 @@
 ---
 layout: "layouts/default.liquid"
-title: Newsletter Signup
+title: Newsletter signup
 meta_description: "Hear more from us when it matters."
 ---
 <form id="fullpage-newsletter">
