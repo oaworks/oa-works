@@ -18,7 +18,7 @@ Cookies are used for our account system. Users remain logged in but this can be 
 
 ## Our Use of Your Data
 
-In general, the OA.Works uses the data collected to further its Vision and Mission. We use user information to manage your membership and contact authors on your behalf. We may occationally use your email address to send you updates and alerts on Open Access and Open Access Advocacy. In addition to the metadata of the research papers, usernames, professions, and approximate locations will be publicly displayed in our data and website. To protect your privacy, the location data we collect is blurred by 11 kilometres.
+In general, OA.Works uses the data collected to further its Vision and Mission. We use user information to manage your membership and contact authors on your behalf. We may occationally use your email address to send you updates and alerts on Open Access and Open Access Advocacy. In addition to the metadata of the research papers, usernames, professions, and approximate locations will be publicly displayed in our data and website. To protect your privacy, the location data we collect is blurred by 11 kilometers.
 
 ## Third Party Services
 
@@ -30,7 +30,7 @@ The Open Access Button can be downloaded from Mozilla Addons, Chrome Web Store. 
 
 ## Disclosure of Your Data
 
-We will provide relevant data for use by advocates to further the mission of the OA.Works. This data will be released under a [Creative Commons 0 licence](https://creativecommons.org/publicdomain/zero/1.0/).
+We will provide relevant data for use by advocates to further the mission of OA.Works. This data will be released under a [Creative Commons 0 licence](https://creativecommons.org/publicdomain/zero/1.0/).
 
 We understand that some users may require a higher level of privacy. If you'd like to maintain privacy don't use your real name as your username as it will be publicly displayed. In addition, use a unique username that is not used on any other sites or service.
 
@@ -48,8 +48,8 @@ This policy is current as of October 19th, 2016. Our Privacy Policy may change f
 
 ### Updates
 
+- April 28th 2021: Updated the name "Open Access Button" throughout to reflect our new name. We did not post notices as this wasn't deemed a substantial change.
 - October 24, 2016: Updated to reflect changes in the OA.Works team, how we use data, and make structural improvements to the page.
-- April 28th 2021: Updated our "Open Access Button" throughout to reflect our new name. We did not post notices as this wasn't deemed a substantial change.
 
 ## Questions?
 
