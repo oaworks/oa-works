@@ -12,3 +12,5 @@ OA.Works is currently incubated by, but separate from, the Scholarly Publishing 
 Our IP and funding are overseen by the [SPARC Steering Committee](https://sparcopen.org/people/), which would also oversee any change in OA.Work’s legal or organizational structure. This committee is composed of senior North American university leaders representing the 220+ SPARC members.
 
 SPARC is a project of [New Venture Fund (NVF)](https://newventurefund.org/), a 501(c)(3) US public charity that incubates new and innovative public-interest projects and grant-making programs. NVF provides legal and financial control for OA.Works. NVF is a leading fiscal sponsor that manages a charitable portfolio of more than $350 million across over 500 projects.
+
+Last updated: May 2021
