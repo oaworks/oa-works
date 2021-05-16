@@ -10,3 +10,6 @@ We share our code, content, and data under best practice open licenses. That mea
 Materials are made open on the day they're produced, unless they're related to unannounced projects that can't yet be shared.
 
 We currently don’t file software patents. If we do, we will not assert them.
+
+Established: April 2013
+Last updated: May 2021
