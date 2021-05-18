@@ -1,5 +1,77 @@
 [
   {
+    "label": "Big deal cancellations",
+    "article": "Combination of hyper-CVAD with ponatinib as first-line therapy for patients with Philadelphia chromosome-positive acute lymphoblastic leukaemia: long-term follow-up of a single-centre, phase 2 study",
+    "content": "This article is important for management of patients but is no longer available to providers at University of California institutions due to discontinuation of the UC contract with Elsevier.",
+    "img": "dendritic-cells.jpg",
+    "img_credit": "Photo by <a href='https://unsplash.com/@nci' target='_blank' rel='noopener'>National Cancer Institute</a>",
+    "img_alt": "A scanning electron microscope image shows dendritic cells, pseudo-colored in green, interacting with T cells, pseudo-colored in pink."
+  },
+  {
+    "label": "Environmental studies",
+    "article": "The world at your feet: desert biological soil crusts",
+    "content": "I am a high school senior in Tucson, Arizona. I have a growing interest in soil ecology, and can see myself either pursuing a career in environmental conservation. This article would help set me on the right path.",
+    "img": "soil-plants.jpg",
+    "img_credit": "Photo by <a href='https://unsplash.com/@dylandejonge' target='_blank' rel='noopener'>Dylan de Jonge</a>",
+    "img_alt": "Ground level view of farmland shows the soil between two rows of sprouting plants."
+  },
+  {
+    "label": "Health",
+    "article": "Firefighting and mental health: experiences of repeated exposure to trauma",
+    "content": "I’m a student at the Cronkite Journalism school at Arizona state. I’m writing a story for my intermediate reporting class on firefighters who suffer from PTSD and I’d like to gain more insight and statistics.",
+    "img": "firefighters.jpg",
+    "img_credit": "Photo by <a href='https://unsplash.com/@mchesin' target='_blank' rel='noopener'>Matt Chesin</a>",
+    "img_alt": "Firefighters wearing their full gear stand behind the flames of training blaze"
+  },
+  {
+    "label": "Health",
+    "article": "Glad Press’n Seal for the Treatment of Chronic Exposure Keratopathy",
+    "content": "My husband has contracted Bell’s Palsy and I’ve been searching for a way to create a moisture chamber (without spending lots of money).",
+    "img": "sensory-deprivation-tank.jpg",
+    "img_credit": "Photo by <a href='https://unsplash.com/@galen_crout' target='_blank' rel='noopener'>Galen Crout</a>",
+    "img_alt": "In the dark sits a purple-lit sensory deprivation tank with a top lid open above it showing the water within."
+  },
+  {
+    "label": "Medical practice",
+    "article": "An exploration of factors associated with post-traumatic stress in ER nurses",
+    "content": "I would like to include the study for my paper which is about the effect of traumatic events on emergency department nurses. This paper is required in order to get my bachelor’s degree.",
+    "img": "nurse.jpg",
+    "img_credit": "Photo by <a href='https://unsplash.com/@theeastlondonphotographer' target='_blank' rel='noopener'>Ehimetalor Akhere Unuabona</a>",
+    "img_alt": "A woman nurse wears a blue gown stained with red during a street protest."
+  },
+  {
+    "label": "Medical practice",
+    "article": "Haploidentical donor transplants for severe aplastic anemia",
+    "content": "I work in Buenos Aires, Argentina. We have a 27 year old patient from Colombia without siblings, so we are trying to perform a haplo transplant.",
+    "img": "test-tubes.jpg",
+    "img_credit": "Photo by <a href='https://unsplash.com/@nci' target='_blank' rel='noopener'>National Cancer Institute</a>",
+    "img_alt": "Six vials of blood in test tubes alternating purple and orange tops. "
+  },
+  {
+    "label": "Research",
+    "article": "The effect of globalization on women’s rights in MENA region",
+    "content": "I am writing a report on the effects of globalization for women in the workplace around the world and this article would benefit my research!",
+    "img": "two-women.jpg",
+    "img_credit": "Photo by <a href='https://unsplash.com/@wocintechchat' target='_blank' rel='noopener'>Christina @ wocintechchat.com</a>",
+    "img_alt": "Two women posing next to each other in an office. The black woman is wearing a dark suit and the white woman is wearing a grey suit."
+  },
+  {
+    "label": "Social change",
+    "article": "Chilean housing policy: a pendant human rights perspective",
+    "content": "I am working as an organiser on a housing campaign with Syrian refugees and homeless families in Belfast. This research would be really useful for our work in fighting for better rights.",
+    "img": "tents.jpg",
+    "img_credit": "Photo by <a href='https://unsplash.com/@nate_dumlao' target='_blank' rel='noopener'>Nathan Dumlao</a>",
+    "img_alt": "A row of tents on a city street where homeless people camp."
+  },
+  {
+    "label": "Social change",
+    "article": "Always running: candidate emergence among women of color over time",
+    "content": "I’m a committee member of the Democratic political party for my town. This research looks like it would be persuasive in convincing leadership to put more specialized effort into recruitment.",
+    "img": "vote-letters.jpg",
+    "img_credit": "Photo by <a href='https://unsplash.com/@glencarrie' target='_blank' rel='noopener'>Glen Carrie</a>",
+    "img_alt": "A pile of board game letters spells out V-O-T-E."
+  },
+  {
     "label": "Personal health",
     "article": "Comparison of the clinical and functional outcomes following 3- and 4-corner fusions",
     "content": "I have to chose between these 2 surgeries. I want to make an informed  decision as it is my body and I only get one.",
