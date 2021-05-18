@@ -1,5 +1,29 @@
 [
   {
+    "label": "Mental health",
+    "article": "Firefighting and mental health: experiences of repeated exposure to trauma",
+    "content": "I’m a student at the Cronkite Journalism school at Arizona State. I’m writing a story for my intermediate reporting class on firefighters who suffer from PTSD and I’d like to gain more insight and statistics.",
+    "img": "firefighters.jpg",
+    "img_credit": "Photo by <a href='https://unsplash.com/@mchesin' target='_blank' rel='noopener'>Matt Chesin</a>",
+    "img_alt": "Firefighters wearing their full gear stand behind the flames of training blaze"
+  },
+  {
+    "label": "Social change",
+    "article": "Chilean housing policy: a pendant human rights perspective",
+    "content": "I am working as an organiser on a housing campaign with Syrian refugees and homeless families in Belfast. This research would be really useful for our work in fighting for better rights.",
+    "img": "tents.jpg",
+    "img_credit": "Photo by <a href='https://unsplash.com/@nate_dumlao' target='_blank' rel='noopener'>Nathan Dumlao</a>",
+    "img_alt": "A row of tents on a city street where homeless people camp."
+  },
+  {
+    "label": "Medical practice",
+    "article": "Haploidentical donor transplants for severe aplastic anemia",
+    "content": "I work in Buenos Aires, Argentina. We have a 27 year old patient from Colombia without siblings, so we are trying to perform a haplo transplant.",
+    "img": "test-tubes.jpg",
+    "img_credit": "Photo by <a href='https://unsplash.com/@nci' target='_blank' rel='noopener'>National Cancer Institute</a>",
+    "img_alt": "Six vials of blood in test tubes alternating purple and orange tops. "
+  },
+  {
     "label": "Big deal cancellations",
     "article": "Combination of hyper-CVAD with ponatinib as first-line therapy for patients with Philadelphia chromosome-positive acute lymphoblastic leukaemia: long-term follow-up of a single-centre, phase 2 study",
     "content": "This article is important for management of patients but is no longer available to providers at University of California institutions due to discontinuation of the UC contract with Elsevier.",
@@ -16,15 +40,7 @@
     "img_alt": "Ground level view of farmland shows the soil between two rows of sprouting plants."
   },
   {
-    "label": "Health",
-    "article": "Firefighting and mental health: experiences of repeated exposure to trauma",
-    "content": "I’m a student at the Cronkite Journalism school at Arizona state. I’m writing a story for my intermediate reporting class on firefighters who suffer from PTSD and I’d like to gain more insight and statistics.",
-    "img": "firefighters.jpg",
-    "img_credit": "Photo by <a href='https://unsplash.com/@mchesin' target='_blank' rel='noopener'>Matt Chesin</a>",
-    "img_alt": "Firefighters wearing their full gear stand behind the flames of training blaze"
-  },
-  {
-    "label": "Health",
+    "label": "Personal health",
     "article": "Glad Press’n Seal for the Treatment of Chronic Exposure Keratopathy",
     "content": "My husband has contracted Bell’s Palsy and I’ve been searching for a way to create a moisture chamber (without spending lots of money).",
     "img": "sensory-deprivation-tank.jpg",
@@ -40,28 +56,12 @@
     "img_alt": "A woman nurse wears a blue gown stained with red during a street protest."
   },
   {
-    "label": "Medical practice",
-    "article": "Haploidentical donor transplants for severe aplastic anemia",
-    "content": "I work in Buenos Aires, Argentina. We have a 27 year old patient from Colombia without siblings, so we are trying to perform a haplo transplant.",
-    "img": "test-tubes.jpg",
-    "img_credit": "Photo by <a href='https://unsplash.com/@nci' target='_blank' rel='noopener'>National Cancer Institute</a>",
-    "img_alt": "Six vials of blood in test tubes alternating purple and orange tops. "
-  },
-  {
     "label": "Research",
     "article": "The effect of globalization on women’s rights in MENA region",
     "content": "I am writing a report on the effects of globalization for women in the workplace around the world and this article would benefit my research!",
     "img": "two-women.jpg",
     "img_credit": "Photo by <a href='https://unsplash.com/@wocintechchat' target='_blank' rel='noopener'>Christina @ wocintechchat.com</a>",
     "img_alt": "Two women posing next to each other in an office. The black woman is wearing a dark suit and the white woman is wearing a grey suit."
-  },
-  {
-    "label": "Social change",
-    "article": "Chilean housing policy: a pendant human rights perspective",
-    "content": "I am working as an organiser on a housing campaign with Syrian refugees and homeless families in Belfast. This research would be really useful for our work in fighting for better rights.",
-    "img": "tents.jpg",
-    "img_credit": "Photo by <a href='https://unsplash.com/@nate_dumlao' target='_blank' rel='noopener'>Nathan Dumlao</a>",
-    "img_alt": "A row of tents on a city street where homeless people camp."
   },
   {
     "label": "Social change",
