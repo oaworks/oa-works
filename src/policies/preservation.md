@@ -30,5 +30,7 @@ While these are plans, that doesn’t mean they’re theoretical. We have dealt 
 * Long term, we’d work with values aligned individuals or organizations to ensure our domain name, and an inexpensive website serving redirects and providing information, was maintained for a reasonable period (roughly equal to our life) after our shutdown.
 * We currently have no formal incentives, or threshold, at which we would choose to wind down.
 
-Established: August 2019
-Last updated: July 2020
+## Updates
+
+* Established: October 22nd 2019
+* Last updated: July 6th 2020
