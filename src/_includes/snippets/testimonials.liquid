@@ -1,6 +1,6 @@
 <ul class="unstyled-list full-width-list">
   {% assign delay_count = 0 %}
-  {% for t in testimonials %}
+  {% for t in testimonials reversed %}
   {% assign delay_count = delay_count | plus: 100 %}
   <li data-sal="slide-up" data-sal-delay="{{ delay_count }}">
     <article class="row">
