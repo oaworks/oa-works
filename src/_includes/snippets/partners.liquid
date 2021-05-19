@@ -1,18 +1,20 @@
-<ul class="row team">
+<ul class="unstyled-list full-width-list">
   {% assign delay_count = 0 %}
-  {% for partners in partners %}
+  {% for partner in partners %}
   {% assign delay_count = delay_count | plus: 100 %}
-  <li class="col col--1of3" data-sal="slide-up" data-sal-delay="{{ delay_count }}">
-    <article class="card card--small">
-      <p class="card__header card__header--plain label">{{ partners.name }}</p>
-      <div class="card__body">
-        <h2 class="font-sans type-4">{{ partners.person }}</h2>
-        {% if partners.img %}
-        <figure class="portrait">
-          <img src="/img/{{ partners.img }}" alt="{{ partners.img_alt }}"/>
+  <li data-sal="slide-up" data-sal-delay="{{ delay_count }}">
+    <article class="row">
+      <div class="col col--1of6">
+        {% if partner.img %}
+        <figure class="portrait portrait--circular">
+          <img src="/img/{{ partner.img }}" alt="{{ partner.img_alt }}"/>
         </figure>
         {% endif %}
-        <p>{{ partners.reason }}</p>
+      </div>
+      <div class="col col--2of3">
+        <p class="label">{{ partner.name }}</p>
+        <h2 class="type-3">{{ partner.person }}</h2>
+        <p>{{ partner.reason }}</p>
       </div>
     </article>
   </li>
