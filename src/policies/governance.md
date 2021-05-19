@@ -13,4 +13,7 @@ Our IP and funding are overseen by the [SPARC Steering Committee](https://sparco
 
 SPARC is a project of [New Venture Fund (NVF)](https://newventurefund.org/), a 501(c)(3) US public charity that incubates new and innovative public-interest projects and grant-making programs. NVF provides legal and financial control for OA.Works. NVF is a leading fiscal sponsor that manages a charitable portfolio of more than $350 million across over 500 projects.
 
-Last updated: May 2021
+## Updates
+
+Established: April 26th 2021
+Last updated: April 26th 2021
