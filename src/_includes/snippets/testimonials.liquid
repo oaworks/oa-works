@@ -1,0 +1,25 @@
+<ul class="unstyled-list full-width-list">
+  {% assign delay_count = 0 %}
+  {% for t in testimonials %}
+  {% assign delay_count = delay_count | plus: 100 %}
+  <li data-sal="slide-up" data-sal-delay="{{ delay_count }}">
+    <article class="row">
+      <div class="col col--1of6">
+        {% if t.img %}
+        <figure class="portrait portrait--circular">
+          <img src="/img/{{ t.img }}" alt="{{ t.img_alt }}"/>
+        </figure>
+        {% endif %}
+      </div>
+      <div class="col col--2of3">
+        <p class="label">About {{ t.product }}</p>
+        <h2 class="type-3">{{ t.name }}</h2>
+        <blockquote>
+          <p>“{{ t.quote }}”</p>
+        </blockquote>
+        <p>&mdash; {{ t.role }}{% if t.affiliation %} at {{ t.affiliation }}{% endif %}</p>
+      </div>
+    </article>
+  </li>
+  {% endfor %}
+</ul>
