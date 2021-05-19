@@ -4,9 +4,6 @@ theme: dark
 title: "Succession & contingency plan"
 meta_description: "What we’re doing to limit the impact of the unexpected, and ensure an orderly shutdown if required."
 ---
-Established: August 2019
-Last updated: July 2020
-
 We are a mission-driven nonprofit and, as such, our goal is to exist only as long as needed to serve our mission. Practically speaking, we currently run services that individuals and institutions rely on for mission-critical functions. We take that seriously and carefully plan our budget, operations, and development in line with best practice approaches (including those outlined in ‘Principles for Open Scholarly Infrastructures’) to maintain these to the highest standards for their useful life.
 
 Outside of these day-to-day considerations for avoiding issues, in this plan, we’ll outline the major pieces of our strategy for:
@@ -32,3 +29,8 @@ While these are plans, that doesn’t mean they’re theoretical. We have dealt 
 * Because our content, code, and data are openly licenced, independently hosted, and archived, those who still required our services could continue to run them locally. We don’t have patents or trademarks; however, we would request organizations that continue to run the service use another name.
 * Long term, we’d work with values aligned individuals or organizations to ensure our domain name, and an inexpensive website serving redirects and providing information, was maintained for a reasonable period (roughly equal to our life) after our shutdown.
 * We currently have no formal incentives, or threshold, at which we would choose to wind down.
+
+## Updates
+
+* Established: October 22nd 2019
+* Last updated: July 6th 2020
