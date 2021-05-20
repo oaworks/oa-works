@@ -20,6 +20,9 @@ layout: layouts/base.liquid
     <p>{{ meta_description }}</p>
   </header>
   <div class="col">
+    <p>{{ content }}</p>
+  </div>
+  <div class="col">
     <ul class="row">
       {% assign delay_count = 0 %}
       {% for product in products %}
