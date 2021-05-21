@@ -1,5 +1,6 @@
 ---
-layout: "layouts/about.liquid"
+layout: "layouts/header/left.liquid"
+content_layout: markdown
 title: About
 hero_heading_1: "We’re OA.Works</br> (pronounced OA Works)"
 hero_content_1: "We’re a library-owned non-profit funded by leading foundations and libraries.</br></br>You may have known us as the Open Access Button."
