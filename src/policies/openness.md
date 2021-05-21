@@ -1,5 +1,6 @@
 ---
-layout: "layouts/default.liquid"
+layout: "layouts/header/left.liquid"
+content_layout: markdown
 theme: dark
 title: "Openness policy"
 meta_description: "Everything we do is open."
