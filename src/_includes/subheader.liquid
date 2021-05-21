@@ -1,0 +1,18 @@
+{%- if hero_heading_1 -%}
+<section class="hero">
+  <div class="row">
+    <header class="col col--1of4" data-sal="slide-up">
+      <h2>{{ hero_heading_1 }}</h2>
+    </header>
+    <p class="col col--1of4" data-sal="slide-up" data-sal-delay="100">
+      {{ hero_content_1 }}
+    </p>
+    <header class="col col--1of4" data-sal="slide-up" data-sal-delay="200">
+      <h2>{{ hero_heading_2 }}</h2>
+    </header>
+    <p class="col col--1of4" data-sal="slide-up" data-sal-delay="300">
+      {{ hero_content_2 }}
+    </p>
+  </div>
+</section>
+{%- endif -%}
