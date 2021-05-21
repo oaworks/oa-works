@@ -1,3 +1,19 @@
+{% if page.url != '/' %}
+  <nav class="subnav">
+    <ul class="tabs">
+      {% assign path = page.url | split: "/" | slice: 1, 2 %}
+      {% assign section = path[0] %}
+      {% for item in navigation[section] %}
+      {% if item.indented != true %}
+      <li class="tab{% if page.url == '{{ item.url }}' %} tab--active{% endif %}">
+        <a href="{{ item.url }}" class="label">{{ item.text }}</a>
+      </li>
+      {% endif %}
+      {% endfor %}
+    </ul>
+  </nav>
+{% endif %}
+
 {%- if hero_heading_1 -%}
 <section class="hero">
   <div class="row">
