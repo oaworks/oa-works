@@ -12,11 +12,15 @@ body_class: header-left
     </div>
   </header>
 
-  {% if content_layout == 'list' %}
-    {% include 'layouts/content/list.liquid' %}
-  {% elsif content_layout == 'cards' %}
-    {% include 'layouts/content/cards.liquid' %}
-  {% else %}
-    {% include 'layouts/content/markdown.liquid' %}
-  {% endif %}
+  <div class="col col--2of3">
+    {% if content_layout == 'list' %}
+      {% include 'layouts/content/list.liquid' %}
+
+    {% elsif content_layout == 'cards' %}
+      {% include 'layouts/content/cards.liquid' %}
+
+    {% else %}
+      {% include 'layouts/content/markdown.liquid' %}
+    {% endif %}
+  </div>
 </section>
