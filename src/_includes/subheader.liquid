@@ -5,7 +5,7 @@
       {% assign section = path[0] %}
       {% for item in navigation[section] %}
       {% if item.indented != true %}
-      <li class="tab{% if page.url == '{{ item.url }}' %} tab--active{% endif %}">
+      <li class="tab{% if page.url == item.url %} tab--active{% endif %}">
         <a href="{{ item.url }}" class="label">{{ item.text }}</a>
       </li>
       {% endif %}
