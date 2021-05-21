@@ -1,5 +1,6 @@
 ---
-layout: "layouts/about.liquid"
+layout: "layouts/header/left.liquid"
+content_layout: list
 title: History
 data_file: history
 timeline: true

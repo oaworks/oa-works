@@ -1,0 +1,15 @@
+{% for item in history reversed %}
+{% assign delay_count = delay_count | plus: 100 %}
+<li data-sal="slide-up" data-sal-delay="{{ delay_count }}">
+  <article class="row">
+    <div class="col col--2of3">
+      <h2 class="font-sans type-2">{{ item.year }}</h2>
+      <ul>
+        {% for event in item.content %}
+          <li>{{ event }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+  </article>
+</li>
+{% endfor %}
