@@ -1,0 +1,21 @@
+{% for product in products %}
+{% assign delay_count = delay_count | plus: 50 %}
+<li class="col col--1of3 card-wrapper" data-sal="slide-up" data-sal-delay="{{ delay_count }}">
+  <p class="label label--secondary line-thru">
+    <small class="line-thru__inner bg-white label">{{ product.label }}</small>
+  </p>
+  <article class="flex-col flex-space-between card">
+    {% if product.logo %}
+      <h3 class="card__header">{% include product.logo %}</h3>
+    {% else %}
+      <h3 class="card__header">{{ product.name }}</h3>
+    {% endif %}
+    <div class="card__body">
+      {{ product.description }}
+    </div>
+    <footer class="card__footer">
+      <a href="{{ product.url }}" target="_blank" rel="noopener">{{ product.cta }}</a>
+    </footer>
+  </article>
+</li>
+{% endfor %}

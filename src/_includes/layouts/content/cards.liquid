@@ -1,0 +1,7 @@
+<ol class="data-file__content unstyled-list row">
+  {% assign delay_count = 0 %}
+  {% assign dir = "partials/" %}
+  {% assign ext = ".liquid" %}
+  {% assign data_file = data_file | prepend: dir %}
+  {% include {{ data_file | append: ext }} %}
+</ol>

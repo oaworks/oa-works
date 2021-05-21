@@ -1,0 +1,16 @@
+{% for item in labs %}
+{% assign delay_count = delay_count | plus: 100 %}
+<li class="col col--1of2 card-wrapper" data-sal="slide-up" data-sal-delay="{{ delay_count }}">
+  <article class="flex-col flex-space-between card card--small">
+    <h2 class="card__header card__header--plain label">{{ item.codename }}</h2>
+    <div class="card__body">
+      <p class="type-4">{{ item.about }}</p>
+    </div>
+    {%- if item.cta -%}
+    <footer class="card__footer">
+      <a href="{% if item.url contains 'https' or 'mailto:' %}{% else %}{{ site.base_url }}{% endif %}{{ item.url }}" {% if item.url contains 'https' %} target="_blank" rel="noopener"{% endif %}">{{ item.cta }}</a>
+    </footer>
+    {%- endif -%}
+  </article>
+</li>
+{% endfor %}
