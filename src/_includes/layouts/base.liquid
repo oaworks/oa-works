@@ -9,11 +9,18 @@
     <p class="browserupgrade">You are using an outdated browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
     <![endif]-->
 
+    {%- comment %}Site header{% endcomment -%}
     {% include 'snippets/header.liquid' %}
     <main id="main">
-      {{ content }}
-    </main>
+      {%- comment %}Page-specific header{% endcomment -%}
+      {% include 'subheader.liquid' %}
 
+      {{ content }}
+
+      {%- comment %}Page-specific prefooter{% endcomment -%}
+      {% include 'prefooter.liquid' %}
+    </main>
+    {%- comment %}Site footer{% endcomment -%}
     {% include 'snippets/footer.liquid' %}
 
     <script src="{{ site.base_url }}/js/sal.js"></script>
