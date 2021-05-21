@@ -1,5 +1,6 @@
 ---
-layout: "layouts/about.liquid"
+layout: "layouts/header/left.liquid"
+content_layout: cards
 theme: dark
 data_file: values
 title: Values

@@ -1,0 +1,14 @@
+{% for stat in impact %}
+{% assign delay_count = delay_count | plus: 100 %}
+<li class="col col--1of2 card-wrapper" data-sal="slide-up" data-sal-delay="{{ delay_count }}">
+  <article class="card card--small">
+    <h2 class="card__header card__header--plain label">
+      <span class="type-1">{{ stat.value }}</span><br/>
+      {{ stat.key }}
+    </h2>
+    <div class="card__body">
+      <p>{{ stat.desc }}</p>
+    </div>
+  </article>
+</li>
+{% endfor %}
