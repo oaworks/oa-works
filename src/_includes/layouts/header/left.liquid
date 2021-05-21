@@ -3,12 +3,18 @@ layout: layouts/base.liquid
 body_class: header-left
 ---
 
-<section class="row border-top {{ content_layout }}{% if theme != 'dark' %} bg-white{% endif %}">
+<section class="row {{ content_layout }}{% if theme != 'dark' %} bg-white{% endif %}">
   <header class="col col--1of3">
     <div class="markdown__header-wrapper">
       <h1>{{ title }}</h1>
       {% if meta_description %}<p>{{ meta_description }}</p>{% endif %}
       {% include 'snippets/ellipsis.liquid' %}
+
+      {% if content_layout != 'markdown' %}
+      <div style="margin-top: var(--space-md);">
+        {{ content }}
+      </div>
+      {% endif %}
     </div>
   </header>
 
