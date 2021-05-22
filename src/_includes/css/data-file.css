@@ -1,29 +1,35 @@
-.data-file {
+.cards,
+.list {
   padding-bottom: 0;
 }
 
-.data-file__header {
+.cards__header,
+.list__header {
   padding-top: var(--space-lg);
 }
 
-.data-file__header-wrapper {
+.cards__header-wrapper,
+.list__header-wrapper {
   padding-top: var(--space-lg);
   margin-bottom: var(--space-md);
   position: sticky;
   top: 0;
 }
 
-.data-file__content {
+.cards__content,
+.list__content {
   padding-top: var(--space-md);
 }
 
-.data-file a {
+.cards a,
+.list a {
   display: inline-block;
   text-decoration: none;
   transition: color .25s;
 }
 
-.data-file a:after {
+.cards a:after,
+.list a:after {
   display: block;
   width: 100%;
   height: 1px;
@@ -32,6 +38,7 @@
   border-bottom: 1px solid;
 }
 
-.data-file a:hover:after {
+.cards a:hover:after,
+.list a:hover:after {
   width: 0%;
 }

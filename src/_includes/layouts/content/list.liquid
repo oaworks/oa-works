@@ -1,7 +1,9 @@
-<ul class="unstyled-list full-width-list">
-  {% assign delay_count = 0 %}
-  {% assign dir = "partials/" %}
-  {% assign ext = ".liquid" %}
-  {% assign data_file = data_file | prepend: dir %}
-  {% include {{ data_file | append: ext }} %}
-</ul>
+<section>
+  <ul class="unstyled-list full-width-list">
+    {% assign delay_count = 0 %}
+    {% assign dir = "partials/" %}
+    {% assign ext = ".liquid" %}
+    {% assign data_file = data_file | prepend: dir %}
+    {% include {{ data_file | append: ext }} %}
+  </ul>
+</section>
