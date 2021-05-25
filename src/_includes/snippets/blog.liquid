@@ -1,6 +1,6 @@
 <section class="section bg-black">
   <h2 class="font-serif type-1">Latest updates</h2>
-  <ul class="row">
+  <ul class="row unstyled-list">
     {% assign delay_count = 0 %}
     {% for post in posts limit:3 %}
     {% assign delay_count = delay_count | plus: 50 %}

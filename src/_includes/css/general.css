@@ -21,8 +21,6 @@ article {
 
 ul, ol {
   margin-bottom: var(--space-md);
-  padding: 0;
-  list-style: none;
 }
 
 figure {

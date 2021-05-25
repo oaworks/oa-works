@@ -21,7 +21,7 @@
     <div class="row">
       <div class="col col--1of6">
         <h2 class="label">Products</h2>
-        <ul>
+        <ul class="unstyled-list">
           {% for item in navigation.products %}
           <li{% if item.indented %} style="padding-left: var(--space-xs); border-left: 1px solid;"{% endif %}>
             <a href="{{ item.url }}" {% if item.url contains 'https' %} target="_blank" rel="noopener"{% endif %}>
@@ -33,7 +33,7 @@
       </div>
       <div class="col col--1of6">
         <h2 class="label">About</h2>
-        <ul>
+        <ul class="unstyled-list">
           {% for item in navigation.about %}
           <li>
             <a href="{{ item.url }}">
@@ -44,7 +44,7 @@
         </ul>
 
         <h2 class="label">People</h2>
-        <ul>
+        <ul class="unstyled-list">
           {% for item in navigation.people %}
           <li>
             <a href="{{ item.url }}">
@@ -56,7 +56,7 @@
       </div>
       <div class="col col--1of6">
         <h2 class="label">Impact</h2>
-        <ul>
+        <ul class="unstyled-list">
           {% for item in navigation.impact %}
           <li>
             <a href="{{ item.url }}">
@@ -67,7 +67,7 @@
         </ul>
 
         <h2 class="label">Developers</h2>
-        <ul>
+        <ul class="unstyled-list">
           {% for item in navigation.developers %}
           <li>
             <a href="{{ item.url }}">
@@ -79,7 +79,7 @@
       </div>
       <div class="col col--1of6">
         <h2 class="label">Policies</h2>
-        <ul>
+        <ul class="unstyled-list">
           {% for item in navigation.policies %}
           <li>
             <a href="{{ item.url }}">
@@ -91,7 +91,7 @@
       </div>
       <div class="col col--1of6">
         <h2 class="label">Support</h2>
-        <ul>
+        <ul class="unstyled-list">
           {% for item in navigation.support %}
           <li>
             <a href="{{ item.url }}">
@@ -103,7 +103,7 @@
       </div>
       <div class="col col--1of6">
         <h2 class="label">Connect</h2>
-        <ul>
+        <ul class="unstyled-list">
           <li>
             <a href="https://twitter.com/{{ site.twitter }}" target="_blank" rel="noopener">Twitter</a>
           </li>
