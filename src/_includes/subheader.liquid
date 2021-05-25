@@ -1,6 +1,6 @@
 {% if page.url != '/' %}
   <nav class="subnav">
-    <ul class="tabs">
+    <ul class="flex-wrap unstyled-list">
       {% assign path = page.url | split: "/" | slice: 1, 2 %}
       {% assign section = path[0] %}
       {% for item in navigation[section] %}
