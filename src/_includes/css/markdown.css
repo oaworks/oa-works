@@ -20,8 +20,9 @@
 }
 
 .markdown ul, ol {
-  padding-left: var(--space-xs);
+  padding: 0 0 0 var(--space-xs);
   margin-bottom: var(--space-md);
+  list-style: none;
 }
 
 .markdown ul li:before {
