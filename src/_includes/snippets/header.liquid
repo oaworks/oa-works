@@ -4,7 +4,7 @@
       <h1 class="no-margin">{% include 'logos/logotype.svg' %}</h1>
     </a>
 
-    <ul class="align-center flex-center header__featured-items" style="width: 50%;">
+    <ul class="unstyled-list align-center flex-center header__featured-items" style="width: 50%;">
       {%- for item in navigation -%}
         {%- for subitem in item[1] -%}
           {%- if subitem.featured -%}
@@ -25,10 +25,10 @@
     <nav class="header__nav" style="transform: translateX(100%);">
       <h2 class="sr-only">Table of contents</h2>
       <div class="row">
-        <ul class="col col--1of3 header__list">
+        <ul class="col col--1of3 unstyled-list header__list">
           <li>
             <span class="header__nav-section">Products</span>
-            <ul>
+            <ul class="unstyled-list">
               {% for item in navigation.products %}
               <li{% if item.indented %} style="padding-left: var(--space-xs); border-left: 1px solid;"{% endif %}>
                 <a href="{{ item.url }}" {% if item.url contains 'https' %} target="_blank" rel="noopener"{% endif %} class="header__nav-subsection">
@@ -40,7 +40,7 @@
           </li>
           <li>
             <span class="header__nav-section">About</span>
-            <ul>
+            <ul class="unstyled-list">
               {% for item in navigation.about %}
               <li>
                 <a href="{{ item.url }}" class="header__nav-subsection">
@@ -51,10 +51,10 @@
             </ul>
           </li>
         </ul>
-        <ul class="col col--1of3 header__list">
+        <ul class="col col--1of3 unstyled-list header__list">
           <li>
             <span class="header__nav-section">People</span>
-            <ul>
+            <ul class="unstyled-list">
               {% for item in navigation.people %}
               <li>
                 <a href="{{ item.url }}" class="header__nav-subsection">
@@ -66,7 +66,7 @@
           </li>
           <li>
             <span class="header__nav-section">Impact</span>
-            <ul>
+            <ul class="unstyled-list">
               {% for item in navigation.impact %}
               <li>
                 <a href="{{ item.url }}" class="header__nav-subsection">
@@ -78,7 +78,7 @@
           </li>
           <li>
             <span class="header__nav-section">Developers</span>
-            <ul>
+            <ul class="unstyled-list">
               {% for item in navigation.developers %}
               <li>
                 <a href="{{ item.url }}" {% if item.url contains 'https' %} target="_blank" rel="noopener"{% endif %} class="header__nav-subsection">
@@ -87,10 +87,6 @@
               </li>
               {% endfor %}
             </ul>
-          </li>
-        </ul>
-        <ul class="col col--1of3 header__list">
-          <li>
           </li>
         </ul>
       </div>
@@ -104,7 +100,7 @@
       </form>
 
       <div class="row">
-        <ul class="col">
+        <ul class="col unstyled-list">
           <li>
             <span class="header__nav-section">Policies</span>
             <ul class="inlined-list">
