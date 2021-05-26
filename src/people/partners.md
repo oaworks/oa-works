@@ -1,5 +1,6 @@
 ---
-layout: "layouts/people.liquid"
+layout: "layouts/header/left.liquid"
+content_layout: list
 data_file: partners
 title: Partners
 meta_description: "We’re technical partners for librarians, and open advocates."

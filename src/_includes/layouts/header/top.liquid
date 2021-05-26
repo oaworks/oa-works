@@ -1,0 +1,22 @@
+---
+layout: layouts/base.liquid
+body_class: header-top
+---
+
+<section class="row {{ content_layout }}{% if theme != 'dark' %} bg-white{% endif %}">
+  <header class="col col--2of3 {{ content_layout }}__header" data-sal="slide-up">
+    <h1>{{ title }}</h1>
+    <p>{{ meta_description }}</p>
+  </header>
+  <div class="col {{ content_layout }}__content">
+    {% if content_layout == 'list' %}
+      {% include 'layouts/content/list.liquid' %}
+
+    {% elsif content_layout == 'cards' %}
+      {% include 'layouts/content/cards.liquid' %}
+
+    {% else %}
+      {% include 'layouts/content/markdown.liquid' %}
+    {% endif %}
+  </div>
+</section>

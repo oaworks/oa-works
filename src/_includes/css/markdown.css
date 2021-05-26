@@ -1,3 +1,7 @@
+.markdown {
+  border-top: 1px solid;
+}
+
 .markdown h2:not(:first-child),
 .markdown h3:not(:first-child),
 .markdown h4:not(:first-child),
@@ -16,8 +20,9 @@
 }
 
 .markdown ul, ol {
-  padding-left: var(--space-xs);
+  padding: 0 0 0 var(--space-xs);
   margin-bottom: var(--space-md);
+  list-style: none;
 }
 
 .markdown ul li:before {

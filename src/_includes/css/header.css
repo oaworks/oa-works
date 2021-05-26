@@ -2,7 +2,6 @@
   margin: 0 var(--gutter-negative) var(--gutter) var(--gutter-negative);
   padding: var(--gutter);
   z-index: 50;
-  height: 10vh;
   width: 100vw;
   font-size: var(--typescale-6);
 }
@@ -50,6 +49,7 @@
   padding: var(--space-xs);
   display: block;
   background-color: var(--black);
+  color: var(--white);
 }
 
 .header__featured-items li:last-child a {
@@ -126,10 +126,6 @@
 
 .header__nav--open {
   transform: translateX(0%);
-}
-
-.header--inverted svg path  {
-  fill: var(--white);
 }
 
 .header input::placeholder {

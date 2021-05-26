@@ -1,5 +1,6 @@
 ---
-layout: "layouts/default.liquid"
+layout: "layouts/header/left.liquid"
+content_layout: markdown
 theme: dark
 title: Terms of service
 meta_description: "These terms of service cover your use and access to the services."
