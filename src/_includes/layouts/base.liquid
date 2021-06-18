@@ -13,12 +13,12 @@
     {% include 'partials/header.liquid' %}
     <main id="main">
       {%- comment %}Page-specific header{% endcomment -%}
-      {% include 'subheader.liquid' %}
+      {% include 'partials/subheader.liquid' %}
 
       {{ content }}
 
       {%- comment %}Page-specific prefooter{% endcomment -%}
-      {% include 'prefooter.liquid' %}
+      {% include 'partials/prefooter.liquid' %}
     </main>
     {%- comment %}Site footer{% endcomment -%}
     {% include 'partials/footer.liquid' %}
