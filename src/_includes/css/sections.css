@@ -20,6 +20,6 @@
 
 @media only screen and (min-width: 768px) {
   .section--horizontal  {
-    padding: 0 var(--gutter);
+    padding: 0 calc(var(--gutter) / 2);
   }
 }
