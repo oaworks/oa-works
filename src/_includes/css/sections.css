@@ -4,6 +4,12 @@
   padding: var(--gutter);
 }
 
+@media only screen and (min-width: 768px) {
+  .section {
+    padding: var(--gutter) calc(2 * var(--gutter));
+  }
+}
+
 .section__header {
   margin-bottom: var(--space-xl);
 }
