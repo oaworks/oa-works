@@ -1,5 +1,5 @@
 .header {
-  margin: 0 var(--gutter-negative) var(--gutter) var(--gutter-negative);
+  margin: 0 var(--gutter-negative);
   padding: var(--gutter);
   z-index: 50;
   width: 100vw;

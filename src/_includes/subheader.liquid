@@ -1,6 +1,6 @@
 {% if page.url != '/' %}
   <nav class="subnav">
-    <ul class="flex-wrap unstyled-list">
+    <ul class="flex-wrap flex-center unstyled-list">
       {% assign path = page.url | split: "/" | slice: 1, 2 %}
       {% assign section = path[0] %}
       {% for item in navigation[section] %}
@@ -16,7 +16,7 @@
 
 {%- if hero_heading_1 -%}
 <section class="hero">
-  <div class="row">
+  <div class="section section--horizontal row">
     <header class="col col--1of4" data-sal="slide-up">
       <h2>{{ hero_heading_1 }}</h2>
     </header>

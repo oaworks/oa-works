@@ -13,3 +13,13 @@
 .section__header {
   margin-bottom: var(--space-xl);
 }
+
+.section--horizontal {
+  padding: 0;
+}
+
+@media only screen and (min-width: 768px) {
+  .section--horizontal  {
+    padding: 0 var(--gutter);
+  }
+}
