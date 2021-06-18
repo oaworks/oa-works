@@ -8,7 +8,7 @@ body_class: header-left
     <div class="{{ content_layout }}__header-wrapper">
       <h1>{{ title }}</h1>
       {% if meta_description %}<p>{{ meta_description }}</p>{% endif %}
-      {% include 'snippets/ellipsis.liquid' %}
+      {% include 'partials/ellipsis.liquid' %}
 
       {% if content_layout != 'markdown' %}
       <div style="margin-top: var(--space-md);">

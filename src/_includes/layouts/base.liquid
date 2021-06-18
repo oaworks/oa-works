@@ -1,7 +1,7 @@
 <!doctype html>
 <html class="no-js" lang="en">
   <head>
-    {% include 'snippets/head.liquid' %}
+    {% include 'partials/head.liquid' %}
   </head>
 
   <body{% if body_class %} class="{{ body_class }}"{% endif %}>
@@ -10,7 +10,7 @@
     <![endif]-->
 
     {%- comment %}Site header{% endcomment -%}
-    {% include 'snippets/header.liquid' %}
+    {% include 'partials/header.liquid' %}
     <main id="main">
       {%- comment %}Page-specific header{% endcomment -%}
       {% include 'subheader.liquid' %}
@@ -21,7 +21,7 @@
       {% include 'prefooter.liquid' %}
     </main>
     {%- comment %}Site footer{% endcomment -%}
-    {% include 'snippets/footer.liquid' %}
+    {% include 'partials/footer.liquid' %}
 
     <script src="{{ site.base_url }}/js/sal.js"></script>
     <script src="{{ site.base_url }}/js/jquery-3.6.0.min.js"></script>
