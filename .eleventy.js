@@ -1,4 +1,3 @@
-const pluginSass = require("eleventy-plugin-sass");
 const CleanCSS = require("clean-css");
 
 const markdownIt = require('markdown-it');

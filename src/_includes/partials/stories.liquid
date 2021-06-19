@@ -1,21 +1,28 @@
-{% for story in stories %}
-{% assign delay_count = delay_count | plus: 50 %}
-<li class="col col--1of3 card-wrapper" data-sal="slide-up" data-sal-delay="{{ delay_count }}">
-  <article class="flex-col flex-space-between card card--small">
-    <header class="card__header">
-      <h3 class="label">OA.W<span style="text-transform: lowercase;">orks for</span> {{ story.label }}</h3>
-    </header>
-    <figure>
-      <img src="{{ site.base_url }}/img/stories/{{ story.img }}" alt="{{ story.img_alt }}" class="card__img"/>
-      <figcaption><small>{{ story.img_credit }}</small></figcaption>
-    </figure>
-    <div class="card__body">
-      <blockquote>
-        <p>“{{ story.content }}”</p>
-      </blockquote>
-      <p><small class="label label--secondary">Written in search of</small></p>
-      <p class="font-serif type-5">{{ story.article }}</p>
-    </div>
-  </article>
-</li>
-{% endfor %}
+<section class="section bg-black">
+  <div class="row">
+    <h2 class="col col--2of3 section__header" data-sal="slide-up">Why we work for Open</h2>
+  </div>
+  <ul class="unstyled-list row row--centered">
+    {% assign delay_count = 0 %}
+    {% for story in stories limit:3 %}
+    {% assign delay_count = delay_count | plus: 50 %}
+    <li class="col col--1of3 card-wrapper" data-sal="slide-up" data-sal-delay="{{ delay_count }}">
+      <article class="flex-col flex-space-between card card--small">
+        <h3 class="label card__header">OA.W<span style="text-transform: lowercase;">orks for</span> {{ story.label }}</h3>
+        <figure>
+          <img src="{{ site.base_url }}/img/stories/{{ story.img }}" alt="{{ story.img_alt }}" class="card__img"/>
+          <figcaption><small>{{ story.img_credit }}</small></figcaption>
+        </figure>
+        <div class="card__body">
+          <blockquote>
+            <p>“{{ story.content }}”</p>
+          </blockquote>
+          <p><small class="label label--secondary">Written in search of</small></p>
+          <p class="font-serif type-5">{{ story.article }}</p>
+        </div>
+      </article>
+    </li>
+    {% endfor %}
+  </ul>
+  <p><a href="/impact/stories" class="button">More stories 👉</a></p>
+</section>
