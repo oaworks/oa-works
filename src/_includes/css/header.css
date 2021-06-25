@@ -120,7 +120,6 @@
 }
 
 .header__nav-subsection {
-  font-size: var(--typescale-5);
   color: var(--white);
   line-height: 2;
   transition: all .15s ease-in-out;
@@ -140,6 +139,7 @@
 
 .header input {
   border-color: var(--white);
+  color: var(--white);
 }
 
 .header input::placeholder {
