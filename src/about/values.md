@@ -1,7 +1,6 @@
 ---
 layout: "layouts/header/left.liquid"
 content_layout: cards
-theme: dark
 data_file: values
 title: Values
 meta_description: "What we stand for and what inspires our work."
