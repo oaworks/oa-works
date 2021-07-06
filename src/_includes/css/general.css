@@ -29,7 +29,6 @@ figure {
 
 figcaption {
   padding: var(--space-xs);
-  margin-top: calc(var(--space-md) * -1.5);
 }
 
 iframe {
