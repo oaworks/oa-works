@@ -1,5 +1,15 @@
 [
   {
+    "name": "Bill & Melinda Gates Foundation",
+    "url": "https://www.gatesfoundation.org/",
+    "logo": "logos/bmgf.svg",
+    "person": "Ashley Farley",
+    "img":"people/ashley-farley.jpg",
+    "img_alt": "Headshot of a smiling woman in a white ruffled top with fair skin and burgundy hair.",
+    "product": "OA.Works",
+    "reason": ""
+  },
+  {
     "name": "IFLA",
     "url": "https://www.ifla.org/",
     "logo": "logos/ifla.svg",

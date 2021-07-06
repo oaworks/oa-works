@@ -3,5 +3,10 @@
     "name": "Arcadia Fund",
     "url": "https://www.arcadiafund.org.uk/",
     "logo": "logos/arcadia.svg"
+  },
+  {
+    "name": "Bill & Melinda Gates Foundation",
+    "url": "https://www.gatesfoundation.org/",
+    "logo": "logos/bmgf.svg"
   }
 ]
