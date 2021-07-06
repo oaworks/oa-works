@@ -16,6 +16,11 @@
         <p>“{{ t.quote }}”</p>
       </blockquote>
       <p>&mdash; {{ t.role }}{% if t.affiliation %} at {{ t.affiliation }}{% endif %}</p>
+      {% if t.aff_logo %}
+      <a href="{{ t.aff_url }}" title="{{ t.affiliation }}’s site" target="_blank" rel="noopener" class="block-link" style="width: 150px; height: auto;">
+        {% include t.aff_logo %}
+      </a>
+      {% endif %}
     </div>
   </article>
 </li>

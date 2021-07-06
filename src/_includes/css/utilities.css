@@ -41,6 +41,10 @@
   display: block;
 }
 
+.block-link:after {
+  border: 0 !important;
+}
+
 .type-1 {
   font-size: var(--typescale-1);
   line-height: 1.3;
