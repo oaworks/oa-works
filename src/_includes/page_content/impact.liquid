@@ -1,13 +1,14 @@
 {% for stat in impact %}
 {% assign delay_count = delay_count | plus: 100 %}
-<li class="col col--1of2 card-wrapper" data-sal="slide-up" data-sal-delay="{{ delay_count }}">
+<li class="col col--1of3 card-wrapper" data-sal="slide-up" data-sal-delay="{{ delay_count }}">
   <article class="card card--small">
-    <h2 class="card__header card__header--plain label">
-      <span class="type-1">{{ stat.value }}</span><br/>
-      {{ stat.key }}
+    <h2 class="card__header card__header--plain">
+      <span class="type-1 font-sans fw-900">{{ stat.value }}</span><br/>
+      <span class="label type-4">{{ stat.key }}</span>
     </h2>
     <div class="card__body">
-      <p>{{ stat.desc }}</p>
+      <p class="type-5">{{ stat.desc }}</p>
+      {% if stat.url and stat.url_text %}<p class="no-margin"><a href="{{ stat.url }}" target="_blank" rel="noopener">{{ stat.url_text }}</a></p>{% endif %}
     </div>
   </article>
 </li>

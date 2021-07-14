@@ -1,33 +1,41 @@
 [
   {
-    "value": "32,000",
+    "value": "32,000+",
     "key": "Stories shared",
     "app": "OpenAccessButton",
-    "desc": "The Open Access movement is propelled by stories of paywalls holding back progress. Through our tools, we’ve told powerful stories of real people affected by our broken system."
+    "desc": "The Open Access movement is propelled by stories of paywalls holding back progress. Through our tools, we’ve told powerful stories of real people affected by our broken system.",
+    "url": "https://oa.works/stories",
+    "url_text": "See some of our stories"
   },
   {
-    "value": "25,000",
+    "value": "25,000+",
     "key": "Policies tracked",
     "app": "ShareYourPaper Permissions",
     "desc": "ShareYourPaper Permissions has openly documented how to make your paper Open Access for 85% of papers and counting."
   },
   {
-    "value": "8,500",
-    "key": "Papers and books supplied during Covid",
+    "value": "8,500+",
+    "key": "Papers and books supplied during COVID",
     "app": "InstantILL",
-    "desc": "When Libraries around the world were closed due to Covid, we worked with IFLA to fill the gap with RSCVD."
+    "desc": "When Libraries around the world were closed due to COVID, we worked with IFLA to fill the gap with RSCVD.",
+    "url": "https://rscvd.org/",
+    "url_text": "Find literature on COVID-19"
   },
   {
-    "value": "6,500,000",
+    "value": "6,500,000+",
     "key": "Searches for Open Access",
     "app": "OpenAccessButton",
-    "desc": "Finding Open Access content wasn't always as easy as it today. We helped pioneer approaches, and today still help deliver Open Access articles."
+    "desc": "Finding Open Access content wasn't always as easy as it today. We helped pioneer approaches, and today still help deliver Open Access articles.",
+    "url": "https://openaccessbutton.org/",
+    "url_text": "Request OA papers"
   },
   {
-    "value": "680,000",
+    "value": "680,000+",
     "key": "Searches for OA in ILL systems",
     "app": "DeliverOA",
-    "desc": "We led the way for integrating Open Access into Interlibrary Loan systems. Every OA article delivered is money saved for libraries, quicker delivery for patrons, and one step closer to Open by default."
+    "desc": "We led the way for integrating Open Access into Interlibrary Loan systems. Every OA article delivered is money saved for libraries, quicker delivery for patrons, and one step closer to Open by default.",
+    "url": "https://instantill.org/",
+    "url_text": "Offer OA articles via ILL"
   },
   {
     "value": "6",
@@ -36,19 +44,23 @@
     "desc": "Some of our guides have been cited hundreds of times."
   },
   {
-    "value": "1000",
-    "key": "Papers made open for free",
+    "value": "1000+",
+    "key": "of papers made open for free",
     "app": "ShareYourPaper",
-    "desc": "Our tools help authors make their work Open Access for free."
+    "desc": "Our tools help authors make their work Open Access for free.",
+    "url": "https://shareyourpaper.org/",
+    "url_text": "Share a paper now"
   },
   {
-    "value": "100s",
-    "key": "Libraries use & recommend the tools",
+    "value": "100+",
+    "key": "of libraries use & recommend the tools",
     "app": "OpenAccessButton",
-    "desc": "Libraries big and small including MIT, Cambridge and JHU suggest their patrons use OpenAccessButton."
+    "desc": "Libraries big and small including MIT, Cambridge and JHU suggest their patrons use OpenAccessButton.",
+    "url": "https://oa.works/impact/testimonials/",
+    "url_text": "See our testimonials"
   },
   {
-    "value": "13,000",
+    "value": "13,000+",
     "key": "Authors educated on Open Access",
     "app": "OpenAccessButton",
     "desc": "We’ve worked with authors around the world to show them why Open Access matters, and how easy it can be."
