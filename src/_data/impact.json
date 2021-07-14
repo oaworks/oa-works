@@ -24,16 +24,16 @@
     "desc": "Finding Open Access content wasn't always as easy as it today. We helped pioneer approaches, and today still help deliver Open Access articles."
   },
   {
-  "value": "680,000",
-  "key": "Searches for OA in ILL systems",
-  "app": "DeliverOA",
-  "desc": "We led the way for integrating Open Access into Interlibrary Loan systems. Every OA article delivered is money saved for libraries, quicker delivery for patrons, and one step closer to Open by default."
+    "value": "680,000",
+    "key": "Searches for OA in ILL systems",
+    "app": "DeliverOA",
+    "desc": "We led the way for integrating Open Access into Interlibrary Loan systems. Every OA article delivered is money saved for libraries, quicker delivery for patrons, and one step closer to Open by default."
   },
   {
-  "value": "6",
-  "key": "Guides to using and making Open Access",
-  "app": "",
-  "desc": "Some of our guides have been cited hundreds of times."
+    "value": "6",
+    "key": "Guides to using and making Open Access",
+    "app": "",
+    "desc": "Some of our guides have been cited hundreds of times."
   },
   {
     "value": "1000",
