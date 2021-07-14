@@ -66,10 +66,6 @@ h5.card__header {
   overflow: hidden;
 }
 
-.card__body p {
-  margin-bottom: var(--space-sm);
-}
-
 .card__footer {
   border-top: 1px solid;
   text-align: right;
