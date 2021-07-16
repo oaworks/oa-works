@@ -35,4 +35,27 @@
     "colour": "chartreuse",
     "featured": true
   }
+    {
+    "logo": "",
+    "name": "OAreport",
+    "url": "https://oa.report",
+    "label": "",
+    "tagline": "Put OA policies into practice in minutes, not months.",
+    "cta": "Get updates",
+    "description": "",
+    "embed": "",
+    "colour": "",
+    "featured": true
+  }
+    {
+    "logo": "",
+    "name": "OAsupport",
+    "url": "https://oa.support",
+    "label": "",
+    "tagline": "A help desk for making papers Open Access.",
+    "cta": "Get updates",
+    "description": "",
+    "embed": "",
+    "colour": "",
+  }
 ]
