@@ -1,11 +1,13 @@
 .section {
-  margin-left: var(--gutter-negative);
-  margin-right: var(--gutter-negative);
-  padding: calc(2 * var(--gutter)) var(--gutter);
+  margin-left: calc(var(--gutter-negative) * 5);
+  margin-right: calc(var(--gutter-negative) * 5);
+  padding: calc(2 * var(--gutter)) calc(var(--gutter) * 5);
 }
 
 @media only screen and (min-width: 768px) {
   .section {
+    margin-left: var(--gutter-negative);
+    margin-right: var(--gutter-negative);
     padding: calc(3 * var(--gutter)) calc(4 * var(--gutter));
   }
 }

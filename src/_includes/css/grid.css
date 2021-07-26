@@ -1,14 +1,14 @@
 /* Grid: to be used for general layout only */
 
 body {
-  padding: 0 var(--gutter);
+  padding: 0 calc(var(--gutter) * 5);
   margin: 0 auto;
   max-width: 100%;
 }
 
-@media only screen and (min-width: 2560px) {
+@media only screen and (min-width: 768px) {
   body {
-    padding: 0 calc(var(--gutter) * 3);
+    padding: 0 var(--gutter);
   }
 }
 
