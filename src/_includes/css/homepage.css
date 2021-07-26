@@ -1,7 +1,7 @@
 .homepage__cover {
   margin-left: calc(var(--gutter-negative) * 5);
   margin-right: calc(var(--gutter-negative) * 5);
-  padding: calc(2 * var(--gutter)) calc(var(--gutter) * 5);
+  padding: calc(5 * var(--gutter)) calc(var(--gutter) * 5);
   overflow-x: hidden;
   min-height: calc(var(--vh, 1vh) * 100);
   background: url('../img/bg1.jpg') no-repeat center center fixed;

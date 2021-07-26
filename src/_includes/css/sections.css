@@ -1,7 +1,7 @@
 .section {
   margin-left: calc(var(--gutter-negative) * 5);
   margin-right: calc(var(--gutter-negative) * 5);
-  padding: calc(2 * var(--gutter)) calc(var(--gutter) * 5);
+  padding: calc(5 * var(--gutter)) calc(var(--gutter) * 5);
 }
 
 @media only screen and (min-width: 768px) {
