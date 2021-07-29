@@ -16,6 +16,10 @@
   font-family: var(--serif);
 }
 
+.font-serif-bold {
+  font-family: var(--serif-bold);
+}
+
 .font-sans {
   font-family: var(--sans-serif);
 }

@@ -25,14 +25,36 @@
   },
   {
     "logo": "products/oab.svg",
-    "name": "OAButton",
+    "name": "OAbutton",
     "url": "https://oabutton.org",
     "label": "Open Access delivery",
     "tagline": "Get around paywalls in a click",
     "cta": "Find an article",
-    "description": "OAButton provides free access to papers legally by scouring the web and emailing authors. Use it on the website, via plugins for Chrome and Firefox, or embed it into your library system.",
+    "description": "OAbutton provides free access to papers legally by scouring the web and emailing authors. Use it on the website, via plugins for Chrome and Firefox, or embed it into your library system.",
     "embed": "<div id='oabutton'><h2>Avoid paywalls, request research</h2><label for='oabutton_url'>Enter an article’s URL, DOI, Title, or Citation</label><script src='https://openaccessbutton.org/static/jquery-1.10.2.min.js'></script><script src='https://openaccessbutton.org/static/openaccessbutton_widget.js'></script><script>jQuery(document).ready(function(){openaccessbutton_widget({uid:'h9mTMgqeaKDyJW8E2'});});</script><div id='openaccessbutton_widget'></div></div>",
-    "colour": "chartreuse",
+    "colour": "violet",
     "featured": true
+  },
+  {
+    "logo": "",
+    "name": "OAreport",
+    "url": "https://oa.report",
+    "label": "Open Access reporting",
+    "tagline": "Put OA policies into practice in minutes, not months.",
+    "cta": "Sign up for updates",
+    "description": "OAreport translates policy to impact by helping libraries and funder discover papers covered by their policies, analyze if and how papers comply, and unlock individual papers and systemic changes.",
+    "colour": "carnation",
+    "featured": true
+  },
+  {
+    "logo": "",
+    "name": "OAsupport",
+    "url": "https://oa.support",
+    "label": "Researcher help desk",
+    "tagline": "A help desk for making papers Open Access.",
+    "cta": "Sign up for updates",
+    "description": "OAsupport’s expert team helps libraries and funders answer author questions within 24 hours, remind researchers of outreach that may have been missed, and report on authors progress and challenges.",
+    "colour": "chartreuse",
+    "featured": false
   }
 ]

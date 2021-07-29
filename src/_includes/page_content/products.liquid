@@ -5,11 +5,7 @@
     <small class="line-thru__inner bg-white label">{{ product.label }}</small>
   </p>
   <article class="flex-col flex-space-between card">
-    {% if product.logo %}
-      <h3 class="card__header">{% include product.logo %}</h3>
-    {% else %}
-      <h3 class="card__header">{{ product.name }}</h3>
-    {% endif %}
+    <h3 class="card__header font-serif-bold">{{ product.name }}</h3>
     <div class="card__body">
       {{ product.description }}
     </div>
