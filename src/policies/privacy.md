@@ -1,7 +1,6 @@
 ---
 layout: "layouts/header/left.liquid"
 content_layout: markdown
-theme: dark
 title: Privacy policy
 meta_description: "We are committed to protecting your privacy."
 ---

@@ -1,7 +1,6 @@
 ---
 layout: "layouts/header/left.liquid"
 content_layout: markdown
-theme: dark
 title: "Succession & contingency plan"
 meta_description: "What we’re doing to limit the impact of the unexpected, and ensure an orderly shutdown if required."
 ---

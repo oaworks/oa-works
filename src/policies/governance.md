@@ -1,7 +1,6 @@
 ---
 layout: "layouts/header/left.liquid"
 content_layout: markdown
-theme: dark
 title: "Governance"
 meta_description: "We’re a non-profit owned by our community."
 ---
