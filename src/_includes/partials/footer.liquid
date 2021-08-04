@@ -1,4 +1,4 @@
-<aside class="section align-center flex-center border-top">
+<aside class="section align-center flex-center border-top bg-white">
   <ul class="type-5 font-serif inlined-list no-margin">
     <li>
       <a href="https://github.com/{{site.github}}/" target="_blank" rel="noopener" class="flash-colours">Open-source</a>
@@ -12,18 +12,18 @@
   </ul>
 </aside>
 
-<footer class="footer">
+<footer class="bg-black section footer">
   <a class="top" href="#top" id="topBtn" aria-label="Back to top">
     <span class="top__icon">&#8593;</span>
   </a>
 
-  <nav class="col">
+  <nav class="col footer__sitemap">
     <div class="row">
       <div class="col col--1of6">
         <h2 class="label">Products</h2>
         <ul class="unstyled-list">
           {% for item in navigation.products %}
-          <li{% if item.indented %} style="padding-left: var(--space-xs); border-left: 1px solid;"{% endif %}>
+          <li{% if item.indented %} style="padding-left: var(--space-xs); border-left: 1px solid var(--white-25);"{% endif %}>
             <a href="{{ item.url }}" {% if item.url contains 'https' %} target="_blank" rel="noopener"{% endif %}>
               {{ item.text }}
             </a>

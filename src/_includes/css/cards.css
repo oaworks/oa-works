@@ -1,5 +1,6 @@
 .card-wrapper {
   padding-bottom: calc(2 * var(--gutter));
+  margin-bottom: var(--gutter);
 }
 
 @media only screen and (max-width: 1023px) {
@@ -10,7 +11,6 @@
 
 .card {
   height: 100%;
-  border-radius: 5px;
   border: 1px solid;
 }
 
@@ -176,17 +176,12 @@ h5.card__header {
 }
 
 .card--small {
-  border-radius: 2px;
   font-size: smaller;
 }
 
 .card--small .card__header,
 .card--small .card__body {
   padding: var(--space-xs);
-}
-
-.card--large {
-  border-radius: 10px;
 }
 
 .card--large .card__header,

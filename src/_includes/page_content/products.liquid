@@ -5,13 +5,11 @@
     <small class="line-thru__inner bg-white label">{{ product.label }}</small>
   </p>
   <article class="flex-col flex-space-between card">
-    <h3 class="card__header font-serif-bold">{{ product.name }}</h3>
+    <h2 class="card__header font-serif-bold">{{ product.name }}</h2>
     <div class="card__body">
-      {{ product.description }}
+      <p>{{ product.description }}</p>
+      <p class="no-margin"><a href="{{ product.url }}" target="_blank" rel="noopener">{{ product.cta }}</a></p>
     </div>
-    <footer class="card__footer">
-      <a href="{{ product.url }}" target="_blank" rel="noopener">{{ product.cta }}</a>
-    </footer>
   </article>
 </li>
 {% endfor %}
