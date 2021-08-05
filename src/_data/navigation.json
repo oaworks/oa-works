@@ -6,6 +6,16 @@
       "featured": true
     },
     {
+      "text": "OAreport",
+      "url": "https://oa.report/",
+      "indented": true
+    },
+    {
+      "text": "OAsupport",
+      "url": "https://oa.support/",
+      "indented": true
+    },
+    {
       "text": "ShareYourPaper",
       "url": "https://shareyourpaper.org/",
       "indented": true
