@@ -36,6 +36,8 @@ The Web Content Accessibility Guidelines (WCAG) defines requirements for designe
 
 OA.Works’ website is **partially conformant with WCAG 2.1 level AA**. Partially conformant means that some parts of the content do not fully conform to the accessibility standard.
 
+### Known accessibility problems
+
 | Accessibility problem                                                                                                                                                 | WCAG Success Criterion                                                                                                                        |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|
 | Some of the line heights and spacing between text is too small.                                                                                                       | This fails WCAG 2.1 success criterion 1.4.12:  **text spacing**.  [Follow up on this issue](https://github.com/oaworks/oa-works/issues/124)   |
