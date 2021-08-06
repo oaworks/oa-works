@@ -50,8 +50,8 @@ OA.Works’ website is **partially conformant with WCAG 2.1 level AA**. Partiall
 
 We welcome your feedback on the accessibility of OA.Works’ website. Please let us know if you encounter accessibility barriers on OA.Works’ website or if you need information on this website in a different format:
 
-- Email: accessibility@oa.works
-- Phone: +1 (631) 498-8938
+- Email: [accessibility@oa.works](mailto:accessibility@oa.works)
+- Phone: [+1 (631) 498-8938](tel:+16314988938)
 
 We try to respond to feedback within 7 days.
 
