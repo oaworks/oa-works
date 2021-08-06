@@ -23,6 +23,31 @@ ul, ol {
   margin-bottom: var(--space-md);
 }
 
+table {
+  table-layout: fixed;
+  font-size: var(--typescale-6);
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+thead {
+  text-align: left;
+}
+
+tr {
+  border-bottom: 1px solid var(--light-grey);
+}
+
+tr:last-child {
+  border: 0;
+}
+
+th, td {
+  padding: var(--space-sm) var(--space-md) var(--space-sm) 0;
+  width: 1%;
+  vertical-align: top;
+}
+
 figure {
   margin: 0;
 }
