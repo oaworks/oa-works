@@ -29,7 +29,7 @@
 
 <meta property="og:url" content="{{ site.base_url }}/{{ page.fileSlug }}">
 <meta property="og:type" content="website">
-<meta property="og:title" content="{% if page.fileSlug == '' %}Powerfully simple open access tools{% else %}{{ title }}{% endif %}">
+<meta property="og:title" content="{% if page.fileSlug == '' %}{{ site.tagline_short }}{% else %}{{ title }}{% endif %}">
 <meta property="og:image" content="{{ site.base_url }}/img/og_img.gif">
 <meta property="og:image:alt" content="White OA.Works logo on a black background; the period in the logo is a large, yellow dot">
 <meta property="og:description" content="{% if meta_description %}{{ meta_description }}{% else %}We partner with libraries to build free & open source tools.{% endif %}">
