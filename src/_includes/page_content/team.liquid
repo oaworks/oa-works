@@ -11,7 +11,10 @@
     </div>
     <div class="col col--2of3">
       <p class="label">{{ person.role }}</p>
-      <h2 class="type-3">{{ person.name }}</h2>
+      <h2 class="type-3">
+        {{ person.name }}
+        <span class="type-6">({{ person.pronouns }})</span>
+      </h2>
       <p>{{ person.bio }}</p>
       <dl class="unstyled-list row type-6">
         {% if person.email %}

@@ -1,6 +1,7 @@
 [
   {
-    "name": "Joe McArthur (he/him)",
+    "name": "Joe McArthur",
+    "pronouns": "he/him",
     "role": "Director",
     "bio": "Co-founded OA.Works. Worked at <a href ='https://www.opencon.community' target='_blank' rel='noopener'>OpenCon</a> and <a href ='https://sparcopen.org' target='_blank' rel='noopener'>SPARC</a>.",
     "img": "people/joe.png",
@@ -10,7 +11,8 @@
     "github": "JosephMcArthur"
   },
   {
-    "name": "Mark MacGillivray (he/him)",
+    "name": "Mark MacGillivray",
+    "pronouns": "he/him",
     "role": "Developer",
     "bio": "Founded <a href='https://cottagelabs.com/' target='_blank' rel='noopener'>Cottage Labs</a>",
     "img": "people/mark.png",
@@ -20,7 +22,8 @@
     "github": "markmacgillivray"
   },
   {
-    "name": "Natalia Norori (she/her)",
+    "name": "Natalia Norori",
+    "pronouns": "she/her",
     "role": "Data wrangler & systems manager",
     "bio": "Profiled by <a href='https://www.forbes.com/sites/andrewwight/2020/07/19/this-nicaraguan-is-showing-how-to-better-share-pandemic-health-data/' target='_blank' rel='noopener'>Forbes</a>",
     "img": "people/natalia.png",
@@ -30,7 +33,8 @@
     "github": "natalianorori"
   },
   {
-    "name": "Sophy (she/her)",
+    "name": "Sophy",
+    "pronouns": "she/her",
     "role": "UX designer & developer",
     "bio": "Did product development for <a href='https://doaj.org/' target='_blank' rel='noopener'>DOAJ</a>, <a href='https://erudit.org/' target='_blank' rel='noopener'>Érudit</a>, <a href='https://sparcopen.org/' target='_blank' rel='noopener'>SPARC</a> & <a href='https://pkp.sfu.ca/' target='_blank' rel='noopener'>PKP</a>",
     "img": "people/sophy.png",
