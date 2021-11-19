@@ -1,6 +1,6 @@
 [
   {
-    "name": "Joe McArthur",
+    "name": "Joe McArthur (he/him)",
     "role": "Director",
     "bio": "Co-founded OA.Works. Worked at <a href ='https://www.opencon.community' target='_blank' rel='noopener'>OpenCon</a> and <a href ='https://sparcopen.org' target='_blank' rel='noopener'>SPARC</a>.",
     "img": "people/joe.png",
@@ -10,7 +10,7 @@
     "github": "JosephMcArthur"
   },
   {
-    "name": "Mark MacGillivray",
+    "name": "Mark MacGillivray (he/him)",
     "role": "Developer",
     "bio": "Founded <a href='https://cottagelabs.com/' target='_blank' rel='noopener'>Cottage Labs</a>",
     "img": "people/mark.png",
@@ -20,7 +20,7 @@
     "github": "markmacgillivray"
   },
   {
-    "name": "Natalia Norori",
+    "name": "Natalia Norori (she/her)",
     "role": "Data wrangler & systems manager",
     "bio": "Profiled by <a href='https://www.forbes.com/sites/andrewwight/2020/07/19/this-nicaraguan-is-showing-how-to-better-share-pandemic-health-data/' target='_blank' rel='noopener'>Forbes</a>",
     "img": "people/natalia.png",
@@ -30,19 +30,9 @@
     "github": "natalianorori"
   },
   {
-    "name": "Jake Orlowitz",
-    "role": "Communications & strategy",
-    "bio": "Founded <a href='https://en.wikipedia.org/wiki/Wikipedia:The_Wikipedia_Library' target='_blank' rel='noopener'>WikiLibrary</a>",
-    "img": "people/jake.png",
-    "colour": "chartreuse",
-    "email": "jake@oa.works",
-    "twitter": "JakeOrlowitz",
-    "github": "jorlowitz"
-  },
-  {
-    "name": "Sophy",
+    "name": "Sophy (she/her)",
     "role": "UX designer & developer",
-    "bio": "Designed for <a href='https://doaj.org/' target='_blank' rel='noopener'>DOAJ</a>, <a href='https://erudit.org/' target='_blank' rel='noopener'>Érudit</a>, <a href='https://sparcopen.org/' target='_blank' rel='noopener'>SPARC</a> & <a href='https://pkp.sfu.ca/' target='_blank' rel='noopener'>PKP</a>",
+    "bio": "Did product development for <a href='https://doaj.org/' target='_blank' rel='noopener'>DOAJ</a>, <a href='https://erudit.org/' target='_blank' rel='noopener'>Érudit</a>, <a href='https://sparcopen.org/' target='_blank' rel='noopener'>SPARC</a> & <a href='https://pkp.sfu.ca/' target='_blank' rel='noopener'>PKP</a>",
     "img": "people/sophy.png",
     "colour": "azure",
     "email": "sophy@oa.works",
