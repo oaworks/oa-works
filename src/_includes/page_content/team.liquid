@@ -4,7 +4,7 @@
   <article class="row">
     <div class="col col--1of6">
       {% if person.img %}
-      <figure class="portrait portrait--circular" style="background-color: var(--{{ person.colour }});">
+      <figure class="portrait portrait--circular">
         <img src="../img/{{ person.img }}" alt="Portrait of {{ person.name }}"/>
       </figure>
       {% endif %}
@@ -33,6 +33,12 @@
         <div class="col col--1of3">
           <dt class="label">Github</dt>
           <dd><a href="https://github.com/{{ person.github }}" target="_blank" rel="noopener">@{{ person.github }}</a></dd>
+        </div>
+        {% endif %}
+        {% if person.orcid %}
+        <div class="col col--1of3">
+          <dt class="label">ORCID</dt>
+          <dd><a href="https://orcid.org/{{ person.orcid }}" target="_blank" rel="noopener">{{ person.orcid }}</a></dd>
         </div>
         {% endif %}
       </dl>
