@@ -1,51 +1,60 @@
 [
   {
     "name": "Joe McArthur",
+    "pronouns": "he/him",
     "role": "Director",
-    "bio": "Co-founded OA.Works. Worked at <a href ='https://www.opencon.community' target='_blank' rel='noopener'>OpenCon</a> and <a href ='https://sparcopen.org' target='_blank' rel='noopener'>SPARC</a>.",
+    "bio": "Co-founded OA.Works. Worked at <a href ='https://www.opencon.community' target='_blank' rel='noopener'>OpenCon</a> & <a href ='https://sparcopen.org' target='_blank' rel='noopener'>SPARC</a>.",
     "img": "people/joe.png",
-    "colour": "cyan",
     "email": "joe@oa.works",
     "twitter": "mcarthur_joe",
     "github": "JosephMcArthur"
   },
   {
     "name": "Mark MacGillivray",
+    "pronouns": "he/him",
     "role": "Developer",
-    "bio": "Founded <a href='https://cottagelabs.com/' target='_blank' rel='noopener'>Cottage Labs</a>",
+    "bio": "Founded <a href='https://cottagelabs.com/' target='_blank' rel='noopener'>Cottage Labs</a>.",
     "img": "people/mark.png",
-    "colour": "carnation",
     "email": "mark@oa.works",
     "twitter": "cottagelabs",
     "github": "markmacgillivray"
   },
   {
     "name": "Natalia Norori",
-    "role": "Data wrangler & systems manager",
-    "bio": "Profiled by <a href='https://www.forbes.com/sites/andrewwight/2020/07/19/this-nicaraguan-is-showing-how-to-better-share-pandemic-health-data/' target='_blank' rel='noopener'>Forbes</a>",
+    "pronouns": "she/her",
+    "role": "Data Wrangler & Systems Manager",
+    "bio": "Working in public health, profiled by <a href='https://www.forbes.com/sites/andrewwight/2020/07/19/this-nicaraguan-is-showing-how-to-better-share-pandemic-health-data/' target='_blank' rel='noopener'>Forbes</a> & spoke at the UN <a href='https://blog.oa.works/natalia-un-talk/' target='_blank' rel='noopener'>about equity</a>.",
     "img": "people/natalia.png",
-    "colour": "violet",
     "email": "natalia@oa.works",
     "twitter": "natalianorori",
     "github": "natalianorori"
   },
   {
-    "name": "Jake Orlowitz",
-    "role": "Communications & strategy",
-    "bio": "Founded <a href='https://en.wikipedia.org/wiki/Wikipedia:The_Wikipedia_Library' target='_blank' rel='noopener'>WikiLibrary</a>",
-    "img": "people/jake.png",
-    "colour": "chartreuse",
-    "email": "jake@oa.works",
-    "twitter": "JakeOrlowitz",
-    "github": "jorlowitz"
-  },
-  {
     "name": "Sophy",
-    "role": "UX designer & developer",
-    "bio": "Designed for <a href='https://doaj.org/' target='_blank' rel='noopener'>DOAJ</a>, <a href='https://erudit.org/' target='_blank' rel='noopener'>Érudit</a>, <a href='https://sparcopen.org/' target='_blank' rel='noopener'>SPARC</a> & <a href='https://pkp.sfu.ca/' target='_blank' rel='noopener'>PKP</a>",
+    "pronouns": "she/her",
+    "role": "UX Product Designer & UI Developer",
+    "bio": "Built accessible products for <a href='https://doaj.org/' target='_blank' rel='noopener'>DOAJ</a>, <a href='https://erudit.org/' target='_blank' rel='noopener'>Érudit</a>, <a href='https://sparcopen.org/' target='_blank' rel='noopener'>SPARC</a> & <a href='https://pkp.sfu.ca/' target='_blank' rel='noopener'>PKP</a>.",
     "img": "people/sophy.png",
-    "colour": "azure",
     "email": "sophy@oa.works",
     "github": "sssoz"
+  },
+  {
+    "name": "Sarah Wipperman",
+    "pronouns": "she/her",
+    "role": "Scholarly Communications Specialist",
+    "bio": "Worked as a Scholarly Communication Librarian specializing in publishing, copyright, and research visibility.",
+    "img": "people/sarah-wipperman.jpeg",
+    "email": "sarah@oa.works",
+    "twitter": "swipp_it",
+    "orcid": "0000-0002-8311-3347"
+  },
+  {
+    "name": "Asha Law",
+    "pronouns": "she/her",
+    "role": "Systems Assistant",
+    "bio": "Learning more about Open access.",
+    "img": "people/asha.png",
+    "email": "asha@oa.works",
+    "github": "ashaoa"
   }
 ]
