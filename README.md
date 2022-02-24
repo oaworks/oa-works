@@ -2,17 +2,15 @@
 
 # OA.Works’ Official Site
 
-Powerfully simple open access tools for a just and kind information age.
-
 OA.Works is a non-profit building tools so that open access is easy and equitable. They’re free, open source, and co-designed with advocates for a just world.
 
-Built with [Eleventy](https://www.11ty.dev/)
+Built with [Eleventy](https://www.11ty.dev/).
 
 ## Running the site locally
 
 Prerequisites:
-[] Running from the command line.
-[] Installing [Node.js](https://nodejs.dev/) and [Node Package Manager](https://www.npmjs.com/) or npm.
+- Running from the command line.
+- Installing [Node.js](https://nodejs.dev/) and [Node Package Manager](https://www.npmjs.com/) or npm.
 
 1. Clone this repository by typing in your terminal:
 `git clone https://github.com/oaworks/oa-works.git`
