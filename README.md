@@ -10,7 +10,8 @@ Built with [Eleventy](https://www.11ty.dev/).
 
 Prerequisites:
 - Running from the command line.
-- Installing [Node.js](https://nodejs.dev/) and [Node Package Manager](https://www.npmjs.com/) or npm.
+- Installing [Node.js](https://nodejs.dev/) and [Node Package Manager](https://www.npmjs.com/) or `npm`.
+
 
 1. Clone this repository by typing in your terminal:
 `git clone https://github.com/oaworks/oa-works.git`
