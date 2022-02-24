@@ -28,7 +28,7 @@ gulp.task('css', () => {
 });
 
 gulp.task("watch", function () {
-  gulp.watch("./src/_includes/css/*.scss", gulp.parallel("css"));
+  gulp.watch("./src/assets/css/*/*.scss", gulp.parallel("css"));
 });
 
 gulp.task("build", gulp.parallel("css", "watch"));

@@ -5,7 +5,7 @@
   "main": ".eleventy.js",
   "scripts": {
     "start": "npx eleventy --serve",
-    "build": "gulp build && eleventy --serve"
+    "dev": "gulp build & npx eleventy --serve"
   },
   "keywords": [],
   "author": "",
