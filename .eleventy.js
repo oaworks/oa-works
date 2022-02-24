@@ -38,7 +38,6 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy('./src/assets/fonts/');
   eleventyConfig.addPassthroughCopy('./src/assets/js/');
   eleventyConfig.addPassthroughCopy('./src/assets/favicons/');
-
   eleventyConfig.addPassthroughCopy({
     "node_modules/sal.js/dist/sal.css": "sal.css",
     "node_modules/sal.js/dist/sal.css.map": "sal.css.map",
