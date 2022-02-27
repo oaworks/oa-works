@@ -28,11 +28,6 @@ module.exports = function(eleventyConfig) {
   };
   eleventyConfig.addPlugin(cacheBuster(cacheBusterOptions));
 
-  // Add CSS minifier -- replaced by a gulp task
-  // eleventyConfig.addFilter("cssmin", function(code) {
-  //   return new CleanCSS({}).minify(code).styles;
-  // });
-
   // Set directories to pass through to the dist folder
   eleventyConfig.addPassthroughCopy('./src/assets/img/');
   eleventyConfig.addPassthroughCopy('./src/assets/fonts/');
