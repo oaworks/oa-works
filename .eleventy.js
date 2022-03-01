@@ -28,18 +28,11 @@ module.exports = function(eleventyConfig) {
   };
   eleventyConfig.addPlugin(cacheBuster(cacheBusterOptions));
 
-  // Add CSS minifier
-  eleventyConfig.addFilter("cssmin", function(code) {
-    return new CleanCSS({}).minify(code).styles;
-  });
-
   // Set directories to pass through to the dist folder
-  eleventyConfig.addPassthroughCopy('./src/img/');
-  eleventyConfig.addPassthroughCopy('./src/fonts/');
-  eleventyConfig.addPassthroughCopy('./src/js/');
-  eleventyConfig.addPassthroughCopy('./src/favicons/');
-  eleventyConfig.addPassthroughCopy('./src/media/');
-
+  eleventyConfig.addPassthroughCopy('./src/assets/img/');
+  eleventyConfig.addPassthroughCopy('./src/assets/fonts/');
+  eleventyConfig.addPassthroughCopy('./src/assets/js/');
+  eleventyConfig.addPassthroughCopy('./src/assets/favicons/');
   eleventyConfig.addPassthroughCopy({
     "node_modules/sal.js/dist/sal.css": "sal.css",
     "node_modules/sal.js/dist/sal.css.map": "sal.css.map",
