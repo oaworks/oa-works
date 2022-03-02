@@ -2,6 +2,7 @@
 layout: "layouts/header/left.liquid"
 content_layout: markdown
 title: Privacy policy
+theme: dark
 meta_description: "We are committed to protecting your privacy."
 ---
 OA.Works is committed to protecting the privacy of visitors to our website, our users, and activists. We have established this Privacy Policy to explain what information we collect through our website and how it is used. In this policy, OA.Works refers to OA.Works team members.
