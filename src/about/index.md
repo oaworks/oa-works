@@ -11,7 +11,7 @@ funders_block: true
 
 ## Hi, we’re so glad you’re here 👋
 
-We’re working for a world where our systems for sharing knowledge reduce inequality, protect human rights, and feel kinder. That starts with opening up how we share research.
+**We’re working for a world where our systems for sharing knowledge reduce inequality, protect human rights, and feel kinder.** That starts with opening up how we share research.
 
 At OA.Works, we’re partnered with libraries, scholars, educators, and the people who fund them so that research is read openly, used easily, and published freely. We need to anchor information dissemination in the pursuit of justice and in the service of kindness.
 
