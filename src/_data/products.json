@@ -4,7 +4,7 @@
     "name": "ShareYourPaper",
     "url": "https://shareyourpaper.org",
     "label": "Paper deposit",
-    "tagline": "A drag-and-drop Open Access deposit",
+    "tagline": "Drag-and-drop Open Access deposit",
     "cta": "Share your work",
     "description": "ShareYourPaper.org makes papers Open Access via self-archiving for free. It’s a quick way to increase a research paper’s impact for authors and libraries.",
     "embed": "<h2 class='type-3 font-sans'>Find the easiest way to share your paper</h2><label>Enter your article’s DOI</label><div id='shareyourpaper'></div><script src='https://shareyourpaper.org/embed.js'></script><script>_oab=shareyourpaper({uid: 'by8dj55F7P6CY8hXM', config: {'owner':'sophy@oa.works'}});</script>",
@@ -33,7 +33,7 @@
     "description": "OAbutton provides free access to papers legally by scouring the web and emailing authors. Use it on the website, via plugins for Chrome and Firefox, or embed it into your library system.",
     "embed": "<div id='oabutton'><h2>Avoid paywalls, request research</h2><label for='oabutton_url'>Enter an article’s URL, DOI, Title, or Citation</label><script src='https://openaccessbutton.org/static/jquery-1.10.2.min.js'></script><script src='https://openaccessbutton.org/static/openaccessbutton_widget.js'></script><script>jQuery(document).ready(function(){openaccessbutton_widget({uid:'h9mTMgqeaKDyJW8E2'});});</script><div id='openaccessbutton_widget'></div></div>",
     "colour": "violet",
-    "featured": true
+    "featured": false
   },
   {
     "logo": "",
