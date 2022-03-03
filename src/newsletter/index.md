@@ -16,5 +16,5 @@ meta_description: "Hear more from us when it matters."
 
 <small>By signing you agree to our [terms](/policies/terms/).</small>
 
-<script src="/assets/js/jquery-3.6.0.min.js"></script>
-<script src="/assets/js/fullpage-newsletter.js"></script>
+<script src="/js/jquery-3.6.0.min.js"></script>
+<script src="/js/fullpage-newsletter.js"></script>
