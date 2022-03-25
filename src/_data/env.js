@@ -6,7 +6,7 @@ function isEnv (env) {
   if (env === "prod") {
     return process.env.BASE_URL = 'https://oa.works';
   } else if (env === "staging") {
-    return process.env.BASE_URL = 'https://sa.oa.works';
+    return process.env.BASE_URL = 'https://dev.oa.works';
   } else {
     return process.env.BASE_URL;
   }
