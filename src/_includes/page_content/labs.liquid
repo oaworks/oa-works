@@ -7,7 +7,7 @@
       <p class="type-4">{{ item.about }}</p>
       {%- if item.cta -%}
       <p class="no-margin">
-        <a href="{% if item.url contains 'https' or 'mailto:' %}{% else %}{{ site.base_url }}{% endif %}{{ item.url }}" {% if item.url contains 'https' %} target="_blank" rel="noopener"{% endif %}>{{ item.cta }}</a>
+        <a href="{% if item.url contains 'https' or 'mailto:' %}{% else %}{{ env.environment }}{% endif %}{{ item.url }}" {% if item.url contains 'https' %} target="_blank" rel="noopener"{% endif %}>{{ item.cta }}</a>
       </p>
       {%- endif -%}
     </div>

@@ -4,9 +4,9 @@
   "description": "",
   "main": ".eleventy.js",
   "scripts": {
-    "start": "npx @11ty/eleventy --serve",
-    "dev": "gulp build & npx @11ty/eleventy --serve",
-    "prod": "gulp build --production & npx @11ty/eleventy --serve"
+    "serve:dev": "gulp build & ELEVENTY_ENV=dev npx @11ty/eleventy --serve",
+    "build:staging": "gulp build --production & ELEVENTY_ENV=staging npx @11ty/eleventy --serve",
+    "build:prod": "gulp build --production & ELEVENTY_ENV=prod npx @11ty/eleventy --serve"
   },
   "keywords": [],
   "author": "",
@@ -16,6 +16,7 @@
     "@11ty/eleventy-cache-assets": "^2.1.0",
     "@mightyplow/eleventy-plugin-cache-buster": "^1.1.3",
     "@tryghost/content-api": "^1.4.13",
+    "dotenv": "^16.0.0",
     "eleventy-plugin-lazyimages": "^2.1.0",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^8.0.0",

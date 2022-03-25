@@ -16,6 +16,7 @@ const markdownItOptions = {
 const markdownLib = markdownIt(markdownItOptions).use(markdownItAttrs)
 
 module.exports = function(eleventyConfig) {
+
   eleventyConfig.setLibrary('md', markdownLib)
 
   eleventyConfig.addPlugin(lazyImagesPlugin);
