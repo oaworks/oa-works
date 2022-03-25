@@ -3,12 +3,12 @@ require('dotenv').config();
 const environment = isEnv(process.env.ELEVENTY_ENV);
 
 function isEnv (env) {
-  if ( env === "prod" ) {
+  if (env === "prod") {
     return process.env.BASE_URL = 'https://oa.works';
-  } else if ( env === "staging" ) {
+  } else if (env === "staging") {
     return process.env.BASE_URL = 'https://sa.oa.works';
   } else {
-    return process.env.BASE_URL = 'http://localhost:8080';
+    return process.env.BASE_URL;
   }
 }
 
@@ -17,5 +17,3 @@ module.exports = function() {
     environment
   }
 };
-
-console.log('environment is ' + environment + ' and environment is ' + process.env.ELEVENTY_ENV);
