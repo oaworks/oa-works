@@ -20,6 +20,17 @@ Prerequisites:
 
 3. Install Eleventy for this project: `npm install @11ty/eleventy`
 
-4. You can now run the server by entering `npm run dev`. This will also start a `gulp` task that will watch for changes in the preprocessed css and convert them to a minified `main.css` file.
+4. You can now run the server by entering `npm run serve:dev`. This will also start a `gulp` task that will watch for changes in the preprocessed css and convert them to a minified `main.css` file.
 
 5. Direct your web browser to `http://localhost:8080/`.
+
+## Setting environment variables
+
+When cloning this repository locally, you will need to create a `.env` file that will contain:
+```BASE_URL="http://localhost:8080"
+ELEVENTY_ENV="dev"```
+
+If building in staging or production, the commands are as follows:
+`npm run build:staging` for staging, and `npm run build:prod` for production.
+
+In Netlify, there are steps to take to build and deploy depending on the environment: Site Settings > Build & deploy > Environment. Under Environment variables: Edit variables and add `ELEVENTY_ENV` as the key and `prod` as the value.
