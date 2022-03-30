@@ -5,8 +5,8 @@
   "main": ".eleventy.js",
   "scripts": {
     "serve:dev": "gulp build & ELEVENTY_ENV=dev npx @11ty/eleventy --serve",
-    "build:staging": "gulp build --production & ELEVENTY_ENV=staging npx @11ty/eleventy --serve",
-    "build:prod": "gulp build --production & ELEVENTY_ENV=prod npx @11ty/eleventy --serve"
+    "build:staging": "gulp build --production & ELEVENTY_ENV=staging npx @11ty/eleventy",
+    "build:prod": "gulp build --production & ELEVENTY_ENV=prod npx @11ty/eleventy"
   },
   "keywords": [],
   "author": "",
