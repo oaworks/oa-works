@@ -12,6 +12,16 @@
   white-space: nowrap !important;
 }
 
+.sr-only-focusable:focus {
+    position: relative !important;
+    width: auto !important;
+    height: auto !important;
+    clip: initial !important;
+    margin: inherit !important;
+    padding: inherit !important;
+    border: initial !important;
+}
+
 .font-serif {
   font-family: var(--serif);
 }
