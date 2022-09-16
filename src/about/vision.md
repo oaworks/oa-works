@@ -4,7 +4,6 @@ content_layout: markdown
 title: Vision & mission
 meta_description: "We build powerfully simple open access tools for a just and kind information age."
 request_stories: true
-funders_block: true
 ---
 
 Vision{.label}
