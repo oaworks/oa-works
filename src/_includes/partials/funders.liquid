@@ -1,10 +1,21 @@
 <section class="bg-white border-top flex-col flex-center section">
-  <h2 class="label align-center">Funded by</h2>
-  <ul class="unstyled-list flex-center">
+  <h2 class="align-center">Funded by</h2>
+  <ul class="row row--centered flex-center unstyled-list">
     {% for funder in funders %}
-    <li>
+    <li class="col margin-bottom-xl">
       <a href="{{ funder.url }}" target="_blank" rel="noopener" title="Go to {{ funder.name }}’s site" class="flex-center">
         {% include {{ funder.logo }} %}
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+
+  <h2 class="label align-center">Supported by libraries</h2>
+  <ul class="row row--centered flex-center unstyled-list">
+    {% for library in library_supporters %}
+    <li class="col col--1of6">
+      <a href="{{ library.url }}" target="_blank" rel="noopener" title="Go to {{ library.name }}’s site" class="flex-center">
+        {% include {{ library.logo }} %}
       </a>
     </li>
     {% endfor %}
