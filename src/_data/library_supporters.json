@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Indiana University–Purdue University Indianapolis",
+    "url": "https://www.iupui.edu/",
+    "logo": "logos/iupui.svg"
+  },
+  {
+    "name": "Florida State University",
+    "url": "https://www.fsu.edu/",
+    "logo": "logos/fsu.svg"
+  },
+  {
+    "name": "Montana State University",
+    "url": "https://www.montana.edu/",
+    "logo": "logos/montana.svg",
+    "size": "small"
+  },
+  {
+    "name": "University of Alberta Library",
+    "url": "https://www.library.ualberta.ca/",
+    "logo": "logos/ualbertalibrary.svg"
+  }
+]
