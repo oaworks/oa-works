@@ -37,7 +37,7 @@ In 2022, [we spun out]() with all our assets (e.g. funding & IP), and with the a
 
 Find out more:
 - [Transfer agreement](https://drive.google.com/file/d/1FMatR2Cg4nby4HcUOYHS7FQ1rleqfpkX/view?usp=sharing)
-- [SPARC meeting minutes](https://sparcopen.org/who-we-are/governance-and-operations/)
+- [SPARC meeting minutes](https://sparcopen.org/who-we-are/governance-and-operations/steering-committee-minutes/)
 - [Arcadia grant transfer agreement](https://drive.google.com/file/d/1LfBGlH3Acx4fXvXIRySaSJdP8biq8JnD/view?usp=sharing)
 - [Gates grant transfer agreement](https://drive.google.com/file/d/1-d1idDVQ20TtHxpw25N9cMek5r_aCbHL/view?usp=sharing)
 

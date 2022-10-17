@@ -19,7 +19,7 @@ While these are plans, that doesn’t mean they’re theoretical. We have dealt 
 * Financially, we aim to maintain a small contingency reserve (~ 4% our budget) to use for unexpected costs.
 * Technically, several people are able to post alerts to our website and communications platforms regarding issues. Services can be rolled back to stable builds and quickly restarted when required by multiple people.
 * Personnel are all trained in, and expected to practice, agile deployment, share all documents, and conduct documented long-, medium-, and short-term planning to limit the impact of unexpected unavailability. In the case of total unavailability, we prevent single points of failure through, for example, shared but secure account access maintained via a shared password manager and good management practices. Through our fiscal sponsor, experts, such as lawyers are readily available to provide advice and counsel.
-* We keep local copies of mission critical cloud hosted documents, such as those on Github and Google, for use should there be extended or permanent unavailability or loss of data by those services.
+* We keep local copies of mission-critical, cloud-hosted documents, such as those on Github and Google, for use should there be extended or permanent unavailability or loss of data by those services.
 
 ## Succession plan
 
