@@ -9,7 +9,7 @@ Good governance is critical to stewarding our [products](https://oa.works/produc
 
 ## Advisory Committee
 
-Our Advisory Committee represents our community’s interests. It’s job is not just to advise. It has the power to oversee our strategy, uphold our values, and support our team, all in service of our mission and vision.
+Our Advisory Committee represents our community’s interests. Its job is not just to advise. It has the power to oversee our strategy, uphold our values, and support our team, all in service of our mission and vision.
 
 Find out more:
 - [Committee members](https://oa.works/people/advisory-committee/)

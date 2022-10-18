@@ -8,7 +8,7 @@ Alongside making [all the products of our work open](https://oa.works/policies/o
 
 ## Corporate documents
 
-We are a fiscally sponsored project of Code for Science & Society, a 501(c)(3) US public charity. Our relationship with Code for Science & Society is governed by the [CS&S Fiscal Sponsorship Agreement and Policies](https://drive.google.com/file/d/1R-Xz6ni4AU6xzPB6diVO_76P6JMhbWl-/view?usp=sharing), which is signed by our [Advisory Committee](https://docs.google.com/document/d/1mTI8cN-oNnl6UY3a_kD27i5D46YnSSXJtwh39d-W5hk/edit).
+We are a fiscally sponsored project of Code for Science & Society, a 501(c)(3) US public charity. Our relationship with Code for Science & Society is governed by the [CS&S Fiscal Sponsorship Agreement and Policies](https://drive.google.com/file/d/1R-Xz6ni4AU6xzPB6diVO_76P6JMhbWl-/view?usp=sharing), which is signed by our [Advisory Committee](https://oa.works/people/advisory-committee/).
 
 ### About Code for Science & Society
 
@@ -72,7 +72,7 @@ We have not provided any grants to other organizations or individuals.
 
 An overview of our governance can be found on [our governance page](https://oa,works/policies/governance).
 
-- [Committee members](https://docs.google.com/document/d/1mTI8cN-oNnl6UY3a_kD27i5D46YnSSXJtwh39d-W5hk/edit)
+- [Committee members](https://oa.works/people/advisory-committee/)
 - [Conflicts of interest](https://drive.google.com/drive/u/1/folders/1DJQKX8jUvgQLKYkSyBZSZ5DubxNj3nj6)
 - [Meeting minutes](https://drive.google.com/drive/u/1/folders/1BRmxtsdw5_IIcyRCFoLPSNLs070vbl3T)
 - Articles of Governance (coming Q1 2023)
@@ -83,7 +83,7 @@ None of our Advisory Committee members are paid. However, we will provide compen
 
 We commit not to use NDAs in our agreements with customers (unless requested by the customer).
 
-We do not routinely sign contracts for our paid services (we just send an invoice). The only current example used [Code for Science and Society’s standard language](https://docs.google.com/document/d/1kPgSddJ_Sob0XcTbkDy5UShIAVKPmm04P9ZLsYiOV20/edit#heading=h.qo34o8p9in1e).
+We do not routinely sign contracts for our paid services (we just send an invoice). The only current example used [Code for Science and Society’s standard language](https://docs.google.com/document/d/1RDOH1p6C3lhy_de5FtzljlYPIh3vu6UGEX8WM_ihZLY/edit#heading=h.qo34o8p9in1e).
 
 ## Pricing
 
