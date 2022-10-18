@@ -34,4 +34,4 @@ While these are plans, that doesn’t mean they’re theoretical. We have dealt 
 ## Updates
 
 * Established: October 22nd 2019
-* Last updated: August 6th 2022
+* Last updated: October 18th 2022

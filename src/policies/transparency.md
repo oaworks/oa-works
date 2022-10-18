@@ -12,7 +12,7 @@ We are a fiscally sponsored project of Code for Science & Society, a 501(c)(3) U
 
 ### About Code for Science & Society
 
-Code for Science & Society envision a future where research, data, and tech initiatives shift power to communities. They fiscally sponsor projects to empower communities to work together and build innovative technology for the public good.
+[Code for Science & Society](https://www.codeforsociety.org/) (CS&S) is a 501(c)(3) US public charity focusing on the social and organizational infrastructure required for data to improve lives. They fiscally sponsor projects to empower communities to work together and build innovative technology for the public good.
 
 Find out more:
 - [Annual reports](https://www.codeforsociety.org/resources/css-annual-reports)
@@ -91,9 +91,9 @@ We provide transparent suggested pricing for all our production services (where 
 
 ## Questions & feedback
 
-If you have feedback or questions, let us know at [hi@oa.works](mailto:hi@oa.works).
+If you have feedback or questions, let us know at [hello@oa.works](mailto:hello@oa.works).
 
 ## Page updates
 
-Established: Month DDth 2022
+Established: Oct 18th 2022
 Last updated: N/A
