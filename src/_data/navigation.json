@@ -76,6 +76,10 @@
       "featured": true
     },
     {
+      "text": "Adivsory committee",
+      "url": "/people/advisory-committee/"
+    },
+    {
       "text": "Partners",
       "url": "/people/partners/"
     }
@@ -94,6 +98,10 @@
     {
       "text": "Governance",
       "url": "/policies/governance/"
+    },
+    {
+      "text": "Transparency",
+      "url": "/policies/transparency/"
     },
     {
       "text": "Preservation",
