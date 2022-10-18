@@ -70,7 +70,7 @@ We have not provided any grants to other organizations or individuals.
 
 ## Governance
 
-An overview of our governance can be found on [our governance page](https://oa,works/policies/governance).
+An overview of our governance can be found on [our governance page](https://oa.works/policies/governance).
 
 - [Committee members](https://oa.works/people/advisory-committee/)
 - [Conflicts of interest](https://drive.google.com/drive/u/1/folders/1DJQKX8jUvgQLKYkSyBZSZ5DubxNj3nj6)
