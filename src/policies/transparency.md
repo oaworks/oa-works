@@ -2,9 +2,8 @@
 layout: "layouts/header/left.liquid"
 content_layout: markdown
 title: "Transparency"
+meta_description: "Alongside making all the products of our work open, we want to be transparent about our operations."
 ---
-
-Alongside making [all the products of our work open](https://oa.works/policies/openness/), we want to be transparent about our operations. For a simpler general overview of our governance, [head to our governance page](https://oa.works/policies/governance/). For the weeds, read on!
 
 ## Corporate documents
 
