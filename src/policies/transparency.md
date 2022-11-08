@@ -59,6 +59,7 @@ Joseph McArthur’s (Director) compensation was 142,835.97 USD (104,523 GBP) for
 
 | Funding Organization                                            | Amount (USD) | Start Date | Term (months) |
 |-----------------------------------------------------------------|-------------:|-----------:|--------------:|
+| Robert Wood Johnson Foundation                                  |      100,000 |    06/2022 |            12 |
 | Bill & Melinda Gates Foundation                                 |    1,875,593 |    05/2021 |            36 |
 | Arcadia - a charitable fund of Lisbet Rausing and Peter Baldwin |    1,870,000 |    06/2020 |            48 |
 | Arcadia - a charitable fund of Lisbet Rausing and Peter Baldwin |      422,000 |    05/2018 |            24 |
