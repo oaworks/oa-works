@@ -2,7 +2,7 @@
   <h2 class="align-center">Funded by</h2>
   <ul class="row row--centered flex-center unstyled-list">
     {% for funder in funders %}
-    <li class="col margin-bottom-xl">
+    <li class="col col--1of3 margin-bottom-xl">
       <a href="{{ funder.url }}" target="_blank" rel="noopener" title="Go to {{ funder.name }}’s site" class="flex-center">
         {% include {{ funder.logo }} %}
       </a>

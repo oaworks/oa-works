@@ -8,5 +8,10 @@
     "name": "Bill & Melinda Gates Foundation",
     "url": "https://www.gatesfoundation.org/",
     "logo": "logos/bmgf.svg"
+  },
+  {
+    "name": "Robert Wood Johnson Foundation",
+    "url": "https://www.rwjf.org/",
+    "logo": "logos/rwjf.svg"
   }
 ]
