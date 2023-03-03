@@ -24,6 +24,10 @@ Prerequisites:
 
 5. Direct your web browser to `http://localhost:8080/`.
 
+If running locally isn't your thing, try:
+
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&ref=support-codespaces&repo=321735364&machine=basicLinux32gb&devcontainer_path=.devcontainer%2Fdevcontainer.json&location=WestEurope)
+
 ## Setting environment variables
 
 When cloning this repository locally, you will need to create a `.env` file that will contain:
