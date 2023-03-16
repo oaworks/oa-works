@@ -20,7 +20,7 @@ Find out more:
 
 [Code for Science & Society](https://www.codeforsociety.org/) (CS&S) is a 501(c)(3) US public charity focusing on the social and organizational infrastructure required for data to improve lives. They fiscally sponsor projects to empower communities to work together and build innovative technology for the public good. CS&S has been sponsoring [an incredible set of projects](https://www.codeforsociety.org/fsp/projects) since 2017, and they specialize in supporting small open source projects in scholarly communications.
 
-The board of CS&S takes on the legal and fiduciary obligations of a nonprofit board of directors for their fiscally sponsored projects. However, OA.Works’ remains responsible for strategic decisions, with CS&S offering guidance when requested, and our Advisory Committee can choose to set up an independent non-profit or move to another fiscal sponsor.<a id=fsp></a>
+The board of CS&S takes on the legal and fiduciary obligations of a nonprofit board of directors for their fiscally sponsored projects. However, OA.Works remains responsible for strategic decisions, with CS&S offering guidance when requested, and our Advisory Committee can choose to set up an independent non-profit or move to another fiscal sponsor. {#fsp}
 
 ## About fiscal sponsorship
 
