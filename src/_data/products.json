@@ -18,7 +18,7 @@
     "label": "Inter-library loans",
     "tagline": "Deliver access without subscriptions",
     "cta": "Make a request",
-    "description": "InstantILL makes Interlibrary loans less expensive & simpler for users, without the need for big deals. Through RSCVD it's powering a global response to COVID-19.",
+    "description": "InstantILL makes Interlibrary loans less expensive & simpler for users, without the need for big deals. Through RSCVD.org it's powering a global response to COVID-19.",
     "embed": "SOMETHING BETTER COMING SOON",
     "colour": "cyan",
     "featured": true
@@ -37,23 +37,23 @@
   },
   {
     "logo": "",
-    "name": "OAreport",
+    "name": "OA.Report",
     "url": "https://oa.report",
     "label": "Open Access reporting",
     "tagline": "Put OA policies into practice in minutes, not months.",
     "cta": "Sign up for updates",
-    "description": "OAreport translates policy to impact by helping libraries and funder discover papers covered by their policies, analyze if and how papers comply, and unlock individual papers and systemic changes.",
+    "description": "OA.Report translates policy to impact by helping libraries and funder discover papers covered by their policies, analyze if and how papers comply, and unlock individual papers and systemic changes.",
     "colour": "carnation",
     "featured": true
   },
   {
     "logo": "",
-    "name": "OAsupport",
+    "name": "OA.Support",
     "url": "https://oa.support",
     "label": "Researcher help desk",
     "tagline": "A help desk for making papers Open Access.",
     "cta": "Sign up for updates",
-    "description": "OAsupport’s expert team helps libraries and funders answer author questions within 24 hours, remind researchers of outreach that may have been missed, and report on authors progress and challenges.",
+    "description": "OA.Support’s expert team helps libraries and funders answer author questions within 24 hours, remind researchers of outreach that may have been missed, and report on authors progress and challenges.",
     "colour": "chartreuse",
     "featured": false
   }
