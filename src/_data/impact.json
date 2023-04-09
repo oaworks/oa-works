@@ -1,5 +1,13 @@
 [
   {
+    "value": "30",
+    "key": "Plan S funders supported",
+    "app": "ShareYourPaper",
+    "desc": "ShareYourPaper helps Plan S funders guide their authors on how to publish Open Access",
+    "url": "https://journalcheckertool.org/",
+    "url_text": "Check your route to OA"
+  },
+  {
     "value": "32,000+",
     "key": "Stories shared",
     "app": "OpenAccessButton",
