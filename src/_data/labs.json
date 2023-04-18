@@ -18,25 +18,7 @@
     "about": "All open Covid papers, searchable and made useful with text and data mining"
   },
   {
-    "codename": "Open Journals Database",
-    "cta": "Get in touch",
-    "url": "mailto:joe@oa.works?subject=Open Journals Database",
-    "about": "All the data on all the journals we can find."
-  },
-  {
-    "codename": "Paradigm",
-    "cta": "Follow on Github",
-    "url": "https://github.com/oaworks/paradigm",
-    "about": "Backend and API framework for fast, open, private scholarly communications"
-  },
-  {
-    "codename": "Status page for research",
-    "cta": "Take a peek",
-    "url": "https://oab-status-prototype.netlify.app/",
-    "about": "Uptime checker for academic publishers."
-  },
-  {
-    "codename": "OATP adder",
+    "codename": "Open Access Tracking Project tagger",
     "cta": "Follow on Github",
     "url": "https://github.com/oaworks/OATP-Extension/tree/master",
     "about": "Chrome Extension to add items to the OA Tracking Project"
