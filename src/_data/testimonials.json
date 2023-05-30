@@ -1,5 +1,17 @@
 [
   {
+    "name": "Heather Joseph",
+    "role": "Executive Director",
+    "quote": "This team has consistently created resources and community central to the open sharing of knowledge. It’s been a real pleasure to watch OA.Works grow into an important provider of high-quality tools supporting open access to knowledge.",
+    "colour": "mango",
+    "img": "people/heather-joseph.jpeg",
+    "img_alt": "",
+    "affiliation": "SPARC",
+    "aff_logo": "logos/sparc.svg",
+    "aff_url": "https://sparcopen.org/",
+    "featured": true
+  },
+  {
     "name": "Leila Sterman",
     "role": "Scholarly Communication Librarian & Assistant Professor",
     "quote": "We’re excited to finally build everything we’ve learned from mediated deposit into a simple tool, not a dozen workarounds, that enables every library to make self-archiving not just the right thing, but the easy thing, for every author.",
