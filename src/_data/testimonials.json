@@ -73,5 +73,18 @@
     "aff_logo": "logos/bmgf.svg",
     "aff_url": "https://www.gatesfoundation.org/",
     "featured": true
+  },
+  {
+    "name": "Heather Joseph",
+    "role": "Executive Director",
+    "quote": "This team has consistently created resources and community central to the open sharing of knowledge. It’s been a real pleasure to watch OA.Works grow into an important provider of high-quality tools supporting open access to knowledge.",
+    "product": "OA.Works",
+    "colour": "mango",
+    "img": "people/heather-joseph.jpeg",
+    "img_alt": "A smiling woman wearing glasses and a grey cardigan, with her hair done up in a bun. The photo is taken in a sunny yard, against a fence covered in foliage.",
+    "affiliation": "SPARC",
+    "aff_logo": "logos/sparc.svg",
+    "aff_url": "https://sparcopen.org/",
+    "featured": true
   }
 ]
