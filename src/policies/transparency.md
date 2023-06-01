@@ -65,8 +65,11 @@ Joseph McArthur’s (Director) compensation was 142,835.97 USD (104,523 GBP) for
 | Arcadia - a charitable fund of Lisbet Rausing and Peter Baldwin |      422,000 |    05/2018 |            24 |
 | JISC                                                            |      156,731 |    02/2016 |            18 |
 | Center for Open Science                                         |       25,000 |    09/2015 |             4 |
+| Open Society Foundations                                        |       18,588 |    04/2015 |             4 |
 
 We have not provided any grants to other organizations or individuals.
+
+In 2014, we received in-kind support from [Mozilla Science](https://blog.mozilla.org/foundation-archive/mozilla-science/open-access-button-project-updates-prototypes-next-steps/), [Cottage Labs](https://blog.oa.works/open-access-button-to-partner-with-cottage-labs-to-further-develop-the-open-access-button/), and PLOS.
 
 ## Governance
 
@@ -96,4 +99,4 @@ If you have feedback or questions, let us know at [hello@oa.works](mailto:hello@
 ## Page updates
 
 Established: Oct 18th 2022
-Last updated: N/A
+Last updated: Jun 1st 2023
