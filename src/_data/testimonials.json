@@ -86,5 +86,18 @@
     "aff_logo": "logos/sparc.svg",
     "aff_url": "https://sparcopen.org/",
     "featured": true
+  },
+  {
+    "name": "Madeleine Thompson",
+    "role": "Director of Library and Archive",
+    "quote": "We have a very small staff, and SYP has been pivotal to us in advancing our Open Access goals.  The tool is so easy to use, and the OA.Works team has been terrific to work with as we continue to improve our processes.",
+    "product": "ShareYourPaper.org",
+    "colour": "azure",
+    "img": "people/madeleine-thompson.jpg",
+    "img_alt": "A woman smiling, posing in front of the sea in a cardigan and dotted top.",
+    "affiliation": "Wildlife Conservation Society",
+    "aff_logo": "logos/wcs.svg",
+    "aff_url": "https://www.wcs.org/",
+    "featured": true
   }
 ]
