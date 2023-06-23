@@ -32,7 +32,7 @@ Find out more:
 
 ### About our spin out
 
-In 2022, [we spun out]() with all our assets (e.g. funding & IP), and with the approval and support of the [SPARC Steering Committee](https://sparcopen.org/people#steer).
+In 2022, [we spun out](https://blog.oa.works/joining-code-for-science-and-society/) with all our assets (e.g. funding & IP), and with the approval and support of the [SPARC Steering Committee](https://sparcopen.org/people#steer).
 
 Find out more:
 - [Transfer agreement](https://drive.google.com/file/d/1FMatR2Cg4nby4HcUOYHS7FQ1rleqfpkX/view?usp=sharing)
@@ -44,6 +44,8 @@ Find out more:
 
 OA.Works financial statements are available below and disclose more information than is required by a stand-alone 501c3 legal entity.
 
+- [FY2022 (CS&S Jul'21 -> Jun'22)](https://docs.google.com/spreadsheets/d/1k-afT5rTl8WyGjrN8fPjCBSq-IuhFokJCRGtuiXHliY/edit#gid=0)
+- [2022 (NVF)](https://docs.google.com/spreadsheets/d/1XkxAoaozHMT9nVupDdHtyfRrJJxAAOhTgjb_zfd-1fE/edit#gid=0)
 - [2021](https://docs.google.com/spreadsheets/d/1uvPc5H94OPZnAAZNFIs2pp_bVJ6tFdIf8amMbVbcgNU/edit#gid=0)
 - [2020](https://docs.google.com/spreadsheets/d/1Ex1GzvXCi14CECPXn86QedrL_PI5JczWW3k_AW1pmHw/edit#gid=1754029946)
 
@@ -99,4 +101,4 @@ If you have feedback or questions, let us know at [hello@oa.works](mailto:hello@
 ## Page updates
 
 Established: Oct 18th 2022
-Last updated: Jun 1st 2023
+Last updated: Jun 23rd 2023
