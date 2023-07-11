@@ -2,11 +2,10 @@
 layout: "layouts/header/left.liquid"
 content_layout: markdown
 title: Governance
-hero_heading_1: "We’re OA.Works</br> (pronounced OA Works)"
-hero_content_1: "We’re a non-profit project funded by leading foundations and libraries. </br></br>You may have known us as the Open Access Button."
-hero_heading_2: "Our tools make open access easy and equitable"
-hero_content_2: "They're free, open source, and built in partnership with librarians and advocates using openness to create a more just and kind world."
-funders_block: true
+hero_heading_1: "A non-profit project governed by our community"
+hero_content_1: "Our Advisory Committee has powers to shape OA.Works and is composed of our partners and the broader library community."
+hero_heading_2: "Every aspect of how we’re run is open, not just our code"
+hero_content_2: "We’re committed to being transparent, ethical business models & the Principles for Open Scholarly Infrastructure."
 ---
 
 Good governance is critical to stewarding our [products](https://oa.works/products/), being a good [partner](https://oa.works/people/partners/), and being a trusted community member.
