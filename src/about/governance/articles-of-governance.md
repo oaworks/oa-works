@@ -88,7 +88,7 @@ meta_description: "Articles of Governance set the rules for how organizations li
 1. The OA.Works Advisory Committee will convene at least once per calendar year.
 2. Any Advisory Committee member, at any time, can call a meeting.
 3. Any Advisory Committee member, at any time, can call a meeting without the OA.Works Executive Director or other team members present.
-4. Minutes from Advisory Committee meetings will be [published ](https://r.oa.works/minutes)on our website and preserved in a web archive.
+4. Minutes from Advisory Committee meetings will be [published](https://r.oa.works/minutes) on our website and preserved in a web archive.
 
 ### Section 6. Conflicts of interest
 
