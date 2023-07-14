@@ -4,6 +4,7 @@ content_layout: markdown
 title: Articles of Governance
 meta_description: "Articles of Governance set the rules for how organizations like ours are run."
 ---
+
 ## Article 1. Name
 
 1. The name of the project is OA.Works.
@@ -98,3 +99,10 @@ meta_description: "Articles of Governance set the rules for how organizations li
 ### Section 7. Review
 
 1. At least every year, the Advisory Committee will review the Articles of Governance.
+
+---
+
+## Updates
+Established: July 11th 2023
+Last reveiwed: N/A
+Last updated: N/A
