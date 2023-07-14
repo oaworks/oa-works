@@ -21,13 +21,11 @@ Find out more:
 - [Conflicts of interest](https://drive.google.com/drive/folders/1DJQKX8jUvgQLKYkSyBZSZ5DubxNj3nj6?usp=sharing)
 - [Meeting minutes](https://drive.google.com/drive/folders/1BRmxtsdw5_IIcyRCFoLPSNLs070vbl3T?usp=sharing)
 
-None of our Advisory Committee members are paid. However, we are able to provide compensation of up to 49% of the Advisory Committee costs should it enable people from underrepresented groups to participate.
+None of our Advisory Committee members are paid. However, we are able to provide compensation of up to 49% of the Advisory Committee costs should it enable people from historically excluded groups to participate.
 
 ## Articles of Governance
 
-Articles of Governance set the rules for how organizations like ours are run. They’re similar to “bylaws”, but we don’t use that term to avoid confusion with Code for Science & Society’s bylaws. “Articles” are just sections that detail some aspect of our governance.
-
-Our [Articles of Governance](/about/governance/articles-of-governance) define the overall structure of OA.Works, its leadership, and critical processes. Ours focus on defining the Advisory Committee’s powers, voting as its mechanism for using those powers, and creating inclusive rules for how the committee itself is composed and run.
+Articles of Governance set the rules for how organizations like ours are run. They’re similar to “bylaws”, but we don’t use that term to avoid confusion with Code for Science & Society’s bylaws. Each “Article” details some aspect of our governance, for instance, our organizational structure or how our Advisory Committee works. Our [Articles of Governance](/about/governance/articles-of-governance) focus on defining the Advisory Committee’s powers, voting as its mechanism for using those powers, and creating inclusive rules for how the committee itself is composed and run.
 
 ## Code for Science & Society
 
