@@ -1,0 +1,7 @@
+[[redirects]]
+  from = "/policies/governance"
+  to = "/about/governance"
+
+[[redirects]]
+  from = "/policies/transparency"
+  to = "/about/governance"
