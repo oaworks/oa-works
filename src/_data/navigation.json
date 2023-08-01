@@ -67,6 +67,10 @@
     {
       "text": "History",
       "url": "/about/history/"
+    },
+    {
+      "text": "Governance",
+      "url": "/about/governance/"
     }
   ],
   "people": [
@@ -95,14 +99,6 @@
     }
   ],
   "policies": [
-    {
-      "text": "Governance",
-      "url": "/policies/governance/"
-    },
-    {
-      "text": "Transparency",
-      "url": "/policies/transparency/"
-    },
     {
       "text": "Preservation",
       "url": "/policies/preservation/"
