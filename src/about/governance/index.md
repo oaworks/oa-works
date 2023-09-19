@@ -75,7 +75,7 @@ Note: Grant revenue is recognized when a grant is given, even for multi-year gra
 
 ### Executive compensation
 
-Joseph McArthur’s (Director) compensation was 142,835.97 USD (104,523 GBP) for 2021, and 96,895.70 USD (74,680 GBP) in 2020.
+Joseph McArthur’s (Director) compensation was 145,936.19 USD for 2022, 142,835.97 USD for 2021, and 96,895.70 USD for 2020.
 
 ### Grants
 
