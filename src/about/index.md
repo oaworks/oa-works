@@ -17,6 +17,6 @@ At OA.Works, we’re partnered with libraries, scholars, educators, and the peop
 
 We build tools like [ShareYourPaper.org](https://ShareYourPaper.org) that make it simple to freely and legally unlock papers from behind paywalls. We helped create a global network of libraries sharing knowledge freely during COVID through [RSCVD](https://rscvd.org). Our tools like [InstantILL](https://instantill.org) and [Open Access Button](https://oabutton.org) support accessing research without a steep price tag. In the past decade, our products have been used millions of times, across the world.
 
-We founded OA.Works in 2013 as students in reaction to a corporatized and locked down scholarly publishing landscape. Today, our work is driven by a [dedicated and expert team](/people), supported by generous funding, and [committed to a strong set of values](/about/values) that keep us driven towards our goal.
+We founded OA.Works in 2013 as students in reaction to a corporatized and locked down scholarly publishing landscape. Today, our work is driven by a dedicated and expert team, supported by generous funding, and [committed to a strong set of values](/about/values) that keep us driven towards our goal.
 
 We’re OA.Works, and that’s our commitment: to make Open Access Work.
