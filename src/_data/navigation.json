@@ -44,10 +44,6 @@
     {
       "text": "Stories",
       "url": "/impact/stories/"
-    },
-    {
-      "text": "Testimonials",
-      "url": "/impact/testimonials/"
     }
   ],
   "about": [
@@ -71,21 +67,6 @@
     {
       "text": "Governance",
       "url": "/about/governance/"
-    }
-  ],
-  "people": [
-    {
-      "text": "Team",
-      "url": "/people/",
-      "featured": true
-    },
-    {
-      "text": "Advisory committee",
-      "url": "/people/advisory-committee/"
-    },
-    {
-      "text": "Partners",
-      "url": "/people/partners/"
     }
   ],
   "developers": [

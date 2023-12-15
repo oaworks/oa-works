@@ -47,47 +47,6 @@ meta_description: "We're a non-profit project building free and open source tool
   {% include 'partials/partnerships.liquid' %}
 </aside>
 
-<section class="section bg-white">
-  <h2 class="sr-only">Testimonials</h2>
-  <ul class="unstyled-list no-margin testimonials">
-    {% for t in testimonials %}
-    {%- if t.featured -%}
-    <li class="row row--centered flex-end testimonial" style="display: none;">
-      <figure class="col col--1of4 flex-end flex-col" data-sal="slide-up" data-sal-delay="50">
-        <header>
-          <p class="label label--secondary line-thru">
-            <small class="line-thru__inner bg-white label">What our community is saying</small>
-          </p>
-          <h3> {{ t.product }}</h3>
-        </header>
-        <div class="flex flex-col">
-          <img class="portrait" src="assets/img/{{ t.img }}" alt="{{ t.img_alt }}" width="500" height="500"/>
-          <figcaption class="bg-white-75">
-            <a href="{{ t.aff_url }}" title="{{ t.affiliation }}’s site" target="_blank" rel="noopener" class="block-link">
-              {% include t.aff_logo %}
-            </a>
-          </figcaption>
-        </div>
-      </figure>
-      <article class="col col--2of4 flex-col" data-sal="slide-up" data-sal-delay="150">
-        <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg" style="margin: 0 var(--space-md) var(--space-md) 0; width: 50px; height: 50px;" aria-hidden="true">
-          <path d="M15.9197 8.41943C15.9197 12.5616 12.5618 15.9194 8.41968 15.9194C4.27754 15.9194 0.919678 12.5616 0.919678 8.41943C0.919678 4.2773 4.27754 0.919434 8.41968 0.919434C12.5618 0.919434 15.9197 4.2773 15.9197 8.41943Z" fill="var(--{{ t.colour }})"/>
-        </svg>
-        <blockquote>
-          <p class="type-4">“{{ t.quote }}”</p>
-          <footer class="type-6">
-            <cite>
-              — <strong>{{ t.name }}</strong><br/><br/>{{ t.role }}<br/> <em>{{ t.affiliation }}</em>
-            </cite>
-          </footer>
-        </blockquote>
-      </article>
-    </li>
-    {% endif %}
-    {% endfor %}
-  </ul>
-</section>
-
 {% include 'partials/blog.liquid' %}
 
 <section class="section bg-white">
