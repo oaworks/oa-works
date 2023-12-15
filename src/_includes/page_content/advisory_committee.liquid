@@ -2,13 +2,13 @@
 {% assign delay_count = delay_count | plus: 100 %}
 <li data-sal="slide-up" data-sal-delay="{{ delay_count }}">
   <article class="row">
+    {% if person.img %}
     <div class="col col--1of6">
-      {% if person.img %}
       <figure class="portrait portrait--circular">
         <img src="../../assets/img/{{ person.img }}" alt="Headshot of {{ person.name }}"/>
       </figure>
-      {% endif %}
     </div>
+    {% endif %}
     <div class="col col--2of3">
       <p class="label">{{ person.role }}</p>
       <h2 class="type-3">
@@ -17,6 +17,7 @@
       </h2>
       <p>{{ person.bio }}</p>
       <p class="type-6 font-sans">{{ person.position }}</p>
+      {% if person.email or person.twitter or person.github or person.orcid %}
       <dl class="unstyled-list row type-6">
         {% if person.email %}
         <div class="col col--1of3">
@@ -43,6 +44,7 @@
         </div>
         {% endif %}
       </dl>
+      {% endif %}
     </div>
   </article>
 </li>
