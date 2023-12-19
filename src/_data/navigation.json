@@ -6,12 +6,12 @@
       "featured": true
     },
     {
-      "text": "OAreport",
+      "text": "OA.Report",
       "url": "https://oa.report/",
       "indented": true
     },
     {
-      "text": "OAsupport",
+      "text": "OA.Support",
       "url": "https://oa.support/",
       "indented": true
     },
@@ -26,7 +26,7 @@
       "indented": true
     },
     {
-      "text": "OAButton",
+      "text": "Open Access Button",
       "url": "https://oabutton.org/",
       "indented": true
     },
@@ -67,13 +67,6 @@
     {
       "text": "Governance",
       "url": "/about/governance/"
-    }
-  ],
-  "people": [
-    {
-      "text": "Advisory committee",
-      "url": "/people/advisory-committee/",
-      "featured": true
     }
   ],
   "developers": [
