@@ -81,10 +81,12 @@ Joseph McArthur’s (Director) compensation was 145,936.19 USD for 2022, 142,835
 
 | Funding Organization                                            | Amount (USD) | Start Date | Term (months) |
 |-----------------------------------------------------------------|-------------:|-----------:|--------------:|
+| Robert Wood Johnson Foundation                                  |      200,000 |    11/2023 |            24 |
+| Founders Pledge                                                 |      300,000 |    06/2023 |            12 |
 | Robert Wood Johnson Foundation                                  |      100,000 |    06/2022 |            12 |
 | Bill & Melinda Gates Foundation                                 |    1,875,593 |    05/2021 |            36 |
-| Arcadia |    1,870,000 |    06/2020 |            48 |
-| Arcadia |      422,000 |    05/2018 |            24 |
+| Arcadia                                                         |    1,870,000 |    06/2020 |            66 |
+| Arcadia                                                         |      422,000 |    05/2018 |            24 |
 | JISC                                                            |      156,731 |    02/2016 |            18 |
 | Center for Open Science                                         |       25,000 |    09/2015 |             4 |
 | Open Society Foundations                                        |       18,588 |    04/2015 |             4 |
@@ -97,7 +99,7 @@ In 2014, we received in-kind support from [Mozilla Science](https://blog.mozilla
 
 We commit not to use NDAs in our agreements with customers (unless requested by the customer).
 
-The contracts we use for our paid services (when needed) use [Code for Science & Society’s standard language](https://docs.google.com/document/d/1RDOH1p6C3lhy_de5FtzljlYPIh3vu6UGEX8WM_ihZLY/edit#heading=h.qo34o8p9in1e).
+The contracts we use for our paid services (when needed) use [Code for Science & Society’s standard language](https://docs.google.com/document/d/1kPgSddJ_Sob0XcTbkDy5UShIAVKPmm04P9ZLsYiOV20/edit?usp=drive_link).
 
 ### Pricing
 
