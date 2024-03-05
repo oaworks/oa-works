@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Bill & Melinda Gates Foundation",
+    "url": "https://www.gatesfoundation.org/",
+    "logo": "logos/bmgf.svg",
+    "person": "Ashley Farley",
+    "img":"people/ashley-farley.jpg",
+    "img_alt": "Headshot of a smiling woman in a white ruffled top with fair skin and burgundy hair.",
+    "product": "OA.Works",
+    "reason": "Building <a href = 'https://oa.report' target='_blank' rel='noopener'>OA.report</a>, <a href = 'https://oa.support' target='_blank' rel='noopener'>OA.support</a> and <a href = 'https://shareyourpaper.org' target='_blank' rel='noopener'>ShareYourPaper for Funders</a> together."
+  },
+  {
+    "name": "IFLA",
+    "url": "https://www.ifla.org/",
+    "logo": "logos/ifla.svg",
+    "person": "Peter Bae",
+    "img":"people/peter-bae.jpg",
+    "img_alt": "Headshot of Asian man wearing glasses and a tie.",
+    "product": "RSCVD",
+    "reason": "Building <a href = 'https://rscvd.org' target='_blank' rel='noopener'>RSCVD</a> with the Document Delivery and Resource Sharing Section."
+  },
+  {
+    "name": "Montana State University",
+    "url": "https://www.lib.montana.edu/",
+    "logo": "logos/montana.svg",
+    "person": "Leila Sterman",
+    "img":"people/leila-sterman.jpg",
+    "img_alt": "Black-haired light-skinned woman laughing against a bright blue background.",
+    "product": "ShareYourPaper",
+    "reason": "Building <a href = 'https://shareyourpaper.org' target='_blank' rel='noopener'>ShareYourPaper</a> together."
+  },
+  {
+    "name": "IUPUI",
+    "url": "https://ulib.iupui.edu/",
+    "logo": "logos/iupui.svg",
+    "person": "Tina Baich",
+    "img":"people/tina-baich.jpg",
+    "img_alt": "Light-skinned woman with brown hair wearing glasses and a chunky necklace in a library.",
+    "product": "InstantILL",
+    "reason": "Building <a href = 'https://instantill.org' target='_blank' rel='noopener'>InstantILL</a> together."
+  }
+]

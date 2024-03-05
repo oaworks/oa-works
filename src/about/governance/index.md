@@ -10,7 +10,7 @@ hero_content_2: "We’re committed to being transparent, ethical business models
 
 ## Overview
 
-OA.Works is a US-based non-profit project governed by our community. Our [Advisory Committee](/people/advisory-committee) leads our governance, and is composed of our partners and leaders from our community. We’re housed at Code for Science & Society, as a fiscally sponsored project, which allows us to focus on our mission while non-profit experts manage our administration. We’re transparent about how we’re run and we’re committed to the [Principles of Open Scholarly Infrastructure](https://openscholarlyinfrastructure.org/). We believe good governance is critical to stewarding our products, being a good partner, and being a trusted community member.
+OA.Works is a US-based non-profit project governed by our community. Our [Advisory Committee](/people/advisory-committee) leads our governance, and is composed of our [partners](/people/partners) and leaders from our community. We’re housed at Code for Science & Society, as a fiscally sponsored project, which allows us to focus on our mission while non-profit experts manage our administration. We’re transparent about how we’re run and we’re committed to the [Principles of Open Scholarly Infrastructure](https://openscholarlyinfrastructure.org/). We believe good governance is critical to stewarding our products, being a good partner, and being a trusted community member.
 
 ## Advisory Committee
 
