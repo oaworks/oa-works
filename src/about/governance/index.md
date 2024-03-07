@@ -64,6 +64,8 @@ Alongside making all the products of our work open, we want to be transparent ab
 
 OA.Works' financial statements are available below and disclose more information than is required by a stand-alone 501c3 legal entity.
 
+- [FY2023 (CS&S)](https://docs.google.com/spreadsheets/d/1jI7GjxP7E74g3uwTCLQbbGFVE3F_E9_qjdVdH82M-q0/edit#gid=0)
+- [2023 (NVF)](https://docs.google.com/spreadsheets/d/1Aitq1rpF3PJweIpIVoMAckTvgFmZrVeGaxMEe-x0qxA/edit?usp=sharing)
 - [FY2022 (CS&S Jul'21 -> Jun'22)](https://docs.google.com/spreadsheets/d/1k-afT5rTl8WyGjrN8fPjCBSq-IuhFokJCRGtuiXHliY/edit#gid=0)
 - [2022 (NVF)](https://docs.google.com/spreadsheets/d/1XkxAoaozHMT9nVupDdHtyfRrJJxAAOhTgjb_zfd-1fE/edit#gid=0)
 - [2021](https://docs.google.com/spreadsheets/d/1uvPc5H94OPZnAAZNFIs2pp_bVJ6tFdIf8amMbVbcgNU/edit#gid=0)
