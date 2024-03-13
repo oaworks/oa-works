@@ -86,7 +86,7 @@ Joseph McArthur’s (Director) compensation was 145,936.19 USD for 2022, 142,835
 | Robert Wood Johnson Foundation                                  |      200,000 |    11/2023 |            24 |
 | Founders Pledge                                                 |      300,000 |    06/2023 |            12 |
 | Robert Wood Johnson Foundation                                  |      100,000 |    06/2022 |            12 |
-| Bill & Melinda Gates Foundation                                 |    1,875,593 |    05/2021 |            36 |
+| Bill & Melinda Gates Foundation                                 |    3,151,864 |    05/2021 |            58 |
 | Arcadia                                                         |    1,870,000 |    06/2020 |            66 |
 | Arcadia                                                         |      422,000 |    05/2018 |            24 |
 | JISC                                                            |      156,731 |    02/2016 |            18 |
