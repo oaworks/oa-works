@@ -90,10 +90,6 @@
   ],
   "developers": [
     {
-      "text": "API",
-      "url": "https://openaccessbutton.org/api"
-    },
-    {
       "text": "Infrastructure",
       "url": "/developers/infrastructure/"
     }
@@ -124,14 +120,6 @@
     {
       "text": "Report an issue",
       "url": "https://openaccessbutton.org/feedback#bug"
-    },
-    {
-      "text": "Roadmap",
-      "url": "https://github.com/orgs/oaworks/projects/13"
-    },
-    {
-      "text": "Service status",
-      "url": "https://status.openaccessbutton.org/"
     },
     {
       "text": "Contact",
