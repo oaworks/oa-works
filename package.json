@@ -18,7 +18,7 @@
     "@tryghost/content-api": "^1.4.13",
     "dotenv": "^16.0.0",
     "eleventy-plugin-lazyimages": "^2.1.0",
-    "gulp": "^4.0.2",
+    "gulp": "^5.0.0",
     "gulp-autoprefixer": "^8.0.0",
     "gulp-clean-css": "^4.3.0",
     "gulp-rename": "^2.0.0",
