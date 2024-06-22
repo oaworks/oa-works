@@ -9,8 +9,8 @@
         <header class="no-margin card__header"><time class="label" datetime="{{ post.updated_at }}"><small>{{ post.updated_at | date: "%b %d, %Y" }}</small></time></header>
         <a href="https://blog.oa.works/{{ post.slug }}/" target="_blank" rel="noopener" style="display: block; overflow: hidden;">
           {%- if post.feature_image -%}
-            <img src="{{ post.feature_image | img_url }}" alt="{{ post.feature_image_alt }}" role="presentation" class="card__img"/>
-          {% else %}
+            <img src="{{ post.feature_image }}" alt="{{ post.feature_image_alt }}" role="presentation" class="card__img"/>
+jk          {% else %}
             <div class="card__blank bg-pattern__child"></div>
           {% endif %}
           <div class="flex-space-between card__body">
