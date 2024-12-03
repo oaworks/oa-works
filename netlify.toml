@@ -5,3 +5,6 @@
 [[redirects]]
   from = "/policies/transparency"
   to = "/about/governance"
+
+[build]
+  node_version = "21"
