@@ -4,7 +4,8 @@
     {% for funder in funders %}
     <li class="col col--1of3 margin-bottom-xl">
       <a href="{{ funder.url }}" target="_blank" rel="noopener" title="Go to {{ funder.name }}’s site" class="flex-center">
-        {% include {{ funder.logo }} %}
+        {% assign logo_path = funder.logo %}
+        {% include logo_path %}
       </a>
     </li>
     {% endfor %}
@@ -15,7 +16,8 @@
     {% for library in library_supporters %}
     <li class="col col--1of6">
       <a href="{{ library.url }}" target="_blank" rel="noopener" title="Go to {{ library.name }}’s site" class="flex-center">
-        {% include {{ library.logo }} %}
+        {% assign logo_path = library.logo %}
+        {% include logo_path %}
       </a>
     </li>
     {% endfor %}

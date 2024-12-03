@@ -2,6 +2,6 @@
   {% assign delay_count = 0 %}
   {% assign dir = "page_content/" %}
   {% assign ext = ".liquid" %}
-  {% assign data_file = data_file | prepend: dir %}
-  {% include {{ data_file | append: ext }} %}
+  {% assign full_path = data_file | prepend: dir | append: ext %}
+  {% include full_path %}
 </ol>
