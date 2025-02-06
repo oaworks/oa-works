@@ -69,8 +69,8 @@
     "colour": "cyan",
     "img": "people/ashley-farley.jpg",
     "img_alt": "Headshot of a smiling woman in a white ruffled top with fair skin and burgundy hair.",
-    "affiliation": "Bill and Melinda Gates Foundation",
-    "aff_logo": "logos/bmgf.svg",
+    "affiliation": "Gates Foundation",
+    "aff_logo": "logos/gf.svg",
     "aff_url": "https://www.gatesfoundation.org/",
     "featured": true
   },
