@@ -101,7 +101,7 @@ In 2014, we received in-kind support from [Mozilla Science](https://blog.mozilla
 
 We commit not to use NDAs in our agreements with customers (unless requested by the customer).
 
-The contracts we use for our paid services (when needed) use [Code for Science & Society’s standard language](https://docs.google.com/document/d/1kPgSddJ_Sob0XcTbkDy5UShIAVKPmm04P9ZLsYiOV20/edit?usp=drive_link).
+The contracts we use for our paid services (when needed) use [Code for Science & Society’s standard language](https://docs.google.com/document/d/12fAfR5sCRNgQbIQp8bmz1HL0lP0exZ4dVZvAS7rx2rw/edit?tab=t.0#heading=h.qo34o8p9in1e).
 
 ### Pricing
 
