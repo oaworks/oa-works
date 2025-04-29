@@ -8,7 +8,7 @@
       {%- for item in navigation -%}
         {%- for subitem in item[1] -%}
           {%- if subitem.featured -%}
-            <li><a href="{{ subitem.url }}" class="label">{{ subitem.text }}</a></li>
+          <li><a href="{{ subitem.url }}" class="label"{% if subitem.external_link %} target="_blank"{% endif %}>{{ subitem.text }}</a></li>
           {%- endif -%}
         {%- endfor -%}
       {%- endfor -%}
