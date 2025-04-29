@@ -6,7 +6,7 @@
       {% for item in navigation[section] %}
       {% if item.indented != true %}
       <li class="tab{% if page.url == item.url %} tab--active{% endif %}">
-        <a href="{{ item.url }}" class="label">{{ item.text }}</a>
+        <a href="{{ item.url }}" class="label"{% if item.external_link %} target="_blank"{% endif %}>{{ item.text }}</a>
       </li>
       {% endif %}
       {% endfor %}

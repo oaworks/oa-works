@@ -8,40 +8,7 @@ meta_description: "We're a non-profit project building free and open source tool
   {% include 'partials/coverage.liquid' %}
 </aside>
 
-<section class="section bg-black" id="products">
-  <h2>Featured products</h2>
-  <ul class="unstyled-list row row--centered">
-    {% assign delay_count = 0 %}
-    {%- for product in products -%}
-    {%- if product.featured -%}
-    {% assign delay_count = delay_count | plus: 100 %}
-    <li class="col col--1of4 card-wrapper" data-sal="slide-up" data-sal-delay="{{ delay_count }}">
-      <p class="label label--secondary line-thru">
-        <small class="line-thru__inner bg-black label">{{ product.label }}</small>
-      </p>
-      <article class="flex-col flex-space-between card card--small">
-        <h3 class="card__header">
-          <span class="type-3 font-serif-bold">{{ product.name }}</span>
-        </h3>
-        <div class="card__body">
-          <h4 class="font-sans">{{ product.tagline }}</h4>
-          <p>{{ product.description }}</p>
-        </div>
-        <footer class="card__footer">
-          <a href="{{ product.url }}"
-             target="_blank"
-             rel="noopener"
-             style="--slideBgColor: var(--{{ product.colour }}); --slideTextColor: var(--black);"
-          >
-            {{ product.cta }}
-          </a>
-        </footer>
-      </article>
-    </li>
-    {%- endif -%}
-    {%- endfor -%}
-  </ul>
-</section>
+{% include 'partials/blog.liquid' %}
 
 <aside data-sal="slide-up">
   {% include 'partials/partnerships.liquid' %}
@@ -88,7 +55,40 @@ meta_description: "We're a non-profit project building free and open source tool
   </ul>
 </section>
 
-{% include 'partials/blog.liquid' %}
+<section class="section bg-black" id="products">
+  <h2>Featured products</h2>
+  <ul class="unstyled-list row row--centered">
+    {% assign delay_count = 0 %}
+    {%- for product in products -%}
+    {%- if product.featured -%}
+    {% assign delay_count = delay_count | plus: 100 %}
+    <li class="col col--1of4 card-wrapper" data-sal="slide-up" data-sal-delay="{{ delay_count }}">
+      <p class="label label--secondary line-thru">
+        <small class="line-thru__inner bg-black label">{{ product.label }}</small>
+      </p>
+      <article class="flex-col flex-space-between card card--small">
+        <h3 class="card__header">
+          <span class="type-3 font-serif-bold">{{ product.name }}</span>
+        </h3>
+        <div class="card__body">
+          <h4 class="font-sans">{{ product.tagline }}</h4>
+          <p>{{ product.description }}</p>
+        </div>
+        <footer class="card__footer">
+          <a href="{{ product.url }}"
+             target="_blank"
+             rel="noopener"
+             style="--slideBgColor: var(--{{ product.colour }}); --slideTextColor: var(--black);"
+          >
+            {{ product.cta }}
+          </a>
+        </footer>
+      </article>
+    </li>
+    {%- endif -%}
+    {%- endfor -%}
+  </ul>
+</section>
 
 <section class="section bg-white">
   <article class="row row--centered">
