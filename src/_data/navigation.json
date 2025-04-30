@@ -78,7 +78,6 @@
       "text": "Team",
       "url": "/people/",
       "featured": true,
-      "external_link": true
     },
     {
       "text": "Advisory committee",
@@ -93,7 +92,8 @@
     {
       "text": "News",
       "url": "https://blog.oa.works/",
-      "featured": true
+      "featured": true,
+      "external_link": true
     }
   ],
   "developers": [
