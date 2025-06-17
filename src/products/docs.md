@@ -19,7 +19,7 @@ To make it easier for authors to self-archive simply, quickly, and correctly, we
 
 - [**View Online**](https://docs.google.com/document/d/1E8nSWyMwCHyJgiKpwDS6dYK14Efm99Fa2LZ97TG0NXw/edit?usp=sharing)
 - [**Download PDF**](https://docs.google.com/document/d/1E8nSWyMwCHyJgiKpwDS6dYK14Efm99Fa2LZ97TG0NXw/export?format=pdf)
-- [**Share that you’re using it**](https://docs.google.com/forms/d/e/1FAIpQLSeGyTupl6M2-mIZV4FkSIdiRPjH_t350JfzHwC1sPJEOMks3Q/viewform)
+- [**Tell us you’re using this guide**](https://docs.google.com/forms/d/e/1FAIpQLSeGyTupl6M2-mIZV4FkSIdiRPjH_t350JfzHwC1sPJEOMks3Q/viewform)
 
 
 ## Direct2AAM: Pre-prints, post-prints, and publisher’s PDF explained
