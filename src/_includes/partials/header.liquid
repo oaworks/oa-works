@@ -76,18 +76,6 @@
               {% endfor %}
             </ul>
           </li>
-          <li>
-            <span class="header__nav-section">Developers</span>
-            <ul class="unstyled-list">
-              {% for item in navigation.developers %}
-              <li>
-                <a href="{{ item.url }}" {% if item.url contains 'https' %} target="_blank" rel="noopener"{% endif %} class="header__nav-subsection">
-                  {{ item.text }}
-                </a>
-              </li>
-              {% endfor %}
-            </ul>
-          </li>
         </ul>
       </div>
 
