@@ -1,17 +1,40 @@
 [
   {
+    "year": 2024,
+    "content": [
+      "<a href='https://oa.report' target='_blank' rel='noopener'>OA.Report</a> supports <a href='https://www.coalition-s.org/coalition-s-announces-the-release-of-an-independent-study-on-the-impact-of-plan-s/' target='_blank' rel='noopener'>impact tracking for cOAlition S</a> and delivers compliance checks across all member organizations",
+      "<a href='https://shareyourpaper.org/permissions/about' target='_blank' rel='noopener'>ShareYourPaper Permissions’</a> integration with the <a href='https://journalcheckertool.org/' target='_blank' rel='noopener'>Journal Checker Tool</a> reaches 1 million uses by authors finding a way to make their work open",
+      "<a href='https://oa.support' target='_blank' rel='noopener'>OA.Support</a> supports over 1,000 authors to make their work available",
+      "IFLA takes over the long-term running of RSCVD as a free international interlibrary loan system",
+      "The OA.Works team grows, with staff based in the USA, UK, India, and New Zealand, advancing the mission around the clock"
+    ]
+  },
+  {
+    "year": 2023,
+    "content": [
+      "<a href='https://oa.report' target='_blank' rel='noopener'>OA.Report</a> is adopted by several funders, mentioned in major media outlets, and opens up free reports to funders",
+      "OA.Works adopts and shares its <a href='https://blog.oa.works/introducing-our-articles-of-governance/' target='_blank' rel='noopener'>Articles of Governance</a> to deepen its commitment to building open-source, values-driven, nonprofit tools for the long term",
+      "<a href='https://www.founderspledge.com/' target='_blank' rel='noopener noreferrer'>Founders Pledge</a> supports OA.Report",
+      "OA.Works turns ten 🎂"
+    ]
+  },
+  {
     "year": 2022,
     "content": [
-      "OA.Works joins Code for Science & Society as a fiscally sponsored project"
+      "OA.Works joins Code for Science & Society as a fiscally sponsored project",
+      "The <a href='https://oa.works/people/advisory-committee/' target='_blank' rel='noopener'>OA.Works Advisory Committee</a> is formed to help govern growing work",
+      "At a United Nations library event, <a href='https://www.shareyourpaper.org' target='_blank' rel='noopener'>ShareYourPaper</a> joins a campaign to help climate scientists unlock their papers and accelerate progress on climate change",
+      "Robert Wood Johnson Foundation begins supporting OA.Report"
     ]
   },
   {
     "year": 2021,
     "content": [
-      "Open Access Button Organization rebrands as OA.Works",
+      "The Open Access Button <a href='https://blog.oa.works/open-access-button-is-now-oa-works/'>rebrands as OA.Works</a>, reflecting its growing portfolio of open access tools",
       "Plan S releases the Journal Checker Tool backed by our permissions data",
       "ShareYourPaper For Libraries is released",
-      "OA.Works receives funding from the Gates Foundation to support OA.report, OA.support, and ShareYourPaper"
+      "OA.Works receives funding from the Gates Foundation to support OA.report, OA.support, and ShareYourPaper",
+      "<a href='https://oa.report' target='_blank' rel='noopener'>OA.Report</a> & <a href='https://oa.support' target='_blank' rel='noopener'>OA.Support</a> are launched to support organizations in measuring and implementing their Open Access policies"
     ]
   },
   {
@@ -27,7 +50,7 @@
     "content": [
       "InstantILL is built and released in partnership with IUPUI",
       "Open Access Button Permissions Checker is released",
-      "The first libraries begin backing our tools financially through our Leadership tier"
+      "The first libraries begin backing our tools financially through a Leadership tier"
     ]
   },
   {
@@ -47,8 +70,8 @@
   {
     "year": 2016,
     "content": [
-      "We collected our 10,000<sup>th</sup> story on the Open Access Button",
-      "We released Open Data Button"
+      "The Open Access Button collects its 10,000<sup>th</sup> story",
+      "The Open Data Button is released"
     ]
   },
   {
