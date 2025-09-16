@@ -24,8 +24,7 @@ We trust you to use our services responsibly. You agree not to misuse OA.Works s
 
 OA.Works also provides links to or interacts with a wide variety of third-party websites, including interactive links to sites like social media via application programming interfaces (APIs). When you access third-party websites, you do so at your own risk. These other websites are not under the control of OA.Works, and you acknowledge that OA.Works is not responsible or liable for the content, functions, accuracy, legality, appropriateness, security or any other aspect of such websites or resources. The inclusion of any such link does not imply endorsement by OA.Works.
 
-All data and information provided on this site is for informational purposes only. While New Venture Fund and its Scholarly Publishing and Academic Research Coalition ("SPARC") project have used their best efforts to ensure that the information provided on this site is accurate and complete, they make no legal representations as to the accuracy, completeness, suitability or validity of any data or information on this site and will not be liable for any errors or omissions in this data and information or for any losses, injuries or damages arising from its display or use. All information is provided on an as-is basis. OA.Works is an initiative of the Scholarly Publishing and Academic Research
-Coalition ("SPARC"), a project of the New Venture Fund.
+All data and information provided on this site is for informational purposes only. While Code for Science & Society and OA.Works have used their best efforts to ensure that the information provided on this site is accurate and complete, they make no legal representations as to the accuracy, completeness, suitability or validity of any data or information on this site and will not be liable for any errors or omissions in this data and information or for any losses, injuries or damages arising from its display or use. All information is provided on an as-is basis. OA.Works operates as a fiscally  of Code for Science & Society.
 
 ## Copyright/Intellectual Property
 
@@ -39,6 +38,7 @@ This policy is current as of February 27th, 2020. Our Privacy Policy may change 
 
 ### Updates
 
+- MONTH DAY 2025: Updated to replace references to New Venture Fund with Code for Science & Society
 - April 28th 2021: Updated the name "Open Access Button" throughout to reflect our new name. We did not post notices as this wasn't deemed a substantial change.
 - February 27th 2020: Updated terms with an additional standard disclaimer to support Shareyourpaper.org. We did not post notices as this wasn't deemed a substantial change, and users of that service will be asked to accept these separately.
 - October 24th, 2016: Updated text to remove references to passwords. We no longer have them in favour of a more secure password less system. This page structure was also updated to mimic our privacy policy so there is now a clear place to ask questions and understand our update policy. We also cleaned up some formatting and removed the "welcome message" at the start of the policy. This was not posted to our blog as it wasn't deemed a substantial change.
