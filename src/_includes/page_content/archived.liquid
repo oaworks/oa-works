@@ -22,9 +22,9 @@
     <h2 class="card__header font-serif-bold">{{ product.name }}</h2>
     <div class="card__body">
       <p>{{ product.description }}</p>
-      <p class="no-margin">
+      {% comment %} <p class="no-margin">
         <a href="{{ product.url }}" target="_blank" rel="noopener">{{ product.cta }}</a>
-      </p>
+      </p> {% endcomment %}
     </div>
   </article>
 </li>
