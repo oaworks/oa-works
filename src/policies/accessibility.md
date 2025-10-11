@@ -2,7 +2,7 @@
 layout: "layouts/header/left.liquid"
 content_layout: markdown
 title: "OA.Works website accessibility statement"
-meta_description: "Making our services, products, and sites work for everyone."
+meta_description: "Making our services, tools, and sites work for everyone."
 ---
 
 This accessibility statement applies to the present OA.Works website and excludes our individual product websites ([OAbutton.org](https://oabutton.org), [InstantILL.org](https://instantill.org), [ShareYourPaper.org](https://shareyourpaper.org)) and our [blog](https://blog.oa.works/).

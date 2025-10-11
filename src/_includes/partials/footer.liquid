@@ -20,9 +20,9 @@
   <nav class="col footer__sitemap">
     <div class="row">
       <div class="col col--1of6">
-        <h2 class="label">Products</h2>
+        <h2 class="label">Tools</h2>
         <ul class="unstyled-list">
-          {% for item in navigation.products %}
+          {% for item in navigation.tools %}
           <li{% if item.indented %} style="padding-left: var(--space-xs); border-left: 1px solid var(--white-25);"{% endif %}>
             <a href="{{ item.url }}" {% if item.url contains 'https' %} target="_blank" rel="noopener"{% endif %}>
               {{ item.text }}
