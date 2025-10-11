@@ -1,24 +1,24 @@
 [
   {
+    "logo": "products/oab.svg",
+    "name": "Open Access Button",
+    "url": "https://openaccessbutton.org",
+    "label": "Open Access delivery",
+    "tagline": "Get around paywalls in a click",
+    "description": "As our first tool launched in 2013, the Open Access Button helped people find free, legal copies of research articles by searching the web and contacting authors directly. It could be used on the website, through browser extensions for Chrome and Firefox, or an embeddable widget. Over the course of a decade, it had been integrated into thousands of institutional library systems around the world.",
+    "colour": "azure",
+    "featured": false,
+    "img": "screenshots/oabutton-screenshot.png"
+  },
+  {
     "logo": "products/ill.svg",
     "name": "InstantILL",
     "url": "https://instantill.org",
     "label": "Inter-library loans",
     "tagline": "Deliver access without subscriptions",
-    "description": "Launched in 2019, InstantILL made interlibrary loan simpler and more affordable without relying on big deals. It also helped power the global response to the COVID-19 pandemic through its implementation on RSCVD.org.",
+    "description": "Launched in 2019, InstantILL made interlibrary loan simpler and more affordable without relying on costly journal subscription bundles, often known as “Big Deals” with publishers. Available as an easy-to-integrate widget, it helped power the global response to the COVID-19 pandemic through its implementation on the IFLA’s <a href='https://rscvd.ifla.org/' target='blank' rel='noopener noreferrer'>RSCVD.org</a>.",
     "colour": "chartreuse",
     "featured": false,
     "img": "screenshots/instantill-screenshot.png"
-  },
-  {
-    "logo": "products/oab.svg",
-    "name": "OAbutton",
-    "url": "https://oabutton.org",
-    "label": "Open Access delivery",
-    "tagline": "Get around paywalls in a click",
-    "description": "As our first tool launched in 2013, the Open Access Button helped people find free, legal copies of research articles by searching the web and contacting authors directly. It could be used on the website or through browser extensions for Chrome and Firefox, and it had been integrated into thousands of library systems around the world.",
-    "colour": "azure",
-    "featured": false,
-    "img": "screenshots/oabutton-screenshot.png"
   }
 ]
