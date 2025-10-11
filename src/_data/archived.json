@@ -1,6 +1,6 @@
 [
   {
-    "logo": "tools/oab.svg",
+    "logo": "products/oab.svg",
     "name": "Open Access Button",
     "url": "https://openaccessbutton.org",
     "archive_url": "https://web.archive.org/web/20251118000000*/https://openaccessbutton.org",
@@ -12,7 +12,7 @@
     "sunset_date": "2025-11-18"
   },
   {
-    "logo": "tools/ill.svg",
+    "logo": "products/ill.svg",
     "name": "InstantILL",
     "url": "https://instantill.org",
     "archive_url": "https://web.archive.org/web/20251118000000*/https://instantill.org",

@@ -1,13 +1,13 @@
 {
-  "tools": [
+  "products": [
     {
-      "text": "Tools",
-      "url": "/tools/",
+      "text": "Products",
+      "url": "/products/",
       "featured": true
     },
     {
       "text": "Archived",
-      "url": "/tools/archived/"
+      "url": "/products/archived/"
     }
   ],
   "impact": [

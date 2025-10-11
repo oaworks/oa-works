@@ -1,14 +1,14 @@
-{% for tool in archived %}
+{% for product in archived %}
 {% assign delay_count = delay_count | plus: 50 %}
 <li class="col card-wrapper" data-sal="slide-up" data-sal-delay="{{ delay_count }}">
   <p class="label label--secondary line-thru">
-    <small class="line-thru__inner bg-white label">{{ tool.label }}</small>
+    <small class="line-thru__inner bg-white label">{{ product.label }}</small>
   </p>
 
   <article class="flex-col flex-space-between row">
     <figure class="col col--1of2">
       <img
-        src="../../assets/img/{{ tool.img }}" alt="Screenshot of {{ tool.name }}"
+        src="../../assets/img/{{ product.img }}" alt="Screenshot of {{ product.name }}"
         loading="lazy"
         decoding="async"
         width="1200"
@@ -18,21 +18,21 @@
 
     <div class="col col--1of2">
       <header>
-        <h2 class="font-serif-bold no-margin type-3">{{ tool.name }}:</h2>
-        <p class="font-serif type-3">{{ tool.tagline }}</p>
+        <h2 class="font-serif-bold no-margin type-3">{{ product.name }}:</h2>
+        <p class="font-serif type-3">{{ product.tagline }}</p>
       </header>
       <div>
-        <p>{{ tool.description }}</p>
+        <p>{{ product.description }}</p>
         <ul>
           <li class="card__meta">
             <small>
-              <time datetime="{{ tool.sunset_date | date_to_xmlschema }}">
-                Retired on {{ tool.sunset_date | date: "%B %-d, %Y" }}
+              <time datetime="{{ product.sunset_date | date_to_xmlschema }}">
+                Retired on {{ product.sunset_date | date: "%B %-d, %Y" }}
               </time>
             </small>
           </li>
-          <li class="card__meta"><small>View archived site on <a href="{{ tool.archive_url }}" target="_blank" rel="noopener">archive.org↗</a></small></li>
-          <li class="card__meta"><small>View source code on <a href="{{ tool.repo_url }}" target="_blank" rel="noopener">GitHub ↗</a></small></li>
+          <li class="card__meta"><small>View archived site on <a href="{{ product.archive_url }}" target="_blank" rel="noopener">archive.org↗</a></small></li>
+          <li class="card__meta"><small>View source code on <a href="{{ product.repo_url }}" target="_blank" rel="noopener">GitHub ↗</a></small></li>
         </ul>
       </div>
     </div>
