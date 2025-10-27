@@ -17,23 +17,9 @@
     </figure>
 
     <div class="col col--1of2">
-      <header>
-        <h2 class="font-serif-bold no-margin type-3">{{ product.name }}:</h2>
-        <p class="font-serif type-3">{{ product.tagline }}</p>
-      </header>
+      <h2 class="font-serif-bold">{{ product.name }}</h2>
       <div>
         <p>{{ product.description }}</p>
-        <ul>
-          <li class="card__meta">
-            <small>
-              <time datetime="{{ product.sunset_date | date_to_xmlschema }}">
-                Retired on {{ product.sunset_date | date: "%B %-d, %Y" }}
-              </time>
-            </small>
-          </li>
-          <li class="card__meta"><small>View archived site on <a href="{{ product.archive_url }}" target="_blank" rel="noopener">archive.org↗</a></small></li>
-          <li class="card__meta"><small>View source code on <a href="{{ product.repo_url }}" target="_blank" rel="noopener">GitHub ↗</a></small></li>
-        </ul>
       </div>
     </div>
   </article>
