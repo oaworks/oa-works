@@ -1,5 +1,5 @@
 ---
-layout: "layouts/header/top.liquid"
+layout: "layouts/header/left.liquid"
 content_layout: cards
 data_file: archived
 title: Archived
