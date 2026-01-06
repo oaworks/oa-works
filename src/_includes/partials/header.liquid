@@ -27,9 +27,9 @@
       <div class="row">
         <ul class="col col--1of3 unstyled-list header__list">
           <li>
-            <span class="header__nav-section">Products</span>
+            <span class="header__nav-section">Tools</span>
             <ul class="unstyled-list">
-              {% for item in navigation.products %}
+              {% for item in navigation.tools %}
               <li{% if item.indented %} style="padding-left: var(--space-xs); border-left: 1px solid;"{% endif %}>
                 <a href="{{ item.url }}" {% if item.url contains 'https' %} target="_blank" rel="noopener"{% endif %} class="header__nav-subsection">
                   {{ item.text }}
@@ -161,7 +161,7 @@
           <p class="type-5" data-sal="slide-up" data-sal-delay="200">{{ site.description }}</p>
         </div>
         <footer class="card__footer">
-          <a href="#products">{{ site.cta }}</a>
+          <a href="#tools">{{ site.cta }}</a>
         </footer>
       </div>
     </div>
