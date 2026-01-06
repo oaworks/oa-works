@@ -4,11 +4,28 @@
   <p class="label label--secondary line-thru">
     <small class="line-thru__inner bg-white label">{{ product.label }}</small>
   </p>
+
   <article class="flex-col flex-space-between card">
+    {% if product.img %}
+      <figure class="card__media">
+        <img
+          src="../assets/img/{{ product.img }}" alt="Portrait of {{ person.name }}"
+          alt="Screenshot of the homepage for {{ product.name }}"
+          loading="lazy"
+          decoding="async"
+          class="card__image"
+          width="1200"
+          height="675"
+        >
+      </figure>
+    {% endif %}
+
     <h2 class="card__header font-serif-bold">{{ product.name }}</h2>
     <div class="card__body">
       <p>{{ product.description }}</p>
-      <p class="no-margin"><a href="{{ product.url }}" target="_blank" rel="noopener">{{ product.cta }}</a></p>
+      <p class="no-margin">
+        <a href="{{ product.url }}" target="_blank" rel="noopener">{{ product.cta }}</a>
+      </p>
     </div>
   </article>
 </li>
