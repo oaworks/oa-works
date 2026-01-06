@@ -5,21 +5,20 @@
     <small class="line-thru__inner bg-white label">{{ product.label }}</small>
   </p>
 
-  <article class="flex-col flex-space-between card row">
-    <figure class="card__media col col--1of4">
+  <article class="flex-col flex-space-between row">
+    <figure class="col col--1of4">
       <img
         src="../../assets/img/{{ product.img }}" alt="Screenshot of {{ product.name }}"
         loading="lazy"
         decoding="async"
-        class="card__image"
         width="1200"
         height="675"
       >
     </figure>
 
     <div class="col col--3of4">
-      <h2 class="card__header font-serif-bold">{{ product.name }}</h2>
-      <div class="card__body">
+      <h2 class="font-serif-bold">{{ product.name }}</h2>
+      <div>
         <p>{{ product.description }}</p>
       </div>
     </div>
