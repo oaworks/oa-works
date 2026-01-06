@@ -55,32 +55,32 @@ meta_description: "We're a non-profit project building free and open source tool
   </ul>
 </section>
 
-<section class="section bg-black" id="tools">
-  <h2>Featured tools</h2>
+<section class="section bg-black" id="products">
+  <h2>Featured products</h2>
   <ul class="unstyled-list row row--centered">
     {% assign delay_count = 0 %}
-    {%- for tool in tools -%}
-    {%- if tool.featured -%}
+    {%- for product in products -%}
+    {%- if product.featured -%}
     {% assign delay_count = delay_count | plus: 100 %}
     <li class="col col--1of3 card-wrapper" data-sal="slide-up" data-sal-delay="{{ delay_count }}">
       <p class="label label--secondary line-thru">
-        <small class="line-thru__inner bg-black label">{{ tool.label }}</small>
+        <small class="line-thru__inner bg-black label">{{ product.label }}</small>
       </p>
       <article class="flex-col flex-space-between card">
         <h3 class="card__header">
-          <span class="type-3 font-serif-bold">{{ tool.name }}</span>
+          <span class="type-3 font-serif-bold">{{ product.name }}</span>
         </h3>
         <div class="card__body">
-          <h4 class="font-sans">{{ tool.tagline }}</h4>
-          <p>{{ tool.description }}</p>
+          <h4 class="font-sans">{{ product.tagline }}</h4>
+          <p>{{ product.description }}</p>
         </div>
         <footer class="card__footer">
-          <a href="{{ tool.url }}"
+          <a href="{{ product.url }}"
              target="_blank"
              rel="noopener"
-             style="--slideBgColor: var(--{{ tool.colour }}); --slideTextColor: var(--black);"
+             style="--slideBgColor: var(--{{ product.colour }}); --slideTextColor: var(--black);"
           >
-            {{ tool.cta }}
+            {{ product.cta }}
           </a>
         </footer>
       </article>
