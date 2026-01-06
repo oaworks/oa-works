@@ -6,6 +6,10 @@
       "featured": true
     },
     {
+      "text": "Archived",
+      "url": "/products/archived/"
+    },
+    {
       "text": "OA.Report",
       "url": "https://oa.report/",
       "indented": true
