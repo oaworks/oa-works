@@ -5,7 +5,7 @@
     "url": "https://instantill.org",
     "label": "Inter-library loans",
     "tagline": "Deliver access without subscriptions",
-    "description": "InstantILL made Interlibrary loans less expensive & simpler for users, without the need for big deals. It helped power the global response to the COVID-19 pandemic through its implementation on RSCVD.org.",
+    "description": "Launched in 2019, InstantILL made interlibrary loan simpler and more affordable without relying on big deals. It also helped power the global response to the COVID-19 pandemic through its implementation on RSCVD.org.",
     "colour": "chartreuse",
     "featured": false,
     "img": "screenshots/instantill-screenshot.png"
@@ -16,7 +16,7 @@
     "url": "https://oabutton.org",
     "label": "Open Access delivery",
     "tagline": "Get around paywalls in a click",
-    "description": "For over a decade, since 2013, the Open Acces Button provided free access to papers legally by scouring the web and emailing authors. It could be used on the website, via plugins for Chrome and Firefox, or embedded it into any library system.",
+    "description": "As our first tool launched in 2013, the Open Access Button helped people find free, legal copies of research articles by searching the web and contacting authors directly. It could be used on the website or through browser extensions for Chrome and Firefox, and it had been integrated into thousands of library systems around the world.",
     "colour": "azure",
     "featured": false,
     "img": "screenshots/oabutton-screenshot.png"
