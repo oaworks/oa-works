@@ -1,0 +1,8 @@
+# Redirects from legacy paths (ported from netlify.toml)
+/policies/governance   /about/governance
+/policies/governance/  /about/governance
+/policies/transparency  /about/governance
+/policies/transparency/ /about/governance
+/tools                 /products
+/tools/                /products
+/tools/*               /products/:splat
