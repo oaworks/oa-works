@@ -30,7 +30,7 @@ meta_description: "Hear more from us when it matters."
     <form id="sib-form" method="POST" action="https://cc36ceb0.sibforms.com/serve/MUIFAIpe4sZJevlqeTL4dzWzO3uR0wfrOsKp-txCYfiWJrUf9KchynTXxNI4vsUwYSStyG7h0ISm0Eb2vf3Ig4yKRNHR1Sg9M5Mzd-iYmJM8aYY9isQoBCuyu6qA7L2PbTFxL1f1FAn9uQ5suPGuzyZNo5f-PhlDRKKTxBY-JsnAJMC7IXtzyBrQIS1so5YttBh5150B4lV4S372" data-type="subscription">
       <h2>Sign up to our newsletter</h2>
       <p>We'll make sure you know about major product launches or updates, and news from our team. Expect an email every month or two.</p>
-      <label for="EMAIL" data-required="*">Enter your email address to subscribe</label>
+      <label for="EMAIL" data-required="*">Enter your email address:</label>
       <div class="flex">
         <input class="input " type="text" id="EMAIL" name="EMAIL" autocomplete="off" placeholder="you@institution.edu" data-required="true" required style="width: 60%;"/>
         <label class="entry__error entry__error--primary"></label>
