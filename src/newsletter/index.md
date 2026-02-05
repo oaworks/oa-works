@@ -3,6 +3,31 @@ layout: "layouts/default.liquid"
 title: Newsletter signup
 meta_description: "Hear more from us when it matters."
 ---
+<style>
+  #error-message,
+  #success-message {
+    display: none !important;
+  }
+
+  #sib-form .sib-form-block__button-with-loader {
+    position: relative;
+    padding-right: 2.25em;
+  }
+
+  #sib-form .sib-form-block__button-with-loader .progress-indicator__icon,
+  #sib-form .sib-form-block__button-with-loader .sib-hide-loader-icon {
+    width: 1em;
+    height: 1em;
+    max-width: 1em;
+    max-height: 1em;
+    position: absolute;
+    right: 0.75em;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0;
+    pointer-events: none;
+  }
+</style>
 
 <div id="sib-form-container">
   <div id="error-message" class="sib-form-message-panel">
@@ -35,7 +60,7 @@ meta_description: "Hear more from us when it matters."
         <input class="input " type="text" id="EMAIL" name="EMAIL" autocomplete="off" placeholder="you@institution.edu" data-required="true" required style="width: 60%;"/>
         <label class="entry__error entry__error--primary"></label>
         <button class="sib-form-block__button sib-form-block__button-with-loader" form="sib-form" type="submit" style="width: 20%;">
-          <svg class="icon clickable__icon progress-indicator__icon sib-hide-loader-icon" viewBox="0 0 512 512">
+          <svg class="icon clickable__icon progress-indicator__icon sib-hide-loader-icon" viewBox="0 0 512 512" style="display: none;">
             <path d="M460.116 373.846l-20.823-12.022c-5.541-3.199-7.54-10.159-4.663-15.874 30.137-59.886 28.343-131.652-5.386-189.946-33.641-58.394-94.896-95.833-161.827-99.676C261.028 55.961 256 50.751 256 44.352V20.309c0-6.904 5.808-12.337 12.703-11.982 83.556 4.306 160.163 50.864 202.11 123.677 42.063 72.696 44.079 162.316 6.031 236.832-3.14 6.148-10.75 8.461-16.728 5.01z" />
           </svg>
           Sign up
