@@ -5,7 +5,7 @@ meta_description: "Please check your email to confirm your subscription."
 noindex: true
 ---
 
-## Confirm your subscription
+## Please check your email
 
 We’ve sent you a confirmation email. Please click the link in that email to finish subscribing.
 
