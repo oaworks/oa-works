@@ -5,6 +5,7 @@
   "main": ".eleventy.js",
   "scripts": {
     "serve:dev": "gulp build & ELEVENTY_ENV=dev npx @11ty/eleventy --serve",
+    "watch": "gulp watch",
     "build:staging": "gulp build --production & ELEVENTY_ENV=staging npx @11ty/eleventy",
     "build:prod": "gulp build --production & ELEVENTY_ENV=prod npx @11ty/eleventy"
   },
@@ -31,7 +32,7 @@
     "vinyl-sourcemaps-apply": "^0.2.1"
   },
   "dependencies": {
-    "axios": "^1.12.1",
+    "axios": "^1.13.5",
     "clean-css": "^5.1.2",
     "core-js": "^3.8.1",
     "js-yaml": "^4.1.1",
