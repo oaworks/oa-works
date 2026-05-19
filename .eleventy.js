@@ -1,5 +1,3 @@
-const CleanCSS = require("clean-css");
-
 const markdownIt = require('markdown-it');
 const markdownItAttrs = require('markdown-it-attrs');
 
