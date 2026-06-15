@@ -6,19 +6,8 @@
       "featured": true
     },
     {
-      "text": "OA.Report",
-      "url": "https://oa.report/",
-      "indented": true
-    },
-    {
-      "text": "OA.Support",
-      "url": "https://oa.support/",
-      "indented": true
-    },
-    {
-      "text": "ShareYourPaper",
-      "url": "https://shareyourpaper.org/",
-      "indented": true
+      "text": "Archived",
+      "url": "/products/archived/"
     }
   ],
   "impact": [
