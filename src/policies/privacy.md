@@ -24,6 +24,10 @@ In general, OA.Works uses the data collected to further its Vision and Mission. 
 
 OA.Works provides links to or interacts with a wide variety of third-party websites, including interactive links to sites like social media via application programming interfaces (APIs). OA.Works is not responsible for, and does not have any control over, the privacy practices or the content of such third parties. We encourage users to read the privacy policies of any website visited via links from or interactions with the OA.Works website. Where appropriate, we will provide specific notice of these third-party services at the point of interaction.
 
+## App Downloads
+
+The Open Access Button can be downloaded from Mozilla Addons, Chrome Web Store. We encourage users to read the privacy policies of these stores. The Open Access Button can also be used directly from our website.
+
 ## Disclosure of Your Data
 
 We will provide relevant data for use by advocates to further the mission of OA.Works. This data will be released under a [Creative Commons 0 licence](https://creativecommons.org/publicdomain/zero/1.0/).
