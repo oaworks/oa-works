@@ -33,7 +33,7 @@
     "value": "6,500,000+",
     "key": "Searches for Open Access",
     "app": "OpenAccessButton",
-    "desc": "Finding Open Access content wasn't always as easy as it today. We helped pioneer approaches, and today still help deliver Open Access articles.",
+    "desc": "Finding Open Access content wasn’t always as easy as it is today. We helped pioneer approaches that made it easier to deliver Open Access articles.",
     "url": "https://openaccessbutton.org/",
     "url_text": "Request OA papers"
   },
@@ -41,7 +41,7 @@
     "value": "680,000+",
     "key": "Searches for OA in ILL systems",
     "app": "DeliverOA",
-    "desc": "We led the way for integrating Open Access into Interlibrary Loan systems. Every OA article delivered is money saved for libraries, quicker delivery for patrons, and one step closer to Open by default.",
+    "desc": "We led the way for integrating Open Access into Interlibrary Loan systems. Every OA article delivered meant money saved for libraries, quicker delivery for patrons, and one step closer to Open by default.",
     "url": "https://instantill.org/",
     "url_text": "Offer OA articles via ILL"
   },
@@ -63,7 +63,7 @@
     "value": "100+",
     "key": "of libraries use & recommend the tools",
     "app": "OpenAccessButton",
-    "desc": "Libraries big and small including MIT, Cambridge and JHU suggest their patrons use OpenAccessButton.",
+    "desc": "Libraries big and small including MIT, Cambridge, and Johns Hopkins University have suggested their patrons use OpenAccessButton.",
     "url": "https://oa.works/impact/testimonials/",
     "url_text": "See our testimonials"
   },
