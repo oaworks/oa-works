@@ -6,5 +6,13 @@
   from = "/policies/transparency"
   to = "/about/governance"
 
+[[redirects]]
+  from = "/tools"
+  to = "/products"
+
+[[redirects]]
+  from = "/tools/*"
+  to = "/products/:splat"
+
 [build]
   node_version = "18"

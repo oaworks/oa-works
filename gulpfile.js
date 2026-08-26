@@ -31,4 +31,5 @@ gulp.task("watch", function () {
   gulp.watch("./src/assets/css/*/*.scss", gulp.parallel("css"));
 });
 
-gulp.task("build", gulp.parallel("css", "watch"));
+// Build should be finite for CI (Cloudflare Pages, Netlify).
+gulp.task("build", gulp.parallel("css"));

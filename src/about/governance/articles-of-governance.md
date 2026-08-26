@@ -104,5 +104,5 @@ meta_description: "Articles of Governance set the rules for how organizations li
 
 ## Updates
 Established: July 11th 2023
-Last reviewed: August 14th 2024
+Last reviewed: November 12th 2025
 Last updated: October 31st 2024

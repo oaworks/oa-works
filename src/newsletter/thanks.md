@@ -1,10 +1,14 @@
 ---
 layout: "layouts/default.liquid"
-title: "We've got your signup"
-meta_description: "Thank you for your interest 📨"
+title: Thanks for signing up!
+meta_description: "You’re on the list."
 noindex: true
 ---
 
-To hear more about a specific product, sign up for [ShareYourPaper.org](https://ShareYourPaper.org/updates) or [InstantILL](https://instantill.org/updates) updates too.
+## Newsletter confirmation 
 
-You can also follow us on [Twitter](https://twitter.com/{{site.twitter}}), [Facebook](https://www.facebook.com/{{site.facebook}}), and [LinkedIn](https://www.linkedin.com/company/{{site.linkedin}}).
+Thanks for signing up for our newsletter. We’ll email you when we have major product updates or news from our team (about once a month or two).
+
+In the meantime, you can explore our [products](/products) or learn more [about OA.Works](/about).
+
+Want to update your email or share the form with someone else? Head back to the [newsletter sign-up page](/newsletter/).
