@@ -40,9 +40,7 @@ OA.Works’ website is **partially conformant with WCAG 2.1 level AA**. Partiall
 
 | Accessibility problem                                                                                                                                                 | WCAG Success Criterion                                                                                                                        |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|
-| Some of the line heights and spacing between text is too small.                                                                                                       | This fails WCAG 2.1 success criterion 1.4.12:  **text spacing**.  [Follow up on this issue](https://github.com/oaworks/oa-works/issues/124)   |
 | You can’t modify the line height or spacing of text without shifting the layout.                                                                                      | This fails WCAG 2.1 success criterion 1.4.12: **text spacing**.  [Follow up on this issue](https://github.com/oaworks/oa-works/issues/125)    |
-| Our newsletter sign-up form (in the menu) is difficult to access and navigate using just a keyboard.                                                                  | This fails WCAG 2.1 success criterion 2.1.1: **keyboard**.  [Follow up on this issue](https://github.com/oaworks/oa-works/issues/127)         |
 
 ## Feedback and contact information
 
@@ -55,7 +53,7 @@ We try to respond to feedback within 7 days.
 
 ## Preparation of this accessibility statement
 
-This statement was prepared on July 26, 2021. It was last reviewed on **May 19, 2022**. This website was last tested on August 4, 2021.
+This statement was prepared on July 26, 2021. It was last reviewed on **November 20, 2026**. This website was last tested on August 4, 2021.
 
 - Fixed on May 19, 2022:
    - You can’t skip to the main content when using a screen reader. [Github issue](https://github.com/oaworks/oa-works/issues/126)
